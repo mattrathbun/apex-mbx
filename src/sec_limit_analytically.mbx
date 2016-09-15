@@ -594,8 +594,8 @@
             <mrow>\amp =	\lim_{h\to 0}\frac{-1.5(1+2h+h^2) + 11.5+11.5h - 10}{h}</mrow>
             <mrow>\amp =	\lim_{h\to 0}\frac{-1.5h^2 +8.5h}{h}</mrow>
             <mrow>\amp = 	\lim_{h\to 0}\frac{h(-1.5h+8.5)}h</mrow>
-            <mrow>\amp =	\lim_{h\to 0}(-1.5h+8.5)  \quad (\text{using } <xref ref="thm_limit_allbut1">Theorem</xref>, \text{ as } h\neq 0  )</mrow>
-            <mrow>\amp = 	8.5  \quad (\text{using } <xref ref="thm_lim_continuous">Theorem</xref>  )</mrow>
+            <mrow>\amp =	\lim_{h\to 0}(-1.5h+8.5)  \quad (\text{ using  <xref ref="thm_limit_allbut1">Theorem</xref>,  as } h\neq 0  )</mrow>
+            <mrow>\amp = 	8.5  \quad (\text{ using  <xref ref="thm_lim_continuous">Theorem</xref>}  )</mrow>
           </md>
         </p>
 
