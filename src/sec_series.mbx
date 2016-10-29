@@ -477,7 +477,7 @@
 
           <li><p>This is a <m>p</m><ndash />series with <m>p=1/2</m>; the theorem states that it diverges.</p></li>
 
-          <li><p>This is not a <m>p</m><ndash />series; the definition does not allow for alternating signs. Therefore we cannot apply <xref ref="thm_pseries">Theorem</xref>. (Another famous result states that this series, the <em>Alternating Harmonic Series</em>, converges to <m>\ln 2</m>.)</p></li>
+          <li><p>This is not a <m>p</m><ndash />series; the definition does not allow for alternating signs. Therefore we cannot apply <xref ref="thm_pseries">Theorem</xref>. (Another famous result states that this series, the <em>Alternating Harmonic Series</em>, converges to <m>\ln(2) </m>.)</p></li>
 
           <li><p>This is a general <m>p</m><ndash />series with <m>p=3</m>, therefore it converges.</p></li>
 
@@ -690,11 +690,11 @@
                 <mrow>S_3 \amp = \ln\left(2\right)+\ln\left(\frac32\right)+\ln\left(\frac43\right)</mrow>
                 <mrow>S_4 \amp = \ln\left(2\right)+\ln\left(\frac32\right)+\ln\left(\frac43\right)+\ln\left(\frac54\right)</mrow>
               </md>
-              At first, this does not seem helpful, but recall the logarithmic identity: <m>\ln x+\ln y = \ln (xy).</m> Applying this to <m>S_4</m> gives:
+              At first, this does not seem helpful, but recall the logarithmic identity: <m>\ln(x) +\ln(y)  = \ln(xy).</m> Applying this to <m>S_4</m> gives:
               <me>
                 S_4 = \ln\left(2\right)+\ln\left(\frac32\right)+\ln\left(\frac43\right)+\ln\left(\frac54\right) = \ln\left(\frac21\cdot\frac32\cdot\frac43\cdot\frac54\right) = \ln\left(5\right).
               </me>
-              We can conclude that <m>\{S_n\} = \big\{\ln (n+1)\big\}</m>. This sequence  does not converge, as <m>\lim\limits_{n\to\infty}S_n=\infty</m>. Therefore  <m>\ds\sum_{n=1}^\infty  \ln\left(\frac{n+1}{n}\right)=\infty</m>; the series diverges. Note in <xref ref="fig_series4">Figure</xref>(b) how the sequence of partial sums grows slowly; after 100 terms, it is not yet over 5. Graphically we may be fooled into thinking the series converges, but our analysis above shows that it does not.</p></li>
+              We can conclude that <m>\{S_n\} = \big\{\ln(n+1)\big\}</m>. This sequence  does not converge, as <m>\lim\limits_{n\to\infty}S_n=\infty</m>. Therefore  <m>\ds\sum_{n=1}^\infty  \ln\left(\frac{n+1}{n}\right)=\infty</m>; the series diverges. Note in <xref ref="fig_series4">Figure</xref>(b) how the sequence of partial sums grows slowly; after 100 terms, it is not yet over 5. Graphically we may be fooled into thinking the series converges, but our analysis above shows that it does not.</p></li>
         </ol>
       </solution>
     </example>
@@ -730,7 +730,7 @@
 
         <li><p><m>\ds\sum_{n=1}^\infty \frac{1}{n}</m>   diverges. (This is called the <em>Harmonic Series</em>.)<index><main>Harmonic Series</main></index></p></li>
 
-        <li><p><m>\ds\sum_{n=1}^\infty \frac{(-1)^{n+1}}{n} = \ln 2</m>. (This is called the <em>Alternating Harmonic Series</em>.)<index><main>Alternating Harmonic Series</main></index></p></li>
+        <li><p><m>\ds\sum_{n=1}^\infty \frac{(-1)^{n+1}}{n} = \ln(2) </m>. (This is called the <em>Alternating Harmonic Series</em>.)<index><main>Alternating Harmonic Series</main></index></p></li>
       </ol>
     </insight>
 
@@ -1095,7 +1095,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\ds \sum_{n=1}^\infty \cos (\pi n)</m></p>
+            <p><m>\ds \sum_{n=1}^\infty \cos(\pi n)</m></p>
           </statement>
           <solution>
             <ol>
@@ -1698,11 +1698,11 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\ds \sum_{n=1}^\infty \ln \left(\frac{n}{n+1}\right)</m></p>
+            <p><m>\ds \sum_{n=1}^\infty \ln\left(\frac{n}{n+1}\right)</m></p>
           </statement>
           <solution>
             <ol>
-              <li><p><m>S_n = \ln \big(1/(n+1)\big)</m></p></li>
+              <li><p><m>S_n = \ln\big(1/(n+1)\big)</m></p></li>
 
               <li><p>Diverges (to <m>-\infty</m>).</p></li>
             </ol>
@@ -1803,13 +1803,13 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\ds \sum_{n=0}^\infty \big(\sin 1\big)^n</m></p>
+            <p><m>\ds \sum_{n=0}^\infty \big(\sin(1) \big)^n</m></p>
           </statement>
           <solution>
             <ol>
-              <li><p><m>S_n=\frac{1-(\sin 1)^{n+1}}{1-\sin 1}</m></p></li>
+              <li><p><m>S_n=\frac{1-(\sin(1) )^{n+1}}{1-\sin(1) }</m></p></li>
 
-              <li><p>Converges to <m>\frac{1}{1-\sin 1}</m>..</p></li>
+              <li><p>Converges to <m>\frac{1}{1-\sin(1) }</m>..</p></li>
             </ol>
           </solution>
         </webwork>

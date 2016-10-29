@@ -3644,12 +3644,12 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>f_1(x,y) = \sin x\cos y</m>, <m>f_2(x,y) = \cos x\sin y+2</m>;</p>
+            <p><m>f_1(x,y) = \sin(x) \cos(y) </m>, <m>f_2(x,y) = \cos(x) \sin(y) +2</m>;</p>
 
             <p><m>R</m> is the triangle with corners <m>(0,0)</m>, <m>(\pi,0)</m> and <m>(\pi,\pi)</m>.</p>
           </statement>
           <solution>
-            <p><m>V = \int_{0}^{\pi}\int_{0}^x \big(\cos x\sin y+2-\sin x\cos y\big)\ dy\ dx = \pi^2-\pi\approx 6.728</m></p>
+            <p><m>V = \int_{0}^{\pi}\int_{0}^x \big(\cos(x) \sin(y) +2-\sin(x) \cos(y) \big)\ dy\ dx = \pi^2-\pi\approx 6.728</m></p>
           </solution>
         </webwork>
       </exercise>
@@ -4793,7 +4793,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\ds \int_{-\pi/2}^{\pi/2}\int_0^\pi\int_0^\pi\big(\cos x\sin y\sin z\big)\ dz\ dy\ dx</m></p>
+            <p><m>\ds \int_{-\pi/2}^{\pi/2}\int_0^\pi\int_0^\pi\big(\cos(x) \sin(y) \sin(z) \big)\ dz\ dy\ dx</m></p>
           </statement>
           <solution>
           </solution>

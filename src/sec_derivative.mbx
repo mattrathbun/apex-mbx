@@ -427,13 +427,13 @@
         <p>Approximate the equation of the tangent line to the graph of <m>f(x)=\sin(x)</m> at <m>x=0</m>.</p>
       </statement>
       <solution>
-        <p>In order to find the equation of the tangent line, we need a slope and a point. The point is given to us: <m>(0,\sin 0) = (0,0)</m>. To compute the slope, we need the derivative. This is where we will make an approximation. Recall that
+        <p>In order to find the equation of the tangent line, we need a slope and a point. The point is given to us: <m>(0,\sin(0) ) = (0,0)</m>. To compute the slope, we need the derivative. This is where we will make an approximation. Recall that
           <me>
-            \fp(0) \approx \frac{\sin(0+h)- \sin 0}{h}
+            \fp(0) \approx \frac{\sin(0+h)- \sin(0) }{h}
           </me>
           for a small value of <m>h</m>. We choose (somewhat arbitrarily) to let <m>h=0.1</m>. Thus
           <me>
-            \fp(0) \approx \frac{\sin(0.1)-\sin 0}{0.1} \approx 0.9983.
+            \fp(0) \approx \frac{\sin(0.1)-\sin(0) }{0.1} \approx 0.9983.
           </me>
         </p>
 

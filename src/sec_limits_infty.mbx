@@ -181,7 +181,7 @@
       <!-- figures/fig_noasy.tex END -->
     </figure>
 
-    <p>The above example may seem a little contrived. Another example demonstrating this important concept is <m>f(x)= (\sin x)/x</m>. We have considered this function several times in the previous sections. We found that <m>\lim\limits_{x\to0}\frac{\sin x}{x}=1</m>; i.e., there is no vertical asymptote. No simple algebraic cancellation makes this fact obvious; we used the <xref ref="thm_sqz" /> in <xref ref="sec_limit_analytically">Section</xref> to prove this.</p>
+    <p>The above example may seem a little contrived. Another example demonstrating this important concept is <m>f(x)= (\sin(x) )/x</m>. We have considered this function several times in the previous sections. We found that <m>\lim\limits_{x\to0}\frac{\sin(x) }{x}=1</m>; i.e., there is no vertical asymptote. No simple algebraic cancellation makes this fact obvious; we used the <xref ref="thm_sqz" /> in <xref ref="sec_limit_analytically">Section</xref> to prove this.</p>
 
     <p>If the denominator is <m>0</m> at a certain point but the numerator is not, then there will usually be a vertical asymptote at that point. On the other hand, if the numerator and denominator are both zero at that point, then there may or may not be a vertical asymptote at that point. This case where the numerator and denominator are both zero returns us to an important topic.</p>
   </subsection>
@@ -190,7 +190,7 @@
     <title>Indeterminate Forms</title>
     <p><index><main>limit</main><sub>indeterminate form</sub></index><index><main>indeterminate form</main></index></p>
 
-    <p>We have seen how the limits <m>\lim\limits_{x\to 0}\frac{\sin x}{x}</m> and <m>\lim\limits_{x\to1}\frac{x^2-1}{x-1}</m> each return the indeterminate form <m>0/0</m> when we blindly plug in <m>x=0</m> and <m>x=1</m>, respectively. However, <m>0/0</m> is not a valid arithmetical expression. It gives no indication that the respective limits are <m>1</m> and <m>2</m>.</p>
+    <p>We have seen how the limits <m>\lim\limits_{x\to 0}\frac{\sin(x) }{x}</m> and <m>\lim\limits_{x\to1}\frac{x^2-1}{x-1}</m> each return the indeterminate form <m>0/0</m> when we blindly plug in <m>x=0</m> and <m>x=1</m>, respectively. However, <m>0/0</m> is not a valid arithmetical expression. It gives no indication that the respective limits are <m>1</m> and <m>2</m>.</p>
 
     <p>With a little cleverness, one can come up with <m>0/0</m> expressions which have a limit of <m>\infty</m>, 0, or any other real number. That is why this expression is called <term>indeterminate</term>.</p>
 
@@ -1660,7 +1660,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p>Evaluate the limit: <m>\lim\limits_{x\to e} \ln x</m>.</p>
+            <p>Evaluate the limit: <m>\lim\limits_{x\to e} \ln(x) </m>.</p>
           </statement>
           <solution>
           </solution>
