@@ -674,7 +674,7 @@
       <solution>
         <p>Using <xref ref="idea_projectile">Key Idea</xref> of <xref ref="sec_vvf_motion">Section</xref> we form the position function of the ball:
           <me>
-            \vrt = \la \big(64\cos(30) ^\circ\big)t, -16t^2+\big(64\sin(30) ^\circ\big)t+240\ra,
+            \vrt = \la \big(64\cos(30^\) circ\big)t, -16t^2+\big(64\sin(30^\) circ\big)t+240\ra,
           </me>
           which we plot in <xref ref="fig_tannorm7b">Figure</xref>.</p>
 
@@ -730,7 +730,7 @@
           <!-- figures/fig_tannorm7b.tex END -->
         </figure>
 
-        <p>From this we find <m>\vvt = \la 64\cos(30) ^\circ, -32t+64\sin(30) ^\circ\ra</m> and <m>\vat = \la 0,-32\ra</m>. Computing <m>\vec T(t)</m> is not difficult, and with some simplification we find
+        <p>From this we find <m>\vvt = \la 64\cos(30^\) circ, -32t+64\sin(30^\) circ\ra</m> and <m>\vat = \la 0,-32\ra</m>. Computing <m>\vec T(t)</m> is not difficult, and with some simplification we find
           <me>
             \vec T(t) = \la \frac{\sqrt{3}}{\sqrt{t^2-2t+4}}, \frac{1-t}{\sqrt{t^2-2t+4}}\ra.
           </me>

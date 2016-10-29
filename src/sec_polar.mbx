@@ -1349,7 +1349,7 @@
         <p>(There are, of course, infinite solutions to the equation <m>\cos(\theta) =-1/2</m>; as the lima&#xe7;on is traced out once on <m>[0,2\pi]</m>, we restrict our solutions to this interval.)</p>
 
         <p>We need to analyze this solution. When <m>\theta = 2\pi/3</m> we obtain the point of intersection that lies in the 4<m>^\text{ th }</m> quadrant. When <m>\theta = 4\pi/3</m>, we get the point of intersection that lies in the 2<m>^\text{ nd }</m> quadrant. There is more to say about this second intersection point, however. The circle defined by <m>r=\cos(\theta)</m> is traced out once on <m>[0,\pi]</m>, meaning that this point of intersection occurs while tracing out the circle a second time. It seems strange to pass by the point once and then recognize it as a point of intersection only when arriving there a <q>second time.</q> The first time the circle arrives at this point is when <m>\theta = \pi/3</m>.
-          It is key to understand that these two points are the same: <m>(\cos(\pi) /3,\pi/3)</m> and <m>(\cos(4) \pi/3,4\pi/3)</m>.</p>
+          It is key to understand that these two points are the same: <m>(\cos(\pi) /3,\pi/3)</m> and <m>(\cos(4\pi) /3,4\pi/3)</m>.</p>
 
         <p>To summarize what we have done so far, we have found two points of intersection: when <m>\theta=2\pi/3</m> and when <m>\theta=4\pi/3</m>. When referencing the circle <m>r=\cos(\theta)</m>, the latter point is better referenced as when <m>\theta=\pi/3</m>.</p>
 

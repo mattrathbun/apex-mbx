@@ -217,7 +217,7 @@
             <mrow>F'(x) \amp = G'\big(g(x)\big) g'(x)</mrow>
             <mrow>\amp = \ln(g(x)) g'(x)</mrow>
             <mrow>\amp = \ln(x^2) 2x</mrow>
-            <mrow>\amp =2x\ln(x) ^2</mrow>
+            <mrow>\amp =2x\ln(x^2) </mrow>
           </md>
         </p>
 

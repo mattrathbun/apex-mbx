@@ -860,17 +860,17 @@
 
         <p>We can view each chain as <q>pulling</q> the weight up, preventing it from falling. We can represent the force from each chain with a vector. Let <m>\vec F_1</m> represent the force from the chain making an angle of <m>30^\circ</m> with the vertical, and let <m>\vec F_2</m> represent the force form the other chain. Convert all angles to be measured from the horizontal (as shown in <xref ref="fig_vect6b">Figure</xref>), and apply <xref ref="idea_unit_vectors">Key Idea</xref>. As we do not yet know the magnitudes of these vectors, (that is the problem at hand), we use <m>m_1</m> and <m>m_2</m> to represent them.
           <me>
-            \vec F_1 = m_1\la \cos(120) ^\circ,\sin120^\circ\ra
+            \vec F_1 = m_1\la \cos(120^\) circ,\sin120^\circ\ra
           </me>
           <me>
-            \vec F_2 = m_2\la \cos(45) ^\circ,\sin45^\circ\ra
+            \vec F_2 = m_2\la \cos(45^\) circ,\sin45^\circ\ra
           </me>
         </p>
 
         <p>As the weight is not moving, we know the sum of the forces is <m>\vec 0</m>. This gives:
           <md>
             <mrow>\vec F + \vec F_1 + \vec F_2 \amp  = \vec 0</mrow>
-            <mrow>\la 0,-50\ra + m_1\la \cos(120) ^\circ,\sin120^\circ\ra + m_2\la \cos(45) ^\circ,\sin45^\circ\ra \amp =\vec 0</mrow>
+            <mrow>\la 0,-50\ra + m_1\la \cos(120^\) circ,\sin120^\circ\ra + m_2\la \cos(45^\) circ,\sin45^\circ\ra \amp =\vec 0</mrow>
           </md>
         </p>
 
@@ -1048,7 +1048,7 @@
 
         <p>Subtracting <m>90^\circ</m> from this angle gives us an angle of <m>11.31^\circ</m> with the vertical.</p>
 
-        <p>We can now use trigonometry to find out how high the weight is lifted. The diagram shows that a right triangle is formed with the 2ft chain as the hypotenuse with an interior angle of <m>11.31^\circ</m>. The length of the adjacent side (in the diagram, the dashed vertical line) is <m>2\cos(11.31) ^\circ \approx 1.96</m>ft. Thus the weight is lifted by about <m>0.04</m>ft, almost 1/2in.</p>
+        <p>We can now use trigonometry to find out how high the weight is lifted. The diagram shows that a right triangle is formed with the 2ft chain as the hypotenuse with an interior angle of <m>11.31^\circ</m>. The length of the adjacent side (in the diagram, the dashed vertical line) is <m>2\cos(11.31^\) circ \approx 1.96</m>ft. Thus the weight is lifted by about <m>0.04</m>ft, almost 1/2in.</p>
       </solution>
     </example>
 
@@ -1786,7 +1786,7 @@
             <p>Find the unit vector in the first quadrant of <m>\mathbb{R}^2</m> that makes a <m>50^\circ</m> angle with the <m>x</m>-axis.</p>
           </statement>
           <solution>
-            <p><m>\vec u = \la \cos(50) ^\circ,\sin(50) ^\circ\ra \approx \la 0.643,0.766\ra</m>.</p>
+            <p><m>\vec u = \la \cos(50^\) circ,\sin(50^\) circ\ra \approx \la 0.643,0.766\ra</m>.</p>
           </solution>
         </webwork>
       </exercise>
@@ -1803,7 +1803,7 @@
             <p>Find the unit vector in the second quadrant of <m>\mathbb{R}^2</m> that makes a <m>30^\circ</m> angle with the <m>y</m>-axis.</p>
           </statement>
           <solution>
-            <p><m>\vec u = \la \cos(120) ^\circ,\sin(120) ^\circ\ra = \la -1/2,\sqrt{3}/2\ra</m>.</p>
+            <p><m>\vec u = \la \cos(120^\) circ,\sin(120^\) circ\ra = \la -1/2,\sqrt{3}/2\ra</m>.</p>
           </solution>
         </webwork>
       </exercise>

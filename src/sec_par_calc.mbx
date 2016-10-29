@@ -159,12 +159,12 @@
 			
 			The normal line is horizontal (and hence, the tangent line is vertical) when <m>\sin(t) =0</m>; that is, when <m>t= 0,\ \pi,\ 2\pi</m>, corresponding to the points <m>(-1,0)</m> and <m>(0,1)</m> on the circle. These results should make intuitive sense.</p></li>
 
-          <li><p>The slope of the normal line at <m>t=t_0</m> is <m>\ds m=\frac{\sin(t) _0}{\cos(t) _0} = \tan(t) _0</m>. This normal line goes through the point <m>(\cos(t) _0,\sin(t) _0)</m>, giving the line
+          <li><p>The slope of the normal line at <m>t=t_0</m> is <m>\ds m=\frac{\sin(t_0) }{\cos(t_0) } = \tan(t_0)</m>. This normal line goes through the point <m>(\cos(t_0) ,\sin(t_0) )</m>, giving the line
               <md>
-                <mrow>y \amp =\frac{\sin(t) _0}{\cos(t) _0}(x-\cos(t) _0) + \sin(t) _0</mrow>
-                <mrow>\amp = (\tan(t) _0)x,</mrow>
+                <mrow>y \amp =\frac{\sin(t_0) }{\cos(t_0) }(x-\cos(t_0) ) + \sin(t_0) </mrow>
+                <mrow>\amp = (\tan(t_0) )x,</mrow>
               </md>
-              as long as <m>\cos(t) _0\neq 0</m>. It is an important fact to recognize that the normal lines to a circle pass through its center, as illustrated in <xref ref="fig_parcalc2">Figure</xref>. Stated in another way, any line that passes through the center of a circle intersects the circle at right angles.
+              as long as <m>\cos(t_0) \neq 0</m>. It is an important fact to recognize that the normal lines to a circle pass through its center, as illustrated in <xref ref="fig_parcalc2">Figure</xref>. Stated in another way, any line that passes through the center of a circle intersects the circle at right angles.
 
               <figure xml:id="fig_parcalc2" >
                 <caption>Illustrating how a circle's normal lines pass through its center.</caption>

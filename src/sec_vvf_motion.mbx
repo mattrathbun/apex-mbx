@@ -585,7 +585,7 @@
       <solution>
         <p>A direct application of <xref ref="idea_projectile">Key Idea</xref> gives
           <md>
-            <mrow>\vrt \amp = \la (350\cos(5) ^\circ)t, -16t^2 + (350\sin(5) ^\circ)t + 4\ra</mrow>
+            <mrow>\vrt \amp = \la (350\cos(5^\) circ)t, -16t^2 + (350\sin(5^\) circ)t + 4\ra</mrow>
             <mrow>\amp \approx \la 346.67t, -16t^2+30.50t+4\ra,</mrow>
           </md>
           where we set her initial position to be <m>\la 0,4\ra</m>.
@@ -1057,7 +1057,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\ds \vrt = \la t^2,\sin(t) ^2 \ra</m> on <m>[0,\pi/2]</m>; <m>t_0=\sqrt{\pi/4}</m></p>
+            <p><m>\ds \vrt = \la t^2,\sin(t^2) \ra</m> on <m>[0,\pi/2]</m>; <m>t_0=\sqrt{\pi/4}</m></p>
           </statement>
           <solution>
             <p><m>\vvt = \la 2 t,2 t \cos\left(t^2\right)\ra</m>, <m>\vat = \la 2,2 \left(\cos\left(t^2\right)-2 t^2 \sin\left(t^2\right)\right)\ra</m></p>

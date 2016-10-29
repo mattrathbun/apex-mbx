@@ -166,12 +166,12 @@
     <example xml:id="ex_chain7">
       <title>Using the Chain Rule to find a tangent line</title>
       <statement>
-        <p>Let <m>f(x) = \cos(x) ^2</m>. Find the equation of the line tangent to the graph of <m>f</m> at <m>x=1</m>.</p>
+        <p>Let <m>f(x) = \cos(x^2)</m>. Find the equation of the line tangent to the graph of <m>f</m> at <m>x=1</m>.</p>
       </statement>
       <solution>
         <p>The tangent line goes through the point <m>(1,f(1)) \approx (1,0.54)</m> with slope <m>\fp(1)</m>. To find <m>\fp</m>, we need the Chain Rule.</p>
 
-        <p><m>\fp(x) = -\sin(x^2) \cdot(2x) = -2x\sin(x) ^2</m>. Evaluated at <m>x=1</m>, we have <m>\fp(1) = -2\sin(1) \approx -1.68</m>. Thus the equation of the tangent line is
+        <p><m>\fp(x) = -\sin(x^2) \cdot(2x) = -2x\sin(x^2)</m>. Evaluated at <m>x=1</m>, we have <m>\fp(1) = -2\sin(1) \approx -1.68</m>. Thus the equation of the tangent line is
           <me>
             y = -1.68(x-1)+0.54 .
           </me>
@@ -180,7 +180,7 @@
         <p>The tangent line is sketched along with <m>f</m> in <xref ref="fig_chain7">Figure</xref>.</p>
 
         <figure xml:id="fig_chain7" >
-          <caption><m>f(x) = \cos(x) ^2</m> sketched along with its tangent line at <m>x=1</m>.</caption>
+          <caption><m>f(x) = \cos(x^2)</m> sketched along with its tangent line at <m>x=1</m>.</caption>
           <!-- START figures/fig_chain7.tex -->
           <image xml:id="img_chain7" >
             <description></description>
@@ -259,7 +259,7 @@
         <ol>
           <li><p>We must use the Product and Chain Rules. Do not think that you must be able to <q>see</q> the whole answer immediately; rather, just proceed step<ndash />by<ndash />step.
               <me>
-                \fp(x) = x^5\big(6x^2\cos(2x) ^3\big) + 5x^4\big(\sin(2x) ^3\big)= 6x^7\cos2x^3+5x^4\sin(2x) ^3.
+                \fp(x) = x^5\big(6x^2\cos(2x^3) \big) + 5x^4\big(\sin(2x^3) \big)= 6x^7\cos2x^3+5x^4\sin(2x^3) .
               </me>
             </p></li>
 
