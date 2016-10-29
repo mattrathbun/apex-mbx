@@ -468,7 +468,7 @@
           </me>
         </p>
 
-        <p>Summing the 5 terms shown above give the approximation of <m>0.74749.</m> Since this is an alternating series, we can use the Alternating Series Approximation Theorem, (<xref ref="thm_alt_series_approx">Theorem</xref>), to determine how accurate this approximation is. The next term of the series is <m>1/(11\cdot5!) \approx 0.00075758</m>. Thus we know our approximation is within <m>0.00075758</m> of the actual value of the integral. This is arguably much less work than using Simpson's Rule to approximate the value of the integral.</p>
+        <p>Summing the 5 terms shown above give the approximation of <m>0.74749</m>. Since this is an alternating series, we can use the Alternating Series Approximation Theorem, (<xref ref="thm_alt_series_approx">Theorem</xref>), to determine how accurate this approximation is. The next term of the series is <m>1/(11\cdot5!) \approx 0.00075758</m>. Thus we know our approximation is within <m>0.00075758</m> of the actual value of the integral. This is arguably much less work than using Simpson's Rule to approximate the value of the integral.</p>
       </solution>
     </example>
 
@@ -799,7 +799,7 @@
               </me>
               where <m>z</m> is between <m>0</m> and <m>x</m>.</p>
 
-            <p>If <m>x>0</m>, then <m>z\lt x</m> and <m>f^{(n+1)}(z) =e^z\lt e^x</m>. If <m>x\lt 0</m>, then <m>x\lt z\lt 0</m> and <m>f^{(n+1)}(z) =e^z\lt 1</m>. So given a fixed <m>x</m> value, let <m>M = \max\{e^x,1\}</m>; <m>f^{(n)}(z)\lt M.</m> This allows us to state
+            <p>If <m>x>0</m>, then <m>z\lt x</m> and <m>f^{(n+1)}(z) =e^z\lt e^x</m>. If <m>x\lt 0</m>, then <m>x\lt z\lt 0</m> and <m>f^{(n+1)}(z) =e^z\lt 1</m>. So given a fixed <m>x</m> value, let <m>M = \max\{e^x,1\}</m>; <m>f^{(n)}(z)\lt M</m>. This allows us to state
               <me>
                 \abs{R_n(x)} \leq \frac{M}{(n+1)!}\abs{x^{(n+1)}}.
               </me>
@@ -1109,7 +1109,7 @@
             <p><m>f(x) = \cos\big(x^2\big)</m></p>
           </statement>
           <solution>
-            <p><m>\ds \sum_{n=0}^\infty (-1)^n\frac{(x^2)^{2n}}{(2n)!} = \sum_{n=0}^\infty (-1)^n\frac{x^{4n}}{(2n)!}.</m></p>
+            <p><m>\ds \sum_{n=0}^\infty (-1)^n\frac{(x^2)^{2n}}{(2n)!} = \sum_{n=0}^\infty (-1)^n\frac{x^{4n}}{(2n)!}</m>. </p>
           </solution>
         </webwork>
       </exercise>
@@ -1126,7 +1126,7 @@
             <p><m>f(x) = e^{-x}</m></p>
           </statement>
           <solution>
-            <p><m>\ds \sum_{n=0}^\infty \frac{(-x)^n}{n!}.</m></p>
+            <p><m>\ds \sum_{n=0}^\infty \frac{(-x)^n}{n!}</m>. </p>
           </solution>
         </webwork>
       </exercise>
@@ -1143,7 +1143,7 @@
             <p><m>f(x) = \sin\big(2x+3\big)</m></p>
           </statement>
           <solution>
-            <p><m>\ds \sum_{n=0}^\infty (-1)^n\frac{(2x+3)^{2n+1}}{(2n+1)!}.</m></p>
+            <p><m>\ds \sum_{n=0}^\infty (-1)^n\frac{(2x+3)^{2n+1}}{(2n+1)!}</m>. </p>
           </solution>
         </webwork>
       </exercise>
@@ -1160,7 +1160,7 @@
             <p><m>f(x) = \tan^{-1}\big(x/2\big)</m></p>
           </statement>
           <solution>
-            <p><m>\ds \sum_{n=0}^\infty (-1)^n\frac{(x/2)^{2n+1}}{(2n+1)}.</m></p>
+            <p><m>\ds \sum_{n=0}^\infty (-1)^n\frac{(x/2)^{2n+1}}{(2n+1)}</m>. </p>
           </solution>
         </webwork>
       </exercise>

@@ -256,7 +256,7 @@
         <me>
           \frac{\partial}{\partial x}f(x,y),\ \ \frac{\pf}{\px},\ \ \frac{\pz}{\px},\ \ \text{ and } \ z_x,
         </me>
-        with similar notations for <m>f_y(x,y).</m> For ease of notation, <m>f_x(x,y)</m> is often abbreviated <m>f_x</m>.</p>
+        with similar notations for <m>f_y(x,y)</m>. For ease of notation, <m>f_x(x,y)</m> is often abbreviated <m>f_x</m>.</p>
     </aside>
 
     <example xml:id="ex_partial1">
@@ -284,7 +284,7 @@
 
     <p>Just as <m>\frac{d}{dx}\big(5x^2\big) = 10x</m>, we compute <m>\frac{\partial}{\px}\big(x^2y\big) = 2xy</m>. Here we are treating <m>y</m> as a coefficient.</p>
 
-    <p>Just as <m>\frac{d}{dx}\big(5^3\big) = 0</m>, we compute <m>\frac{\partial}{\px}\big(y^3\big) = 0.</m> Here we are treating <m>y</m> as a constant. More examples will help make this clear.</p>
+    <p>Just as <m>\frac{d}{dx}\big(5^3\big) = 0</m>, we compute <m>\frac{\partial}{\px}\big(y^3\big) = 0</m>. Here we are treating <m>y</m> as a constant. More examples will help make this clear.</p>
 
     <example xml:id="ex_partial2">
       <title>Finding partial derivatives</title>

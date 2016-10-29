@@ -171,7 +171,7 @@
 
     <p>The previous example can make us wonder: if we substituted for <m>x</m> and <m>y</m> at the end to show that <m>\frac{dz}{dt}</m> is really just a function of <m>t</m>, why not substitute before differentiating, showing clearly that <m>z</m> is a function of <m>t</m>?</p>
 
-    <p>That is, <m>z = x^2y+x = (\sin(t) )^2e^{5t}+\sin(t) .</m> Applying the Chain and Product Rules, we have
+    <p>That is, <m>z = x^2y+x = (\sin(t) )^2e^{5t}+\sin(t) </m>. Applying the Chain and Product Rules, we have
       <me>
         \frac{dz}{dt} = 2\sin(t) \cos(t) \, e^{5t}+ 5\sin^2(t) \,e^{5t}+\cos(t) ,
       </me>
@@ -367,7 +367,7 @@
           <ul>
             <li><p><m>\ds \frac{\partial z}{\partial s} = \frac{\partial f}{\partial x}\frac{\partial x}{\partial s} + \frac{\partial f}{\partial y}\frac{\partial y}{\partial s}</m><nbsp />,   and</p></li>
 
-            <li><p><m>\ds \frac{\partial z}{\partial t} = \frac{\partial f}{\partial x}\frac{\partial x}{\partial t} + \frac{\partial f}{\partial y}\frac{\partial y}{\partial t}.</m>
+            <li><p><m>\ds \frac{\partial z}{\partial t} = \frac{\partial f}{\partial x}\frac{\partial x}{\partial t} + \frac{\partial f}{\partial y}\frac{\partial y}{\partial t}</m>. 
 			<index><main>derivative</main><sub>Chain Rule</sub></index><index><main>Chain Rule</main><sub>multivariable</sub></index></p></li>
           </ul>
 
@@ -448,7 +448,7 @@
     <title>Implicit Differentiation</title>
     <p>We studied finding <m>\frac{dy}{dx}</m> when <m>y</m> is given as an implicit function of <m>x</m> in detail in <xref ref="sec_imp_deriv">Section</xref>. We find here that the Multivariable Chain Rule gives a simpler method of finding <m>\frac{dy}{dx}</m>.</p>
 
-    <p>For instance, consider the implicit function <m>x^2y-xy^3=3.</m> We learned to use the following steps to find <m>\frac{dy}{dx}</m>:
+    <p>For instance, consider the implicit function <m>x^2y-xy^3=3</m>. We learned to use the following steps to find <m>\frac{dy}{dx}</m>:
       <md>
         <mrow>\frac{d}{dx}\Big(x^2y-xy^3\big) \amp = \frac{d}{dx}\Big(3\Big)</mrow>
         <mrow>2xy + x^2\frac{dy}{dx}-y^3-3xy^2\frac{dy}{dx} \amp = 0</mrow>

@@ -400,7 +400,7 @@
       </solution>
     </example>
 
-    <p>One is often tempted to think that functions always alternate <q>increasing, decreasing, increasing, decreasing,<m>\ldots</m></q> around critical values. Our previous example demonstrated that this is not always the case. While <m>x=1</m> was not technically a critical value, it was an important value we needed to consider. We found that <m>f</m> was decreasing on <q>both sides of <m>x=1.</m></q></p>
+    <p>One is often tempted to think that functions always alternate <q>increasing, decreasing, increasing, decreasing,<m>\ldots</m></q> around critical values. Our previous example demonstrated that this is not always the case. While <m>x=1</m> was not technically a critical value, it was an important value we needed to consider. We found that <m>f</m> was decreasing on <q>both sides of <m>x=1</m>. </q></p>
 
     <p>We examine one more example.</p>
 

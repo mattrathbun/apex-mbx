@@ -826,7 +826,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p>T/F: Given parametric equations <m>x=f(t)</m> and <m>y=g(t)</m>, to find <m>\frac{d^2y}{dx^2}</m>, one simply computes <m>\frac{d}{dt}\Big(\frac{dy}{dx}\Big).</m></p>
+            <p>T/F: Given parametric equations <m>x=f(t)</m> and <m>y=g(t)</m>, to find <m>\frac{d^2y}{dx^2}</m>, one simply computes <m>\frac{d}{dt}\Big(\frac{dy}{dx}\Big)</m>. </p>
           </statement>
           <solution>
             <p>F</p>

@@ -249,7 +249,7 @@
     <theorem xml:id="thm_arclengthparam">
       <title>Arc Length Parameter</title>
       <statement>
-        <p>Let <m>\vec r(s)</m> be a vector<ndash />valued function. The parameter <m>s</m> is the arc length parameter if, and only if, <m>\norm{\vrp(s)} = 1.</m><index><main>arc length parameter</main></index></p>
+        <p>Let <m>\vec r(s)</m> be a vector<ndash />valued function. The parameter <m>s</m> is the arc length parameter if, and only if, <m>\norm{\vrp(s)} = 1</m>. <index><main>arc length parameter</main></index></p>
       </statement>
     </theorem>
   </introduction>
@@ -621,7 +621,7 @@
           <!-- figures/fig_curvature3.tex END -->
         </figure>
 
-        <p>At the vertex (<m>x=0</m>), the curvature is <m>\kappa = 2</m>. At <m>x=1</m>, the curvature is <m>\kappa = 2/(5)^{3/2} \approx 0.179.</m> So at <m>x=0</m>, the curvature of <m>y=x^2</m> is that of a circle of radius <m>1/2</m>; at <m>x=1</m>, the curvature is that of a circle with radius <m>\approx 1/0.179 \approx 5.59</m>. This is illustrated in <xref ref="fig_curvature3">Figure</xref>. At <m>x=3</m>, the curvature is <m>0.009</m>; the graph is nearly straight as the curvature is very close to 0.</p>
+        <p>At the vertex (<m>x=0</m>), the curvature is <m>\kappa = 2</m>. At <m>x=1</m>, the curvature is <m>\kappa = 2/(5)^{3/2} \approx 0.179</m>. So at <m>x=0</m>, the curvature of <m>y=x^2</m> is that of a circle of radius <m>1/2</m>; at <m>x=1</m>, the curvature is that of a circle with radius <m>\approx 1/0.179 \approx 5.59</m>. This is illustrated in <xref ref="fig_curvature3">Figure</xref>. At <m>x=3</m>, the curvature is <m>0.009</m>; the graph is nearly straight as the curvature is very close to 0.</p>
       </solution>
     </example>
 

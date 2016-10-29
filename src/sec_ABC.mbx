@@ -17,7 +17,7 @@
       </me>
     </p>
 
-    <p>Taking the limit as <m>n\to \infty</m> gives the exact area as <m>\int_a^b \big(f(x)-g(x)\big)\ dx.</m></p>
+    <p>Taking the limit as <m>n\to \infty</m> gives the exact area as <m>\int_a^b \big(f(x)-g(x)\big)\ dx</m>. </p>
 
     <figure xml:id="fig_abcintro" >
     <caption>Subdividing a region into vertical slices and approximating the areas with rectangles.</caption>

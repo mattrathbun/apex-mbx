@@ -1704,7 +1704,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p>Approximate the arc length of one petal of the rose curve <m>r=\sin(3\theta)</m> with Simpson's Rule and <m>n=4.</m></p>
+            <p>Approximate the arc length of one petal of the rose curve <m>r=\sin(3\theta)</m> with Simpson's Rule and <m>n=4</m>. </p>
           </statement>
           <solution>
             <p><m>L\approx 2.2592</m>; (actual value <m>L=2.22748</m>)</p>
@@ -1721,7 +1721,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p>Approximate the arc length of the cardiod <m>r=1+\cos(\theta) </m> with Simpson's Rule and <m>n=6.</m></p>
+            <p>Approximate the arc length of the cardiod <m>r=1+\cos(\theta) </m> with Simpson's Rule and <m>n=6</m>. </p>
           </statement>
           <solution>
             <p><m>L\approx 7.62933</m>; (actual value <m>L=8</m>)</p>

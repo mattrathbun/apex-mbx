@@ -372,7 +372,7 @@
     <example xml:id="ex_sketch3">
       <title>Curve sketching</title>
       <statement>
-        <p>Sketch <m>\ds f(x) = \frac{5(x-2)(x+1)}{x^2+2x+4}.</m></p>
+        <p>Sketch <m>\ds f(x) = \frac{5(x-2)(x+1)}{x^2+2x+4}</m>. </p>
       </statement>
       <solution>
         <p>We again follow <xref ref="idea_sketch">Key Idea</xref>.</p>

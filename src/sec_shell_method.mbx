@@ -785,7 +785,7 @@
       <solution>
         <p>The region is sketched in <xref ref="fig_shell3">Figure</xref>(a) with a sample differential element. In part (b) of the figure the shell formed by the differential element is drawn, and the solid is sketched in (c). (Note that the triangular region looks <q>short and wide</q> here, whereas in the previous example the same region looked <q>tall and narrow.</q> This is because the bounds on the graphs are different.)</p>
 
-        <p>The height of the differential element is an <m>x</m>-distance, between <m>x=\frac12y-\frac12</m> and <m>x=1</m>. Thus <m>h(y) = 1-(\frac12y-\frac12) = -\frac12y+\frac32.</m> The radius is the distance from <m>y</m> to the <m>x</m>-axis, so <m>r(y) =y</m>. The <m>y</m> bounds of the region are <m>y=1</m> and <m>y=3</m>, leading to the integral</p>
+        <p>The height of the differential element is an <m>x</m>-distance, between <m>x=\frac12y-\frac12</m> and <m>x=1</m>. Thus <m>h(y) = 1-(\frac12y-\frac12) = -\frac12y+\frac32</m>. The radius is the distance from <m>y</m> to the <m>x</m>-axis, so <m>r(y) =y</m>. The <m>y</m> bounds of the region are <m>y=1</m> and <m>y=3</m>, leading to the integral</p>
 
         <figure xml:id="fig_shell3" >
         <caption>Graphing a region in <xref ref="ex_shell3">Example</xref>.</caption>

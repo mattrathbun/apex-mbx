@@ -129,17 +129,17 @@
       </statement>
       <solution>
         <ol>
-          <li><p><m>\ds \int_{-2}^2 x^3\ dx = \left.\frac14x^4\right|_{-2}^2 = \left(\frac142^4\right) - \left(\frac14(-2)^4\right) = 0.</m></p></li>
+          <li><p><m>\ds \int_{-2}^2 x^3\ dx = \left.\frac14x^4\right|_{-2}^2 = \left(\frac142^4\right) - \left(\frac14(-2)^4\right) = 0</m>. </p></li>
 
-          <li><p><m>\ds \int_0^\pi \sin(x) \ dx = -\cos(x) \Big|_0^\pi = -\cos\pi- \big(-\cos(0) \big) = 1+1=2.</m> 
+          <li><p><m>\ds \int_0^\pi \sin(x) \ dx = -\cos(x) \Big|_0^\pi = -\cos\pi- \big(-\cos(0) \big) = 1+1=2</m>. 
 
               (This is interesting; it says that the area under one <q>hump</q> of a sine curve is 2.)</p></li>
 
-          <li><p><m>\ds \int_0^5e^t\ dt = e^t\Big|_0^5 = e^5 - e^0 = e^5-1 \approx 147.41.</m></p></li>
+          <li><p><m>\ds \int_0^5e^t\ dt = e^t\Big|_0^5 = e^5 - e^0 = e^5-1 \approx 147.41</m>. </p></li>
 
-          <li><p><m>\ds \int_4^9 \sqrt{u}\ du = \int_4^9 u^\frac12\ du = \left.\frac23u^\frac32\right|_4^9 = \frac23\left(9^\frac32-4^\frac32\right) = \frac23\big(27-8\big) =\frac{38}3.</m></p></li>
+          <li><p><m>\ds \int_4^9 \sqrt{u}\ du = \int_4^9 u^\frac12\ du = \left.\frac23u^\frac32\right|_4^9 = \frac23\left(9^\frac32-4^\frac32\right) = \frac23\big(27-8\big) =\frac{38}3</m>. </p></li>
 
-          <li><p><m>\ds \int_1^5 2\ dx = 2x\Big|_1^5 = 2(5)-2=2(5-1)=8.</m> 
+          <li><p><m>\ds \int_1^5 2\ dx = 2x\Big|_1^5 = 2(5)-2=2(5-1)=8</m>. 
 
               This integral is interesting; the integrand is a constant function, hence we are finding the area of a rectangle with width <m>(5-1)=4</m> and height 2. Notice how the evaluation of the definite integral led to <m>2(4)=8</m>. 
 
@@ -162,7 +162,7 @@
     <example xml:id="ex_ftcmotion1">
       <title>Finding displacement</title>
       <statement>
-        <p>A ball is thrown straight up with velocity given by <m>v(t) = -32t+20</m>ft/s, where <m>t</m> is measured in seconds. Find, and interpret, <m>\ds \int_0^1 v(t)\ dt.</m></p>
+        <p>A ball is thrown straight up with velocity given by <m>v(t) = -32t+20</m>ft/s, where <m>t</m> is measured in seconds. Find, and interpret, <m>\ds \int_0^1 v(t)\ dt</m>. </p>
       </statement>
       <solution>
         <p>Using the Fundamental Theorem of Calculus, we have
@@ -230,7 +230,7 @@
     <example xml:id="ex_ftc12">
       <title>The FTC, Part 1, and the Chain Rule</title>
       <statement>
-        <p>Find the derivative of <m>\ds F(x) = \int_{\cos(x) }^5 t^3\ dt.</m></p>
+        <p>Find the derivative of <m>\ds F(x) = \int_{\cos(x) }^5 t^3\ dt</m>. </p>
       </statement>
       <solution>
         <p>Note that <m>\ds F(x) = -\int_5^{\cos(x) } t^3\ dt</m>. Viewed this way, the derivative of <m>F</m> is straightforward:

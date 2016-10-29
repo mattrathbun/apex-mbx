@@ -443,7 +443,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p>T/F: This section addresses how to evaluate indefinite integrals such as <m>\ds \int \sin^5(x) \tan^3(x) \ dx.</m></p>
+            <p>T/F: This section addresses how to evaluate indefinite integrals such as <m>\ds \int \sin^5(x) \tan^3(x) \ dx</m>. </p>
           </statement>
           <solution>
             <p>F</p>

@@ -358,14 +358,14 @@
 					\amp = \sinh(x) .
               \end{aligned}</m>
 
-              So <m>\frac{d}{dx}\big(\cosh(x) \big) = \sinh(x) .</m></p></li>
+              So <m>\frac{d}{dx}\big(\cosh(x) \big) = \sinh(x) </m>. </p></li>
 
           <li><p><m>\begin{aligned}\frac{d}{dx}\big(\sinh(x) \big) \amp = \frac{d}{dx}\left(\frac{e^x-e^{-x}}2\right) \\
 					\amp = \frac{e^x+e^{-x}}2\\
 					\amp = \cosh(x) .
               \end{aligned}</m>
 
-              So <m>\frac{d}{dx}\big(\sinh(x) \big) = \cosh(x) .</m></p></li>
+              So <m>\frac{d}{dx}\big(\sinh(x) \big) = \cosh(x) </m>. </p></li>
 
           <li><p><m>\begin{aligned}\frac{d}{dx}\big(\tanh(x) \big) \amp = \frac{d}{dx}\left(\frac{\sinh(x) }{\cosh(x) }\right) \\
 					\amp = \frac{\cosh(x) \cosh(x) - \sinh(x) \sinh(x) }{\cosh^2(x) }\\
@@ -373,7 +373,7 @@
 					\amp = \sech^2(x) .
               \end{aligned}</m>
 
-              So <m>\frac{d}{dx}\big(\tanh(x) \big) = \sech^2(x) .</m></p></li>
+              So <m>\frac{d}{dx}\big(\tanh(x) \big) = \sech^2(x) </m>. </p></li>
         </ol>
       </solution>
     </example>
@@ -817,7 +817,7 @@
 
         <li><p><m>\ds\int \frac{1}{a^2-x^2}\ dx</m> \text{<m>\ds=\qquad \left\{\begin{array}{ccc} \frac1a\tanh^{-1}\left(\frac xa\right)+C \amp  \amp  x^2\lt a^2 \\ \\
             \frac1a\coth^{-1}\left(\frac xa\right)+C \amp  \amp  a^2\lt x^2
-            \end{array} \right.</m>} <m>\ds=\frac1{2a}\ln\abs{\frac{a+x}{a-x}}+C</m></p></li>
+            \end{array} \right</m>. } <m>\ds=\frac1{2a}\ln\abs{\frac{a+x}{a-x}}+C</m></p></li>
 
         <li><p><m>\ds\int \frac{1}{x\sqrt{a^2-x^2}}\ dx</m> \text{<m>\ds=\qquad -\frac1a\sech^{-1}\left(\frac xa\right)+C;\ 0\lt x\lt a</m>} <m>\ds= \frac1a \ln\left(\frac{x}{a+\sqrt{a^2-x^2}}\right)+C</m></p></li>
 
@@ -859,14 +859,14 @@
                 <mrow>\amp =-\frac12\ln\abs{\frac{x+1}{x-1}}+C</mrow>
                 <mrow>\amp =\frac12\ln\abs{\frac{x-1}{x+1}}+C.</mrow>
               </md>
-              We should note that this exact problem was solved at the beginning of <xref ref="sec_partial_fraction">Section</xref>. In that example the answer was given as <m>\frac12\ln\abs{x-1}-\frac12\ln\abs{x+1}+C.</m> Note that this is equivalent to the answer given in <xref ref="eq_hf3">Equation</xref>, as <m>\ln(a/b) = \ln(a) - \ln(b) </m>.</p></li>
+              We should note that this exact problem was solved at the beginning of <xref ref="sec_partial_fraction">Section</xref>. In that example the answer was given as <m>\frac12\ln\abs{x-1}-\frac12\ln\abs{x+1}+C</m>. Note that this is equivalent to the answer given in <xref ref="eq_hf3">Equation</xref>, as <m>\ln(a/b) = \ln(a) - \ln(b) </m>.</p></li>
 
           <li><p>This requires a substitution, then item <hash />2 of <xref ref="idea_hyperbolic_inverse_integrals">Key Idea</xref> can be applied.
 
               Let <m>u = 3x</m>, hence <m>du = 3dx</m>. We have
               <md>
                 <mrow>\int \frac{1}{\sqrt{9x^2+10}}\ dx \amp = \frac13\int\frac{1}{\sqrt{u^2+10}}\ du.</mrow>
-                <intertext>Note <m>a^2=10</m>, hence <m>a = \sqrt{10}.</m> Now apply the integral rule.</intertext>
+                <intertext>Note <m>a^2=10</m>, hence <m>a = \sqrt{10}</m>. Now apply the integral rule.</intertext>
                 <mrow>\amp = \frac13 \sinh^{-1}\left(\frac{3x}{\sqrt{10}}\right) + C</mrow>
                 <mrow>\amp = \frac13 \ln\Big\abs{3x+\sqrt{9x^2+10}\Big}+C.</mrow>
               </md>

@@ -163,7 +163,7 @@
     <example xml:id="ex_tpl1">
       <title>Finding directional tangent lines</title>
       <statement>
-        <p>Find the lines tangent to the surface <m>z=\sin(x) \cos(y) </m> at <m>(\pi/2,\pi/2)</m> in the <m>x</m> and <m>y</m> directions and also in the direction of <m>\vec v = \la -1,1\ra.</m></p>
+        <p>Find the lines tangent to the surface <m>z=\sin(x) \cos(y) </m> at <m>(\pi/2,\pi/2)</m> in the <m>x</m> and <m>y</m> directions and also in the direction of <m>\vec v = \la -1,1\ra</m>. </p>
       </statement>
       <solution>
         <p>The partial derivatives with respect to <m>x</m> and <m>y</m> are:
@@ -1136,7 +1136,7 @@
           </men>
         </p>
 
-        <p>Just as tangent lines provide excellent approximations of curves near their point of intersection, tangent planes provide excellent approximations of surfaces near their point of intersection. So <m>f(2.9,-0.8) \approx z(2.9,-0.8) = 3.7.</m></p>
+        <p>Just as tangent lines provide excellent approximations of curves near their point of intersection, tangent planes provide excellent approximations of surfaces near their point of intersection. So <m>f(2.9,-0.8) \approx z(2.9,-0.8) = 3.7</m>. </p>
 
         <p>This is not a new method of approximation. Compare the right hand expression for <m>z</m> in Equation <xref ref="eq_tpl7" /> to the total differential:
           <me>
@@ -1443,13 +1443,13 @@
           <solution>
             <ol>
               <li><p><m>\ell_x(t) = \left\{\begin{array}{l} x=2+t\\ y=3 \\ z = -48-12t
-                  \end{array} \right.</m></p></li>
+                  \end{array} \right</m>. </p></li>
 
               <li><p><m>\ell_y(t) = \left\{\begin{array}{l} x=2\\ y=3+t \\ z = -48-40t
-                  \end{array} \right.</m></p></li>
+                  \end{array} \right</m>. </p></li>
 
               <li><p><m>\ell_{\vec u\,}(t) = \left\{\begin{array}{l} x=2+t/\sqrt{10}\\ y=3+3t/\sqrt{10} \\ z = -48-66\sqrt{2/5}t
-                  \end{array} \right.</m></p></li>
+                  \end{array} \right</m>. </p></li>
             </ol>
           </solution>
         </webwork>
@@ -1469,13 +1469,13 @@
           <solution>
             <ol>
               <li><p><m>\ell_x(t) = \left\{\begin{array}{l} x = \pi/3+t\\ y = \pi/6 \\ z = 3/4 -\frac{3\sqrt{3}}{4}t
-                  \end{array}  \right.</m></p></li>
+                  \end{array}  \right</m>. </p></li>
 
               <li><p><m>\ell_y(t) = \left\{\begin{array}{l} x = \pi/3\\ y = \pi/6 +t\\ z = 3/4 +\frac{3\sqrt{3}}{4}t
-                  \end{array}  \right.</m></p></li>
+                  \end{array}  \right</m>. </p></li>
 
               <li><p><m>\ell_{\vec u\,}(t) = \left\{\begin{array}{l} x = \pi/3+t/\sqrt{5}\\ y = \pi/6+2t/\sqrt{5} \\ z = 3/4 +\frac{3\sqrt{3/5}}{4}t
-                  \end{array}  \right.</m></p></li>
+                  \end{array}  \right</m>. </p></li>
             </ol>
           </solution>
         </webwork>
@@ -1495,13 +1495,13 @@
           <solution>
             <ol>
               <li><p><m>\ell_x(t) = \left\{\begin{array}{l} x = 4+t\\ y = 2 \\ z = 2 + 3t
-                  \end{array}  \right.</m></p></li>
+                  \end{array}  \right</m>. </p></li>
 
               <li><p><m>\ell_y(t) = \left\{\begin{array}{l} x = 4\\ y = 2+t\\ z = 2-5t
-                  \end{array}  \right.</m></p></li>
+                  \end{array}  \right</m>. </p></li>
 
               <li><p><m>\ell_{\vec u\,}(t) = \left\{\begin{array}{l} x = 4+t/\sqrt{2}\\ y = 2+t/\sqrt{2} \\ z = 2 -\sqrt{2}t
-                  \end{array}  \right.</m></p></li>
+                  \end{array}  \right</m>. </p></li>
             </ol>
           </solution>
         </webwork>
@@ -1521,13 +1521,13 @@
           <solution>
             <ol>
               <li><p><m>\ell_x(t) = \left\{\begin{array}{l} x = 1+t\\ y = 2 \\ z = 3
-                  \end{array}  \right.</m></p></li>
+                  \end{array}  \right</m>. </p></li>
 
               <li><p><m>\ell_y(t) = \left\{\begin{array}{l} x = 1\\ y = 2+t\\ z = 3
-                  \end{array}  \right.</m></p></li>
+                  \end{array}  \right</m>. </p></li>
 
               <li><p><m>\ell_{\vec u\,}(t) = \left\{\begin{array}{l} x = 1+t/\sqrt{2}\\ y = 2+t/\sqrt{2} \\ z = 3
-                  \end{array}  \right.</m></p></li>
+                  \end{array}  \right</m>. </p></li>
             </ol>
           </solution>
         </webwork>
@@ -1547,7 +1547,7 @@
           </statement>
           <solution>
             <p><m>\ell_{\vec n}(t) = \left\{\begin{array}{l} x=2-12t\\ y=3-40t \\ z = -48-t
-              \end{array} \right.</m></p>
+              \end{array} \right</m>. </p>
           </solution>
         </webwork>
       </exercise>
@@ -1565,7 +1565,7 @@
           </statement>
           <solution>
             <p><m>\ell_{\vec n}(t) = \left\{\begin{array}{l} x = \pi/3-\frac{3\sqrt{3}}{4}t\\ y = \pi/6+\frac{3\sqrt{3}}{4}t \\ z = 3/4 -t
-              \end{array}  \right.</m></p>
+              \end{array}  \right</m>. </p>
           </solution>
         </webwork>
       </exercise>
@@ -1583,7 +1583,7 @@
           </statement>
           <solution>
             <p><m>\ell_{\vec n}(t) = \left\{\begin{array}{l} x = 4+3t\\ y = 2-5t \\ z = 2 -t
-              \end{array}  \right.</m></p>
+              \end{array}  \right</m>. </p>
           </solution>
         </webwork>
       </exercise>
@@ -1601,7 +1601,7 @@
           </statement>
           <solution>
             <p><m>\ell_{\vec n}(t) = \left\{\begin{array}{l} x = 1\\ y = 2 \\ z = 3 -t
-              \end{array}  \right.</m></p>
+              \end{array}  \right</m>. </p>
           </solution>
         </webwork>
       </exercise>
@@ -1772,7 +1772,7 @@
 
             <ol>
               <li><p><m>\ell_{\vec n}(t) = \left\{\begin{array}{l} x= 1+ t/4 \\ y = \sqrt{2}+ \sqrt{2}t/2\\ z = \sqrt{6} + \sqrt{6}t/8
-                  \end{array} \right.</m></p></li>
+                  \end{array} \right</m>. </p></li>
 
               <li><p><m>\frac14(x-1) + \frac{\sqrt{2}}{2}(y-\sqrt{2}) + \frac{\sqrt{6}}8(z-\sqrt{6}) = 0</m>.</p></li>
             </ol>
@@ -1796,7 +1796,7 @@
 
             <ol>
               <li><p><m>\ell_{\vec n}(t) = \left\{\begin{array}{l} x= 4-2t \\ y = -3+ 2t/3\\ z = \sqrt{5} + 2\sqrt{5}t
-                  \end{array} \right.</m></p></li>
+                  \end{array} \right</m>. </p></li>
 
               <li><p><m>-2(x-4) + \frac23(y+3) + 2\sqrt{5}(z-\sqrt{5}) = 0</m>.</p></li>
             </ol>
@@ -1820,7 +1820,7 @@
 
             <ol>
               <li><p><m>\ell_{\vec n}(t) = \left\{\begin{array}{l} x= 2 \\ y = 1+4t\\ z = -1+4t
-                  \end{array} \right.</m></p></li>
+                  \end{array} \right</m>. </p></li>
 
               <li><p><m>4(y-1) + 4(z+1) = 0</m>.</p></li>
             </ol>
@@ -1844,7 +1844,7 @@
 
             <ol>
               <li><p><m>\ell_{\vec n}(t) = \left\{\begin{array}{l} x= 2 +\frac{\pi}{8\sqrt{3}}t\\ y = \frac{\pi}{12}-\sqrt{3}t\\ z = 4-\frac{\pi}{8\sqrt{3}}t
-                  \end{array} \right.</m></p></li>
+                  \end{array} \right</m>. </p></li>
 
               <li><p><m>\frac{\pi}{8\sqrt{3}}(x-2) -\sqrt{3}(y-\frac{\pi}{12}) -\frac{\pi}{8\sqrt{3}}(z-4) = 0</m>.</p></li>
             </ol>

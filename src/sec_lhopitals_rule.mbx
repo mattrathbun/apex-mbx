@@ -49,15 +49,15 @@
               </me>
             </p></li>
 
-          <li><p><m>\lim\limits_{x\to 1}\frac{\sqrt{x+3}-2}{1-x} 	 \stackrel{\ \text{ by LHR }  \ }{=} \lim_{x \to 1} \frac{\frac12(x+3)^{-1/2}}{-1} =-\frac 14.</m></p></li>
+          <li><p><m>\lim\limits_{x\to 1}\frac{\sqrt{x+3}-2}{1-x} 	 \stackrel{\ \text{ by LHR }  \ }{=} \lim_{x \to 1} \frac{\frac12(x+3)^{-1/2}}{-1} =-\frac 14</m>. </p></li>
 
-          <li><p><m>\lim\limits_{x\to 0}\frac{x^2}{1-\cos(x) }  \stackrel{\ \text{ by LHR }  \ }{=}  \lim_{x\to 0} \frac{2x}{\sin(x) }.</m> 
+          <li><p><m>\lim\limits_{x\to 0}\frac{x^2}{1-\cos(x) }  \stackrel{\ \text{ by LHR }  \ }{=}  \lim_{x\to 0} \frac{2x}{\sin(x) }</m>. 
 
               This latter limit also evaluates to the 0/0 indeterminate form. To evaluate it, we apply l'H&#xf4;pital's Rule again.
 
-               <m>\lim\limits_{x\to 0} \frac{2x}{\sin(x) }  \stackrel{\ \text{ by LHR }  \ }{=} \frac{2}{\cos(x) } = 2 .</m> 
+               <m>\lim\limits_{x\to 0} \frac{2x}{\sin(x) }  \stackrel{\ \text{ by LHR }  \ }{=} \frac{2}{\cos(x) } = 2</m>. 
 
-              Thus <m>\lim\limits_{x\to0}\frac{x^2}{1-\cos(x) }=2.</m></p></li>
+              Thus <m>\lim\limits_{x\to0}\frac{x^2}{1-\cos(x) }=2</m>. </p></li>
 
           <li><p>We already know how to evaluate this limit; first factor the numerator and denominator. We then have:
               <me>
@@ -100,7 +100,7 @@
       <statement>
         <p>Evaluate the following limits.</p>
 
-        <p><m>\ds 1.\ \lim_{x\to\infty} \frac{3x^2-100x+2}{4x^2+5x-1000} \qquad\qquad 2. \ \lim_{x\to \infty}\frac{e^x}{x^3}.</m></p>
+        <p><m>\ds 1.\ \lim_{x\to\infty} \frac{3x^2-100x+2}{4x^2+5x-1000} \qquad\qquad 2. \ \lim_{x\to \infty}\frac{e^x}{x^3}</m>. </p>
       </statement>
       <solution>
         <ol>
@@ -110,7 +110,7 @@
               </me>
             </p></li>
 
-          <li><p><m>\lim\limits_{x\to \infty}\frac{e^x}{x^3} \stackrel{\ \text{ by LHR }  \ }{=} \lim_{x\to\infty} \frac{e^x}{3x^2} \stackrel{\ \text{ by LHR }  \ }{=} \lim_{x\to\infty} \frac{e^x}{6x} \stackrel{\ \text{ by LHR }  \ }{=} \lim_{x\to\infty} \frac{e^x}{6} = \infty.</m>
+          <li><p><m>\lim\limits_{x\to \infty}\frac{e^x}{x^3} \stackrel{\ \text{ by LHR }  \ }{=} \lim_{x\to\infty} \frac{e^x}{3x^2} \stackrel{\ \text{ by LHR }  \ }{=} \lim_{x\to\infty} \frac{e^x}{6x} \stackrel{\ \text{ by LHR }  \ }{=} \lim_{x\to\infty} \frac{e^x}{6} = \infty</m>. 
 
               Recall that this means that the limit does not exist; as <m>x</m> approaches <m>\infty</m>, the expression <m>e^x/x^3</m> grows without bound. We can infer from this that <m>e^x</m> grows <q>faster</q> than <m>x^3</m>; as <m>x</m> gets large, <m>e^x</m> is far larger than <m>x^3</m>. (This has important implications in computing when considering efficiency of algorithms.)</p></li>
         </ol>
@@ -156,7 +156,7 @@
               <me>
                 \lim_{x\to\infty} \ln(x+1)-\ln(x) = \lim_{x\to \infty} \ln\left(\frac{x+1}x\right).
               </me>
-              As <m>x\rightarrow \infty</m>, the argument of the <m>\ln(<) /m> term approaches <m>\infty/\infty</m>, to which we can apply l'H&#xf4;pital's Rule.
+              As <m>x\rightarrow \infty</m>, the argument of the <m>\ln</m> term approaches <m>\infty/\infty</m>, to which we can apply l'H&#xf4;pital's Rule.
               <me>
                 \lim_{x\to\infty} \frac{x+1}x \stackrel{\ \text{ by LHR }  \ }{=} \frac11=1.
               </me>
@@ -170,12 +170,12 @@
               </me>
               Interpretation: since this limit evaluates to 0, it means that for large <m>x</m>, there is essentially no difference between <m>\ln(x+1)</m> and <m>\ln(x) </m>; their difference is essentially 0.</p></li>
 
-          <li><p>The limit <m>\lim\limits_{x\to\infty} x^2-e^x</m> initially returns the indeterminate form <m>\infty-\infty</m>. We can rewrite the expression by factoring out <m>x^2</m>; <m>\ds x^2-e^x = x^2\left(1-\frac{e^x}{x^2}\right).</m> We need to evaluate how <m>e^x/x^2</m> behaves as <m>x\rightarrow \infty</m>:
+          <li><p>The limit <m>\lim\limits_{x\to\infty} x^2-e^x</m> initially returns the indeterminate form <m>\infty-\infty</m>. We can rewrite the expression by factoring out <m>x^2</m>; <m>\ds x^2-e^x = x^2\left(1-\frac{e^x}{x^2}\right)</m>. We need to evaluate how <m>e^x/x^2</m> behaves as <m>x\rightarrow \infty</m>:
               <me>
                 \lim_{x\to\infty}\frac{e^x}{x^2} \stackrel{\ \text{ by LHR }  \ }{=} \lim_{x\to\infty} \frac{e^x}{2x} \stackrel{\ \text{ by LHR }  \ }{=} \lim_{x\to\infty} \frac{e^x}{2} = \infty.
               </me>
               Thus <m>\lim_{x\to\infty}x^2(1-e^x/x^2)</m> evaluates to <m>\infty\cdot(-\infty)</m>, which is not an indeterminate form; rather, <m>\infty\cdot(-\infty)</m> evaluates to <m>-\infty</m>. We conclude that 
-              <m>\lim\limits_{x\to\infty} x^2-e^x = -\infty.</m>
+              <m>\lim\limits_{x\to\infty} x^2-e^x = -\infty</m>. 
 
               Interpretation: as <m>x</m> gets large, the difference between <m>x^2</m> and <m>e^x</m> grows very large.</p></li>
         </ol>
@@ -190,7 +190,7 @@
     <insight xml:id="idea_LHR_power">
       <title>Evaluating Limits Involving Indeterminate Forms <m>0^0</m>, <m>1^\infty</m> and <m>\infty^0</m></title>
       <p>If <m>\lim\limits_{x\to c} \ln\big(f(x)\big) = L</m>,then
-        <m>\lim\limits_{x\to c} f(x) = \lim_{x\to c} e^{\ln(f(x))} = e^L.</m> <index><main>limit</main><sub>indeterminate form</sub></index><index><main>indeterminate form</main></index></p>
+        <m>\lim\limits_{x\to c} f(x) = \lim_{x\to c} e^{\ln(f(x))} = e^L</m>. <index><main>limit</main><sub>indeterminate form</sub></index><index><main>indeterminate form</main></index></p>
     </insight>
 
     <example xml:id="ex_LHR4">
@@ -198,7 +198,7 @@
       <statement>
         <p>Evaluate the following limits.</p>
 
-        <p><m>\ds 1. \lim_{x\to\infty} \left(1+\frac1x\right)^x \qquad\qquad 2. \lim_{x\to0^+} x^x.</m></p>
+        <p><m>\ds 1. \lim_{x\to\infty} \left(1+\frac1x\right)^x \qquad\qquad 2. \lim_{x\to0^+} x^x</m>. </p>
       </statement>
       <solution>
         <ol>
@@ -212,7 +212,7 @@
                 <mrow>\amp = \lim_{x\to\infty}\frac{1}{1+1/x}</mrow>
                 <mrow>\amp = 1.</mrow>
               </md>
-              Thus <m>\lim\limits_{x\to\infty} \ln\big(f(x)\big) = 1.</m> We return to the original limit and apply <xref ref="idea_LHR_power">Key Idea</xref>.
+              Thus <m>\lim\limits_{x\to\infty} \ln\big(f(x)\big) = 1</m>. We return to the original limit and apply <xref ref="idea_LHR_power">Key Idea</xref>.
               <me>
                 \lim_{x\to\infty}\left(1+\frac1x\right)^x = \lim_{x\to\infty} f(x) =  \lim_{x\to\infty}e^{\ln(f(x))} = e^1 = e.
               </me>
@@ -333,7 +333,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p>T/F: l'H&#xf4;pital's Rule states that <m>\ds \frac{d}{dx}\left[\frac{f(x)}{g(x)}\right] = \frac{\fp(x)}{g'(x)}.</m></p>
+            <p>T/F: l'H&#xf4;pital's Rule states that <m>\ds \frac{d}{dx}\left[\frac{f(x)}{g(x)}\right] = \frac{\fp(x)}{g'(x)}</m>. </p>
           </statement>
           <solution>
             <p>F</p>

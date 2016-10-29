@@ -202,7 +202,7 @@
           </md>
         </p>
 
-        <p>We performed 5 iterations of Newton's Method to find a root accurate to the first 3 places after the decimal; our final approximation is <m>1.465.</m> The exact value of the root, to six decimal places, is <m>1.465571</m>; It turns out that our <m>x_5</m> is accurate to more than just 3 decimal places.</p>
+        <p>We performed 5 iterations of Newton's Method to find a root accurate to the first 3 places after the decimal; our final approximation is <m>1.465</m>. The exact value of the root, to six decimal places, is <m>1.465571</m>; It turns out that our <m>x_5</m> is accurate to more than just 3 decimal places.</p>
 
         <p>A graph of <m>f(x)</m> is given in <xref ref="fig_newt2">Figure</xref>. We can see from the graph that our initial approximation of <m>x_0=1</m> was not particularly accurate; a closer guess would have been <m>x_0=1.5</m>. Our choice was based on ease of initial calculation, and shows that Newton's Method can be robust enough that we do not have to make a very accurate initial approximation.</p>
 

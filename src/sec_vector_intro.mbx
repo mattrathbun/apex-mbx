@@ -113,9 +113,9 @@
       <title>Component Form of a Vector</title>
       <statement>
         <ol>
-          <li><p>The <em>component form</em> of a vector <m>\vec{v}</m> in <m>\mathbb{R}^2</m>, whose terminal point is <m>(a,b)</m> when its initial point is <m>(0,0)</m>, is <m>\la a,b\ra.</m></p></li>
+          <li><p>The <em>component form</em> of a vector <m>\vec{v}</m> in <m>\mathbb{R}^2</m>, whose terminal point is <m>(a,b)</m> when its initial point is <m>(0,0)</m>, is <m>\la a,b\ra</m>. </p></li>
 
-          <li><p>The <em>component form</em> of a vector <m>\vec{v}</m> in <m>\mathbb{R}^3</m>, whose terminal point is <m>(a,b,c)</m> when its initial point is <m>(0,0,0)</m>, is <m>\la a,b,c\ra.</m></p></li>
+          <li><p>The <em>component form</em> of a vector <m>\vec{v}</m> in <m>\mathbb{R}^3</m>, whose terminal point is <m>(a,b,c)</m> when its initial point is <m>(0,0,0)</m>, is <m>\la a,b,c\ra</m>. </p></li>
         </ol>
 
         <p>The numbers <m>a</m>, <m>b</m> (and <m>c</m>, respectively) are the <term>components</term> of <m>\vec v</m>.
@@ -494,7 +494,7 @@
     <example xml:id="ex_vect4">
       <title>Vector Subtraction</title>
       <statement>
-        <p>Let <m>\vec u = \la 3,1\ra</m> and <m>\vec v=\la 1,2\ra.</m> Compute and sketch <m>\vec u-\vec v</m>.</p>
+        <p>Let <m>\vec u = \la 3,1\ra</m> and <m>\vec v=\la 1,2\ra</m>. Compute and sketch <m>\vec u-\vec v</m>.</p>
       </statement>
       <solution>
         <p>The computation of <m>\vec u-\vec v</m> is straightforward, and we show all steps below. Usually the formal step of multiplying by <m>(-1)</m> is omitted and we <q>just subtract.</q>
@@ -677,7 +677,7 @@
       </md>
     </p>
 
-    <p>So the vector of length 10 in the direction of <m>\vec v</m> is <m>\ds 10\frac{1}{\norm{\vec v}}\vec v.</m> An example will make this more clear.</p>
+    <p>So the vector of length 10 in the direction of <m>\vec v</m> is <m>\ds 10\frac{1}{\norm{\vec v}}\vec v</m>. An example will make this more clear.</p>
 
     <example xml:id="ex_vect5">
       <title>Using Unit Vectors</title>
@@ -1034,7 +1034,7 @@
           </men>
         </p>
 
-        <p>This is enough to determine <m>\vec F_c</m> already, as we know <m>m\cos(\varphi) = -5</m> and <m>m\sin(\varphi) =25</m>. Thus <m>F_c = \la -5,25\ra.</m> We can use this to find the magnitude <m>m</m>:
+        <p>This is enough to determine <m>\vec F_c</m> already, as we know <m>m\cos(\varphi) = -5</m> and <m>m\sin(\varphi) =25</m>. Thus <m>F_c = \la -5,25\ra</m>. We can use this to find the magnitude <m>m</m>:
           <me>
             m = \sqrt{(-5)^2+25^2} = 5\sqrt{26}\approx 25.5\text{ lb } .
           </me>

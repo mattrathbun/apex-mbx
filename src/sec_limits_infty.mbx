@@ -71,7 +71,7 @@
         </figure>
       </statement>
       <solution>
-        <p>In <xref ref="ex_no_limit2">Example</xref> of <xref ref="sec_limit_intro">Section</xref>, by inspecting values of <m>x</m> close to <m>1</m> we concluded that this limit does not exist. That is, it cannot equal any real number. But the limit could be infinite. And in fact, we see that the function does appear to be growing larger and larger, as <m>f(.99)=10^4</m>, <m>f(.999)=10^6</m>, <m>f(.9999)=10^8</m>. A similar thing happens on the other side of <m>1</m>. From the graph and the numeric information, we could state <m>\lim \limits_{x \to 1}1/(x-1)^2=\infty.</m> We can prove this by using <xref ref="def_limit_of_infinity">Definition </xref></p>
+        <p>In <xref ref="ex_no_limit2">Example</xref> of <xref ref="sec_limit_intro">Section</xref>, by inspecting values of <m>x</m> close to <m>1</m> we concluded that this limit does not exist. That is, it cannot equal any real number. But the limit could be infinite. And in fact, we see that the function does appear to be growing larger and larger, as <m>f(.99)=10^4</m>, <m>f(.999)=10^6</m>, <m>f(.9999)=10^8</m>. A similar thing happens on the other side of <m>1</m>. From the graph and the numeric information, we could state <m>\lim \limits_{x \to 1}1/(x-1)^2=\infty</m>. We can prove this by using <xref ref="def_limit_of_infinity">Definition </xref></p>
          <p>In general, let a <q>large</q> value <m>M</m> be given. Let <m>\delta=1/\sqrt{M}</m>. If <m>x</m> is within <m>\delta</m> of <m>1</m>, i.e., if <m>\abs{x-1}\lt 1/\sqrt{M}</m>, then:<md>
             <mrow>\abs{x-1} \amp \lt  \frac{1}{\sqrt{M}}</mrow>
             <mrow>(x-1)^2 \amp \lt  \frac{1}{M}</mrow>
@@ -228,7 +228,7 @@
         <p>Approximate the horizontal asymptote(s) of <m>f(x)=\frac{x^2}{x^2+4}</m>.</p>
       </statement>
       <solution>
-        <p>We will approximate the horizontal asymptotes by approximating the limits <m>\lim\limits_{x\to-\infty} \frac{x^2}{x^2+4}</m> and <m>\lim\limits_{x\to\infty} \frac{x^2}{x^2+4}.</m></p>
+        <p>We will approximate the horizontal asymptotes by approximating the limits <m>\lim\limits_{x\to-\infty} \frac{x^2}{x^2+4}</m> and <m>\lim\limits_{x\to\infty} \frac{x^2}{x^2+4}</m>. </p>
 
         <aside>
           <p>A rational function can have at most <em>one</em> horizontal asymptote. So we could get away with only taking <m>x \to \infty</m></p>.
@@ -1640,7 +1640,7 @@
           <statement>
             <p>Let <m>\ds f(x) = \left\{ \begin{array}{ccc} x^2-1 \amp  \amp  x \lt  3 \\
 																						x+5 \amp  \amp  x\geq 3
-              \end{array} \right.</m>.
+              \end{array} \right</m>. .
 													
               Is <m>f</m> continuous everywhere?</p>
           </statement>

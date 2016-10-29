@@ -16,7 +16,7 @@
     <example xml:id="ex_chain1">
       <title>Exploring similar derivatives</title>
       <statement>
-        <p>Find the derivatives of <m>F_1(x) = (1-x)^2</m>, <m>F_2(x) = (1-x)^3,</m> and <m>F_3(x) = (1-x)^4.</m> (We'll see later why we are using subscripts for different functions and an uppercase <m>F</m>.)</p>
+        <p>Find the derivatives of <m>F_1(x) = (1-x)^2</m>, <m>F_2(x) = (1-x)^3,</m> and <m>F_3(x) = (1-x)^4</m>. (We'll see later why we are using subscripts for different functions and an uppercase <m>F</m>.)</p>
       </statement>
       <solution>
         <p>In order to use the rules we already have, we must first expand each function as
@@ -24,7 +24,7 @@
 
         <p>It is not hard to see that:</p>
 
-        <p><m>F_1'(x) = -2 + 2x</m>,<m>F_2'(x) = -3 + 6x - 3x^2</m> and<m>F_3'(x) = -4 + 12x - 12x^2 + 4x^3.</m></p>
+        <p><m>F_1'(x) = -2 + 2x</m>,<m>F_2'(x) = -3 + 6x - 3x^2</m> and<m>F_3'(x) = -4 + 12x - 12x^2 + 4x^3</m>. </p>
 
         <p>An interesting fact is that these can be rewritten as
           <me>
@@ -74,7 +74,7 @@
           </me>
         </p>
 
-        <p>To find <m>y'</m>, we apply the Chain Rule. We need <m>\fp(x)=2x</m> and <m>g'(x)=-1.</m></p>
+        <p>To find <m>y'</m>, we apply the Chain Rule. We need <m>\fp(x)=2x</m> and <m>g'(x)=-1</m>. </p>
 
         <p>Part of the Chain Rule uses <m>\fp(g(x))</m>. This means substitute <m>g(x)</m> for <m>x</m> in the equation for <m>\fp(x)</m>. That is, <m>\fp(x) = 2(1-x)</m>. Finishing out the Chain Rule we have
           <me>
@@ -235,15 +235,15 @@
     <p>The following is a short list of how the Chain Rule can be quickly applied to familiar functions.</p>
 
     <ol cols="2" >
-      <li><p><m>\ds\frac{d}{dx}\Big(u^n\Big) = n\cdot u^{n-1}\cdot u'.</m></p></li>
+      <li><p><m>\ds\frac{d}{dx}\Big(u^n\Big) = n\cdot u^{n-1}\cdot u'</m>. </p></li>
 
-      <li><p><m>\ds\frac{d}{dx}\Big(e^u\Big) = u'\cdot e^u.</m></p></li>
+      <li><p><m>\ds\frac{d}{dx}\Big(e^u\Big) = u'\cdot e^u</m>. </p></li>
 
-      <li><p><m>\ds\frac{d}{dx}\Big(\sin(u) \Big) = u'\cdot \cos(u) .</m></p></li>
+      <li><p><m>\ds\frac{d}{dx}\Big(\sin(u) \Big) = u'\cdot \cos(u) </m>. </p></li>
 
-      <li><p><m>\ds\frac{d}{dx}\Big(\cos(u) \Big) = -u'\cdot \sin(u) .</m></p></li>
+      <li><p><m>\ds\frac{d}{dx}\Big(\cos(u) \Big) = -u'\cdot \sin(u) </m>. </p></li>
 
-      <li><p><m>\ds\frac{d}{dx}\Big(\tan(u) \Big) = u'\cdot \sec^2(u) .</m></p></li>
+      <li><p><m>\ds\frac{d}{dx}\Big(\tan(u) \Big) = u'\cdot \sec^2(u) </m>. </p></li>
     </ol>
 
     <p>Of course, the Chain Rule can be applied in conjunction with any of the other rules we have already learned. We practice this next.</p>
@@ -253,7 +253,7 @@
       <statement>
         <p>Find the derivatives of the following functions.</p>
 
-        <p>1. <m>f(x) = x^5 \sin(2x^3) </m> 2. <m>\ds f(x) = \frac{5x^3}{e^{-x^2}}.</m></p>
+        <p>1. <m>f(x) = x^5 \sin(2x^3) </m> 2. <m>\ds f(x) = \frac{5x^3}{e^{-x^2}}</m>. </p>
       </statement>
       <solution>
         <ol>
@@ -313,7 +313,7 @@
     <example xml:id="ex_chain5">
       <title>Using the Product, Quotient and Chain Rules</title>
       <statement>
-        <p>Find the derivative of <m>\ds f(x) = \frac{x\cos(x^{-2})-\sin^2(e^{4x})}{\ln(x^2+5x^4)}.</m></p>
+        <p>Find the derivative of <m>\ds f(x) = \frac{x\cos(x^{-2})-\sin^2(e^{4x})}{\ln(x^2+5x^4)}</m>. </p>
       </statement>
       <solution>
         <p>This function likely has no practical use outside of demonstrating derivative skills. The answer is given below without simplification. It employs the Quotient Rule, the Product Rule, and the Chain Rule three times.</p>
@@ -384,7 +384,7 @@
 
   <subsection>
     <title>Alternate Chain Rule Notation</title>
-    <p>It is instructive to understand what the Chain Rule <q>looks like</q> using <q><m>\frac{dy}{dx}</m></q> notation instead of <m>y'</m> notation. Suppose that <m>y=f(u)</m> is a function of <m>u</m>, where <m>u=g(x)</m> is a function of <m>x</m>, as stated in <xref ref="thm_chain_rule">Theorem</xref>. Then, through the composition <m>f \circ g</m>, we can think of <m>y</m> as a function of <m>x</m>, as <m>y=f(g(x))</m>. Thus the derivative of <m>y</m> with respect to <m>x</m> makes sense; we can talk about <m>\frac{dy}{dx}.</m> This leads to an interesting progression of notation:<index><main>Chain Rule</main><sub>notation</sub></index><index><main>derivative</main><sub>Chain Rule</sub></index>
+    <p>It is instructive to understand what the Chain Rule <q>looks like</q> using <q><m>\frac{dy}{dx}</m></q> notation instead of <m>y'</m> notation. Suppose that <m>y=f(u)</m> is a function of <m>u</m>, where <m>u=g(x)</m> is a function of <m>x</m>, as stated in <xref ref="thm_chain_rule">Theorem</xref>. Then, through the composition <m>f \circ g</m>, we can think of <m>y</m> as a function of <m>x</m>, as <m>y=f(g(x))</m>. Thus the derivative of <m>y</m> with respect to <m>x</m> makes sense; we can talk about <m>\frac{dy}{dx}</m>. This leads to an interesting progression of notation:<index><main>Chain Rule</main><sub>notation</sub></index><index><main>derivative</main><sub>Chain Rule</sub></index>
       <md>
         <mrow>y' \amp = \fp(g(x))\cdot g'(x)</mrow>
         <mrow>\frac{dy}{dx} \amp = $\ds y'(u) \cdot u'(x)$ \mbox{ (since \(y=f(u)\) and \(u=g(x)\))}</mrow>

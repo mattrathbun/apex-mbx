@@ -296,7 +296,7 @@
           <li>
             <p><xref ref="thm_continuous_functions">Theorem</xref> states that <m>f(x) = \tan(x)</m> is continuous <em>on its domain</em>. Its domain includes all real numbers except odd multiples of <m>\pi/2</m>. Thus <m>f(x) = \tan(x)</m> is continuous on<me>
               \ldots,\left(-\frac{3\pi}{2},-\frac{\pi}2\right),\left(-\frac{\pi}2,\frac{\pi}2\right),\left(\frac{\pi}2,\frac{3\pi}2\right),\ldots
-            </me>or, equivalently, on <m>D = \left\{x\in \mathbb{R}\mid x\neq (2n+1)\cdot \frac{\pi}2,\text{ where }n \text{ is an integer }  \right\}.</m></p>
+            </me>or, equivalently, on <m>D = \left\{x\in \mathbb{R}\mid x\neq (2n+1)\cdot \frac{\pi}2,\text{ where }n \text{ is an integer }  \right\}</m>. </p>
           </li>
 
           <li>

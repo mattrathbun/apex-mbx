@@ -32,7 +32,7 @@
       <statement>
         <p>Write out the first five terms of the following power series:</p>
 
-        <p><m>\ds 1.\ \sum_{n=0}^\infty x^n \qquad\qquad 2.\ \sum_{n=1}^\infty (-1)^{n+1}\frac{(x+1)^n}n\qquad\qquad 3.\ \sum_{n=0}^\infty (-1)^{n+1} \frac{(x-\pi)^{2n}}{(2n)!}.</m></p>
+        <p><m>\ds 1.\ \sum_{n=0}^\infty x^n \qquad\qquad 2.\ \sum_{n=1}^\infty (-1)^{n+1}\frac{(x+1)^n}n\qquad\qquad 3.\ \sum_{n=0}^\infty (-1)^{n+1} \frac{(x-\pi)^{2n}}{(2n)!}</m>. </p>
       </statement>
       <solution>
         <ol>
@@ -204,7 +204,7 @@
         <p>We find the derivative and indefinite integral of <m>f(x)</m>, following <xref ref="thm_calc_power_series">Theorem</xref>.</p>
 
         <ol>
-          <li><p><m>\ds \fp(x) = \sum_{n=1}^\infty nx^{n-1} = 1+2x+3x^2+4x^3+\cdots.</m>
+          <li><p><m>\ds \fp(x) = \sum_{n=1}^\infty nx^{n-1} = 1+2x+3x^2+4x^3+\cdots</m>. 
 
               In <xref ref="ex_ps1">Example</xref>, we recognized that <m>\ds \sum_{n=0}^\infty x^n</m> is a geometric series in <m>x</m>. We know that such a geometric series converges when <m>\abs{x}\lt 1</m>; that is, the interval of convergence is <m>(-1,1)</m>.
 

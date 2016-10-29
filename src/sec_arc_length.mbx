@@ -176,7 +176,7 @@
     </figure>
 
     <p><xref ref="fig_arcintro2">Figure</xref> zooms in on the <m>i^\text{ th }</m> subinterval where <m>y=f(x)</m> is approximated by a straight line segment. The dashed lines show that we can view this line segment as they hypotenuse of a right triangle whose sides have length <m>\dx_i</m> and <m>\dy_i</m>. Using the Pythagorean Theorem, the length of this line segment is
-      <m>\ds \sqrt{\dx_i^2 + \Delta y_i^2}.</m> Summing over all subintervals gives an arc length approximation
+      <m>\ds \sqrt{\dx_i^2 + \Delta y_i^2}</m>. Summing over all subintervals gives an arc length approximation
       <me>
         L \approx \sum_{i=1}^n \sqrt{\dx_i^2 + \Delta y_i^2}.
       </me>

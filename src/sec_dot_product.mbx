@@ -1178,7 +1178,7 @@
         <p>A man slides a box along a ramp that rises 3ft over a distance of 15ft by applying 50lb of force as shown in <xref ref="fig_dotp7">Figure</xref>. Compute the work done.</p>
       </statement>
       <solution>
-        <p>The figure indicates that the force applied makes a <m>30^\circ</m> angle with the horizontal, so <m>\vec F = 50\la \cos(30) ^\circ,\sin(30) ^\circ\ra \approx \la 43.3,25\ra.</m> The ramp is represented by <m>\vec d  = \la 15,3\ra</m>. The work done is simply
+        <p>The figure indicates that the force applied makes a <m>30^\circ</m> angle with the horizontal, so <m>\vec F = 50\la \cos(30) ^\circ,\sin(30) ^\circ\ra \approx \la 43.3,25\ra</m>. The ramp is represented by <m>\vec d  = \la 15,3\ra</m>. The work done is simply
           <me>
             \dotp Fd = 50\la \cos(30) ^\circ,\sin(30) ^\circ\ra \cdot \la 15,3\ra \approx 724.5 \text{ ft--lb } .
           </me>

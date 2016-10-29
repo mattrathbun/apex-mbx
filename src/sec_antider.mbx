@@ -94,7 +94,7 @@
     <example xml:id="ex_anti2">
       <title>Evaluating indefinite integrals</title>
       <statement>
-        <p>Evaluate <m>\displaystyle \int \sin(x) \ dx.</m></p>
+        <p>Evaluate <m>\displaystyle \int \sin(x) \ dx</m>. </p>
       </statement>
       <solution>
         <p>We are asked to find all functions <m>F(x)</m> such that <m>\Fp(x) = \sin(x) </m>. Some thought will lead us to one solution: <m>F(x) = -\cos(x) </m>, because <m>\frac{d}{dx}(-\cos(x) ) = \sin(x) </m>.</p>
@@ -348,7 +348,7 @@
           </me>
         </p>
 
-        <p>Using the initial value, we have found <m>\fp(t) = \sin(t) + 3.</m>
+        <p>Using the initial value, we have found <m>\fp(t) = \sin(t) + 3</m>. 
 		
           We now find <m>f(t)</m> by integrating again.
           <me>

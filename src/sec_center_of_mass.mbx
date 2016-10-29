@@ -804,10 +804,10 @@
 
         <ol>
           <li><p>The <em>moment about the <m>y</m>-axis</em>, <m>M_y</m>, is 
-	<m>\ds M_y = \sum_{i=1}^n m_ix_i.</m></p></li>
+	<m>\ds M_y = \sum_{i=1}^n m_ix_i</m>. </p></li>
 
           <li><p>The <em>moment about the <m>x</m>-axis</em>, <m>M_x</m>, is 
-	<m>\ds M_x = \sum_{i=1}^n m_iy_i.</m></p></li>
+	<m>\ds M_x = \sum_{i=1}^n m_iy_i</m>. </p></li>
         </ol>
       </statement>
     </definition>
@@ -1013,7 +1013,7 @@
           </md>
         </p>
 
-        <p>Thus the center of mass is <m>\ds (\overline{x},\overline{y}) = \left(\frac{M_y}M,\frac{M_x}M\right) = (1.5/3,1.5/3) = (0.5,0.5).</m> This is what we should have expected: the center of mass of a square with constant density is the center of the square.</p>
+        <p>Thus the center of mass is <m>\ds (\overline{x},\overline{y}) = \left(\frac{M_y}M,\frac{M_x}M\right) = (1.5/3,1.5/3) = (0.5,0.5)</m>. This is what we should have expected: the center of mass of a square with constant density is the center of the square.</p>
       </solution>
     </example>
 
@@ -1031,7 +1031,7 @@
           </md>
         </p>
 
-        <p>Thus the center of mass is <m>\ds (\overline{x},\overline{y}) = \left(\frac{M_y}M,\frac{M_x}M\right) = \left(\frac{19}{36},\frac{19}{36}\right) \approx (0.528,0.528).</m> While the mass of this lamina is the same as the lamina in the previous example, the greater density found with greater <m>x</m> and <m>y</m> values pulls the center of mass from the center slightly towards the upper righthand corner.</p>
+        <p>Thus the center of mass is <m>\ds (\overline{x},\overline{y}) = \left(\frac{M_y}M,\frac{M_x}M\right) = \left(\frac{19}{36},\frac{19}{36}\right) \approx (0.528,0.528)</m>. While the mass of this lamina is the same as the lamina in the previous example, the greater density found with greater <m>x</m> and <m>y</m> values pulls the center of mass from the center slightly towards the upper righthand corner.</p>
       </solution>
     </example>
 
@@ -1042,7 +1042,7 @@
       </statement>
       <solution>
         <p>As done in <xref ref="ex_mass3">Example</xref>, it is best to describe <m>R</m> using polar coordinates.
-          Thus when we compute <m>M_y</m>, we will integrate not <m>x\delta(x,y) = x(x^2+y^2+1)</m>, but rather <m>\big(r\cos(\theta) \big)\delta(r\cos(\theta) ,r\sin(\theta) ) = \big(r\cos(\theta) \big)\big(r^2+1\big).</m> We compute <m>M</m>, <m>M_x</m> and <m>M_y</m>:
+          Thus when we compute <m>M_y</m>, we will integrate not <m>x\delta(x,y) = x(x^2+y^2+1)</m>, but rather <m>\big(r\cos(\theta) \big)\delta(r\cos(\theta) ,r\sin(\theta) ) = \big(r\cos(\theta) \big)\big(r^2+1\big)</m>. We compute <m>M</m>, <m>M_x</m> and <m>M_y</m>:
           <md>
             <mrow>M \amp = \int_0^{2\pi}\int_0^2 (r^2+1)r\ dr\ d\theta = 12\pi\approx 37.7\text{ lb } .</mrow>
             <mrow>M_x \amp = \int_0^{2\pi}\int_0^2 (r\sin(\theta) )(r^2+1)r \ dr\ d\theta = 0.</mrow>
@@ -1121,7 +1121,7 @@
           <!-- figures/fig_mass9.tex END -->
         </figure>
 
-        <p>Thus the center of mass is <m>(\overline{x},\overline{y}) = \left(0,\frac{364}{33\pi}\right) \approx (0,3.51).</m> The center of mass is indicated in <xref ref="fig_mass9">Figure</xref>; note how it lies outside of <m>R</m>!</p>
+        <p>Thus the center of mass is <m>(\overline{x},\overline{y}) = \left(0,\frac{364}{33\pi}\right) \approx (0,3.51)</m>. The center of mass is indicated in <xref ref="fig_mass9">Figure</xref>; note how it lies outside of <m>R</m>!</p>
       </solution>
     </example>
 

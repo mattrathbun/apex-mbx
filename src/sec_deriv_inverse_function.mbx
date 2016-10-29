@@ -50,7 +50,7 @@
       <!-- figures/fig_inverse1.tex END -->
     </figure>
 
-    <p>For example, consider <xref ref="fig_inverse2">Figure</xref> where the tangent line to <m>f</m> at the point <m>(a,b)</m> is drawn. That line has slope <m>\fp(a)</m>. Through reflection across <m>y=x</m>, we can see that the tangent line to <m>g</m> at the point <m>(b,a)</m> should have slope <m>\ds \frac{1}{\fp(a)}</m>. This then tells us that <m>\ds g'(b) = \frac{1}{\fp(a)}.</m></p>
+    <p>For example, consider <xref ref="fig_inverse2">Figure</xref> where the tangent line to <m>f</m> at the point <m>(a,b)</m> is drawn. That line has slope <m>\fp(a)</m>. Through reflection across <m>y=x</m>, we can see that the tangent line to <m>g</m> at the point <m>(b,a)</m> should have slope <m>\ds \frac{1}{\fp(a)}</m>. This then tells us that <m>\ds g'(b) = \frac{1}{\fp(a)}</m>. </p>
 
     <figure xml:id="fig_inverse2" >
       <caption>Corresponding tangent lines drawn to <m>f</m> and <m>f^{-1}</m>.</caption>

@@ -543,7 +543,7 @@
 
         </figure>
 
-        <p>It is straightforward to show that the circle <m>(x-1)^2+y^2=1</m> has polar equation <m>r=2\cos(\theta) </m>, and that the circle <m>(x-2)^2+y^2=4</m> has polar equation <m>r=4\cos(\theta) </m>. Each of these circles is traced out on the interval <m>0\leq\theta\leq\pi</m>. The bounds on <m>r</m> are <m>2\cos(\theta) \leq r\leq 4\cos(\theta) .</m></p>
+        <p>It is straightforward to show that the circle <m>(x-1)^2+y^2=1</m> has polar equation <m>r=2\cos(\theta) </m>, and that the circle <m>(x-2)^2+y^2=4</m> has polar equation <m>r=4\cos(\theta) </m>. Each of these circles is traced out on the interval <m>0\leq\theta\leq\pi</m>. The bounds on <m>r</m> are <m>2\cos(\theta) \leq r\leq 4\cos(\theta) </m>. </p>
 
         <p>Replacing <m>x</m> with <m>r\cos(\theta) </m> in the integrand, along with replacing <m>y</m> with <m>r\sin(\theta) </m>, prepares us to evaluate the double integral <m>\iint_Rf(x,y)\ dA</m>:
           <md>

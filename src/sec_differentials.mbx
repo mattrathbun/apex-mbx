@@ -13,7 +13,7 @@
 
     <p>The tangent line can be used to find good approximations of <m>f(x)</m> for values of <m>x</m> near <m>c</m>.</p>
 
-    <p>For instance, we can approximate <m>\sin(1.1) </m> using the tangent line to the graph of <m>f(x)=\sin(x) </m> at <m>x=\pi/3 \approx 1.05.</m> Recall that <m>\sin(\pi/3) = \sqrt{3}/2 \approx 0.866</m>, and <m>\cos(\pi/3) = 1/2</m>. Thus the tangent line to <m>f(x) = \sin(x) </m> at <m>x=\pi/3</m> is:
+    <p>For instance, we can approximate <m>\sin(1.1) </m> using the tangent line to the graph of <m>f(x)=\sin(x) </m> at <m>x=\pi/3 \approx 1.05</m>. Recall that <m>\sin(\pi/3) = \sqrt{3}/2 \approx 0.866</m>, and <m>\cos(\pi/3) = 1/2</m>. Thus the tangent line to <m>f(x) = \sin(x) </m> at <m>x=\pi/3</m> is:
       <me>
         \ell(x) = \frac12(x-\pi/3)+0.866.
       </me>
@@ -205,13 +205,13 @@
           </md>
         </p>
 
-        <p>We expect the <m>y</m> value to change by about <m>0.6</m>, so we approximate <m>f(3.1) \approx 9.6.</m></p>
+        <p>We expect the <m>y</m> value to change by about <m>0.6</m>, so we approximate <m>f(3.1) \approx 9.6</m>. </p>
 
         <p>We leave it to the reader to verify this, but the preceding discussion links the differential to the tangent line of <m>f(x)</m> at <m>x=3</m>. One can verify that the tangent line, evaluated at <m>x=3.1</m>, also gives <m>y=9.6</m>.</p>
       </solution>
     </example>
 
-    <p>Of course, it is easy to compute the actual answer (by hand or with a calculator): <m>3.1^2 = 9.61.</m> (Before we get too cynical and say <q>Then why bother?</q>, note our approximation is <em>really</em> good!)</p>
+    <p>Of course, it is easy to compute the actual answer (by hand or with a calculator): <m>3.1^2 = 9.61</m>. (Before we get too cynical and say <q>Then why bother?</q>, note our approximation is <em>really</em> good!)</p>
 
     <p>So why bother?</p>
 
@@ -235,7 +235,7 @@
           </me>
         </p>
 
-        <p>The approximate change in <m>f</m> from <m>x=4</m> to <m>x=4.5</m> is <m>0.125</m>, so we approximate <m>\sqrt{4.5} \approx 2.125.</m></p>
+        <p>The approximate change in <m>f</m> from <m>x=4</m> to <m>x=4.5</m> is <m>0.125</m>, so we approximate <m>\sqrt{4.5} \approx 2.125</m>. </p>
       </solution>
     </example>
 
@@ -272,7 +272,7 @@
 
           <li><p><m>y = \sqrt{x^2+3x-1}</m>: 	Let <m>f(x) = \sqrt{x^2+3x-1}</m>; we need <m>\fp(x)</m>, requiring the Chain Rule.
 
-              We have <m>\ds \fp(x) = \frac{1}{2}(x^2+3x-1)^{-\frac12}(2x+3) = \frac{2x+3}{2\sqrt{x^2+3x-1}}.</m> Thus
+              We have <m>\ds \fp(x) = \frac{1}{2}(x^2+3x-1)^{-\frac12}(2x+3) = \frac{2x+3}{2\sqrt{x^2+3x-1}}</m>. Thus
               <me>
                 dy = \frac{(2x+3)dx}{2\sqrt{x^2+3x-1}}.
               </me>

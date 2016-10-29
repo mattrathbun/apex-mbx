@@ -290,7 +290,7 @@
 
   <subsection>
     <title>Polar Functions and Polar Graphs</title>
-    <p>Defining a new coordinate system allows us to create a new kind of function, a <em>polar function.</em> Rectangular coordinates lent themselves well to creating functions that related <m>x</m> and <m>y</m>, such as <m>y=x^2.</m> Polar coordinates allow us to create functions that relate <m>r</m> and <m>\theta</m>. Normally these functions look like <m>r=f(\theta)</m>, although we can create functions of the form <m>\theta = f(r)</m>. The following examples introduce us to this concept.<index><main>polar</main><sub>functions</sub></index><index><main>polar</main><sub>functions!graphing</sub></index></p>
+    <p>Defining a new coordinate system allows us to create a new kind of function, a <em>polar function.</em> Rectangular coordinates lent themselves well to creating functions that related <m>x</m> and <m>y</m>, such as <m>y=x^2</m>. Polar coordinates allow us to create functions that relate <m>r</m> and <m>\theta</m>. Normally these functions look like <m>r=f(\theta)</m>, although we can create functions of the form <m>\theta = f(r)</m>. The following examples introduce us to this concept.<index><main>polar</main><sub>functions</sub></index><index><main>polar</main><sub>functions!graphing</sub></index></p>
 
     <example xml:id="ex_polar3">
       <title>Introduction to Graphing Polar Functions</title>
@@ -721,7 +721,7 @@
     </example>
 
     <p>Some curves have very simple polar equations but rather complicated rectangular ones. For instance, the equation <m>r=1+\cos(\theta) </m> describes a <em>cardiod</em> (a shape important the sensitivity of microphones, among other things; one is graphed in the gallery in the Lima&#xe7;on section). It's rectangular form is not nearly as simple; it is the implicit equation
-      <m>x^4+y^4+2x^2y^2-2xy^2-2x^3-y^2=0.</m> The conversion is not <q>hard,</q> but takes several steps, and is left as a problem in the Exercise section.</p>
+      <m>x^4+y^4+2x^2y^2-2xy^2-2x^3-y^2=0</m>. The conversion is not <q>hard,</q> but takes several steps, and is left as a problem in the Exercise section.</p>
 
     <p><em> Gallery of Polar Curves</em></p>
 
@@ -1355,7 +1355,7 @@
 
         <p>There is yet another point of intersection: the pole (or, the origin). We did not recognize this intersection point using our work above as each graph arrives at the pole at a different <m>\theta</m> value.</p>
 
-        <p>A graph intersects the pole when <m>r=0</m>. Considering the circle <m>r=\cos(\theta) </m>, <m>r=0</m> when <m>\theta = \pi/2</m> (and odd multiples thereof, as the circle is repeatedly traced). The lima&#xe7;on intersects the pole when <m>1+3\cos(\theta) =0</m>; this occurs when <m>\cos(\theta) = -1/3</m>, or for <m>\theta = \cos^{-1}(-1/3)</m>. This is a nonstandard angle, approximately <m>\theta = 1.9106 = 109.47^\circ</m>. The lima&#xe7;on intersects the pole twice in <m>[0,2\pi]</m>; the other angle at which the lima&#xe7;on is at the pole is the reflection of the first angle across the <m>x</m>-axis. That is, <m>\theta = 4.3726 = 250.53^\circ.</m></p>
+        <p>A graph intersects the pole when <m>r=0</m>. Considering the circle <m>r=\cos(\theta) </m>, <m>r=0</m> when <m>\theta = \pi/2</m> (and odd multiples thereof, as the circle is repeatedly traced). The lima&#xe7;on intersects the pole when <m>1+3\cos(\theta) =0</m>; this occurs when <m>\cos(\theta) = -1/3</m>, or for <m>\theta = \cos^{-1}(-1/3)</m>. This is a nonstandard angle, approximately <m>\theta = 1.9106 = 109.47^\circ</m>. The lima&#xe7;on intersects the pole twice in <m>[0,2\pi]</m>; the other angle at which the lima&#xe7;on is at the pole is the reflection of the first angle across the <m>x</m>-axis. That is, <m>\theta = 4.3726 = 250.53^\circ</m>. </p>
       </solution>
     </example>
 

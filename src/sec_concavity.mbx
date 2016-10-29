@@ -596,7 +596,7 @@
         <p>Let <m>f(x)=100/x + x</m>. Find the critical points of <m>f</m> and use the Second Derivative Test to label them as relative maxima or minima.</p>
       </statement>
       <solution>
-        <p>We find <m>\fp(x)=-100/x^2+1</m> and <m>\fpp(x) = 200/x^3.</m> We set <m>\fp(x)=0</m> and solve for <m>x</m> to find the critical values (note that \fp<nbsp />is not defined at <m>x=0</m>, but neither is <m>f</m> so this is not a critical value.) We find the critical values are <m>x=\pm 10</m>. Evaluating \fpp<nbsp />at <m>x=10</m> gives <m>0.1>0</m>, so there is a local minimum at <m>x=10</m>. Evaluating <m>\fpp(-10)=-0.1\lt 0</m>, determining a relative maximum at <m>x=-10</m>. These results are confirmed in <xref ref="fig_conc4">Figure</xref>.</p>
+        <p>We find <m>\fp(x)=-100/x^2+1</m> and <m>\fpp(x) = 200/x^3</m>. We set <m>\fp(x)=0</m> and solve for <m>x</m> to find the critical values (note that \fp<nbsp />is not defined at <m>x=0</m>, but neither is <m>f</m> so this is not a critical value.) We find the critical values are <m>x=\pm 10</m>. Evaluating \fpp<nbsp />at <m>x=10</m> gives <m>0.1>0</m>, so there is a local minimum at <m>x=10</m>. Evaluating <m>\fpp(-10)=-0.1\lt 0</m>, determining a relative maximum at <m>x=-10</m>. These results are confirmed in <xref ref="fig_conc4">Figure</xref>.</p>
       </solution>
     </example>
 

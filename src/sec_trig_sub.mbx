@@ -157,10 +157,10 @@
     <example xml:id="ex_trigsub3">
       <title>Using Trigonometric Substitution</title>
       <statement>
-        <p>Evaluate <m>\ds \int \frac{1}{\sqrt{5+x^2}}\ dx.</m></p>
+        <p>Evaluate <m>\ds \int \frac{1}{\sqrt{5+x^2}}\ dx</m>. </p>
       </statement>
       <solution>
-        <p>Using <xref ref="idea_trigsub">Key Idea</xref>(b), we recognize <m>a=\sqrt{5}</m> and set <m>x= \sqrt{5}\tan(\theta) </m>. This makes <m>dx = \sqrt{5}\sec^2(\theta) \ d\theta</m>. We will use the fact that <m>\sqrt{5+x^2} = \sqrt{5+5\tan^2(\theta) } = \sqrt{5\sec^2(\theta) } = \sqrt{5}\sec(\theta) .</m> Substituting, we have:
+        <p>Using <xref ref="idea_trigsub">Key Idea</xref>(b), we recognize <m>a=\sqrt{5}</m> and set <m>x= \sqrt{5}\tan(\theta) </m>. This makes <m>dx = \sqrt{5}\sec^2(\theta) \ d\theta</m>. We will use the fact that <m>\sqrt{5+x^2} = \sqrt{5+5\tan^2(\theta) } = \sqrt{5\sec^2(\theta) } = \sqrt{5}\sec(\theta) </m>. Substituting, we have:
           <md>
             <mrow>\int \frac{1}{\sqrt{5+x^2}}\ dx \amp = \int \frac{1}{\sqrt{5+5\tan^2(\theta) }}\sqrt{5}\sec^2(\theta) \ d\theta</mrow>
             <mrow>\amp = \int \frac{\sqrt{5}\sec^2(\theta) }{\sqrt{5}\sec(\theta) } \ d\theta</mrow>
@@ -297,7 +297,7 @@
           </md>
         </p>
 
-        <p>Since <m>x=\tan(\theta) </m>, <m>\theta = \tan^{-1}(x) </m>, and we conclude that <m>\ds \int\frac1{x^2+1}\ dx = \tan^{-1}(x) +C.</m></p>
+        <p>Since <m>x=\tan(\theta) </m>, <m>\theta = \tan^{-1}(x) </m>, and we conclude that <m>\ds \int\frac1{x^2+1}\ dx = \tan^{-1}(x) +C</m>. </p>
       </solution>
     </example>
 
@@ -306,7 +306,7 @@
     <example xml:id="ex_trigsub7">
       <title>Using Trigonometric Substitution</title>
       <statement>
-        <p>Evaluate <m>\ds\int\frac1{(x^2+6x+10)^2}\ dx.</m></p>
+        <p>Evaluate <m>\ds\int\frac1{(x^2+6x+10)^2}\ dx</m>. </p>
       </statement>
       <solution>
         <p>We start by completing the square, then make the substitution <m>u=x+3</m>, followed by the trigonometric substitution of <m>u=\tan(\theta) </m>:
@@ -389,7 +389,7 @@
 
         <li><p><m>\ds \int \sec^3(\theta) \ d\theta = \frac12\Big(\sec(\theta) \tan(\theta) + \ln\abs{\sec(\theta) +\tan(\theta) }\Big)+C</m></p></li>
 
-        <li><p><m>\ds \int \cos^2(\theta) \ d\theta = \int \frac12\big(1+\cos(2\theta)\big)\ d\theta = \frac12\big(\theta+\sin(\theta) \cos(\theta) \big)+C.</m></p></li>
+        <li><p><m>\ds \int \cos^2(\theta) \ d\theta = \int \frac12\big(1+\cos(2\theta)\big)\ d\theta = \frac12\big(\theta+\sin(\theta) \cos(\theta) \big)+C</m>. </p></li>
       </ol>
     </insight>
 
@@ -447,7 +447,7 @@
             <ol>
               <li><p>What identity is obtained when both sides are divided by <m>\cos^2(\theta) </m>?</p></li>
 
-              <li><p>Use the new identity to simplify <m>9\tan^2(\theta) + 9.</m></p></li>
+              <li><p>Use the new identity to simplify <m>9\tan^2(\theta) + 9</m>. </p></li>
             </ol>
           </statement>
           <solution>

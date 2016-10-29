@@ -163,7 +163,7 @@
           </me>
         </p>
 
-        <p>When <m>t=0</m>, we have <m>\vec T(0) = \la -1/\sqrt{2},1/\sqrt{2}\ra</m>; when <m>t=1</m>, we have <m>\vec T(1) = \la 1/\sqrt{10}, 3/\sqrt{10}\ra.</m> We leave it to the reader to verify each of these is a unit vector. They are plotted in <xref ref="fig_tannorm2">Figure</xref></p>
+        <p>When <m>t=0</m>, we have <m>\vec T(0) = \la -1/\sqrt{2},1/\sqrt{2}\ra</m>; when <m>t=1</m>, we have <m>\vec T(1) = \la 1/\sqrt{10}, 3/\sqrt{10}\ra</m>. We leave it to the reader to verify each of these is a unit vector. They are plotted in <xref ref="fig_tannorm2">Figure</xref></p>
 
         <figure xml:id="fig_tannorm2" >
           <caption>Plotting unit tangent vectors in <xref ref="ex_tannorm2">Example</xref>.</caption>
@@ -970,7 +970,7 @@
             <p><m>\ell(t) = \la 2,0\ra + t\la 4/\sqrt{17},1/\sqrt{17}\ra</m>; in parametric form,</p>
 
             <p><m>\ell(t) = \left\{\begin{array}{ccc} x\amp =\amp 2+4t/\sqrt{17} \\ y \amp =\amp  t/\sqrt{17}
-              \end{array} \right.</m></p>
+              \end{array} \right</m>. </p>
           </solution>
         </webwork>
       </exercise>
@@ -990,7 +990,7 @@
             <p><m>\ell(t) = \la \pi/4,\sqrt{2}/{2}\ra + t\la \sqrt{2/3},-1/\sqrt{3}\ra</m>; in parametric form,</p>
 
             <p><m>\ell(t) = \left\{\begin{array}{ccc} x\amp =\amp \pi/4+\sqrt{2/3}t \\ y \amp =\amp  \sqrt{2}/2-t/\sqrt{3}
-              \end{array} \right.</m></p>
+              \end{array} \right</m>. </p>
           </solution>
         </webwork>
       </exercise>
@@ -1010,7 +1010,7 @@
             <p><m>\ell(t) = \la \sqrt{2}/4,\sqrt{2}/4\ra + t\la -\sqrt{2}/2,\sqrt{2}/2\ra</m>; in parametric form,</p>
 
             <p><m>\ell(t) = \left\{\begin{array}{ccc} x\amp =\amp \sqrt{2}/4-\sqrt{2}t/2 \\ y \amp =\amp  \sqrt{2}/4+\sqrt{2}t/2
-              \end{array} \right.</m></p>
+              \end{array} \right</m>. </p>
           </solution>
         </webwork>
       </exercise>
@@ -1030,7 +1030,7 @@
             <p><m>\ell(t) = \la -1,0\ra + t\la 0,-1\ra</m>; in parametric form,</p>
 
             <p><m>\ell(t) = \left\{\begin{array}{ccc} x\amp =\amp -1 \\ y \amp =\amp  -t
-              \end{array} \right.</m></p>
+              \end{array} \right</m>. </p>
           </solution>
         </webwork>
       </exercise>

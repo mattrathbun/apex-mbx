@@ -252,7 +252,7 @@
     <example xml:id="ex_sub6">
       <title>Integration by substitution: antiderivatives of <m>\tan(x) </m></title>
       <statement>
-        <p>Evaluate <m>\ds \int \tan(x) \ dx.</m></p>
+        <p>Evaluate <m>\ds \int \tan(x) \ dx</m>. </p>
       </statement>
       <solution>
         <p>The previous paragraph established that we did not know the antiderivatives of tangent, hence we must assume that we have learned something in this section that can help us evaluate this indefinite integral.</p>

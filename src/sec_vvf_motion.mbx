@@ -530,7 +530,7 @@
     <p>An important application of vector<ndash />valued position functions is <em>projectile motion</em>: the motion of objects under only the influence of gravity. We will measure time in seconds, and distances will either be in meters or feet. We will show that we can completely describe the path of such an object knowing its initial position and initial velocity (i.e., where it <em>is</em> and where it <em>is going.</em>)
       <index><main>vector<ndash />valued function</main><sub>projectile motion</sub></index><index><main>projectile motion</main></index></p>
 
-    <p>Suppose an object has initial position <m>\vec r(0) = \la x_0,y_0\ra</m> and initial velocity <m>\vec v(0) = \la v_x,v_y\ra</m>. It is customary to rewrite <m>\vec v(0)</m> in terms of its speed <m>v_0</m> and direction <m>\vec u</m>, where <m>\vec u</m> is a unit vector. Recall all unit vectors in <m>\mathbb{R}^2</m> can be written as <m>\la \cos(\theta) ,\sin(\theta) \ra</m>, where <m>\theta</m> is an angle measure counter<ndash />clockwise from the <m>x</m>-axis. (We refer to <m>\theta</m> as the <em>angle of elevation.</em><index><main>angle of elevation</main></index>) Thus <m>\vec v(0) = v_0\la \cos(\theta) ,\sin(\theta) \ra.</m></p>
+    <p>Suppose an object has initial position <m>\vec r(0) = \la x_0,y_0\ra</m> and initial velocity <m>\vec v(0) = \la v_x,v_y\ra</m>. It is customary to rewrite <m>\vec v(0)</m> in terms of its speed <m>v_0</m> and direction <m>\vec u</m>, where <m>\vec u</m> is a unit vector. Recall all unit vectors in <m>\mathbb{R}^2</m> can be written as <m>\la \cos(\theta) ,\sin(\theta) \ra</m>, where <m>\theta</m> is an angle measure counter<ndash />clockwise from the <m>x</m>-axis. (We refer to <m>\theta</m> as the <em>angle of elevation.</em><index><main>angle of elevation</main></index>) Thus <m>\vec v(0) = v_0\la \cos(\theta) ,\sin(\theta) \ra</m>. </p>
 
     <p>Since the acceleration of the object is known, namely <m>\vat = \la 0,-g\ra</m>, where <m>g</m> is the gravitational constant, we can find <m>\vrt</m> knowing our two initial conditions. We first find <m>\vvt</m>:</p>
 
@@ -1302,7 +1302,7 @@
       <ol>
         <li>
           <title>(a)</title>
-          <p>Show that the positions are the same at the indicated <m>t_0</m> and <m>s_0</m> values; i.e., show <m>\vec r_1(t_0) = \vec r_2(s_0).</m></p></li>
+          <p>Show that the positions are the same at the indicated <m>t_0</m> and <m>s_0</m> values; i.e., show <m>\vec r_1(t_0) = \vec r_2(s_0)</m>. </p></li>
 
         <li>
           <title>(b)</title>

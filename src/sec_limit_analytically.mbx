@@ -103,7 +103,7 @@
           </li>
 
           <li>
-            <p>Using the <xref ref="scalar-multiple-limit-rule" autoname="title" />, <xref ref="sum-difference-limit-rule" autoname="title" />, and <xref ref="power-limit-rule" autoname="title" /> rules, we find that <m>\lim\limits_{x\to 2}(5f(x) + g(x)^2) = 5\cdot 2 + 3^2 = 19.</m></p>
+            <p>Using the <xref ref="scalar-multiple-limit-rule" autoname="title" />, <xref ref="sum-difference-limit-rule" autoname="title" />, and <xref ref="power-limit-rule" autoname="title" /> rules, we find that <m>\lim\limits_{x\to 2}(5f(x) + g(x)^2) = 5\cdot 2 + 3^2 = 19</m>. </p>
           </li>
 
           <li>
@@ -265,7 +265,7 @@
           </li>
 
           <li>
-            <p>Again, we can approach this in two ways. First, we can use the exponential/logarithmic identity that <m>e^{\ln(x)} = x</m> and evaluate <m>\lim\limits_{x\to 1} e^{\ln(x)} = \lim_\limits{x\to 1} x = 1.</m></p>
+            <p>Again, we can approach this in two ways. First, we can use the exponential/logarithmic identity that <m>e^{\ln(x)} = x</m> and evaluate <m>\lim\limits_{x\to 1} e^{\ln(x)} = \lim_\limits{x\to 1} x = 1</m>. </p>
             <p>We can also use the <xref ref="composition-limit-rule" autoname="title" /> rule. Using <xref ref="thm_lim_continuous">Theorem</xref>, we have <m>\lim\limits_{x\to 1}\ln(x) = \ln(1) = 0</m> and <m>\lim_{x\to 0} e^x= e^0=1</m>, satisfying the conditions of the <xref ref="composition-limit-rule" autoname="title" /> rule. Applying this rule,
               <me>
                 \lim_{x\to 1} e^{\ln(x)} = e^{\lim_{x\to 1} \ln(x)}=e^{\ln(1)}  = e^0 = 1.
@@ -617,12 +617,12 @@
       </solution>
     </example>
 
-    <p>We end this section by revisiting a limit first seen in <xref ref="sec_limit_intro">Section</xref>, a limit of a difference quotient. Let <m>f(x) = -1.5x^2+11.5x</m>; we approximated the limit <m>\lim\limits_{h\to 0}\frac{f(1+h)-f(1)}{h}\approx 8.5.</m> We formally evaluate this limit in the following example.</p>
+    <p>We end this section by revisiting a limit first seen in <xref ref="sec_limit_intro">Section</xref>, a limit of a difference quotient. Let <m>f(x) = -1.5x^2+11.5x</m>; we approximated the limit <m>\lim\limits_{h\to 0}\frac{f(1+h)-f(1)}{h}\approx 8.5</m>. We formally evaluate this limit in the following example.</p>
 
     <example xml:id="ex_limit_diffquot">
       <title>Evaluating the limit of a difference quotient</title>
       <statement>
-        <p>Let <m>f(x) = -1.5x^2+11.5x</m>; find <m>\lim\limits_{h\to 0}\frac{f(1+h)-f(1)}{h}.</m></p>
+        <p>Let <m>f(x) = -1.5x^2+11.5x</m>; find <m>\lim\limits_{h\to 0}\frac{f(1+h)-f(1)}{h}</m>. </p>
       </statement>
       <solution>
         <p>Since <m>f</m> is a polynomial, our first attempt should be to employ <xref ref="thm_lim_continuous">Theorem</xref> and substitute <m>0</m> for <m>h</m>. However, we see that this gives us <q><m>0/0</m>.</q> Knowing that we have a rational function hints that some algebra will help. Consider the following steps:
@@ -1222,7 +1222,7 @@
       </exercise>
 
       <exercise>
-        <title><m>\log(<) /m></title>
+        <title><m>\log</m></title>
         <webwork seed="1">
           <setup>
             <var name="$answer" category="number">
@@ -1238,7 +1238,7 @@
             <p><var name="$L" width="20" /></p>
           </statement>
           <solution>
-            <p>This limit does not exist for at least two reasons. For one reason, <m>\ln(x)</m> can be arbitrarily large negative if you allow <m>x</m> to be positive and close enough to <m>0</m>. Also, since <m>\ln(x)</m> is undefined for negative <m>x</m> and <m>\lim\limits_{x\to0}\ln(x)</m> is an expression that depends on outputs of <m>\ln(<) /m> using inputs <em>both</em> slightly smaller <em>and</em> slightly larger than <m>0</m>, we cannot hope to give meaning to <m>\lim\limits_{x\to0}\ln(x)</m>.</p>
+            <p>This limit does not exist for at least two reasons. For one reason, <m>\ln(x)</m> can be arbitrarily large negative if you allow <m>x</m> to be positive and close enough to <m>0</m>. Also, since <m>\ln(x)</m> is undefined for negative <m>x</m> and <m>\lim\limits_{x\to0}\ln(x)</m> is an expression that depends on outputs of <m>\ln</m> using inputs <em>both</em> slightly smaller <em>and</em> slightly larger than <m>0</m>, we cannot hope to give meaning to <m>\lim\limits_{x\to0}\ln(x)</m>.</p>
           </solution>
         </webwork>
       </exercise>
@@ -1289,7 +1289,7 @@
       </exercise>
 
       <exercise>
-        <title><m>\csc(<) /m></title>
+        <title><m>\csc</m></title>
         <webwork seed="1">
           <setup>
             <var name="$a">
@@ -1322,7 +1322,7 @@
       </exercise>
 
       <exercise>
-        <title><m>\log(<) /m></title>
+        <title><m>\log</m></title>
         <webwork seed="1">
           <setup>
             <var name="$f">
@@ -1654,7 +1654,7 @@
         <p>Use the Squeeze Theorem in the following exercises, where appropriate, to evaluate the given limit.</p>
       </introduction>
       <exercise>
-        <title><m>\sin(<) /m></title>
+        <title><m>\sin</m></title>
         <webwork seed="1">
           <statement>
             <p>Use the Squeeze Theorem to evaluate the limit.</p>
@@ -1667,7 +1667,7 @@
       </exercise>
 
       <exercise>
-        <title><m>\sin(<) /m> and <m>\cos(<) /m></title>
+        <title><m>\sin</m> and <m>\cos</m></title>
         <webwork seed="1">
           <statement>
             <p>Use the Squeeze Theorem to evaluate the limit.</p>
@@ -1712,7 +1712,7 @@
       </introduction>
 
       <exercise>
-        <title><m>\sin(<) /m></title>
+        <title><m>\sin</m></title>
         <webwork seed="1">
           <setup>
             <var name="$L" category="number">
@@ -1736,7 +1736,7 @@
       </exercise>
 
       <exercise>
-        <title><m>\sin(<) /m></title>
+        <title><m>\sin</m></title>
         <webwork seed="1">
           <setup>
             <var name="$L" category="number">
@@ -1763,7 +1763,7 @@
       </exercise>
 
       <exercise>
-        <title><m>\log(<) /m></title>
+        <title><m>\log</m></title>
         <webwork seed="1">
           <setup>
             <var name="$L">
@@ -1782,7 +1782,7 @@
       </exercise>
 
       <exercise>
-        <title><m>\sin(<) /m></title>
+        <title><m>\sin</m></title>
         <webwork seed="1">
           <setup>
             <var name="$L">

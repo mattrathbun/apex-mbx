@@ -144,7 +144,7 @@
       </md>
     </p>
 
-    <p>We were a bit pedantic here, showing every step. Normally we would do all the arithmetic and steps in our head and readily find <m>\ds \frac{d}{dx}\Big(3x^2+5x+7\Big) = 6x+5.</m></p>
+    <p>We were a bit pedantic here, showing every step. Normally we would do all the arithmetic and steps in our head and readily find <m>\ds \frac{d}{dx}\Big(3x^2+5x+7\Big) = 6x+5</m>. </p>
 
     <example xml:id="ex_der2">
       <title>Using the tangent line to approximate a function value</title>

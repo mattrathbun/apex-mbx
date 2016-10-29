@@ -823,7 +823,7 @@
           <index><main>double integral</main><sub>properties</sub></index><index><main>iterated integration</main><sub>properties</sub></index></p>
 
         <ol>
-          <li><p><m>\ds \iint_Rc\,f(x,y)\ dA = c\iint_Rf(x,y)\ dA.</m></p></li>
+          <li><p><m>\ds \iint_Rc\,f(x,y)\ dA = c\iint_Rf(x,y)\ dA</m>. </p></li>
 
           <li><p><m>\ds \iint_R \big(f(x,y)\pm g(x,y)\big)\ dA = \iint_R f(x,y)\ dA \pm \iint_R g(x,y)\ dA</m></p></li>
 

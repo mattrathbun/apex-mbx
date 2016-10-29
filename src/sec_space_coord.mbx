@@ -354,7 +354,7 @@
     <example xml:id="ex_space2">
       <title>Equation of a sphere</title>
       <statement>
-        <p>Find the center and radius of the sphere defined by <m>x^2+2x+y^2-4y+z^2-6z=2.</m></p>
+        <p>Find the center and radius of the sphere defined by <m>x^2+2x+y^2-4y+z^2-6z=2</m>. </p>
       </statement>
       <solution>
         <p>To determine the center and radius, we must put the equation in standard form. This requires us to complete the square (three times).
@@ -1683,7 +1683,7 @@
     <title>Surfaces of Revolution</title>
     <p>One of the applications of integration we learned previously was to find the volume of solids of revolution <mdash /> solids formed by revolving a curve about a horizontal or vertical axis. We now consider how to find the equation of the surface of such a solid.</p>
 
-    <p>Consider the surface formed by revolving <m>y=\sqrt{x}</m> about the <m>x</m>-axis. Cross<ndash />sections of this surface parallel to the <m>y</m>-<m>z</m> plane are circles, as shown in <xref ref="fig_surf_rev_intro">Figure</xref>(a). Each circle has equation of the form <m>y^2+z^2=r^2</m> for some radius <m>r</m>. The radius is a function of <m>x</m>; in fact, it is <m>r(x) = \sqrt{x}</m>. Thus the equation of the surface shown in <xref ref="fig_surf_rev_intro">Figure</xref>b is <m>y^2+z^2=(\sqrt{x})^2.</m></p>
+    <p>Consider the surface formed by revolving <m>y=\sqrt{x}</m> about the <m>x</m>-axis. Cross<ndash />sections of this surface parallel to the <m>y</m>-<m>z</m> plane are circles, as shown in <xref ref="fig_surf_rev_intro">Figure</xref>(a). Each circle has equation of the form <m>y^2+z^2=r^2</m> for some radius <m>r</m>. The radius is a function of <m>x</m>; in fact, it is <m>r(x) = \sqrt{x}</m>. Thus the equation of the surface shown in <xref ref="fig_surf_rev_intro">Figure</xref>b is <m>y^2+z^2=(\sqrt{x})^2</m>. </p>
 
     <figure xml:id="fig_surf_rev_intro" >
     <caption>Introducing surfaces of revolution.</caption>
@@ -4147,7 +4147,7 @@
       <statement>
         <p>Sketch the quadric surface defined by the given equation.</p>
 
-        <p>1. <m>\ds y=\frac{x^2}{4}+\frac{z^2}{16}</m>  2. <m>\ds x^2+\frac{y^2}{9}+\frac{z^2}{4}=1.</m> 
+        <p>1. <m>\ds y=\frac{x^2}{4}+\frac{z^2}{16}</m>  2. <m>\ds x^2+\frac{y^2}{9}+\frac{z^2}{4}=1</m>. 
           3. <m>\ds z=y^2-x^2</m>.</p>
       </statement>
       <solution>
@@ -4384,7 +4384,7 @@
 	
 	<m>x=0</m>: 	The trace is the ellipse <m>\ds\frac{y^2}{9}+\frac{z^2}{4}=1</m>. The major axis is along the <m>y</m><ndash />axis with length 6 (as <m>b=3</m>, the length of the axis is 6); the minor axis is along the <m>z</m>-axis with length 4.
 	
-	<m>y=0</m>:	The trace is the ellipse <m>\ds x^2+\frac{z^2}{4}=1.</m> The major axis is along the <m>z</m>-axis, and the minor axis has length 2 along the <m>x</m>-axis.
+	<m>y=0</m>:	The trace is the ellipse <m>\ds x^2+\frac{z^2}{4}=1</m>. The major axis is along the <m>z</m>-axis, and the minor axis has length 2 along the <m>x</m>-axis.
 	
 	<m>z=0</m>:	The trace is the ellipse <m>\ds x^2+\frac{y^2}{9}=1,</m> with major axis along the <m>y</m>-axis. 
 	
@@ -5139,7 +5139,7 @@
           <statement>
             <p>Find the center and radius of the sphere defined by</p>
 
-            <p><m>x^2-8x+y^2+2y+z^2+8=0.</m></p>
+            <p><m>x^2-8x+y^2+2y+z^2+8=0</m>. </p>
           </statement>
           <solution>
             <p>Center at <m>(4,-1,0)</m>; radius = 3</p>
@@ -5158,7 +5158,7 @@
           <statement>
             <p>Find the center and radius of the sphere defined by</p>
 
-            <p><m>x^2+y^2+z^2+4x-2y-4z+4=0.</m></p>
+            <p><m>x^2+y^2+z^2+4x-2y-4z+4=0</m>. </p>
           </statement>
           <solution>
             <p>Center at <m>(-2,1,2)</m>; radius = <m>\sqrt{5}</m></p>
