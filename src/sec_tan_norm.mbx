@@ -930,7 +930,7 @@
             <p><m>\vrt = \la \cos^3(t) ,\sin^3(t) \ra</m>,<m>t=\pi/4</m></p>
           </statement>
           <solution>
-            <p><m>\vec T(t) = \frac{\cos(t) \sin(t) }{\sqrt{\cos^2(t) \sin^2(t) }}\la -\cos(t) ,\sin(t) \ra</m>. (Be careful; this cannot be simplified as just <m>\la -\cos(t) ,\sin(t) \ra</m> as <m>\sqrt{\cos^2(t) \sin^2(t) }\neq \cos(t) \sin(t) </m>, but rather <m>\abs{\cos(t) \sin(t) }</m>.)
+            <p><m>\vec T(t) = \frac{\cos(t) \sin(t) }{\sqrt{\cos^2(t) \sin^2(t) }}\la -\cos(t) ,\sin(t) \ra</m>. (Be careful; this cannot be simplified as just <m>\la -\cos(t) ,\sin(t) \ra</m> as <m>\sqrt{\cos^2(t) \sin^2(t) }\neq \cos(t) \sin(t)</m>, but rather <m>\abs{\cos(t) \sin(t) }</m>.)
               <m>\vec T(\pi/4) = \la -\sqrt{2}/2,\sqrt{2}/2\ra</m></p>
           </solution>
         </webwork>
@@ -970,7 +970,7 @@
             <p><m>\ell(t) = \la 2,0\ra + t\la 4/\sqrt{17},1/\sqrt{17}\ra</m>; in parametric form,</p>
 
             <p><m>\ell(t) = \left\{\begin{array}{ccc} x\amp =\amp 2+4t/\sqrt{17} \\ y \amp =\amp  t/\sqrt{17}
-              \end{array} \right</m>. </p>
+              \end{array} \right.</m></p>
           </solution>
         </webwork>
       </exercise>
@@ -990,7 +990,7 @@
             <p><m>\ell(t) = \la \pi/4,\sqrt{2}/{2}\ra + t\la \sqrt{2/3},-1/\sqrt{3}\ra</m>; in parametric form,</p>
 
             <p><m>\ell(t) = \left\{\begin{array}{ccc} x\amp =\amp \pi/4+\sqrt{2/3}t \\ y \amp =\amp  \sqrt{2}/2-t/\sqrt{3}
-              \end{array} \right</m>. </p>
+              \end{array} \right.</m></p>
           </solution>
         </webwork>
       </exercise>
@@ -1010,7 +1010,7 @@
             <p><m>\ell(t) = \la \sqrt{2}/4,\sqrt{2}/4\ra + t\la -\sqrt{2}/2,\sqrt{2}/2\ra</m>; in parametric form,</p>
 
             <p><m>\ell(t) = \left\{\begin{array}{ccc} x\amp =\amp \sqrt{2}/4-\sqrt{2}t/2 \\ y \amp =\amp  \sqrt{2}/4+\sqrt{2}t/2
-              \end{array} \right</m>. </p>
+              \end{array} \right.</m></p>
           </solution>
         </webwork>
       </exercise>
@@ -1030,7 +1030,7 @@
             <p><m>\ell(t) = \la -1,0\ra + t\la 0,-1\ra</m>; in parametric form,</p>
 
             <p><m>\ell(t) = \left\{\begin{array}{ccc} x\amp =\amp -1 \\ y \amp =\amp  -t
-              \end{array} \right</m>. </p>
+              \end{array} \right.</m></p>
           </solution>
         </webwork>
       </exercise>

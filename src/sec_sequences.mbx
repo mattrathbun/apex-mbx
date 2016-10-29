@@ -381,9 +381,9 @@
 
             </p></li>
 
-          <li><p>The limit <m>\lim\limits_{x\to\infty}\cos(x) </m> does not exist, as <m>\cos(x) </m> oscillates (and takes on every value in <m>[-1,1]</m> infinitely many times). Thus we cannot apply <xref ref="thm_seq_limit">Theorem</xref>. 
+          <li><p>The limit <m>\lim\limits_{x\to\infty}\cos(x)</m> does not exist, as <m>\cos(x)</m> oscillates (and takes on every value in <m>[-1,1]</m> infinitely many times). Thus we cannot apply <xref ref="thm_seq_limit">Theorem</xref>. 
 
-              The fact that the cosine function oscillates strongly hints that <m>\cos(n) </m>, when <m>n</m> is restricted to <m>\mathbb{N}</m>, will also oscillate. <xref ref="fig_seq4">Figure</xref> (b), where the sequence is plotted, shows that this is true. Because only discrete values of cosine are plotted, it does not bear strong resemblance to the familiar cosine wave.
+              The fact that the cosine function oscillates strongly hints that <m>\cos(n)</m>, when <m>n</m> is restricted to <m>\mathbb{N}</m>, will also oscillate. <xref ref="fig_seq4">Figure</xref> (b), where the sequence is plotted, shows that this is true. Because only discrete values of cosine are plotted, it does not bear strong resemblance to the familiar cosine wave.
 
               We conclude that <m>\lim\limits_{n\to\infty}a_n</m> does not exist.</p></li>
 
@@ -511,7 +511,7 @@
         <ol>
           <li><p>Since <m>\lim\limits_{n\to\infty} a_n = 0</m> and <m>\lim\limits_{n\to\infty} b_n = e</m>, we conclude that <m>\lim\limits_{n\to\infty} (a_n+b_n) = 0+e = e</m>. So even though we are adding something to each term of the sequence <m>b_n</m>, we are adding something so small that the final limit is the same as before.</p></li>
 
-          <li><p>Since <m>\lim\limits_{n\to\infty} b_n = e</m> and <m>\lim\limits_{n\to\infty} c_n = 5</m>, we conclude that <m>\lim\limits_{n\to\infty} (b_n\cdot c_n) = e\cdot 5 = 5e</m>. </p></li>
+          <li><p>Since <m>\lim\limits_{n\to\infty} b_n = e</m> and <m>\lim\limits_{n\to\infty} c_n = 5</m>, we conclude that <m>\lim\limits_{n\to\infty} (b_n\cdot c_n) = e\cdot 5 = 5e</m>.</p></li>
 
           <li><p>Since <m>\lim\limits_{n\to\infty} a_n = 0</m>, we have <m>\lim\limits_{n\to\infty} 1000a_n =1000\cdot 0 = 0</m>. It does not matter that we multiply each term by 1000; the sequence still approaches 0. (It just takes longer to get close to 0.)</p></li>
         </ol>

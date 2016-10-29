@@ -249,7 +249,7 @@
     <theorem xml:id="thm_arclengthparam">
       <title>Arc Length Parameter</title>
       <statement>
-        <p>Let <m>\vec r(s)</m> be a vector<ndash />valued function. The parameter <m>s</m> is the arc length parameter if, and only if, <m>\norm{\vrp(s)} = 1</m>. <index><main>arc length parameter</main></index></p>
+        <p>Let <m>\vec r(s)</m> be a vector<ndash />valued function. The parameter <m>s</m> is the arc length parameter if, and only if, <m>\norm{\vrp(s)} = 1</m>.<index><main>arc length parameter</main></index></p>
       </statement>
     </theorem>
   </introduction>
@@ -1141,7 +1141,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>C</m> is defined by <m>\ds y = \cos(x) </m>; points given at <m>x=0</m> and <m>x=\pi/2</m>.</p>
+            <p><m>C</m> is defined by <m>\ds y = \cos(x)</m>; points given at <m>x=0</m> and <m>x=\pi/2</m>.</p>
           </statement>
           <solution>
             <p><m>\kappa = \frac{\abs{\cos(x) }}{\left(1+\sin^2(x) \right)^{3/2}}</m>;</p>
@@ -1349,7 +1349,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\ds y=\sin(x) </m></p>
+            <p><m>\ds y=\sin(x)</m></p>
           </statement>
           <solution>
             <p>maximized at <m>x=\ldots -3\pi/2, -\pi/2, \pi/2, \ldots</m></p>
@@ -1401,7 +1401,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>y=\tan(x) </m>, at <m>x=\pi/4</m></p>
+            <p><m>y=\tan(x)</m>, at <m>x=\pi/4</m></p>
           </statement>
           <solution>
             <p>radius of curvature is <m>5\sqrt{5}/4</m>.</p>

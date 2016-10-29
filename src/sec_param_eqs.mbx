@@ -167,7 +167,7 @@
     <example xml:id="ex_pareq2">
       <title>Plotting parametric functions</title>
       <statement>
-        <p>Sketch the graph of the parametric equations <m>x=\cos^2(t) </m>, <m>y=\cos(t) +1</m> for <m>t</m> in <m>[0,\pi]</m>.</p>
+        <p>Sketch the graph of the parametric equations <m>x=\cos^2(t)</m>, <m>y=\cos(t) +1</m> for <m>t</m> in <m>[0,\pi]</m>.</p>
       </statement>
       <solution>
         <p>We again start by making a table of values in <xref ref="fig_pareq2">Figure</xref>(a), then plot the points <m>(x,y)</m> on the Cartesian plane in <xref ref="fig_pareq2">Figure</xref>(b).</p>
@@ -639,7 +639,7 @@
         <p>Eliminate the parameter in <m>x=4\cos(t) +3</m>, <m>y= 2\sin(t) +1</m></p>
       </statement>
       <solution>
-        <p>We should not try to solve for <m>t</m> in this situation as the resulting algebra/trig would be messy. Rather, we solve for <m>\cos(t) </m> and <m>\sin(t) </m> in each equation, respectively. This gives
+        <p>We should not try to solve for <m>t</m> in this situation as the resulting algebra/trig would be messy. Rather, we solve for <m>\cos(t)</m> and <m>\sin(t)</m> in each equation, respectively. This gives
           <me>
             \cos(t) = \frac{x-3}{4}  \text{ and }  \sin(t) =\frac{y-1}{2}.
           </me>
@@ -953,7 +953,7 @@
       </statement>
     </definition>
 
-    <p>Consider the astroid, given by <m>x=\cos^3(t) </m>, <m>y=\sin^3(t) </m>. Taking derivatives, we have:
+    <p>Consider the astroid, given by <m>x=\cos^3(t)</m>, <m>y=\sin^3(t)</m>. Taking derivatives, we have:
       <me>
         x' = -3\cos^2(t) \sin(t) \text{ and }  y' = 3\sin^2(t) \cos(t) .
       </me>
@@ -1171,7 +1171,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>x=1</m>,<m>y=5\sin(t) </m>,<m>-\pi/2\leq t\leq \pi/2</m></p>
+            <p><m>x=1</m>,<m>y=5\sin(t)</m>,<m>-\pi/2\leq t\leq \pi/2</m></p>
           </statement>
           <solution>
             <figure>
@@ -1370,7 +1370,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>x=1/t</m>,<m>y=\sin(t) </m>,<m>0\lt  t \leq 10</m></p>
+            <p><m>x=1/t</m>,<m>y=\sin(t)</m>,<m>0\lt  t \leq 10</m></p>
           </statement>
           <solution>
             <figure>
@@ -1408,7 +1408,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>x=3\cos(t) </m>,<m>y=5\sin(t) </m>,<m>0\leq t \leq 2\pi</m></p>
+            <p><m>x=3\cos(t)</m>,<m>y=5\sin(t)</m>,<m>0\leq t \leq 2\pi</m></p>
           </statement>
           <solution>
             <figure>
@@ -1485,7 +1485,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>x=\cos(t) </m>,<m>y=\cos(2t)</m>,<m>0\leq t \leq \pi</m></p>
+            <p><m>x=\cos(t)</m>,<m>y=\cos(2t)</m>,<m>0\leq t \leq \pi</m></p>
           </statement>
           <solution>
             <figure>
@@ -1524,7 +1524,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>x=\cos(t) </m>,<m>y=\sin(2t)</m>,<m>0\leq t \leq 2\pi</m></p>
+            <p><m>x=\cos(t)</m>,<m>y=\sin(2t)</m>,<m>0\leq t \leq 2\pi</m></p>
           </statement>
           <solution>
             <figure>
@@ -1563,7 +1563,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>x=2\sec(t) </m>,<m>y=3\tan(t) </m>,<m>-\pi/2\lt  t \lt  \pi/2</m></p>
+            <p><m>x=2\sec(t)</m>,<m>y=3\tan(t)</m>,<m>-\pi/2\lt  t \lt  \pi/2</m></p>
           </statement>
           <solution>
             <figure>
@@ -1684,7 +1684,7 @@
             <ol>
               <li><p><m>x=t</m>  <m>y=t^2</m>,   <m>-\infty\lt  t\lt  \infty</m></p></li>
 
-              <li><p><m>x=\sin(t) </m>  <m>y=\sin^2(t) </m>,   <m>-\infty\lt  t\lt  \infty</m></p></li>
+              <li><p><m>x=\sin(t)</m>  <m>y=\sin^2(t)</m>,   <m>-\infty\lt  t\lt  \infty</m></p></li>
 
               <li><p><m>x=e^t</m>  <m>y=e^{2t}</m>,   <m>-\infty\lt  t\lt  \infty</m></p></li>
 
@@ -1715,7 +1715,7 @@
           </setup>
           <statement>
             <ol>
-              <li><p><m>x=\cos(t) </m>  <m>y=\sin(t) </m>,   <m>0\leq t\leq 2\pi</m></p></li>
+              <li><p><m>x=\cos(t)</m>  <m>y=\sin(t)</m>,   <m>0\leq t\leq 2\pi</m></p></li>
 
               <li><p><m>x=\cos(t^2)</m>  <m>y=\sin(t^2)</m>,   <m>0\leq t\leq 2\pi</m></p></li>
 
@@ -1765,7 +1765,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>x=\sec(t) </m>, <m>y=\tan(t) </m></p>
+            <p><m>x=\sec(t)</m>, <m>y=\tan(t)</m></p>
           </statement>
           <solution>
             <p><m>x^2-y^2=1</m></p>
@@ -1850,7 +1850,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\ds x=\ln(t) </m>, <m>\ds y=t^2-1</m></p>
+            <p><m>\ds x=\ln(t)</m>, <m>\ds y=t^2-1</m></p>
           </statement>
           <solution>
             <p><m>y=e^{2x}-1</m></p>
@@ -1867,7 +1867,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\ds x=\cot(t) </m>, <m>\ds y=\csc(t) </m></p>
+            <p><m>\ds x=\cot(t)</m>, <m>\ds y=\csc(t)</m></p>
           </statement>
           <solution>
             <p><m>y^2-x^2=1</m></p>
@@ -1884,7 +1884,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\ds x=\cosh(t) </m>, <m>\ds y=\sinh(t) </m></p>
+            <p><m>\ds x=\cosh(t)</m>, <m>\ds y=\sinh(t)</m></p>
           </statement>
           <solution>
             <p><m>x^2-y^2=1</m></p>
@@ -1901,7 +1901,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\ds x=\cos(2t)</m>, <m>\ds y=\sin(t) </m></p>
+            <p><m>\ds x=\cos(2t)</m>, <m>\ds y=\sin(t)</m></p>
           </statement>
           <solution>
             <p><m>x=1-2y^2</m></p>
@@ -1936,7 +1936,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\ds x=r\cos(t) </m>, <m>\ds y=r\sin(t) </m></p>
+            <p><m>\ds x=r\cos(t)</m>, <m>\ds y=r\sin(t)</m></p>
           </statement>
           <solution>
             <p><m>x^2+y^2=r^2</m>; circle centered at <m>(0,0)</m> with radius <m>r</m>.</p>
@@ -2010,7 +2010,7 @@
             <p><m>y=e^x</m></p>
           </statement>
           <solution>
-            <p><m>x=\ln(t) </m>, <m>y=t</m>. At <m>t=1</m>, <m>x=0</m>, <m>y=1</m>.</p>
+            <p><m>x=\ln(t)</m>, <m>y=t</m>. At <m>t=1</m>, <m>x=0</m>, <m>y=1</m>.</p>
 
             <p><m>y'=e^x</m>; when <m>x=0</m>, <m>y'=1</m>.</p>
           </solution>
@@ -2026,12 +2026,12 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>y=\sin(x) </m> on <m>[0,\pi]</m></p>
+            <p><m>y=\sin(x)</m> on <m>[0,\pi]</m></p>
           </statement>
           <solution>
-            <p><m>x=\cos^{-1}(t) </m>, <m>y=\sqrt{1-t^2}</m>. At <m>t=1</m>, <m>x=0</m>, <m>y=0</m>.</p>
+            <p><m>x=\cos^{-1}(t)</m>, <m>y=\sqrt{1-t^2}</m>. At <m>t=1</m>, <m>x=0</m>, <m>y=0</m>.</p>
 
-            <p><m>y'=\cos(x) </m>; when <m>x=0</m>, <m>y'=1</m>.</p>
+            <p><m>y'=\cos(x)</m>; when <m>x=0</m>, <m>y'=1</m>.</p>
           </solution>
         </webwork>
       </exercise>
@@ -2099,7 +2099,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>x=\cos(t) </m>,<m>y=\sin(2t)</m> on <m>[0,2\pi]</m></p>
+            <p><m>x=\cos(t)</m>,<m>y=\sin(2t)</m> on <m>[0,2\pi]</m></p>
           </statement>
           <solution>
             <p><m>t=\pi/2, 3\pi/2</m></p>
@@ -2168,7 +2168,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>x=\cos(t) </m>,<m>y=2\cos(t) </m></p>
+            <p><m>x=\cos(t)</m>,<m>y=2\cos(t)</m></p>
           </statement>
           <solution>
             <p><m>t=\ldots \pi/2,\ 3\pi/2,\ 5\pi/2,\ \ldots</m></p>
@@ -2257,7 +2257,7 @@
             <p>A circle of radius 2, centered at the origin, that is traced clockwise once on <m>[0,2\pi]</m>.</p>
           </statement>
           <solution>
-            <p><m>x=2\cos(t) </m>, <m>y=-2\sin(t) </m>; other answers possible</p>
+            <p><m>x=2\cos(t)</m>, <m>y=-2\sin(t)</m>; other answers possible</p>
           </solution>
         </webwork>
       </exercise>
@@ -2308,7 +2308,7 @@
             <p>An ellipse with foci at <m>(\pm 1,0)</m> and vertices at <m>(\pm 5,0)</m>.</p>
           </statement>
           <solution>
-            <p><m>x=5\cos(t) </m>, <m>y=\sqrt{24}\sin(t) </m>; other answers possible</p>
+            <p><m>x=5\cos(t)</m>, <m>y=\sqrt{24}\sin(t)</m>; other answers possible</p>
           </solution>
         </webwork>
       </exercise>
@@ -2342,7 +2342,7 @@
             <p>A hyperbola with vertices at <m>(0,\pm 6)</m> and asymptotes <m>y=\pm 3x</m>.</p>
           </statement>
           <solution>
-            <p><m>x=2\tan(t) </m>, <m>y=\pm 6\sec(t) </m>; other answers possible</p>
+            <p><m>x=2\tan(t)</m>, <m>y=\pm 6\sec(t)</m>; other answers possible</p>
           </solution>
         </webwork>
       </exercise>

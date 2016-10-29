@@ -685,7 +685,7 @@
       <title>Finding the derivative of a piecewise defined function</title>
       <statement>
         <p>Find the derivative of <m>f(x)</m>, where <m>\ds f(x) = \left\{\begin{array}{cc} \sin(x) \amp  x\leq \pi/2 \\ 1 \amp  x\gt\pi/2
-          \end{array} .\right</m>. See <xref ref="fig_piecewisesinx1">Figure</xref>.</p>
+          \end{array} .\right.</m> See <xref ref="fig_piecewisesinx1">Figure</xref>.</p>
       </statement>
       <solution>
         <p>Using <xref ref="ex_deriv_sinx">Example</xref>, we know that when <m>x\lt \pi/2</m>, <m>\fp(x) = \cos(x)</m>. It is easy to verify that when <m>x>\pi/2</m>, <m>\fp(x) = 0</m>; consider:

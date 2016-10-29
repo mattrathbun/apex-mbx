@@ -113,9 +113,9 @@
       <title>Component Form of a Vector</title>
       <statement>
         <ol>
-          <li><p>The <em>component form</em> of a vector <m>\vec{v}</m> in <m>\mathbb{R}^2</m>, whose terminal point is <m>(a,b)</m> when its initial point is <m>(0,0)</m>, is <m>\la a,b\ra</m>. </p></li>
+          <li><p>The <em>component form</em> of a vector <m>\vec{v}</m> in <m>\mathbb{R}^2</m>, whose terminal point is <m>(a,b)</m> when its initial point is <m>(0,0)</m>, is <m>\la a,b\ra</m>.</p></li>
 
-          <li><p>The <em>component form</em> of a vector <m>\vec{v}</m> in <m>\mathbb{R}^3</m>, whose terminal point is <m>(a,b,c)</m> when its initial point is <m>(0,0,0)</m>, is <m>\la a,b,c\ra</m>. </p></li>
+          <li><p>The <em>component form</em> of a vector <m>\vec{v}</m> in <m>\mathbb{R}^3</m>, whose terminal point is <m>(a,b,c)</m> when its initial point is <m>(0,0,0)</m>, is <m>\la a,b,c\ra</m>.</p></li>
         </ol>
 
         <p>The numbers <m>a</m>, <m>b</m> (and <m>c</m>, respectively) are the <term>components</term> of <m>\vec v</m>.

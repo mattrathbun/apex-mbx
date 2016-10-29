@@ -293,7 +293,7 @@
 
           <li><p><m>\int_0^5f(x)\ dx</m> is the total signed area under <m>f</m> on <m>[0,5]</m>. This is <m>1.5 + (-1) = 0.5</m>.</p></li>
 
-          <li><p><m>\int_0^35f(x)\ dx</m> is the area under <m>5f</m> on <m>[0,3]</m>. This is sketched in <xref ref="fig_defint4a">Figure</xref>. Again, the region is a triangle, with height 5 times that of the height of the original triangle. Thus the area is <m>\int_0^35f(x)\ dx = 15/2 = 7.5</m>. 
+          <li><p><m>\int_0^35f(x)\ dx</m> is the area under <m>5f</m> on <m>[0,3]</m>. This is sketched in <xref ref="fig_defint4a">Figure</xref>. Again, the region is a triangle, with height 5 times that of the height of the original triangle. Thus the area is <m>\int_0^35f(x)\ dx = 15/2 = 7.5</m>.
 
               <figure xml:id="fig_defint4a" >
                 <caption>A graph of <m>5f</m> in <xref ref="ex_defint4">Example</xref>. (Yes, it looks just like the graph of <m>f</m> in <xref ref="fig_defint4">Figure</xref>, just with a different <m>y</m>-scale.)</caption>
@@ -1627,13 +1627,13 @@
       <p>In the following exercises, let</p>
 
       <ul>
-        <li><p><m>\ds \int_0^2 f(x)\ dx = 5,</m></p></li>
+        <li><p><m>\ds \int_0^2 f(x)\ dx = 5</m>,</p></li>
 
-        <li><p><m>\ds \int_0^3 f(x) \ dx=7,</m></p></li>
+        <li><p><m>\ds \int_0^3 f(x) \ dx=7</m>,</p></li>
 
-        <li><p><m>\ds \int_0^2 g(x)\ dx = -3,</m> and</p></li>
+        <li><p><m>\ds \int_0^2 g(x)\ dx = -3</m>, and</p></li>
 
-        <li><p><m>\ds \int_2^3 g(x)\ dx = 5</m>. </p></li>
+        <li><p><m>\ds \int_2^3 g(x)\ dx = 5</m>.</p></li>
       </ul>
 
       <p>Use these values to evaluate the given definite integrals.</p>
@@ -1707,13 +1707,13 @@
       <p>In the following exercises, let</p>
 
       <ul>
-        <li><p><m>\ds \int_0^3 s(t)\ dt = 10,</m></p></li>
+        <li><p><m>\ds \int_0^3 s(t)\ dt = 10</m>,</p></li>
 
-        <li><p><m>\ds \int_3^5 s(t) \ dt=8,</m></p></li>
+        <li><p><m>\ds \int_3^5 s(t) \ dt=8</m>,</p></li>
 
-        <li><p><m>\ds \int_3^5 r(t)\ dt = -1,</m> and</p></li>
+        <li><p><m>\ds \int_3^5 r(t)\ dt = -1</m>, and</p></li>
 
-        <li><p><m>\ds \int_0^5 r(t)\ dt = 11</m>. </p></li>
+        <li><p><m>\ds \int_0^5 r(t)\ dt = 11</m>.</p></li>
       </ul>
 
       <p>Use these values to evaluate the given definite integrals.</p>

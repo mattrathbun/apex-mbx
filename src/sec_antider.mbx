@@ -94,12 +94,12 @@
     <example xml:id="ex_anti2">
       <title>Evaluating indefinite integrals</title>
       <statement>
-        <p>Evaluate <m>\displaystyle \int \sin(x) \ dx</m>. </p>
+        <p>Evaluate <m>\displaystyle \int \sin(x) \ dx</m>.</p>
       </statement>
       <solution>
-        <p>We are asked to find all functions <m>F(x)</m> such that <m>\Fp(x) = \sin(x) </m>. Some thought will lead us to one solution: <m>F(x) = -\cos(x) </m>, because <m>\frac{d}{dx}(-\cos(x) ) = \sin(x) </m>.</p>
+        <p>We are asked to find all functions <m>F(x)</m> such that <m>\Fp(x) = \sin(x)</m>. Some thought will lead us to one solution: <m>F(x) = -\cos(x)</m>, because <m>\frac{d}{dx}(-\cos(x) ) = \sin(x)</m>.</p>
 
-        <p>The indefinite integral of <m>\sin(x) </m> is thus <m>-\cos(x) </m>, plus a constant of integration. So:
+        <p>The indefinite integral of <m>\sin(x)</m> is thus <m>-\cos(x)</m>, plus a constant of integration. So:
           <me>
             \int \sin(x) \ dx = -\cos(x) + C.
           </me>
@@ -121,7 +121,7 @@
       </me>
     </p>
 
-    <p>This is asking: <q>What functions have a differential of the form <m>dy</m>?</q> The answer is <q>Functions of the form <m>y+C</m>, where <m>C</m> is a constant.</q> What is <m>y</m>? We have lots of choices, all differing by a constant; the simplest choice is <m>y = -\cos(x) </m>.</p>
+    <p>This is asking: <q>What functions have a differential of the form <m>dy</m>?</q> The answer is <q>Functions of the form <m>y+C</m>, where <m>C</m> is a constant.</q> What is <m>y</m>? We have lots of choices, all differing by a constant; the simplest choice is <m>y = -\cos(x)</m>.</p>
 
     <p>Understanding all of this is more important later as we try to find antiderivatives of more complicated functions. In this section, we will simply explore the rules of indefinite integration, and one can succeed for now with answering <q>What happened to the <m>dx</m>?</q> with <q>It went away.</q></p>
 
@@ -192,17 +192,17 @@
 
             <li><p><m>\frac{d}{dx}\big(x^n \big) = n\cdot x^{n-1}</m></p></li>
 
-            <li><p><m>\frac{d}{dx}\big(\sin(x) \big) = \cos(x) </m></p></li>
+            <li><p><m>\frac{d}{dx}\big(\sin(x) \big) = \cos(x)</m></p></li>
 
-            <li><p><m>\frac{d}{dx}\big(\cos(x) \big) = -\sin(x) </m></p></li>
+            <li><p><m>\frac{d}{dx}\big(\cos(x) \big) = -\sin(x)</m></p></li>
 
-            <li><p><m>\frac{d}{dx}\big(\tan(x) \big) = \sec^2(x) </m></p></li>
+            <li><p><m>\frac{d}{dx}\big(\tan(x) \big) = \sec^2(x)</m></p></li>
 
-            <li><p><m>\frac{d}{dx}\big(\csc(x) \big) = -\csc(x) \cot(x) </m></p></li>
+            <li><p><m>\frac{d}{dx}\big(\csc(x) \big) = -\csc(x) \cot(x)</m></p></li>
 
-            <li><p><m>\frac{d}{dx}\big(\sec(x) \big) = \sec(x) \tan(x) </m></p></li>
+            <li><p><m>\frac{d}{dx}\big(\sec(x) \big) = \sec(x) \tan(x)</m></p></li>
 
-            <li><p><m>\frac{d}{dx}\big(\cot(x) \big) = -\csc^2(x) </m></p></li>
+            <li><p><m>\frac{d}{dx}\big(\cot(x) \big) = -\csc^2(x)</m></p></li>
 
             <li><p><m>\frac{d}{dx}\big(e^ x \big) = e^x</m></p></li>
 
@@ -333,7 +333,7 @@
     <example xml:id="ex_anti5">
       <title>Solving initial value problems</title>
       <statement>
-        <p>Find <m>f(t)</m>, given that <m>\fpp(t) = \cos(t) </m>, <m>\fp(0) = 3</m> and <m>f(0) = 5</m>.</p>
+        <p>Find <m>f(t)</m>, given that <m>\fpp(t) = \cos(t)</m>, <m>\fp(0) = 3</m> and <m>f(0) = 5</m>.</p>
       </statement>
       <solution>
         <p>We start by finding <m>\fp(t)</m>, which is an antiderivative of <m>\fpp(t)</m>:
@@ -348,7 +348,7 @@
           </me>
         </p>
 
-        <p>Using the initial value, we have found <m>\fp(t) = \sin(t) + 3</m>. 
+        <p>Using the initial value, we have found <m>\fp(t) = \sin(t) + 3</m>.
 		
           We now find <m>f(t)</m> by integrating again.
           <me>
@@ -835,7 +835,7 @@
             <p>This problem investigates why <xref ref="thm_indef_alg">Theorem</xref> states that <m>\ds \int \frac1x\ dx = \ln\abs{x} + C</m>.</p>
 
             <ol>
-              <li><p>What is the domain of <m>y = \ln(x) </m>?</p></li>
+              <li><p>What is the domain of <m>y = \ln(x)</m>?</p></li>
 
               <li><p>Find <m>\frac{d}{dx}\big(\ln(x) \big)</m>.</p></li>
 
@@ -872,7 +872,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\fp(x) = \sin(x) </m> and <m>f(0)= 2</m></p>
+            <p><m>\fp(x) = \sin(x)</m> and <m>f(0)= 2</m></p>
           </statement>
           <solution>
             <p><m>-\cos(x) +3</m></p>
@@ -923,7 +923,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\fp(x) = \sec^2(x) </m> and <m>f(\pi/4)= 5</m></p>
+            <p><m>\fp(x) = \sec^2(x)</m> and <m>f(\pi/4)= 5</m></p>
           </statement>
           <solution>
             <p><m>\tan(x) + 4</m></p>
@@ -943,7 +943,7 @@
             <p><m>\fp(x) = 7^x</m> and <m>f(2)= 1</m></p>
           </statement>
           <solution>
-            <p><m>7^x/\ln(7) + 1-49/\ln(7) </m></p>
+            <p><m>7^x/\ln(7) + 1-49/\ln(7)</m></p>
           </solution>
         </webwork>
       </exercise>
@@ -1008,7 +1008,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\fpp(\theta) = \sin(\theta) </m> and <m>\fp(\pi)= 2</m>, <m>f(\pi) = 4</m></p>
+            <p><m>\fpp(\theta) = \sin(\theta)</m> and <m>\fp(\pi)= 2</m>, <m>f(\pi) = 4</m></p>
           </statement>
           <solution>
             <p><m>\theta-\sin(\theta)-\pi +4</m></p>
@@ -1025,7 +1025,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\fpp(x) = 24x^2+2^x-\cos(x) </m> and <m>\fp(0)= 5</m>, <m>f(0) = 0</m></p>
+            <p><m>\fpp(x) = 24x^2+2^x-\cos(x)</m> and <m>\fp(0)= 5</m>, <m>f(0) = 0</m></p>
           </statement>
           <solution>
             <p><m>\frac{2 x^4 \ln^2(2)+2^x+x \ln(2) ) (\ln(32) -1)+\ln^2(2) \cos(x)-1-\ln^2(2)}{\ln^2(2)}</m></p>
@@ -1079,7 +1079,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p>Given <m>y = x^2e^x\cos(x) </m>, find <m>dy</m>.</p>
+            <p>Given <m>y = x^2e^x\cos(x)</m>, find <m>dy</m>.</p>
           </statement>
           <solution>
             <p><m>dy = (2xe^x\cos(x) + x^2e^x\cos(x) - x^2e^x\sin(x) )dx</m></p>

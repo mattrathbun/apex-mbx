@@ -804,10 +804,10 @@
 
         <ol>
           <li><p>The <em>moment about the <m>y</m>-axis</em>, <m>M_y</m>, is 
-	<m>\ds M_y = \sum_{i=1}^n m_ix_i</m>. </p></li>
+	<m>\ds M_y = \sum_{i=1}^n m_ix_i</m>.</p></li>
 
           <li><p>The <em>moment about the <m>x</m>-axis</em>, <m>M_x</m>, is 
-	<m>\ds M_x = \sum_{i=1}^n m_iy_i</m>. </p></li>
+	<m>\ds M_x = \sum_{i=1}^n m_iy_i</m>.</p></li>
         </ol>
       </statement>
     </definition>
@@ -902,7 +902,7 @@
           <!-- figures/fig_mass5.tex END -->
         </figure>
 
-        <p>Thus the center of mass is <m>\ds (\overline{x},\overline{y}) = \left(\frac{M_y}{M},\frac{M_x}M\right) = \left(\frac{{19}}8,\frac78\right)  =(2.375,0.875),</m> illustrated in <xref ref="fig_mass5">Figure</xref>.</p>
+        <p>Thus the center of mass is <m>\ds (\overline{x},\overline{y}) = \left(\frac{M_y}{M},\frac{M_x}M\right) = \left(\frac{{19}}8,\frac78\right)  =(2.375,0.875)</m>, illustrated in <xref ref="fig_mass5">Figure</xref>.</p>
       </solution>
     </example>
 

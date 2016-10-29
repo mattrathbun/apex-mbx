@@ -5,12 +5,12 @@
   <introduction>
     <p>The previous section defined polar coordinates, leading to polar functions. We investigated plotting these functions and solving a fundamental question about their graphs, namely, where do two polar graphs intersect?</p>
 
-    <p>We now turn our attention to answering other questions, whose solutions require the use of calculus. A basis for much of what is done in this section is the ability to turn a polar function <m>r=f(\theta)</m> into a set of parametric equations. Using the identities <m>x=r\cos(\theta) </m> and <m>y=r\sin(\theta) </m>, we can create the parametric equations <m>x=f(\theta)\cos(\theta) </m>, <m>y=f(\theta)\sin(\theta) </m> and apply the concepts of <xref ref="sec_par_calc">Section</xref>.</p>
+    <p>We now turn our attention to answering other questions, whose solutions require the use of calculus. A basis for much of what is done in this section is the ability to turn a polar function <m>r=f(\theta)</m> into a set of parametric equations. Using the identities <m>x=r\cos(\theta)</m> and <m>y=r\sin(\theta)</m>, we can create the parametric equations <m>x=f(\theta)\cos(\theta)</m>, <m>y=f(\theta)\sin(\theta)</m> and apply the concepts of <xref ref="sec_par_calc">Section</xref>.</p>
   </introduction>
 
   <subsection>
     <title>Polar Functions and <m>\ds \frac{dy}{dx}</m></title>
-    <p>We are interested in the lines tangent a given graph, regardless of whether that graph is produced by rectangular, parametric, or polar equations. In each of these contexts, the slope of the tangent line is <m>\frac{dy}{dx}</m>. Given <m>r=f(\theta)</m>, we are generally <em>not</em> concerned with <m>r\,'=\fp(\theta)</m>; that describes how fast <m>r</m> changes with respect to <m>\theta</m>. Instead, we will use <m>x=f(\theta)\cos(\theta) </m>, <m>y=f(\theta)\sin(\theta) </m> to compute <m>\frac{dy}{dx}</m>.</p>
+    <p>We are interested in the lines tangent a given graph, regardless of whether that graph is produced by rectangular, parametric, or polar equations. In each of these contexts, the slope of the tangent line is <m>\frac{dy}{dx}</m>. Given <m>r=f(\theta)</m>, we are generally <em>not</em> concerned with <m>r\,'=\fp(\theta)</m>; that describes how fast <m>r</m> changes with respect to <m>\theta</m>. Instead, we will use <m>x=f(\theta)\cos(\theta)</m>, <m>y=f(\theta)\sin(\theta)</m> to compute <m>\frac{dy}{dx}</m>.</p>
 
     <p>Using <xref ref="idea_dydxpar">Key Idea</xref> we have
       <me>
@@ -22,7 +22,7 @@
 
     <insight xml:id="idea_dydxpol">
       <title>Finding <m>\frac{dy}{dx}</m> with Polar Functions</title>
-      <p>Let <m>r=f(\theta)</m> be a polar function. With <m>x=f(\theta)\cos(\theta) </m> and <m>y=f(\theta)\sin(\theta) </m>,
+      <p>Let <m>r=f(\theta)</m> be a polar function. With <m>x=f(\theta)\cos(\theta)</m> and <m>y=f(\theta)\sin(\theta)</m>,
         <index><main>polar</main><sub>functions!finding <m>\frac{dy}{dx}</m></sub></index><index><main>tangent line</main></index>
         <me>
           \frac{dy}{dx} = \frac{\fp(\theta)\sin(\theta) +f(\theta)\cos(\theta) }{\fp(\theta)\cos(\theta) -f(\theta)\sin(\theta) }.
@@ -33,7 +33,7 @@
     <example xml:id="ex_polcalc1">
       <title>Finding <m>\frac{dy}{dx}</m> with polar functions.</title>
       <statement>
-        <p>Consider the lima&#xe7;on <m>r=1+2\sin(\theta) </m> on <m>[0,2\pi]</m>.</p>
+        <p>Consider the lima&#xe7;on <m>r=1+2\sin(\theta)</m> on <m>[0,2\pi]</m>.</p>
 
         <ol>
           <li><p>Find the equations of the tangent and normal lines to the graph at <m>\theta=\pi/4</m>.</p></li>
@@ -43,7 +43,7 @@
       </statement>
       <solution>
         <ol>
-          <li><p>We start by computing <m>\frac{dy}{dx}</m>. With <m>\fp(\theta) = 2\cos(\theta) </m>, we have
+          <li><p>We start by computing <m>\frac{dy}{dx}</m>. With <m>\fp(\theta) = 2\cos(\theta)</m>, we have
               <md>
                 <mrow>\frac{dy}{dx} \amp = \frac{2\cos(\theta) \sin(\theta) + \cos(\theta) (1+2\sin(\theta) )}{2\cos^2(\theta) -\sin(\theta) (1+2\sin(\theta) )}</mrow>
                 <mrow>\amp = \frac{\cos(\theta) (4\sin(\theta) +1)}{2(\cos^2(\theta) -\sin^2(\theta) )-\sin(\theta) }.</mrow>
@@ -120,10 +120,10 @@
               To find the vertical lines of tangency, we set the denominator of <m>\frac{dy}{dx}=0</m>.
               <md>
                 <mrow>2(\cos^2(\theta) -\sin^2(\theta) )-\sin(\theta) \amp = 0 .</mrow>
-                <intertext>Convert the <m>\cos^2(\theta) </m> term to <m>1-\sin^2(\theta) </m>:</intertext>
+                <intertext>Convert the <m>\cos^2(\theta)</m> term to <m>1-\sin^2(\theta)</m>:</intertext>
                 <mrow>2(1-\sin^2(\theta) -\sin^2(\theta) )-\sin(\theta) \amp = 0</mrow>
                 <mrow>4\sin^2(\theta) + \sin(\theta) -1 \amp = 0.</mrow>
-                <intertext>Recognize this as a quadratic in the variable <m>\sin(\theta) </m>. Using the quadratic formula, we have</intertext>
+                <intertext>Recognize this as a quadratic in the variable <m>\sin(\theta)</m>. Using the quadratic formula, we have</intertext>
                 <mrow>\sin(\theta) \amp = \frac{-1\pm\sqrt{33}}{8}.</mrow>
               </md>
               We solve <m>\sin(\theta) = \frac{-1+\sqrt{33}}8</m> and <m>\sin(\theta) = \frac{-1-\sqrt{33}}8</m>:
@@ -132,7 +132,7 @@
                 <mrow>\theta \amp = \sin^{-1}\left(\frac{-1+\sqrt{33}}8\right) \amp  \theta \amp = \sin^{-1}\left(\frac{-1-\sqrt{33}}8\right)</mrow>
                 <mrow>\theta \amp = 0.6399 \amp  \theta \amp = -1.0030</mrow>
               </md>
-              In each of the solutions above, we only get one of the possible two solutions as <m>\sin^{-1}(x) </m> only returns solutions in <m>[-\pi/2,\pi/2]</m>, the 4<m>^\text{ th }</m> and <m>1^\text{ st }</m> quadrants. Again using reference angles, we have:
+              In each of the solutions above, we only get one of the possible two solutions as <m>\sin^{-1}(x)</m> only returns solutions in <m>[-\pi/2,\pi/2]</m>, the 4<m>^\text{ th }</m> and <m>1^\text{ st }</m> quadrants. Again using reference angles, we have:
               <me>
                 \sin(\theta) = \frac{-1+\sqrt{33}}8  \Rightarrow  \theta = 0.6399,\ 3.7815 \text{ radians }
               </me>
@@ -156,7 +156,7 @@
     <example xml:id="ex_polcalc2">
       <title>Finding tangent lines at the pole.</title>
       <statement>
-        <p>Let <m>r=1+2\sin(\theta) </m>, a lima&#xe7;on. Find the equations of the lines tangent to the graph at the pole.</p>
+        <p>Let <m>r=1+2\sin(\theta)</m>, a lima&#xe7;on. Find the equations of the lines tangent to the graph at the pole.</p>
 
         <figure xml:id="fig_polcalc2" >
           <caption>Graphing the tangent lines at the pole in <xref ref="ex_polcalc2">Example</xref>.</caption>
@@ -374,7 +374,7 @@
     <example xml:id="ex_polcalc3">
       <title>Area of a polar region</title>
       <statement>
-        <p>Find the area of the circle defined by <m>r=\cos(\theta) </m>. (Recall this circle has radius <m>1/2</m>.)</p>
+        <p>Find the area of the circle defined by <m>r=\cos(\theta)</m>. (Recall this circle has radius <m>1/2</m>.)</p>
       </statement>
       <solution>
         <p>This is a direct application of <xref ref="thm_polar_area">Theorem</xref>. The circle is traced out on <m>[0,\pi]</m>, leading to the integral
@@ -391,7 +391,7 @@
     </example>
 
     <aside>
-      <p><xref ref="ex_polcalc3">Example</xref> requires the use of the integral <m>\ds\int \cos^2(\theta) \ d\theta</m>. This is handled well by using the power reducing formula as found in the back of this text. Due to the nature of the area formula, integrating <m>\cos^2(\theta) </m> and <m>\sin^2(\theta) </m> is required often. We offer here these indefinite integrals as a time<ndash />saving measure.
+      <p><xref ref="ex_polcalc3">Example</xref> requires the use of the integral <m>\ds\int \cos^2(\theta) \ d\theta</m>. This is handled well by using the power reducing formula as found in the back of this text. Due to the nature of the area formula, integrating <m>\cos^2(\theta)</m> and <m>\sin^2(\theta)</m> is required often. We offer here these indefinite integrals as a time<ndash />saving measure.
         <me>
           \int\cos^2(\theta) \ d\theta = \frac12\theta+\frac14\sin(2\theta)+C
         </me>
@@ -404,7 +404,7 @@
     <example xml:id="ex_polcalc4">
       <title>Area of a polar region</title>
       <statement>
-        <p>Find the area of the cardiod <m>r=1+\cos(\theta) </m> bound between <m>\theta=\pi/6</m> and <m>\theta=\pi/3</m>, as shown in <xref ref="fig_polcalc4">Figure</xref>.</p>
+        <p>Find the area of the cardiod <m>r=1+\cos(\theta)</m> bound between <m>\theta=\pi/6</m> and <m>\theta=\pi/3</m>, as shown in <xref ref="fig_polcalc4">Figure</xref>.</p>
 
         <figure xml:id="fig_polcalc4" >
           <caption>Finding the area of the shaded region of a cardiod in <xref ref="ex_polcalc4">Example</xref>.</caption>
@@ -558,7 +558,7 @@
     <example xml:id="ex_polcalc5">
       <title>Area between polar curves</title>
       <statement>
-        <p>Find the area bounded between the curves <m>r=1+\cos(\theta) </m> and <m>r=3\cos(\theta) </m>, as shown in <xref ref="fig_polcalc5">Figure</xref>.</p>
+        <p>Find the area bounded between the curves <m>r=1+\cos(\theta)</m> and <m>r=3\cos(\theta)</m>, as shown in <xref ref="fig_polcalc5">Figure</xref>.</p>
 
         <figure xml:id="fig_polcalc5" >
           <caption>Finding the area between polar curves in <xref ref="ex_polcalc5">Example</xref>.</caption>
@@ -809,7 +809,7 @@
       </men>
     </p>
 
-    <p>Now consider the polar function <m>r=f(\theta)</m>. We again use the identities <m>x=f(\theta)\cos(\theta) </m> and <m>y=f(\theta)\sin(\theta) </m> to create parametric equations based on the polar function. We compute <m>x'(\theta)</m> and <m>y'(\theta)</m> as done before when computing <m>\frac{dy}{dx}</m>, then apply Equation <xref ref="eq_polar_arclength" />.</p>
+    <p>Now consider the polar function <m>r=f(\theta)</m>. We again use the identities <m>x=f(\theta)\cos(\theta)</m> and <m>y=f(\theta)\sin(\theta)</m> to create parametric equations based on the polar function. We compute <m>x'(\theta)</m> and <m>y'(\theta)</m> as done before when computing <m>\frac{dy}{dx}</m>, then apply Equation <xref ref="eq_polar_arclength" />.</p>
 
     <p>The expression <m>x'(\theta)^2+y'(\theta)^2</m> can be simplified a great deal; we leave this as an exercise and state that
       <me>
@@ -831,10 +831,10 @@
     <example xml:id="ex_polcalc7">
       <title>Arc length of a lima&#xe7;on</title>
       <statement>
-        <p>Find the arc length of the lima&#xe7;on <m>r=1+2\sin(t) </m>.</p>
+        <p>Find the arc length of the lima&#xe7;on <m>r=1+2\sin(t)</m>.</p>
       </statement>
       <solution>
-        <p>With <m>r=1+2\sin(t) </m>, we have <m>r\,' = 2\cos(t) </m>. The lima&#xe7;on is traced out once on <m>[0,2\pi]</m>, giving us our bounds of integration. Applying <xref ref="idea_polar_arclength">Key Idea</xref>, we have
+        <p>With <m>r=1+2\sin(t)</m>, we have <m>r\,' = 2\cos(t)</m>. The lima&#xe7;on is traced out once on <m>[0,2\pi]</m>, giving us our bounds of integration. Applying <xref ref="idea_polar_arclength">Key Idea</xref>, we have
           <md>
             <mrow>L 	\amp = \int_0^{2\pi} \sqrt{(2\cos(\theta) )^2+(1+2\sin(\theta) )^2}\ d\theta</mrow>
             <mrow>\amp =	\int_0^{2\pi} \sqrt{4\cos^2(\theta) +4\sin^2(\theta) +4\sin(\theta) +1}\ d\theta</mrow>
@@ -1120,7 +1120,7 @@
             <p>Given polar equation <m>r=f(\theta)</m>, how can one create parametric equations of the same curve?</p>
           </statement>
           <solution>
-            <p>Using <m>x=r\cos(\theta) </m> and <m>y=r\sin(\theta) </m>, we can write <m>x=f(\theta)\cos(\theta) </m>, <m>y=f(\theta)\sin(\theta) </m>.</p>
+            <p>Using <m>x=r\cos(\theta)</m> and <m>y=r\sin(\theta)</m>, we can write <m>x=f(\theta)\cos(\theta)</m>, <m>y=f(\theta)\sin(\theta)</m>.</p>
           </solution>
         </webwork>
       </exercise>
@@ -1170,7 +1170,7 @@
           </statement>
           <solution>
             <ol>
-              <li><p><m>\frac{dy}{dx} = -\cot(\theta) </m></p></li>
+              <li><p><m>\frac{dy}{dx} = -\cot(\theta)</m></p></li>
 
               <li><p>tangent line: <m>y=-(x-\sqrt{2}/2)+\sqrt{2}/2</m>; normal line: <m>y=x</m></p></li>
             </ol>
@@ -1187,7 +1187,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>r=\cos(\theta) </m>;<m>\theta = \pi/4</m></p>
+            <p><m>r=\cos(\theta)</m>;<m>\theta = \pi/4</m></p>
           </statement>
           <solution>
             <ol>
@@ -1208,7 +1208,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>r=1+\sin(\theta) </m>;<m>\theta = \pi/6</m></p>
+            <p><m>r=1+\sin(\theta)</m>;<m>\theta = \pi/6</m></p>
           </statement>
           <solution>
             <ol>
@@ -1229,7 +1229,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\ds r=1-3\cos(\theta) </m>;<m>\theta = 3\pi/4</m></p>
+            <p><m>\ds r=1-3\cos(\theta)</m>;<m>\theta = 3\pi/4</m></p>
           </statement>
           <solution>
             <ol>
@@ -1354,7 +1354,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\ds r=2\sin(\theta) </m>;<m>[0,\pi]</m></p>
+            <p><m>\ds r=2\sin(\theta)</m>;<m>[0,\pi]</m></p>
           </statement>
           <solution>
             <p>horizontal: <m>\theta=0,\pi/2,\pi</m>;</p>
@@ -1392,7 +1392,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\ds r=1+\cos(\theta) </m>;<m>[0,2\pi]</m></p>
+            <p><m>\ds r=1+\cos(\theta)</m>;<m>[0,2\pi]</m></p>
           </statement>
           <solution>
             <p>horizontal: <m>\theta=\pi/3,\ 5\pi/3</m>;</p>
@@ -1414,7 +1414,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\ds r=\sin(\theta) </m>;<m>[0,\pi]</m></p>
+            <p><m>\ds r=\sin(\theta)</m>;<m>[0,\pi]</m></p>
           </statement>
           <solution>
             <p>In polar: <m>\theta = 0 \ \cong \ \theta = \pi</m></p>
@@ -1453,7 +1453,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p>Enclosed by the circle: <m>\ds r=4\sin(\theta) </m></p>
+            <p>Enclosed by the circle: <m>\ds r=4\sin(\theta)</m></p>
           </statement>
           <solution>
             <p>area = <m>4\pi</m></p>
@@ -1504,7 +1504,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p>Enclosed by the cardiod <m>\ds r=1-\sin(\theta) </m></p>
+            <p>Enclosed by the cardiod <m>\ds r=1-\sin(\theta)</m></p>
           </statement>
           <solution>
             <p>area = <m>3\pi/2</m></p>
@@ -1521,7 +1521,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p>Enclosed by the inner loop of the lima&#xe7;on <m>\ds r=1+2\cos(\theta) </m></p>
+            <p>Enclosed by the inner loop of the lima&#xe7;on <m>\ds r=1+2\cos(\theta)</m></p>
           </statement>
           <solution>
             <p>area = <m>\pi-3\sqrt{3}/2</m></p>
@@ -1538,7 +1538,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p>Enclosed by the outer loop of the lima&#xe7;on <m>\ds r=1+2\cos(\theta) </m> (including area enclosed by the inner loop)</p>
+            <p>Enclosed by the outer loop of the lima&#xe7;on <m>\ds r=1+2\cos(\theta)</m> (including area enclosed by the inner loop)</p>
           </statement>
           <solution>
             <p>area = <m>2\pi+3\sqrt{3}/2</m></p>
@@ -1555,7 +1555,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p>Enclosed between the inner and outer loop of the lima&#xe7;on <m>\ds r=1+2\cos(\theta) </m></p>
+            <p>Enclosed between the inner and outer loop of the lima&#xe7;on <m>\ds r=1+2\cos(\theta)</m></p>
           </statement>
           <solution>
             <p>area = <m>\pi+3\sqrt{3}</m></p>
@@ -1572,7 +1572,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p>Enclosed by <m>r=2\cos(\theta) </m> and <m>r=2\sin(\theta) </m>, as shown:</p>
+            <p>Enclosed by <m>r=2\cos(\theta)</m> and <m>r=2\sin(\theta)</m>, as shown:</p>
 
             <!-- START\1END -->
           </statement>
@@ -1610,7 +1610,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p>Enclosed by <m>r=\cos(\theta) </m> and <m>r=\sin(2\theta)</m>, as shown:</p>
+            <p>Enclosed by <m>r=\cos(\theta)</m> and <m>r=\sin(2\theta)</m>, as shown:</p>
 
             <!-- START\1END -->
           </statement>
@@ -1629,7 +1629,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p>Enclosed by <m>r=\cos(\theta) </m> and <m>r=1-\cos(\theta) </m>, as shown:</p>
+            <p>Enclosed by <m>r=\cos(\theta)</m> and <m>r=1-\cos(\theta)</m>, as shown:</p>
 
             <!-- START\1END -->
           </statement>
@@ -1649,14 +1649,14 @@
             </pg-code>
           </setup>
           <statement>
-            <p>Let <m>x(\theta) = f(\theta)\cos(\theta) </m> and <m>y(\theta)=f(\theta)\sin(\theta) </m>. Show, as suggested by the text, that
+            <p>Let <m>x(\theta) = f(\theta)\cos(\theta)</m> and <m>y(\theta)=f(\theta)\sin(\theta)</m>. Show, as suggested by the text, that
               <me>
                 x\,'(\theta)^2+y\,'(\theta)^2 = \fp(\theta)^2+f(\theta)^2.
               </me>
             </p>
           </statement>
           <solution>
-            <p><m>x\,'(\theta) = \fp(\theta)\cos(\theta) -f(\theta)\sin(\theta) </m>, <m>y\,'(\theta) = \fp(\theta)\sin(\theta) + f(\theta)\cos(\theta) </m>. Square each and add; applying the Pythagoran Theorem twice achieves the result.</p>
+            <p><m>x\,'(\theta) = \fp(\theta)\cos(\theta) -f(\theta)\sin(\theta)</m>, <m>y\,'(\theta) = \fp(\theta)\sin(\theta) + f(\theta)\cos(\theta)</m>. Square each and add; applying the Pythagoran Theorem twice achieves the result.</p>
           </solution>
         </webwork>
       </exercise>
@@ -1687,7 +1687,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p>Use the arc length formula to compute the arc length of the circle <m>r=4\sin(\theta) </m>.</p>
+            <p>Use the arc length formula to compute the arc length of the circle <m>r=4\sin(\theta)</m>.</p>
           </statement>
           <solution>
             <p><m>4\pi</m></p>
@@ -1704,7 +1704,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p>Approximate the arc length of one petal of the rose curve <m>r=\sin(3\theta)</m> with Simpson's Rule and <m>n=4</m>. </p>
+            <p>Approximate the arc length of one petal of the rose curve <m>r=\sin(3\theta)</m> with Simpson's Rule and <m>n=4</m>.</p>
           </statement>
           <solution>
             <p><m>L\approx 2.2592</m>; (actual value <m>L=2.22748</m>)</p>
@@ -1721,7 +1721,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p>Approximate the arc length of the cardiod <m>r=1+\cos(\theta) </m> with Simpson's Rule and <m>n=6</m>. </p>
+            <p>Approximate the arc length of the cardiod <m>r=1+\cos(\theta)</m> with Simpson's Rule and <m>n=6</m>.</p>
           </statement>
           <solution>
             <p><m>L\approx 7.62933</m>; (actual value <m>L=8</m>)</p>
@@ -1756,7 +1756,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p>Use <xref ref="idea_surface_area_polar">Key Idea</xref> to find the surface area of the sphere formed by revolving the circle <m>r=2\cos(\theta) </m> about the initial ray.</p>
+            <p>Use <xref ref="idea_surface_area_polar">Key Idea</xref> to find the surface area of the sphere formed by revolving the circle <m>r=2\cos(\theta)</m> about the initial ray.</p>
           </statement>
           <solution>
             <p><m>SA = 4\pi</m></p>
@@ -1773,7 +1773,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p>Find the surface area of the solid formed by revolving the cardiod <m>r=1+\cos(\theta) </m> about the initial ray.</p>
+            <p>Find the surface area of the solid formed by revolving the cardiod <m>r=1+\cos(\theta)</m> about the initial ray.</p>
           </statement>
           <solution>
             <p><m>SA = 32\pi/5</m></p>
@@ -1790,7 +1790,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p>Find the surface area of the solid formed by revolving the circle <m>r=2\cos(\theta) </m> about the line <m>\theta=\pi/2</m>.</p>
+            <p>Find the surface area of the solid formed by revolving the circle <m>r=2\cos(\theta)</m> about the line <m>\theta=\pi/2</m>.</p>
           </statement>
           <solution>
             <p><m>SA = 4\pi^2</m></p>
@@ -1807,7 +1807,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p>Find the surface area of the solid formed by revolving the line <m>r=3\sec(\theta) </m>, <m>-\pi/4\leq\theta\leq\pi/4</m>, about the line <m>\theta=\pi/2</m>.</p>
+            <p>Find the surface area of the solid formed by revolving the line <m>r=3\sec(\theta)</m>, <m>-\pi/4\leq\theta\leq\pi/4</m>, about the line <m>\theta=\pi/2</m>.</p>
           </statement>
           <solution>
             <p><m>SA = 36\pi</m></p>

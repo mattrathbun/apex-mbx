@@ -23,7 +23,7 @@
     <example xml:id="ex_iterated1">
       <title>Integrating functions of more than one variable</title>
       <statement>
-        <p>Evaluate the integral <m>\ds \int_1^{2y} 2xy\ dx</m>. </p>
+        <p>Evaluate the integral <m>\ds \int_1^{2y} 2xy\ dx</m>.</p>
       </statement>
       <solution>
         <p>We find the indefinite integral as before, then apply the Fundamental Theorem of Calculus to evaluate the definite integral:
@@ -71,7 +71,7 @@
     <example xml:id="ex_iterated3">
       <title>Integrating an integral</title>
       <statement>
-        <p>Evaluate <m>\ds \int_1^2\left(\int_1^x\big(5x^3y^{-3}+6y^2\big)\ dy\right)\ dx</m>. </p>
+        <p>Evaluate <m>\ds \int_1^2\left(\int_1^x\big(5x^3y^{-3}+6y^2\big)\ dy\right)\ dx</m>.</p>
       </statement>
       <solution>
         <p>We follow a standard <q>order of operations</q> and perform the operations inside parentheses first (which is the integral evaluated in <xref ref="ex_iterated2">Example</xref>.)
@@ -98,9 +98,9 @@
           <index><main>integration</main><sub>iterated</sub></index><index><main>integration</main><sub>multiple</sub></index><index><main>iterated integration</main></index><index><main>multiple integration|see{iterated integration}</main></index><index><main>integration</main><sub>notation</sub></index></p>
 
         <ol>
-          <li><p><m>\ds \int_c^d\int_{h_1(y)}^{h_2(y)} f(x,y)\ dx\ dy = \int_c^d\left(\int_{h_1(y)}^{h_2(y)} f(x,y)\ dx\right) dy</m>. </p></li>
+          <li><p><m>\ds \int_c^d\int_{h_1(y)}^{h_2(y)} f(x,y)\ dx\ dy = \int_c^d\left(\int_{h_1(y)}^{h_2(y)} f(x,y)\ dx\right) dy</m>.</p></li>
 
-          <li><p><m>\ds \int_a^b\int_{g_1(x)}^{g_2(x)} f(x,y)\ dy\ dx = \int_a^b\left(\int_{g_1(x)}^{g_2(x)} f(x,y)\ dy\right) dx</m>. </p></li>
+          <li><p><m>\ds \int_a^b\int_{g_1(x)}^{g_2(x)} f(x,y)\ dy\ dx = \int_a^b\left(\int_{g_1(x)}^{g_2(x)} f(x,y)\ dy\right) dx</m>.</p></li>
         </ol>
       </statement>
     </definition>
@@ -575,7 +575,7 @@
         </figure>
 
         <p>To change the order of integration, we need to consider the curves that bound the <m>x</m>-values. We see that the lower bound is <m>x=3y</m> and the upper bound is <m>x=6</m>. The bounds on <m>y</m> are <m>0</m> to <m>2</m>. Thus we can rewrite the integral as
-          <m>\ds \int_0^2\int_{3y}^6 1\ dx \ dy</m>. </p>
+          <m>\ds \int_0^2\int_{3y}^6 1\ dx \ dy</m>.</p>
       </solution>
     </example>
 
@@ -763,7 +763,7 @@
           </statement>
           <solution>
             <ol>
-              <li><p><m>2+\pi^2\cos(y) </m></p></li>
+              <li><p><m>2+\pi^2\cos(y)</m></p></li>
 
               <li><p><m>\pi^2+\pi</m></p></li>
             </ol>
@@ -838,7 +838,7 @@
           </statement>
           <solution>
             <ol>
-              <li><p><m>\sin^2(y) </m></p></li>
+              <li><p><m>\sin^2(y)</m></p></li>
 
               <li><p><m>\pi/2</m></p></li>
             </ol>

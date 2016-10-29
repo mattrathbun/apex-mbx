@@ -823,7 +823,7 @@
           <index><main>double integral</main><sub>properties</sub></index><index><main>iterated integration</main><sub>properties</sub></index></p>
 
         <ol>
-          <li><p><m>\ds \iint_Rc\,f(x,y)\ dA = c\iint_Rf(x,y)\ dA</m>. </p></li>
+          <li><p><m>\ds \iint_Rc\,f(x,y)\ dA = c\iint_Rf(x,y)\ dA</m>.</p></li>
 
           <li><p><m>\ds \iint_R \big(f(x,y)\pm g(x,y)\big)\ dA = \iint_R f(x,y)\ dA \pm \iint_R g(x,y)\ dA</m></p></li>
 
@@ -894,7 +894,7 @@
     <example xml:id="ex_double3">
       <title>Evaluating a double integral</title>
       <statement>
-        <p>Let <m>f(x,y) = \sin(x) \cos(y) </m> and <m>R</m> be the triangle with vertices <m>(-1,0)</m>, <m>(1,0)</m> and <m>(0,1)</m> (see <xref ref="fig_double3">Figure</xref>). Evaluate the double integral <m>\iint_Rf(x,y)\ dA</m>.</p>
+        <p>Let <m>f(x,y) = \sin(x) \cos(y)</m> and <m>R</m> be the triangle with vertices <m>(-1,0)</m>, <m>(1,0)</m> and <m>(0,1)</m> (see <xref ref="fig_double3">Figure</xref>). Evaluate the double integral <m>\iint_Rf(x,y)\ dA</m>.</p>
 
         <figure xml:id="fig_double3" >
           <caption>Finding the signed volume under a surface in <xref ref="ex_double3">Example</xref>.</caption>
@@ -2209,7 +2209,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\ds \iint_R e^y\ dA</m>, where <m>R</m> is bounded by <m>y=\ln(x) </m> and</p>
+            <p><m>\ds \iint_R e^y\ dA</m>, where <m>R</m> is bounded by <m>y=\ln(x)</m> and</p>
 
             <p><m>\ds y=\frac{1}{e-1}(x-1)</m>.</p>
           </statement>
@@ -2357,7 +2357,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\ds \iint_R \big(4-3y\big)\ dA</m>, where <m>R</m> is bounded by <m>y=0</m>, <m>y=x/e</m> and <m>y=\ln(x) </m>.</p>
+            <p><m>\ds \iint_R \big(4-3y\big)\ dA</m>, where <m>R</m> is bounded by <m>y=0</m>, <m>y=x/e</m> and <m>y=\ln(x)</m>.</p>
           </statement>
           <solution>
             <ol>
@@ -2472,7 +2472,7 @@
           <solution>
             <p>Integrating <m>\ds\int_y^{1}\frac{2y}{x^2+y^2}\ dx</m> gives <m>\tan^{-1}(1/y)-\pi/4</m>; integrating <m>\tan^{-1}(1/y)</m> is hard.</p>
 
-            <p><m>\ds\int_0^1\int_0^x\frac{2y}{x^2+y^2}\ dy \ dx = \ln(2) </m>.</p>
+            <p><m>\ds\int_0^1\int_0^x\frac{2y}{x^2+y^2}\ dy \ dx = \ln(2)</m>.</p>
           </solution>
         </webwork>
       </exercise>
@@ -2521,7 +2521,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\ds f(x,y) = \sin(x) \cos(y) </m>; <m>R</m> is bounded by <m>x=0</m>, <m>x=\pi</m>, <m>y=-\pi/2</m> and <m>y=\pi/2</m>.</p>
+            <p><m>\ds f(x,y) = \sin(x) \cos(y)</m>; <m>R</m> is bounded by <m>x=0</m>, <m>x=\pi</m>, <m>y=-\pi/2</m> and <m>y=\pi/2</m>.</p>
           </statement>
           <solution>
             <p>average value of <m>f= 4/\pi^2</m></p>

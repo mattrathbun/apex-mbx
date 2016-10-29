@@ -149,7 +149,7 @@
     <example xml:id="ex_pf3">
       <title>Integrating using partial fractions</title>
       <statement>
-        <p>Use partial fraction decomposition to integrate <m>\ds\int\frac{1}{(x-1)(x+2)^2}\ dx</m>. </p>
+        <p>Use partial fraction decomposition to integrate <m>\ds\int\frac{1}{(x-1)(x+2)^2}\ dx</m>.</p>
       </statement>
       <solution>
         <p>We decompose the integrand as follows, as described by <xref ref="idea_partial_fraction">Key Idea</xref>:
@@ -248,7 +248,7 @@
     <example xml:id="ex_pf5">
       <title>Integrating using partial fractions</title>
       <statement>
-        <p>Use partial fraction decomposition to evaluate <m>\ds \int\frac{7x^2+31x+54}{(x+1)(x^2+6x+11)}\ dx</m>. </p>
+        <p>Use partial fraction decomposition to evaluate <m>\ds \int\frac{7x^2+31x+54}{(x+1)(x^2+6x+11)}\ dx</m>.</p>
       </statement>
       <solution>
         <p>The degree of the numerator is less than the degree of the denominator so we begin by applying <xref ref="idea_partial_fraction">Key Idea</xref>. We have:

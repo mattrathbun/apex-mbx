@@ -667,7 +667,7 @@
       </solution>
     </example>
 
-    <p>Implicit differentiation proves to be useful as it allows us to find the instantaneous rates of change of a variety of functions. In particular, it extended the Power Rule to rational exponents, which we then extended to all real numbers. In the next section, implicit differentiation will be used to find the derivatives of <em>inverse</em> functions, such as <m>y=\sin^{-1}(x) </m>.</p>
+    <p>Implicit differentiation proves to be useful as it allows us to find the instantaneous rates of change of a variety of functions. In particular, it extended the Power Rule to rational exponents, which we then extended to all real numbers. In the next section, implicit differentiation will be used to find the derivatives of <em>inverse</em> functions, such as <m>y=\sin^{-1}(x)</m>.</p>
   </subsection>
 
   <exercises>
@@ -806,7 +806,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>g(t) = \sqrt{t}\sin(t) </m></p>
+            <p><m>g(t) = \sqrt{t}\sin(t)</m></p>
           </statement>
           <solution>
             <p><m>g'(t) = \sqrt{t}\cos(t) + \frac{\sin(t) }{2\sqrt{t}}</m></p>

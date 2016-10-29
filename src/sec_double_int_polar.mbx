@@ -193,7 +193,7 @@
       </me>
     </p>
 
-    <p>So to evaluate <m>\iint_Rf(x,y)\ dA</m>, replace <m>dA</m> with <m>r\ dr\ d\theta</m>. Convert the function <m>z=f(x,y)</m> to a function with polar coordinates with the substitutions <m>x=r\cos(\theta) </m>, <m>y=r\sin(\theta) </m>. Finally, find bounds <m>g_1(\theta)\leq r\leq g_2(\theta)</m> and <m>\alpha\leq\theta\leq\beta</m> that describe <m>R</m>. This is the key principle of this section, so we restate it here as a Key Idea.</p>
+    <p>So to evaluate <m>\iint_Rf(x,y)\ dA</m>, replace <m>dA</m> with <m>r\ dr\ d\theta</m>. Convert the function <m>z=f(x,y)</m> to a function with polar coordinates with the substitutions <m>x=r\cos(\theta)</m>, <m>y=r\sin(\theta)</m>. Finally, find bounds <m>g_1(\theta)\leq r\leq g_2(\theta)</m> and <m>\alpha\leq\theta\leq\beta</m> that describe <m>R</m>. This is the key principle of this section, so we restate it here as a Key Idea.</p>
 
     <insight xml:id="idea_doublepol">
       <title>Evaluating Double Integrals with Polar Coordinates</title>
@@ -543,9 +543,9 @@
 
         </figure>
 
-        <p>It is straightforward to show that the circle <m>(x-1)^2+y^2=1</m> has polar equation <m>r=2\cos(\theta) </m>, and that the circle <m>(x-2)^2+y^2=4</m> has polar equation <m>r=4\cos(\theta) </m>. Each of these circles is traced out on the interval <m>0\leq\theta\leq\pi</m>. The bounds on <m>r</m> are <m>2\cos(\theta) \leq r\leq 4\cos(\theta) </m>. </p>
+        <p>It is straightforward to show that the circle <m>(x-1)^2+y^2=1</m> has polar equation <m>r=2\cos(\theta)</m>, and that the circle <m>(x-2)^2+y^2=4</m> has polar equation <m>r=4\cos(\theta)</m>. Each of these circles is traced out on the interval <m>0\leq\theta\leq\pi</m>. The bounds on <m>r</m> are <m>2\cos(\theta) \leq r\leq 4\cos(\theta)</m>.</p>
 
-        <p>Replacing <m>x</m> with <m>r\cos(\theta) </m> in the integrand, along with replacing <m>y</m> with <m>r\sin(\theta) </m>, prepares us to evaluate the double integral <m>\iint_Rf(x,y)\ dA</m>:
+        <p>Replacing <m>x</m> with <m>r\cos(\theta)</m> in the integrand, along with replacing <m>y</m> with <m>r\sin(\theta)</m>, prepares us to evaluate the double integral <m>\iint_Rf(x,y)\ dA</m>:
           <md>
             <mrow>\iint_Rf(x,y)\ dA \amp = \int_0^{\pi}\int_{2\cos(\theta) }^{4\cos(\theta) } \Big(4-\big(r\cos(\theta) -2\big)^2-\big(r\sin(\theta) \big)^2\Big)r\ dr\ d\theta</mrow>
             <mrow>\amp = \int_0^{\pi}\int_{2\cos(\theta) }^{4\cos(\theta) } \big(-r^3+4r^2\cos(\theta) \big)\ dr\ d\theta</mrow>
@@ -553,7 +553,7 @@
             <mrow>\amp =\int_0^\pi \left(\left[-\frac14(256\cos^4(\theta) )+\frac43(64\cos^4(\theta) )\right]-\right.</mrow>
             <mrow>\amp \ \left.\left[-\frac14(16\cos^4(\theta) )+\frac43(8\cos^4(\theta) )\right]\right)\ d\theta</mrow>
             <mrow>\amp =\int_0^\pi\frac{44}3\cos^4(\theta) \ d\theta.</mrow>
-            <intertext>To integrate <m>\cos^4(\theta) </m>, rewrite it as <m>\cos^2(\theta) \cos^2(\theta) </m> and employ the power-reducing formula twice:</intertext>
+            <intertext>To integrate <m>\cos^4(\theta)</m>, rewrite it as <m>\cos^2(\theta) \cos^2(\theta)</m> and employ the power-reducing formula twice:</intertext>
             <mrow>\cos^4(\theta) \amp =\cos^2(\theta) \cos^2(\theta) </mrow>
             <mrow>\amp = \frac12\big(1+\cos(2\theta)\big)\frac12\big(1+\cos(2\theta)\big)</mrow>
             <mrow>\amp = \frac14\big(1+2\cos(2\theta)+\cos^2(2\theta)\big)</mrow>
@@ -898,9 +898,9 @@
           </me>
         </p>
 
-        <p>This integral takes time to compute by hand; it is rather long and cumbersome. The powers of cosine need to be reduced, and products like <m>\cos(3\theta)\cos(\theta) </m> need to be turned to sums using the Product To Sum formulas in the back cover of this text.</p>
+        <p>This integral takes time to compute by hand; it is rather long and cumbersome. The powers of cosine need to be reduced, and products like <m>\cos(3\theta)\cos(\theta)</m> need to be turned to sums using the Product To Sum formulas in the back cover of this text.</p>
 
-        <p>We rewrite <m>\frac12\cos^2(3\theta)</m> as <m>\frac14(1+\cos(6\theta))</m>. We can also rewrite <m>\frac13\cos^3(3\theta)\cos(\theta) </m> as:
+        <p>We rewrite <m>\frac12\cos^2(3\theta)</m> as <m>\frac14(1+\cos(6\theta))</m>. We can also rewrite <m>\frac13\cos^3(3\theta)\cos(\theta)</m> as:
           <me>
             \frac13\cos^3(3\theta)\cos(\theta) = \frac13\cos^2(3\theta)\cos(3\theta)\cos(\theta) = \frac13\frac{1+\cos(6\theta)}2\big(\cos(4\theta)+\cos(2\theta)\big).
           </me>
@@ -1005,7 +1005,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>f(x,y) = 8-y</m>; <m>R</m> is the region enclosed by the circles with polar equations <m>r=\cos(\theta) </m> and <m>r=3\cos(\theta) </m>.</p>
+            <p><m>f(x,y) = 8-y</m>; <m>R</m> is the region enclosed by the circles with polar equations <m>r=\cos(\theta)</m> and <m>r=3\cos(\theta)</m>.</p>
           </statement>
           <solution>
             <p><m>\ds \int_0^{\pi}\int_{\cos(\theta) }^{3\cos(\theta) } \big(8-r\sin(\theta) \big)r\ dr\ d\theta = 16\pi</m></p>
@@ -1093,7 +1093,7 @@
             <p><m>f(x,y) = (x-y)/(x+y)</m>; <m>R</m> is the region enclosed by the lines <m>y=x</m>, <m>y=0</m> and the circle <m>x^2+y^2=1</m> in the first quadrant.</p>
           </statement>
           <solution>
-            <p><m>\ds \int_{0}^{\pi/4}\int_{0}^{1} \left(\frac{\cos(\theta) -\sin(\theta) }{\cos(\theta) +\sin(\theta) }\right)r\ dr\ d\theta = \ln(2) </m></p>
+            <p><m>\ds \int_{0}^{\pi/4}\int_{0}^{1} \left(\frac{\cos(\theta) -\sin(\theta) }{\cos(\theta) +\sin(\theta) }\right)r\ dr\ d\theta = \ln(2)</m></p>
           </solution>
         </webwork>
       </exercise>

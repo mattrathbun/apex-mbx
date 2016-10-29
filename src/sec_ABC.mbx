@@ -17,7 +17,7 @@
       </me>
     </p>
 
-    <p>Taking the limit as <m>n\to \infty</m> gives the exact area as <m>\int_a^b \big(f(x)-g(x)\big)\ dx</m>. </p>
+    <p>Taking the limit as <m>n\to \infty</m> gives the exact area as <m>\int_a^b \big(f(x)-g(x)\big)\ dx</m>.</p>
 
     <figure xml:id="fig_abcintro" >
     <caption>Subdividing a region into vertical slices and approximating the areas with rectangles.</caption>
@@ -1038,7 +1038,7 @@
             </figure>
           </statement>
           <solution>
-            <p><m>1/\ln(4) </m></p>
+            <p><m>1/\ln(4)</m></p>
           </solution>
         </webwork>
       </exercise>
@@ -1087,7 +1087,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>f(x) = \sin(x) </m>, <m>g(x) = 2x/\pi</m></p>
+            <p><m>f(x) = \sin(x)</m>, <m>g(x) = 2x/\pi</m></p>
           </statement>
           <solution>
             <p><m>2-\pi/2</m></p>
@@ -1155,7 +1155,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p>The functions <m>f(x) = \cos(2x)</m> and <m>g(x) = \sin(x) </m> intersect infinitely many times, forming an infinite number of repeated, enclosed regions. Find the areas of these regions.</p>
+            <p>The functions <m>f(x) = \cos(2x)</m> and <m>g(x) = \sin(x)</m> intersect infinitely many times, forming an infinite number of repeated, enclosed regions. Find the areas of these regions.</p>
           </statement>
           <solution>
             <p>On regions such as <m>[\pi/6,5\pi/6]</m>, the area is <m>3\sqrt{3}/2</m>. On regions such as <m>[-\pi/2,\pi/6]</m>, the area is <m>3\sqrt{3}/4</m>.</p>

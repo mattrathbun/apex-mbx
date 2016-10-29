@@ -306,16 +306,16 @@
     <example xml:id="ex_direct2">
       <title>Finding directions of maximal and minimal increase</title>
       <statement>
-        <p>Let <m>f(x,y) = \sin(x) \cos(y) </m> and let <m>P=(\pi/3,\pi/3)</m>. Find the directions of maximal/minimal increase, and find a direction where the instantaneous rate of <m>z</m> change is 0.</p>
+        <p>Let <m>f(x,y) = \sin(x) \cos(y)</m> and let <m>P=(\pi/3,\pi/3)</m>. Find the directions of maximal/minimal increase, and find a direction where the instantaneous rate of <m>z</m> change is 0.</p>
       </statement>
       <solution>
-        <p>We begin by finding the gradient. <m>f_x = \cos(x) \cos(y) </m> and <m>f_y = -\sin(x) \sin(y) </m>, thus
+        <p>We begin by finding the gradient. <m>f_x = \cos(x) \cos(y)</m> and <m>f_y = -\sin(x) \sin(y)</m>, thus
           <me>
             \nabla f = \la \cos(x) \cos(y) ,-\sin(x) \sin(y) \ra  \text{ and, at \(P\), }   \nabla f\left(\frac{\pi}3,\frac{\pi}3\right) = \la\frac14,-\frac34\ra.
           </me>
         </p>
 
-        <p>Thus the direction of maximal increase is <m>\la 1/4, -3/4\ra</m>. In this direction, the instantaneous rate of <m>z</m> change is <m>\norm{\la 1/4,-3/4\ra} = \sqrt{10}/4 \approx 0.79</m>. </p>
+        <p>Thus the direction of maximal increase is <m>\la 1/4, -3/4\ra</m>. In this direction, the instantaneous rate of <m>z</m> change is <m>\norm{\la 1/4,-3/4\ra} = \sqrt{10}/4 \approx 0.79</m>.</p>
 
         <p><xref ref="fig_direct2">Figure</xref> shows the surface plotted from two different perspectives. In each, the gradient is drawn at <m>P</m> with a dashed line (because of the nature of this surface, the gradient points <q>into</q> the surface). Let <m>\vec u = \la u_1, u_2\ra</m> be the unit vector in the direction of <m>\nabla f</m> at <m>P</m>. Each graph of the figure also contains the vector <m>\la u_1, u_2, \norm{\nabla f\,}\ra</m>. This vector has a <q>run</q> of 1 (because in the <m>x</m>-<m>y</m> plane it moves 1 unit) and a <q>rise</q> of <m>\norm{\nabla f\,}</m>, hence we can think of it as a vector with slope of <m>\norm{\nabla f\,}</m> in the direction of <m>\nabla f</m>, helping us visualize how <q>steep</q> the surface is in its steepest direction.</p>
 
@@ -1181,7 +1181,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\ds f(x,y) = \sin(x) \cos(y) </m></p>
+            <p><m>\ds f(x,y) = \sin(x) \cos(y)</m></p>
           </statement>
           <solution>
             <p><m>\nabla f = \la \cos(x) \cos(y) , -\sin(x) \sin(y) \ra</m></p>
@@ -1297,7 +1297,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\ds f(x,y) = \sin(x) \cos(y) </m>, <m>\ds P = \left(\frac{\pi}{4},\frac{\pi}{3}\right)</m></p>
+            <p><m>\ds f(x,y) = \sin(x) \cos(y)</m>, <m>\ds P = \left(\frac{\pi}{4},\frac{\pi}{3}\right)</m></p>
 
             <ol>
               <li><p>In the direction of <m>\vec v=\la 1,1\ra</m>.</p></li>
@@ -1358,7 +1358,7 @@
             <p><m>\ds f(x,y) = -4x+3y</m>, <m>P = (5,2)</m></p>
 
             <ol>
-              <li><p>In the direction of <m>\vec v = \la 3,1\ra</m>. </p></li>
+              <li><p>In the direction of <m>\vec v = \la 3,1\ra</m>.</p></li>
 
               <li><p>In the direction toward the point <m>Q = (2,7)</m>.</p></li>
             </ol>
@@ -1490,7 +1490,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\ds f(x,y) = \sin(x) \cos(y) </m>, <m>\ds P = \left(\frac{\pi}{4},\frac{\pi}{3}\right)</m></p>
+            <p><m>\ds f(x,y) = \sin(x) \cos(y)</m>, <m>\ds P = \left(\frac{\pi}{4},\frac{\pi}{3}\right)</m></p>
           </statement>
           <solution>
             <p><m>\nabla f = \la \cos(x) \cos(y) , -\sin(x) \sin(y) \ra</m></p>

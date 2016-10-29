@@ -471,9 +471,9 @@
 
         <p>Once this table is created, it is straightforward to approximate the definite integral using the Left and Right Hand Rules. (Note: the table itself is easy to create, especially with a standard spreadsheet program on a computer. The last two columns are all that are needed.) The Left Hand Rule sums the first 10 values of <m>\sin(x_i^3)</m> and multiplies the sum by <m>\dx</m>; the Right Hand Rule sums the last 10 values of <m>\sin(x_i^3)</m> and multiplies by <m>\dx</m>. Therefore we have:</p>
 
-        <p>Left Hand Rule: <m>\ds \int_{-\frac{\pi}4}^{\frac{\pi}2}\sin(x^3)\ dx \approx (1.91)(0.236) = 0.451</m>. </p>
+        <p>Left Hand Rule: <m>\ds \int_{-\frac{\pi}4}^{\frac{\pi}2}\sin(x^3)\ dx \approx (1.91)(0.236) = 0.451</m>.</p>
 
-        <p>Right Hand Rule: <m>\ds \int_{-\frac{\pi}4}^{\frac{\pi}2}\sin(x^3)\ dx \approx (1.71)(0.236) = 0.404</m>. </p>
+        <p>Right Hand Rule: <m>\ds \int_{-\frac{\pi}4}^{\frac{\pi}2}\sin(x^3)\ dx \approx (1.71)(0.236) = 0.404</m>.</p>
 
         <p>Average of the Left and Right Hand Rules: 0.4275.</p>
 
@@ -786,7 +786,7 @@
           </md>
         </p>
 
-        <p>We approximate <m>\ds \int_0^1 e^{-x^2}\ dx \approx 0.7445</m>. </p>
+        <p>We approximate <m>\ds \int_0^1 e^{-x^2}\ dx \approx 0.7445</m>.</p>
       </solution>
     </example>
 
@@ -1438,7 +1438,7 @@
         <p>One of the authors drove his daughter home from school while she recorded their speed every 30 seconds. The data is given in <xref ref="fig_num8">Figure</xref>. Approximate the distance they traveled.</p>
       </statement>
       <solution>
-        <p>Recall that by integrating a speed function we get distance traveled. We have information about <m>v(t)</m>; we will use Simpson's Rule to approximate <m>\ds \int_a^b v(t)\ dt</m>. </p>
+        <p>Recall that by integrating a speed function we get distance traveled. We have information about <m>v(t)</m>; we will use Simpson's Rule to approximate <m>\ds \int_a^b v(t)\ dt.</m></p>
 
         <p>The most difficult aspect of this problem is converting the given data into the form we need it to be in. The speed is measured in miles per hour, whereas the time is measured in 30 second increments.</p>
 

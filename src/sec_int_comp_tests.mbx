@@ -151,7 +151,7 @@
         <p>Determine the convergence of <m>\ds\sum_{n=1}^\infty \frac{\ln(n) }{n^2}</m>. (The terms of the sequence <m>\{a_n\} = \{\ln(n) /n^2\}</m> and the n<m>^{\text{ th } }</m> partial sums are given in <xref ref="fig_itest1">Figure</xref>.)</p>
       </statement>
       <solution>
-        <p><xref ref="fig_itest1">Figure</xref> implies that <m>a(n) = (\ln(n) )/n^2</m> is positive and decreasing on <m>[2,\infty)</m>. We can determine this analytically, too. We know <m>a(n)</m> is positive as both <m>\ln(n) </m> and <m>n^2</m> are positive on <m>[2,\infty)</m>. To determine that <m>a(n)</m> is decreasing, consider <m>a'(n) = (1-2\ln(n) )/n^3</m>, which is negative for <m>n\geq 2</m>. Since <m>a'(n)</m> is negative, <m>a(n)</m> is decreasing.</p>
+        <p><xref ref="fig_itest1">Figure</xref> implies that <m>a(n) = (\ln(n) )/n^2</m> is positive and decreasing on <m>[2,\infty)</m>. We can determine this analytically, too. We know <m>a(n)</m> is positive as both <m>\ln(n)</m> and <m>n^2</m> are positive on <m>[2,\infty)</m>. To determine that <m>a(n)</m> is decreasing, consider <m>a'(n) = (1-2\ln(n) )/n^3</m>, which is negative for <m>n\geq 2</m>. Since <m>a'(n)</m> is negative, <m>a(n)</m> is decreasing.</p>
 
         <figure xml:id="fig_itest1" >
           <caption>Plotting the sequence and series in <xref ref="ex_itest1">Example</xref>.</caption>
@@ -197,7 +197,7 @@
           <!-- figures/fig_itest1.tex END -->
         </figure>
 
-        <p>Applying the Integral Test, we test the convergence of <m>\ds \int_1^\infty \frac{\ln(x) }{x^2}\ dx</m>. Integrating this improper integral requires the use of Integration by Parts, with <m>u = \ln(x) </m> and <m>dv = 1/x^2\ dx</m>.
+        <p>Applying the Integral Test, we test the convergence of <m>\ds \int_1^\infty \frac{\ln(x) }{x^2}\ dx</m>. Integrating this improper integral requires the use of Integration by Parts, with <m>u = \ln(x)</m> and <m>dv = 1/x^2\ dx</m>.
           <md>
             <mrow>\int_1^\infty \frac{\ln(x) }{x^2}\ dx \amp = \lim_{b\to\infty} \int_1^b \frac{\ln(x) }{x^2}\ dx</mrow>
             <mrow>\amp = \lim_{b\to\infty} -\frac1x\ln(x) \Big|_1^b + \int_1^b\frac1{x^2}\ dx</mrow>
@@ -281,7 +281,7 @@
       <solution>
         <p>We know the Harmonic Series <m>\ds\sum_{n=1}^\infty \frac1n</m> diverges, and it seems that the given series is closely related to it, hence we predict it will diverge.</p>
 
-        <p>Since <m>n\geq n-\ln(n) </m> for all <m>n\geq 1</m>, <m>\ds \frac1n \leq \frac1{n-\ln(n) }</m> for all <m>n\geq 1</m>.</p>
+        <p>Since <m>n\geq n-\ln(n)</m> for all <m>n\geq 1</m>, <m>\ds \frac1n \leq \frac1{n-\ln(n) }</m> for all <m>n\geq 1</m>.</p>
 
         <p>The Harmonic Series diverges, so we conclude that <m>\ds\sum_{n=1}^\infty \frac{1}{n-\ln(n) }</m> diverges as well.</p>
       </solution>
@@ -289,7 +289,7 @@
 
     <p>The concept of direct comparison is powerful and often relatively easy to apply. Practice helps one develop the necessary intuition to quickly pick a proper series with which to compare. However, it is easy to construct a series for which it is difficult to apply the Direct Comparison Test.</p>
 
-    <p>Consider <m>\ds\sum_{n=1}^\infty \frac1{n+\ln(n) }</m>. It is very similar to the divergent series given in <xref ref="ex_dct2">Example</xref>. We suspect that it also diverges, as <m>\ds \frac 1n \approx \frac1{n+\ln(n) }</m> for large <m>n</m>. However, the inequality that we naturally want to use <q>goes the wrong way</q>: since <m>n\leq n+\ln(n) </m> for all <m>n\geq 1</m>, <m>\ds\frac1n \geq \frac{1}{n+\ln(n) }</m> for all <m>n\geq 1</m>. The given series has terms <em>less than</em> the terms of a divergent series, and we cannot conclude anything from this.</p>
+    <p>Consider <m>\ds\sum_{n=1}^\infty \frac1{n+\ln(n) }</m>. It is very similar to the divergent series given in <xref ref="ex_dct2">Example</xref>. We suspect that it also diverges, as <m>\ds \frac 1n \approx \frac1{n+\ln(n) }</m> for large <m>n</m>. However, the inequality that we naturally want to use <q>goes the wrong way</q>: since <m>n\leq n+\ln(n)</m> for all <m>n\geq 1</m>, <m>\ds\frac1n \geq \frac{1}{n+\ln(n) }</m> for all <m>n\geq 1</m>. The given series has terms <em>less than</em> the terms of a divergent series, and we cannot conclude anything from this.</p>
 
     <p>Fortunately, we can apply another test to the given series to determine its convergence.</p>
   </subsection>

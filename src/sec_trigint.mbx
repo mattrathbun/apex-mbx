@@ -9,7 +9,7 @@
 
   <subsection>
     <title>Integrals of the form <m>\ds \int \sin^m(x) \cos^n(x) \ dx</m></title>
-    <p>In learning the technique of Substitution, we saw the integral <m>\int \sin(x) \cos(x) \ dx</m> in <xref ref="ex_sub10">Example</xref>. The integration was not difficult, and one could easily evaluate the indefinite integral by letting <m>u=\sin(x) </m> or by letting <m>u = \cos(x) </m>. This integral is easy since the power of both sine and cosine is 1.</p>
+    <p>In learning the technique of Substitution, we saw the integral <m>\int \sin(x) \cos(x) \ dx</m> in <xref ref="ex_sub10">Example</xref>. The integration was not difficult, and one could easily evaluate the indefinite integral by letting <m>u=\sin(x)</m> or by letting <m>u = \cos(x)</m>. This integral is easy since the power of both sine and cosine is 1.</p>
 
     <p>We generalize this integral and consider integrals of the form <m>\int \sin^m(x) \cos^n(x) \ dx</m>, where <m>m,n</m> are nonnegative integers. Our strategy for evaluating these integrals is to use the identity <m>\cos^2(x) +\sin^2(x) =1</m> to convert high powers of one trigonometric function into the other, leaving a single sine or cosine term in the integrand. We summarize the general technique in the following Key Idea.</p>
 
@@ -27,13 +27,13 @@
               <me>
                 \int \sin^m(x) \cos^n(x) \ dx = \int (1-\cos^2(x) )^k\sin(x) \cos^n(x) \ dx = -\int (1-u^2)^ku^n\ du,
               </me>
-              where <m>u = \cos(x) </m> and <m>du = -\sin(x) \ dx</m>.</p></li>
+              where <m>u = \cos(x)</m> and <m>du = -\sin(x) \ dx</m>.</p></li>
 
           <li><p>If <m>n</m> is odd, then using substitutions similar to that outlined above we have
               <me>
                 \int \sin^m(x) \cos^n(x) \ dx = \int u^m(1-u^2)^k\ du,
               </me>
-              where <m>u = \sin(x) </m> and <m>du = \cos(x) \ dx</m>.</p></li>
+              where <m>u = \sin(x)</m> and <m>du = \cos(x) \ dx</m>.</p></li>
 
           <li><p>If both <m>m</m> and <m>n</m> are even, use the power<ndash />reducing identities
 		\small
@@ -53,13 +53,13 @@
         <p>Evaluate <m>\ds\int\sin^5(x) \cos^8(x) \ dx</m>.</p>
       </statement>
       <solution>
-        <p>The power of the sine term is odd, so we rewrite <m>\sin^5(x) </m> as
+        <p>The power of the sine term is odd, so we rewrite <m>\sin^5(x)</m> as
           <me>
             \sin^5(x) = \sin^4(x) \sin(x) = (\sin^2(x) )^2\sin(x) = (1-\cos^2(x) )^2\sin(x) .
           </me>
         </p>
 
-        <p>Our integral is now <m>\ds \int (1-\cos^2(x) )^2\cos^8(x) \sin(x) \ dx</m>. Let <m>u = \cos(x) </m>, hence <m>du = -\sin(x) \ dx</m>. Making the substitution and expanding the integrand gives
+        <p>Our integral is now <m>\ds \int (1-\cos^2(x) )^2\cos^8(x) \sin(x) \ dx</m>. Let <m>u = \cos(x)</m>, hence <m>du = -\sin(x) \ dx</m>. Making the substitution and expanding the integrand gives
           <me>
             \int (1-\cos^2()) ^2\cos^8(x) \sin(x) \ dx = -\int (1-u^2)^2u^8\ du = -\int \big(1-2u^2+u^4\big)u^8\ du = -\int \big(u^8-2u^{10}+u^{12}\big)\ du.
           </me>
@@ -82,7 +82,7 @@
       <solution>
         <p>The powers of both the sine and cosine terms are odd, therefore we can apply the techniques of <xref ref="idea_trig_int_1">Key Idea</xref> to either power. We choose to work with the power of the cosine term since the previous example used the sine term's power.</p>
 
-        <p>We rewrite <m>\cos^9(x) </m> as
+        <p>We rewrite <m>\cos^9(x)</m> as
           <md>
             <mrow>\cos^9(x) \amp = \cos^8(x) \cos(x) </mrow>
             <mrow>\amp = (\cos^2(x) )^4\cos(x) </mrow>
@@ -97,7 +97,7 @@
           </me>
         </p>
 
-        <p>Now substitute and integrate, using <m>u = \sin(x) </m> and <m>du = \cos(x) \ dx</m>.</p>
+        <p>Now substitute and integrate, using <m>u = \sin(x)</m> and <m>du = \cos(x) \ dx</m>.</p>
 
         <p><m>\ds \int\sin^5(x) \big(1-4\sin^2(x) +6\sin^4(x) -4\sin^6(x) +\sin^8(x) \big)\cos(x) \ dx =</m>
           <md>
@@ -221,7 +221,7 @@
   </subsection>
 
   <subsection>
-    <title>Integrals of the form <m>\ds \int\sin(mx)\sin(nx)\ dx,</m> <m>\ds\int \cos(mx)\cos(nx)\ dx</m>, and <m>\ds\int \sin(mx)\cos(nx)\ dx</m>.</title>
+    <title>Integrals of the form <m>\ds \int\sin(mx)\sin(nx)\ dx</m>, <m>\ds\int \cos(mx)\cos(nx)\ dx</m>, and <m>\ds\int \sin(mx)\cos(nx)\ dx</m>.</title>
     <p>Functions that contain products of sines and cosines of differing periods are important in many applications including the analysis of sound waves. Integrals of the form
       <me>
         \int\sin(mx)\sin(nx)\ dx, \int \cos(mx)\cos(nx)\ dx  \text{ and } \int \sin(mx)\cos(nx)\ dx
@@ -252,26 +252,26 @@
 
   <subsection>
     <title>Integrals of the form <m>\ds\int\tan^m(x) \sec^n(x) \ dx</m>.</title>
-    <p>When evaluating integrals of the form <m>\int \sin^m(x) \cos^n(x) \ dx</m>, the Pythagorean Theorem allowed us to convert even powers of sine into even powers of cosine, and vise<ndash />versa. If, for instance, the power of sine was odd, we pulled out one <m>\sin(x) </m> and converted the remaining even power of <m>\sin(x) </m> into a function using powers of <m>\cos(x) </m>, leading to an easy substitution.</p>
+    <p>When evaluating integrals of the form <m>\int \sin^m(x) \cos^n(x) \ dx</m>, the Pythagorean Theorem allowed us to convert even powers of sine into even powers of cosine, and vise<ndash />versa. If, for instance, the power of sine was odd, we pulled out one <m>\sin(x)</m> and converted the remaining even power of <m>\sin(x)</m> into a function using powers of <m>\cos(x)</m>, leading to an easy substitution.</p>
 
     <p>The same basic strategy applies to integrals of the form <m>\int \tan^m(x) \sec^n(x) \ dx</m>, albeit a bit more nuanced. The following three facts will prove useful:</p>
 
     <ul>
-      <li><p><m>\frac{d}{dx}(\tan(x) ) = \sec^2(x) </m>,</p></li>
+      <li><p><m>\frac{d}{dx}(\tan(x) ) = \sec^2(x)</m>,</p></li>
 
-      <li><p><m>\frac{d}{dx}(\sec(x) ) = \sec(x) \tan(x) </m> , and</p></li>
+      <li><p><m>\frac{d}{dx}(\sec(x) ) = \sec(x) \tan(x)</m> , and</p></li>
 
-      <li><p><m>1+\tan^2(x) = \sec^2(x) </m> (the Pythagorean Theorem).</p></li>
+      <li><p><m>1+\tan^2(x) = \sec^2(x)</m> (the Pythagorean Theorem).</p></li>
     </ul>
 
-    <p>If the integrand can be manipulated to separate a <m>\sec^2(x) </m> term with the remaining secant power even, or if a <m>\sec(x) \tan(x) </m> term can be separated with the remaining <m>\tan(x) </m> power even, the Pythagorean Theorem can be employed, leading to a simple substitution. This strategy is outlined in the following Key Idea.</p>
+    <p>If the integrand can be manipulated to separate a <m>\sec^2(x)</m> term with the remaining secant power even, or if a <m>\sec(x) \tan(x)</m> term can be separated with the remaining <m>\tan(x)</m> power even, the Pythagorean Theorem can be employed, leading to a simple substitution. This strategy is outlined in the following Key Idea.</p>
 
     <insight xml:id="idea_trig_int_2">
       <title>Integrals Involving Powers of Tangent and Secant</title>
       <p>Consider <m>\ds\int\tan^m(x) \sec^n(x) \ dx</m>, where <m>m,n</m> are nonnegative integers.<index><main>integration</main><sub>of trig. powers</sub></index></p>
 
       <ol>
-        <li><p>If <m>n</m> is even, then <m>n=2k</m> for some integer <m>k</m>. Rewrite <m>\sec^n(x) </m> as
+        <li><p>If <m>n</m> is even, then <m>n=2k</m> for some integer <m>k</m>. Rewrite <m>\sec^n(x)</m> as
             <me>
               \sec^n(x) = \sec^{2k}(x) = \sec^{2k-2}(x) \sec^2(x) = (1+\tan^2(x) )^{k-1}\sec^2(x) .
             </me>
@@ -279,9 +279,9 @@
             <me>
               \int\tan^m(x) \sec^n(x) \ dx=\int\tan^m(x) (1+\tan^2(x) )^{k-1}\sec^2(x) \ dx = \int u^m(1+u^2)^{k-1}\ du,
             </me>
-            where <m>u = \tan(x) </m> and <m>du = \sec^2(x) \ dx</m>.</p></li>
+            where <m>u = \tan(x)</m> and <m>du = \sec^2(x) \ dx</m>.</p></li>
 
-        <li><p>If <m>m</m> is odd, then <m>m=2k+1</m> for some integer <m>k</m>. Rewrite <m>\tan^m(x) \sec^n(x) </m> as
+        <li><p>If <m>m</m> is odd, then <m>m=2k+1</m> for some integer <m>k</m>. Rewrite <m>\tan^m(x) \sec^n(x)</m> as
             <me>
               \tan^m(x) \sec^n(x) = \tan^{2k+1}(x) \sec^n(x) = \tan^{2k}(x) \sec^{n-1}(x) \sec(x) \tan(x) = (\sec^2(x) -1)^k\sec^{n-1}(x) \sec(x) \tan(x) .
             </me>
@@ -289,11 +289,11 @@
             <me>
               \int\tan^m(x) \sec^n(x) \ dx=\int(\sec^2(x) -1)^k\sec^{n-1}(x) \sec(x) \tan(x) \ dx = \int(u^2-1)^ku^{n-1}\ du,
             </me>
-            where <m>u = \sec(x) </m> and <m>du = \sec(x) \tan(x) \ dx</m>.</p></li>
+            where <m>u = \sec(x)</m> and <m>du = \sec(x) \tan(x) \ dx</m>.</p></li>
 
-        <li><p>If <m>n</m> is odd and <m>m</m> is even, then <m>m=2k</m> for some integer <m>k</m>. Convert <m>\tan^m(x) </m> to <m>(\sec^2(x) -1)^k</m>. Expand the new integrand and use Integration By Parts, with <m>dv = \sec^2(x) \ dx</m>.</p></li>
+        <li><p>If <m>n</m> is odd and <m>m</m> is even, then <m>m=2k</m> for some integer <m>k</m>. Convert <m>\tan^m(x)</m> to <m>(\sec^2(x) -1)^k</m>. Expand the new integrand and use Integration By Parts, with <m>dv = \sec^2(x) \ dx</m>.</p></li>
 
-        <li><p>If <m>m</m> is even and <m>n=0</m>, rewrite <m>\tan^m(x) </m> as
+        <li><p>If <m>m</m> is even and <m>n=0</m>, rewrite <m>\tan^m(x)</m> as
             <me>
               \tan^m(x) = \tan^{m-2}(x) \tan^2(x) = \tan^{m-2}(x) (\sec^2(x) -1) = \tan^{m-2}\sec^2(x) -\tan^{m-2}(x) .
             </me>
@@ -313,11 +313,11 @@
         <p>Evaluate <m>\ds\int \tan^2(x) \sec^6(x) \ dx</m>.</p>
       </statement>
       <solution>
-        <p>Since the power of secant is even, we use rule <hash />1 from <xref ref="idea_trig_int_2">Key Idea</xref> and pull out a <m>\sec^2(x) </m> in the integrand. We convert the remaining powers of secant into powers of tangent.
+        <p>Since the power of secant is even, we use rule <hash />1 from <xref ref="idea_trig_int_2">Key Idea</xref> and pull out a <m>\sec^2(x)</m> in the integrand. We convert the remaining powers of secant into powers of tangent.
           <md>
             <mrow>\int \tan^2(x) \sec^6(x) \ dx \amp = \int\tan^2(x) \sec^4(x) \sec^2(x) \ dx</mrow>
             <mrow>\amp = \int \tan^2(x) \big(1+\tan^2(x) \big)^2\sec^2(x) \ dx</mrow>
-            <intertext>Now substitute, with <m>u=\tan(x) </m>, with <m>du = \sec^2(x) \ dx</m>.</intertext>
+            <intertext>Now substitute, with <m>u=\tan(x)</m>, with <m>du = \sec^2(x) \ dx</m>.</intertext>
             <mrow>\amp =\int u^2\big(1+u^2\big)^2\ du</mrow>
             <intertext>We leave the integration and subsequent substitution to the reader. The final answer is</intertext>
             <mrow>\amp =\frac13\tan^3(x) +\frac25\tan^5(x) +\frac17\tan^7(x) +C.</mrow>
@@ -332,7 +332,7 @@
         <p>Evaluate <m>\ds\int \sec^3(x) \ dx</m>.</p>
       </statement>
       <solution xml:id="fig_trigint1">
-        <p>We apply rule <hash />3 from <xref ref="idea_trig_int_2">Key Idea</xref> as the power of secant is odd and the power of tangent is even (0 is an even number). We use Integration by Parts; the rule suggests letting <m>dv = \sec^2(x) \ dx</m>, meaning that <m>u = \sec(x) </m>.</p>
+        <p>We apply rule <hash />3 from <xref ref="idea_trig_int_2">Key Idea</xref> as the power of secant is odd and the power of tangent is even (0 is an even number). We use Integration by Parts; the rule suggests letting <m>dv = \sec^2(x) \ dx</m>, meaning that <m>u = \sec(x)</m>.</p>
 
         <!--
         <caption>Setting up Integration by Parts.</caption>
@@ -379,7 +379,7 @@
             <mrow>\int \tan^6(x) \ dx \amp = \int \tan^4(x) \tan^2(x) \ dx</mrow>
             <mrow>\amp = \int\tan^4(x) \big(\sec^2(x) -1\big)\ dx</mrow>
             <mrow>\amp = \int\tan^4(x) \sec^2(x) \ dx - \int\tan^4(x) \ dx</mrow>
-            <intertext>Integrate the first integral with substitution, <m>u=\tan(x) </m>; integrate the second by employing rule <hash />4 again.</intertext>
+            <intertext>Integrate the first integral with substitution, <m>u=\tan(x)</m>; integrate the second by employing rule <hash />4 again.</intertext>
             <mrow>\amp =	\frac15\tan^5(x) -\int\tan^2(x) \tan^2(x) \ dx</mrow>
             <mrow>\amp =	\frac15\tan^5(x) -\int\tan^2(x) \big(\sec^2(x) -1\big)\ dx</mrow>
             <mrow>\amp = \frac15\tan^5(x) -\int\tan^2(x) \sec^2(x) \ dx + \int\tan^2(x) \ dx</mrow>
@@ -409,7 +409,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p>T/F: <m>\ds \int \sin^2(x) \cos^2(x) \ dx</m> cannot be evaluated using the techniques described in this section since both powers of <m>\sin(x) </m> and <m>\cos(x) </m> are even.</p>
+            <p>T/F: <m>\ds \int \sin^2(x) \cos^2(x) \ dx</m> cannot be evaluated using the techniques described in this section since both powers of <m>\sin(x)</m> and <m>\cos(x)</m> are even.</p>
           </statement>
           <solution>
             <p>F</p>
@@ -426,7 +426,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p>T/F: <m>\ds \int \sin^3(x) \cos^3(x) \ dx</m> cannot be evaluated using the techniques described in this section since both powers of <m>\sin(x) </m> and <m>\cos(x) </m> are odd.</p>
+            <p>T/F: <m>\ds \int \sin^3(x) \cos^3(x) \ dx</m> cannot be evaluated using the techniques described in this section since both powers of <m>\sin(x)</m> and <m>\cos(x)</m> are odd.</p>
           </statement>
           <solution>
             <p>F</p>
@@ -443,7 +443,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p>T/F: This section addresses how to evaluate indefinite integrals such as <m>\ds \int \sin^5(x) \tan^3(x) \ dx</m>. </p>
+            <p>T/F: This section addresses how to evaluate indefinite integrals such as <m>\ds \int \sin^5(x) \tan^3(x) \ dx</m>.</p>
           </statement>
           <solution>
             <p>F</p>

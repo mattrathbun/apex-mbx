@@ -450,7 +450,7 @@
           </md>
         </p>
 
-        <p>The region <m>R</m> that we are integrating over is the circle, centered at the origin, with radius <m>a</m>: <m>x^2+y^2=a^2</m>. Because of this region, we are likely to have greater success with our integration by converting to polar coordinates. Using the substitutions <m>x=r\cos(\theta) </m>, <m>y=r\sin(\theta) </m>, <m>dA = r\ dr\ d\theta</m> and bounds <m>0\leq\theta\leq2\pi</m> and <m>0\leq r\leq a</m>, we have:
+        <p>The region <m>R</m> that we are integrating over is the circle, centered at the origin, with radius <m>a</m>: <m>x^2+y^2=a^2</m>. Because of this region, we are likely to have greater success with our integration by converting to polar coordinates. Using the substitutions <m>x=r\cos(\theta)</m>, <m>y=r\sin(\theta)</m>, <m>dA = r\ dr\ d\theta</m> and bounds <m>0\leq\theta\leq2\pi</m> and <m>0\leq r\leq a</m>, we have:
           <md>
             <mrow>S \amp = 2\int_0^{2\pi}\int_0^a \sqrt{1+\frac{r^2\cos^2(\theta) +r^2\sin^2(\theta) }{a^2-r^2\cos^2(\theta) -r^2\sin^2(\theta) }}\ r\ dr\ d\theta</mrow>
             <mrow>\amp =2\int_0^{2\pi}\int_0^ar\sqrt{1+\frac{r^2}{a^2-r^2}}\ dr\ d\theta</mrow>
@@ -731,7 +731,7 @@
 
         <p>As with integrals describing arc length, double integrals describing surface area are in general hard to evaluate directly because of the square<ndash />root. This particular integral can be easily evaluated, though, with judicious choice of our order of integration.</p>
 
-        <p>Integrating with order <m>dx\ dy</m> requires us to evaluate <m>\int \sqrt{10+4x^2}\ dx</m>. This can be done, though it involves Integration By Parts and <m>\sinh^{-1}(x) </m>. Integrating with order <m>dy\ dx</m> has as its first integral <m>\int \sqrt{10+4x^2}\ dy</m>, which is easy to evaluate: it is simply <m>y\sqrt{10+4x^2}+C</m>. So we proceed with the order <m>dy\ dx</m>; the bounds are already given in the statement of the problem.
+        <p>Integrating with order <m>dx\ dy</m> requires us to evaluate <m>\int \sqrt{10+4x^2}\ dx</m>. This can be done, though it involves Integration By Parts and <m>\sinh^{-1}(x)</m>. Integrating with order <m>dy\ dx</m> has as its first integral <m>\int \sqrt{10+4x^2}\ dy</m>, which is easy to evaluate: it is simply <m>y\sqrt{10+4x^2}+C</m>. So we proceed with the order <m>dy\ dx</m>; the bounds are already given in the statement of the problem.
           <md>
             <mrow>\iint_R\sqrt{10+4x^2}\ dA \amp = \int_0^4\int_{-x}^x\sqrt{10+4x^2}\ dy \ dx</mrow>
             <mrow>\amp = \int_0^4\left.\big(y\sqrt{10+4x^2}\big)\right|_{-x}^x dx</mrow>
@@ -871,7 +871,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>f(x,y) = \sin(x) \cos(y) </m>;<m>R</m> is the rectangle with bounds <m>0\leq x\leq 2\pi</m>, <m>0\leq y\leq2\pi</m>.</p>
+            <p><m>f(x,y) = \sin(x) \cos(y)</m>;<m>R</m> is the rectangle with bounds <m>0\leq x\leq 2\pi</m>, <m>0\leq y\leq2\pi</m>.</p>
 
             <p><!-- 
                \includemedia[width=150pt,3Dmenu,activate=onclick,deactivate=onclick,

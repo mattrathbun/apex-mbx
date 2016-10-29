@@ -62,7 +62,7 @@
       <solution xml:id="fig_ibp1">
         <p>The key to Integration by Parts is to identify part of the integrand as <q><m>u</m></q> and part as <q><m>dv</m>.</q> Regular practice will help one make good identifications, and later we will introduce some principles that help. For now, let <m>u=x</m> and <m>dv=\cos(x) \ dx</m>.</p>
 
-        <p>It is generally useful to make a small table of these values as done below. Right now we only know <m>u</m> and <m>dv</m> as shown on the left of <xref ref="fig_ibp1">Figure</xref>; on the right we fill in the rest of what we need. If <m>u = x</m>, then <m>du = dx</m>. Since <m>dv = \cos(x) \ dx</m>, <m>v</m> is an antiderivative of <m>\cos(x) </m>. We choose <m>v = \sin(x) </m>.</p>
+        <p>It is generally useful to make a small table of these values as done below. Right now we only know <m>u</m> and <m>dv</m> as shown on the left of <xref ref="fig_ibp1">Figure</xref>; on the right we fill in the rest of what we need. If <m>u = x</m>, then <m>du = dx</m>. Since <m>dv = \cos(x) \ dx</m>, <m>v</m> is an antiderivative of <m>\cos(x)</m>. We choose <m>v = \sin(x)</m>.</p>
 
         <!--
         <caption>Setting up Integration by Parts.</caption>
@@ -86,19 +86,19 @@
           </me>
         </p>
 
-        <p>We can then integrate <m>\sin(x) </m> to get <m>-\cos(x) + C</m> and overall our answer is
+        <p>We can then integrate <m>\sin(x)</m> to get <m>-\cos(x) + C</m> and overall our answer is
           <me>
             \int x\cos(x) \ dx = x\sin(x) + \cos(x) + C.
           </me>
         </p>
 
-        <p>Note how the antiderivative contains a product, <m>x\sin(x) </m>. This product is what makes Integration by Parts necessary.</p>
+        <p>Note how the antiderivative contains a product, <m>x\sin(x)</m>. This product is what makes Integration by Parts necessary.</p>
       </solution>
     </example>
 
     <p>The example above demonstrates how Integration by Parts works in general. We try to identify <m>u</m> and <m>dv</m> in the integral we are given, and the key is that we usually want to choose <m>u</m> and <m>dv</m> so that <m>du</m> is simpler than <m>u</m> and <m>v</m> is hopefully not too much more complicated than <m>dv</m>. This will mean that the integral on the right side of the Integration by Parts formula, <m>\int v\,du</m> will be simpler to integrate than the original integral <m>\int u\,dv</m>.</p>
 
-    <p>In the example above, we chose <m>u=x</m> and <m>dv=\cos(x) \,dx</m>. Then <m>du=dx</m> was simpler than <m>u</m> and <m>v=\sin(x) </m> is no more complicated than <m>dv</m>. Therefore, instead of integrating <m>x\cos(x) \,dx</m>, we could integrate <m>\sin(x) \,dx</m>, which we knew how to do.</p>
+    <p>In the example above, we chose <m>u=x</m> and <m>dv=\cos(x) \,dx</m>. Then <m>du=dx</m> was simpler than <m>u</m> and <m>v=\sin(x)</m> is no more complicated than <m>dv</m>. Therefore, instead of integrating <m>x\cos(x) \,dx</m>, we could integrate <m>\sin(x) \,dx</m>, which we knew how to do.</p>
 
     <p>A useful mnemonic for helping to determine <m>u</m> is <q>LIATE,</q> where</p>
 
@@ -156,7 +156,7 @@
         <p>Evaluate <m>\displaystyle \int x^2\cos(x) \,dx</m>.</p>
       </statement>
       <solution xml:id="fig_ibp3">
-        <p>The mnemonic suggests letting <m>u=x^2</m> instead of the trigonometric function, hence <m>dv=\cos(x) \,dx</m>. Then <m>du=2x\,dx</m> and <m>v=\sin(x) </m> as shown below.</p>
+        <p>The mnemonic suggests letting <m>u=x^2</m> instead of the trigonometric function, hence <m>dv=\cos(x) \,dx</m>. Then <m>du=2x\,dx</m> and <m>v=\sin(x)</m> as shown below.</p>
 
         <!--
         <caption>Setting up Integration by Parts.</caption>
@@ -180,7 +180,7 @@
           </me>
         </p>
 
-        <p>At this point, the integral on the right is indeed simpler than the one we started with, but to evaluate it, we need to do Integration by Parts again. Here we choose <m>u=2x</m> and <m>dv=\sin(x) </m> and fill in the rest below.</p>
+        <p>At this point, the integral on the right is indeed simpler than the one we started with, but to evaluate it, we need to do Integration by Parts again. Here we choose <m>u=2x</m> and <m>dv=\sin(x)</m> and fill in the rest below.</p>
 
         <!--
         <caption>Setting up Integration by Parts (again).</caption>
@@ -201,7 +201,7 @@
         <me>
           \int x^2\cos(x) \,dx = x^2\sin(x) - \left(-2x\cos(x) - \int -2\cos(x) \,dx\right).
         </me>
-        <p>The integral all the way on the right is now something we can evaluate. It evaluates to <m>-2\sin(x) </m>. Then going through and simplifying, being careful to keep all the signs straight, our answer is
+        <p>The integral all the way on the right is now something we can evaluate. It evaluates to <m>-2\sin(x)</m>. Then going through and simplifying, being careful to keep all the signs straight, our answer is
           <me>
             \int x^2\cos(x) \ dx = x^2\sin(x) + 2x\cos(x) - 2\sin(x) + C.
           </me>
@@ -215,7 +215,7 @@
         <p>Evaluate <m>\displaystyle \int e^x\cos(x) \,dx</m>.</p>
       </statement>
       <solution xml:id="fig_ibp4">
-        <p>This is a classic problem. Our mnemonic suggests letting <m>u</m> be the trigonometric function instead of the exponential. In this particular example, one can let <m>u</m> be either <m>\cos(x) </m> or <m>e^x</m>; to demonstrate that we do not have to follow LIATE, we choose <m>u=e^x</m> and hence <m>dv = \cos(x) \,dx</m>. Then <m>du=e^x\,dx</m> and <m>v=\sin(x) </m> as shown below.</p>
+        <p>This is a classic problem. Our mnemonic suggests letting <m>u</m> be the trigonometric function instead of the exponential. In this particular example, one can let <m>u</m> be either <m>\cos(x)</m> or <m>e^x</m>; to demonstrate that we do not have to follow LIATE, we choose <m>u=e^x</m> and hence <m>dv = \cos(x) \,dx</m>. Then <m>du=e^x\,dx</m> and <m>v=\sin(x)</m> as shown below.</p>
 
         <!--
         <caption>Setting up Integration by Parts.</caption>
@@ -283,12 +283,12 @@
     </example>
 
     <example xml:id="ex_ibp5">
-      <title>Integrating using Integration by Parts: antiderivative of <m>\ln(x) </m></title>
+      <title>Integrating using Integration by Parts: antiderivative of <m>\ln(x)</m></title>
       <statement>
         <p>Evaluate <m>\displaystyle \int \ln(x) \,dx</m>.</p>
       </statement>
       <solution xml:id="fig_ibp5">
-        <p>One may have noticed that we have rules for integrating the familiar trigonometric functions and <m>e^x</m>, but we have not yet given a rule for integrating <m>\ln(x) </m>. That is because <m>\ln(x) </m> can't easily be integrated with any of the rules we have learned up to this point. But we can find its antiderivative by a clever application of Integration by Parts. Set <m>u=\ln(x) </m> and <m>dv=dx</m>. This is a good, sneaky trick to learn as it can help in other situations. This determines <m>du=(1/x)\,dx</m> and <m>v=x</m> as shown below.</p>
+        <p>One may have noticed that we have rules for integrating the familiar trigonometric functions and <m>e^x</m>, but we have not yet given a rule for integrating <m>\ln(x)</m>. That is because <m>\ln(x)</m> can't easily be integrated with any of the rules we have learned up to this point. But we can find its antiderivative by a clever application of Integration by Parts. Set <m>u=\ln(x)</m> and <m>dv=dx</m>. This is a good, sneaky trick to learn as it can help in other situations. This determines <m>du=(1/x)\,dx</m> and <m>v=x</m> as shown below.</p>
 
         <!--
         <caption>Setting up Integration by Parts.</caption>
@@ -357,20 +357,20 @@
         <p>Evaluate <m>\ds \int \cos(\ln(x) )\ dx</m>.</p>
       </statement>
       <solution>
-        <p>The integrand contains a composition of functions, leading us to think Substitution would be beneficial. Letting <m>u=\ln(x) </m>, we have <m>du = 1/x\ dx</m>. This seems problematic, as we do not have a <m>1/x</m> in the integrand. But consider:
+        <p>The integrand contains a composition of functions, leading us to think Substitution would be beneficial. Letting <m>u=\ln(x)</m>, we have <m>du = 1/x\ dx</m>. This seems problematic, as we do not have a <m>1/x</m> in the integrand. But consider:
           <me>
             du = \frac 1x\ dx \Rightarrow x\cdot du = dx.
           </me>
         </p>
 
-        <p>Since <m>u = \ln(x) </m>, we can use inverse functions and conclude that <m>x = e^u</m>. Therefore we have that
+        <p>Since <m>u = \ln(x)</m>, we can use inverse functions and conclude that <m>x = e^u</m>. Therefore we have that
           <md>
             <mrow>dx \amp = x\cdot du</mrow>
             <mrow>\amp = e^u\ du.</mrow>
           </md>
         </p>
 
-        <p>We can thus replace <m>\ln(x) </m> with <m>u</m> and <m>dx</m> with <m>e^u\ du</m>. Thus we rewrite our integral as
+        <p>We can thus replace <m>\ln(x)</m> with <m>u</m> and <m>dx</m> with <m>e^u\ du</m>. Thus we rewrite our integral as
           <me>
             \int \cos(\ln(x) )\ dx = \int e^u\cos(u) \ du.
           </me>
@@ -398,7 +398,7 @@
         <p>Evaluate <m>\displaystyle \int_1^2 x^2 \ln(x) \,dx</m>.</p>
       </statement>
       <solution xml:id="fig_ibp7">
-        <p>Our mnemonic suggests letting <m>u=\ln(x) </m>, hence <m>dv =x^2\,dx</m>.
+        <p>Our mnemonic suggests letting <m>u=\ln(x)</m>, hence <m>dv =x^2\,dx</m>.
           We then get <m>du = (1/x)\,dx</m> and <m>v=x^3/3</m> as shown below.</p>
 
         <!--

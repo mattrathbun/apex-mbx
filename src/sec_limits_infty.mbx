@@ -228,7 +228,7 @@
         <p>Approximate the horizontal asymptote(s) of <m>f(x)=\frac{x^2}{x^2+4}</m>.</p>
       </statement>
       <solution>
-        <p>We will approximate the horizontal asymptotes by approximating the limits <m>\lim\limits_{x\to-\infty} \frac{x^2}{x^2+4}</m> and <m>\lim\limits_{x\to\infty} \frac{x^2}{x^2+4}</m>. </p>
+        <p>We will approximate the horizontal asymptotes by approximating the limits <m>\lim\limits_{x\to-\infty} \frac{x^2}{x^2+4}</m> and <m>\lim\limits_{x\to\infty} \frac{x^2}{x^2+4}</m>.</p>
 
         <aside>
           <p>A rational function can have at most <em>one</em> horizontal asymptote. So we could get away with only taking <m>x \to \infty</m></p>.
@@ -518,7 +518,7 @@
       </solution>
     </example>
 
-    <p>With care, we can quickly evaluate limits at infinity for a large number of functions by considering the long run behaviour using<q>dominant terms</q> of <m>f(x)</m>. For instance, consider again <m>\lim\limits_{x\to\pm\infty}\frac{x}{\sqrt{x^2+1}},</m> graphed in <xref ref="fig_hzasyb">Figure</xref>. The dominant terms are <m>x</m> in the numerator and <m>\sqrt{x^2}</m> in the denominator. When <m>x</m> is very large, <m>x^2+1 \approx x^2</m>. Thus<md>
+    <p>With care, we can quickly evaluate limits at infinity for a large number of functions by considering the long run behaviour using<q>dominant terms</q> of <m>f(x)</m>. For instance, consider again <m>\lim\limits_{x\to\pm\infty}\frac{x}{\sqrt{x^2+1}}</m>, graphed in <xref ref="fig_hzasyb">Figure</xref>. The dominant terms are <m>x</m> in the numerator and <m>\sqrt{x^2}</m> in the denominator. When <m>x</m> is very large, <m>x^2+1 \approx x^2</m>. Thus<md>
         <mrow>\sqrt{x^2+1}\amp\approx \sqrt{x^2}= \abs{x}\amp\frac{x}{\sqrt{x^2+1}}\amp \approx \frac{x}{\abs{x}}\text{.}</mrow>
     </md></p>
 
@@ -527,7 +527,7 @@
     <example xml:id="ex_hzasy4">
       <title>Finding a limit using dominant terms</title>
       <statement>
-        <p>Confirm analytically that <m>y=1</m> and <m>y=-1</m> are the horizontal asymptote of <m>\lim\limits_{x\to\pm\infty}\frac{x}{\sqrt{x^2+1}},</m> as graphed in <xref ref="fig_hzasyb">Figure</xref>.</p>
+        <p>Confirm analytically that <m>y=1</m> and <m>y=-1</m> are the horizontal asymptote of <m>\lim\limits_{x\to\pm\infty}\frac{x}{\sqrt{x^2+1}}</m>, as graphed in <xref ref="fig_hzasyb">Figure</xref>.</p>
       </statement>
       <solution>
         <p> The dominating term of <m>f</m> in the denominator is <m>\sqrt{x^2}=\abs{x}</m> so divide the numerator and denominator of <m>f</m> by <m>\sqrt{x^2}</m>, then take limits.<md>
@@ -1640,7 +1640,7 @@
           <statement>
             <p>Let <m>\ds f(x) = \left\{ \begin{array}{ccc} x^2-1 \amp  \amp  x \lt  3 \\
 																						x+5 \amp  \amp  x\geq 3
-              \end{array} \right</m>. .
+              \end{array} \right.</m>.
 													
               Is <m>f</m> continuous everywhere?</p>
           </statement>
@@ -1660,7 +1660,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p>Evaluate the limit: <m>\lim\limits_{x\to e} \ln(x) </m>.</p>
+            <p>Evaluate the limit: <m>\lim\limits_{x\to e} \ln(x)</m>.</p>
           </statement>
           <solution>
           </solution>

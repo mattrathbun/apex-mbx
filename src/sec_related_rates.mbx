@@ -208,7 +208,7 @@
           </md>
         </p>
 
-        <p>We want to know the fastest the camera has to turn. Common sense tells us this is when the car is directly in front of the camera (i.e., when <m>\theta = 0</m>). Our mathematics bears this out. In Equation <xref ref="eq_rr4b" /> we see this is when <m>\cos^2(\theta) </m> is largest; this is when <m>\cos(\theta) = 1</m>, or when <m>\theta = 0</m>.</p>
+        <p>We want to know the fastest the camera has to turn. Common sense tells us this is when the car is directly in front of the camera (i.e., when <m>\theta = 0</m>). Our mathematics bears this out. In Equation <xref ref="eq_rr4b" /> we see this is when <m>\cos^2(\theta)</m> is largest; this is when <m>\cos(\theta) = 1</m>, or when <m>\theta = 0</m>.</p>
 
         <p>With <m>\frac{dx}{dt} \approx -146.67</m>ft/s, we have
           <me>

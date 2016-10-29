@@ -180,7 +180,7 @@
       <solution>
         <p>There is not a composition of function here to exploit; rather, just a product of functions. Do not be afraid to experiment; when given an integral to evaluate, it is often beneficial to think <q>If I let <m>u</m> be <em>this</em>, then <m>du</m> must be <em>that</em> <ellipsis /></q> and see if this helps simplify the integral at all.</p>
 
-        <p>In this example, let's set <m>u = \sin(x) </m>. Then <m>du = \cos(x) \ dx</m>, which we have as part of the integrand! The substitution becomes very straightforward:
+        <p>In this example, let's set <m>u = \sin(x)</m>. Then <m>du = \cos(x) \ dx</m>, which we have as part of the integrand! The substitution becomes very straightforward:
           <md>
             <mrow>\int \sin(x) \cos(x) \ dx \amp =	\int u\ du</mrow>
             <mrow>\amp = \frac12u^2+ C</mrow>
@@ -188,7 +188,7 @@
           </md>
         </p>
 
-        <p>One would do well to ask <q>What would happen if we let <m>u = \cos(x) </m>?</q> The result is just as easy to find, yet looks very different. The challenge to the reader is to evaluate the integral letting <m>u = \cos(x) </m> and discover why the answer is the same, yet looks different.</p>
+        <p>One would do well to ask <q>What would happen if we let <m>u = \cos(x)</m>?</q> The result is just as easy to find, yet looks very different. The challenge to the reader is to evaluate the integral letting <m>u = \cos(x)</m> and discover why the answer is the same, yet looks different.</p>
       </solution>
     </example>
 
@@ -229,7 +229,7 @@
       <solution>
         <p>This is another example where there does not seem to be an obvious composition of functions. The line of thinking used in <xref ref="ex_sub4">Example</xref> is useful here: choose something for <m>u</m> and consider what this implies <m>du</m> must be. If <m>u</m> can be chosen such that <m>du</m> also appears in the integrand, then we have chosen well.</p>
 
-        <p>Choosing <m>u = 1/x</m> makes <m>du = -1/x^2\ dx</m>; that does not seem helpful. However, setting <m>u = \ln(x) </m> makes <m>du = 1/x\ dx</m>, which is part of the integrand. Thus:
+        <p>Choosing <m>u = 1/x</m> makes <m>du = -1/x^2\ dx</m>; that does not seem helpful. However, setting <m>u = \ln(x)</m> makes <m>du = 1/x\ dx</m>, which is part of the integrand. Thus:
           <md>
             <mrow>\int \frac1{x\ln(x) }\ dx 	\amp =	\int \frac{1}{\underbrace{\ln(x) }_{1/u}}\underbrace{\frac1x\ dx}_{du}</mrow>
             <mrow>\amp = \int \frac1u\ du</mrow>
@@ -250,14 +250,14 @@
     <p>The next three examples will help fill in some missing pieces of our antiderivative knowledge. We know the antiderivatives of the sine and cosine functions; what about the other standard functions tangent, cotangent, secant and cosecant? We discover these next.</p>
 
     <example xml:id="ex_sub6">
-      <title>Integration by substitution: antiderivatives of <m>\tan(x) </m></title>
+      <title>Integration by substitution: antiderivatives of <m>\tan(x)</m></title>
       <statement>
-        <p>Evaluate <m>\ds \int \tan(x) \ dx</m>. </p>
+        <p>Evaluate <m>\ds \int \tan(x) \ dx</m>.</p>
       </statement>
       <solution>
         <p>The previous paragraph established that we did not know the antiderivatives of tangent, hence we must assume that we have learned something in this section that can help us evaluate this indefinite integral.</p>
 
-        <p>Rewrite <m>\tan(x) </m> as <m>\sin(x) /\cos(x) </m>. While the presence of a composition of functions may not be immediately obvious, recognize that <m>\cos(x) </m> is <q>inside</q> the <m>1/x</m> function. Therefore, we see if setting <m>u = \cos(x) </m> returns usable results. We have that <m>du = -\sin(x) \ dx</m>, hence <m>-du = \sin(x) \ dx</m>. We can integrate:
+        <p>Rewrite <m>\tan(x)</m> as <m>\sin(x) /\cos(x)</m>. While the presence of a composition of functions may not be immediately obvious, recognize that <m>\cos(x)</m> is <q>inside</q> the <m>1/x</m> function. Therefore, we see if setting <m>u = \cos(x)</m> returns usable results. We have that <m>du = -\sin(x) \ dx</m>, hence <m>-du = \sin(x) \ dx</m>. We can integrate:
           <md>
             <mrow>\int \tan(x) \ dx \amp = \int \frac{\sin(x) }{\cos(x) }\ dx</mrow>
             <mrow>\amp = \int \frac1{\underbrace{\cos(x) }_u}\underbrace{\sin(x) \ dx}_{-du}</mrow>
@@ -267,7 +267,7 @@
           </md>
         </p>
 
-        <p>Some texts prefer to bring the <m>-1</m> inside the logarithm as a power of <m>\cos(x) </m>, as in:
+        <p>Some texts prefer to bring the <m>-1</m> inside the logarithm as a power of <m>\cos(x)</m>, as in:
           <md>
             <mrow>-\ln\abs{\cos(x) } + C \amp = \ln\abs{(\cos(x) )^{-1}} + C</mrow>
             <mrow>\amp = \ln\abs{ \frac{1}{\cos(x) }} + C</mrow>
@@ -280,7 +280,7 @@
     </example>
 
     <example xml:id="ex_sub7">
-      <title>Integrating by substitution: antiderivatives of <m>\sec(x) </m></title>
+      <title>Integrating by substitution: antiderivatives of <m>\sec(x)</m></title>
       <statement>
         <p>Evaluate <m>\ds\int \sec(x) \ dx</m>.</p>
       </statement>
@@ -295,7 +295,7 @@
           <md>
             <mrow>\int \sec(x) \ dx	\amp =	\int \sec(x) \cdot \frac{\sec(x) + \tan(x) }{\sec(x) + \tan(x) }\ dx</mrow>
             <mrow>\amp = \int \frac{\sec^2(x) + \sec(x) \tan(x) }{\sec(x) + \tan(x) }\ dx.</mrow>
-            <intertext>Now let <m>u = \sec(x) +\tan(x) </m>; this means <m>du = (\sec(x) \tan(x) + \sec^2(x) )\ dx</m>, which is our numerator. Thus:</intertext>
+            <intertext>Now let <m>u = \sec(x) +\tan(x)</m>; this means <m>du = (\sec(x) \tan(x) + \sec^2(x) )\ dx</m>, which is our numerator. Thus:</intertext>
             <mrow>\amp = \int \frac{du}{u}</mrow>
             <mrow>\amp = \ln\abs{u} + C</mrow>
             <mrow>\amp = \ln\abs{\sec(x) +\tan(x) } + C.</mrow>
@@ -304,7 +304,7 @@
       </solution>
     </example>
 
-    <p>We can use similar techniques to those used in <xref ref="ex_sub6">Examples</xref> and <xref ref="ex_sub7"></xref> to find antiderivatives of <m>\cot(x) </m> and <m>\csc(x) </m> (which the reader can explore in the exercises.) We summarize our results here.</p>
+    <p>We can use similar techniques to those used in <xref ref="ex_sub6">Examples</xref> and <xref ref="ex_sub7"></xref> to find antiderivatives of <m>\cot(x)</m> and <m>\csc(x)</m> (which the reader can explore in the exercises.) We summarize our results here.</p>
 
     <theorem xml:id="thm_triganti">
       <title>Antiderivatives of Trigonometric Functions</title>
@@ -332,15 +332,15 @@
     <p>We explore one more common trigonometric integral.</p>
 
     <example xml:id="ex_sub8">
-      <title>Integration by substitution: powers of <m>\cos(x) </m> and <m>\sin(x) </m></title>
+      <title>Integration by substitution: powers of <m>\cos(x)</m> and <m>\sin(x)</m></title>
       <statement>
         <p>Evaluate <m>\ds \int \cos^2(x) \ dx</m>.</p>
       </statement>
       <solution>
         <p>We have a composition of functions as <m>\cos^2(x) = \big(\cos(x) \big)^2</m>.
-          However, setting <m>u = \cos(x) </m> means <m>du = -\sin(x) \ dx</m>, which we do not have in the integral. Another technique is needed.</p>
+          However, setting <m>u = \cos(x)</m> means <m>du = -\sin(x) \ dx</m>, which we do not have in the integral. Another technique is needed.</p>
 
-        <p>The process we'll employ is to use a Power Reducing formula for <m>\cos^2(x) </m> (perhaps consult the back of this text for this formula), which states
+        <p>The process we'll employ is to use a Power Reducing formula for <m>\cos^2(x)</m> (perhaps consult the back of this text for this formula), which states
           <me>
             \cos^2(x) = \frac{1+\cos(2x)}{2}.
           </me>
@@ -713,9 +713,9 @@
         <p>Evaluate <m>\ds \int_0^{\pi/2} \sin(x) \cos(x) \ dx</m> using <xref ref="thm_subst_def_int">Theorem</xref>.</p>
       </statement>
       <solution>
-        <p>We saw the corresponding indefinite integral in <xref ref="ex_sub10">Example</xref>. In that example we set <m>u = \sin(x) </m> but stated that we could have let <m>u = \cos(x) </m>. For variety, we do the latter here.</p>
+        <p>We saw the corresponding indefinite integral in <xref ref="ex_sub10">Example</xref>. In that example we set <m>u = \sin(x)</m> but stated that we could have let <m>u = \cos(x)</m>. For variety, we do the latter here.</p>
 
-        <p>Let <m>u = g(x) = \cos(x) </m>, giving <m>du = -\sin(x) \ dx</m> and hence <m>\sin(x) \ dx = -du</m>. The new upper bound is <m>g(\pi/2) = 0</m>; the new lower bound is <m>g(0) = 1</m>. Note how the lower bound is actually larger than the upper bound now. We have
+        <p>Let <m>u = g(x) = \cos(x)</m>, giving <m>du = -\sin(x) \ dx</m> and hence <m>\sin(x) \ dx = -du</m>. The new upper bound is <m>g(\pi/2) = 0</m>; the new lower bound is <m>g(0) = 1</m>. Note how the lower bound is actually larger than the upper bound now. We have
           <md>
             <mrow>\int_0^{\pi/2} \sin(x) \cos(x) \ dx \amp = \int_1^0 -u\ du  \text{ \scriptsize (switch bounds \\amp  change sign) }</mrow>
             <mrow>\amp =	\int_0^1 u\ du</mrow>
@@ -1181,7 +1181,7 @@
             <p><m>\ds \int \cot(x) \ dx</m>. Do not just refer to <xref ref="thm_triganti">Theorem</xref> for the answer; justify it through Substitution.</p>
           </statement>
           <solution>
-            <p>The key is to rewrite <m>\cot(x) </m> as <m>\cos(x) /\sin(x) </m>, and let <m>u=\sin(x) </m>.</p>
+            <p>The key is to rewrite <m>\cot(x)</m> as <m>\cos(x) /\sin(x)</m>, and let <m>u=\sin(x)</m>.</p>
           </solution>
         </webwork>
       </exercise>
@@ -1198,7 +1198,7 @@
             <p><m>\ds \int \csc(x) \ dx</m>. Do not just refer to <xref ref="thm_triganti">Theorem</xref> for the answer; justify it through Substitution.</p>
           </statement>
           <solution>
-            <p>The key is to multiply <m>\csc(x) </m> by 1 in the form <m>(\csc(x) +\cot(x) )/(\csc(x) +\cot(x) )</m>.</p>
+            <p>The key is to multiply <m>\csc(x)</m> by 1 in the form <m>(\csc(x) +\cot(x) )/(\csc(x) +\cot(x) )</m>.</p>
           </solution>
         </webwork>
       </exercise>
@@ -2053,7 +2053,7 @@
             <p><m>\ds \int \frac{\cos(x)}{1-\sin^2(x)} dx</m></p>
           </statement>
           <solution>
-            <p><m>\ln\abs{\sec(x) +\tan(x) }+C</m> (integrand simplifies to <m>\sec(x) </m>)</p>
+            <p><m>\ln\abs{\sec(x) +\tan(x) }+C</m> (integrand simplifies to <m>\sec(x)</m>)</p>
           </solution>
         </webwork>
       </exercise>
@@ -2105,7 +2105,7 @@
             <p><m>\ds \int_1^3 \frac{1}{x-5} dx</m></p>
           </statement>
           <solution>
-            <p><m>-\ln(2) </m></p>
+            <p><m>-\ln(2)</m></p>
           </solution>
         </webwork>
       </exercise>

@@ -653,7 +653,7 @@
     </example>
 
     <aside>
-      <p>We implicitly found the derivative of <m>x^2+y^2=1</m>, the unit circle, in <xref ref="ex_implicit7">Example</xref> as <m>\frac{dy}{dx} = -x/y</m>. In <xref ref="ex_extval7">Example</xref>, half of the unit circle is given as <m>y=f(x) = \sqrt{1-x^2}</m>. We found <m>\fp(x) = \frac{-x}{\sqrt{1-x^2}}</m>. Recognize that the denominator of this fraction is <m>y</m>; that is, we again found <m>\fp(x) = \frac{dy}{dx} = -x/y</m>. </p>
+      <p>We implicitly found the derivative of <m>x^2+y^2=1</m>, the unit circle, in <xref ref="ex_implicit7">Example</xref> as <m>\frac{dy}{dx} = -x/y</m>. In <xref ref="ex_extval7">Example</xref>, half of the unit circle is given as <m>y=f(x) = \sqrt{1-x^2}</m>. We found <m>\fp(x) = \frac{-x}{\sqrt{1-x^2}}</m>. Recognize that the denominator of this fraction is <m>y</m>; that is, we again found <m>\fp(x) = \frac{dy}{dx} = -x/y</m>.</p>
     </aside>
 
     <p>We have seen that continuous functions on closed intervals always have a maximum and minimum value, and we have also developed a technique to find these values. In the next section, we further our study of the information we can glean from <q>nice</q> functions with the Mean Value Theorem. On a closed interval, we can find the <em>average rate of change</em> of a function (as we did at the beginning of Chapter 2). We will see that differentiable functions always have a point at which their <em>instantaneous</em> rate of change is same as the <em>average</em> rate of change. This is surprisingly useful, as we'll see.</p>
@@ -918,7 +918,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\ds f(x) = \sin(x) </m></p>
+            <p><m>\ds f(x) = \sin(x)</m></p>
 
             <!-- START\1END -->
           </statement>
@@ -960,7 +960,7 @@
           </setup>
           <statement>
             <p><m>\ds f(x) = \left\{\begin{array}{cc} x^2 \amp  x\leq 0 \\ x^5 \amp  x> 0
-              \end{array}  \right</m>. </p>
+              \end{array}  \right.</m></p>
 
             <!-- START\1END -->
           </statement>
@@ -980,7 +980,7 @@
           </setup>
           <statement>
             <p><m>\ds f(x) = \left\{\begin{array}{cc} x^2 \amp  x\leq 0 \\ x \amp  x> 0
-              \end{array}  \right</m>. </p>
+              \end{array}  \right.</m></p>
 
             <!-- START\1END -->
           </statement>
@@ -1058,7 +1058,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\ds f(x) = 3\sin(x) </m>on <m>[\pi/4,2\pi/3]</m>.</p>
+            <p><m>\ds f(x) = 3\sin(x)</m>on <m>[\pi/4,2\pi/3]</m>.</p>
           </statement>
           <solution>
             <p>min: <m>(\pi/4,3\sqrt{2}/2)</m></p>
@@ -1134,7 +1134,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\ds f(x) = e^x\cos(x) </m>on <m>[0,\pi]</m>.</p>
+            <p><m>\ds f(x) = e^x\cos(x)</m>on <m>[0,\pi]</m>.</p>
           </statement>
           <solution>
             <p>min: <m>(\pi,-e^\pi)</m></p>
@@ -1153,7 +1153,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\ds f(x) = e^x\sin(x) </m>on <m>[0,\pi]</m>.</p>
+            <p><m>\ds f(x) = e^x\sin(x)</m>on <m>[0,\pi]</m>.</p>
           </statement>
           <solution>
             <p>min: <m>(0,0)</m> and <m>(\pi,0)</m></p>

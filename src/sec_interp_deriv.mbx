@@ -283,7 +283,7 @@
           </md>
         </p>
 
-        <p>We approximate <m>f(3.1) \approx 4.3</m>. </p>
+        <p>We approximate <m>f(3.1) \approx 4.3</m>.</p>
       </solution>
     </example>
 
@@ -852,7 +852,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>f(x) = \cos(x) </m> at <m>x=\pi</m>.</p>
+            <p><m>f(x) = \cos(x)</m> at <m>x=\pi</m>.</p>
           </statement>
           <solution>
             <p><m>\fp(\pi) \approx 0</m>.</p>

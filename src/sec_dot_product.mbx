@@ -219,7 +219,7 @@
       </statement>
     </theorem>
 
-    <p>When <m>\theta</m> is an acute angle (i.e., <m>0\leq \theta \lt \pi/2</m>), <m>\cos(\theta) </m> is positive; when <m>\theta = \pi/2</m>, <m>\cos(\theta) = 0</m>; when <m>\theta</m> is an obtuse angle (<m>\pi/2\lt \theta \leq \pi</m>), <m>\cos(\theta) </m> is negative. Thus the sign of the dot product gives a general indication of the angle between the vectors, illustrated in <xref ref="fig_dotpsign">Figure</xref>.</p>
+    <p>When <m>\theta</m> is an acute angle (i.e., <m>0\leq \theta \lt \pi/2</m>), <m>\cos(\theta)</m> is positive; when <m>\theta = \pi/2</m>, <m>\cos(\theta) = 0</m>; when <m>\theta</m> is an obtuse angle (<m>\pi/2\lt \theta \leq \pi</m>), <m>\cos(\theta)</m> is negative. Thus the sign of the dot product gives a general indication of the angle between the vectors, illustrated in <xref ref="fig_dotpsign">Figure</xref>.</p>
 
     <p><!-- START figures/fig_dotpanglesign.tex -->
       <image xml:id="img_dotpanglesign" >
@@ -597,10 +597,10 @@
 
     </figure>
 
-    <p>We also know that <m>\vec w</m> is parallel to to <m>\vec v</m> ; that is, the direction of <m>\vec w</m> is the direction of <m>\vec v</m>, described by the unit vector <m>\frac{1}{\norm{\vec v}}\vec v</m>. The vector <m>\vec w</m> is the vector in the direction <m>\frac{1}{\norm{\vec v}}\vec v</m> with magnitude <m>\norm{\vec u}\cos(\theta) </m>:
+    <p>We also know that <m>\vec w</m> is parallel to to <m>\vec v</m> ; that is, the direction of <m>\vec w</m> is the direction of <m>\vec v</m>, described by the unit vector <m>\frac{1}{\norm{\vec v}}\vec v</m>. The vector <m>\vec w</m> is the vector in the direction <m>\frac{1}{\norm{\vec v}}\vec v</m> with magnitude <m>\norm{\vec u}\cos(\theta)</m>:
       <md>
         <mrow>\vec w \amp = \Big(\norm{\vec u}\cos(\theta) \Big)\frac{1}{\norm{\vec v}}\vec v.</mrow>
-        <intertext>Replace <m>\cos(\theta) </m> using <xref ref="thm_dot_product">Theorem</xref>:</intertext>
+        <intertext>Replace <m>\cos(\theta)</m> using <xref ref="thm_dot_product">Theorem</xref>:</intertext>
         <mrow>\amp = \left(\norm{\vec u}\frac{\dotp uv}{\norm{\vec u}\norm{\vec v}}\right)\frac{1}{\norm{\vec v}} \vec v</mrow>
         <mrow>\amp = \frac{\dotp uv}{\norm{\vec v}^2}\vec v.</mrow>
         <intertext>Now apply <xref ref="thm_dot_product_properties">Theorem</xref>.</intertext>

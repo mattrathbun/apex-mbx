@@ -115,7 +115,7 @@
         <ol>
           <li><p>This is the Alternating Harmonic Series as seen previously. The underlying sequence is <m>\{a_n\} = \{1/n\}</m>, which is positive, decreasing, and approaches 0 as <m>n\to\infty</m>. Therefore we can apply the Alternating Series Test and conclude this series converges. 
 	
-	While the test does not state what the series converges to, we will see later that <m>\ds \sum_{n=1}^\infty (-1)^{n+1}\frac1n=\ln2</m>. </p></li>
+	While the test does not state what the series converges to, we will see later that <m>\ds \sum_{n=1}^\infty (-1)^{n+1}\frac1n=\ln2</m>.</p></li>
 
           <li><p>The underlying sequence is <m>\{a_n\} = \{\ln(n) /n\}</m>. This is positive and approaches 0 as <m>n\to\infty</m> (use L'H&#xf4;pital's Rule). However, the sequence is not decreasing for all <m>n</m>. It is straightforward to compute <m>a_1=0</m>, <m>a_2\approx0.347</m>, <m>a_3\approx 0.366</m>, and <m>a_4\approx 0.347</m>: the sequence is increasing for at least the first 3 terms. 
 	
@@ -312,7 +312,7 @@
       </md>
     </p>
 
-    <p>By rearranging the terms of the series, we have arrived at a different sum! (One could <em>try</em> to argue that the Alternating Harmonic Series does not actually converge to <m>\ln(2) </m>, because rearranging the terms of the series <em>shouldn't</em> change the sum. However, the Alternating Series Test proves this series converges to <m>L</m>, for some number <m>L</m>, and if the rearrangement does not change the sum, then <m>L = L/2</m>, implying <m>L=0</m>. But the Alternating Series Approximation Theorem quickly shows that <m>L>0</m>. The only conclusion is that the rearrangement <em>did</em> change the sum.) This is an incredible result.</p>
+    <p>By rearranging the terms of the series, we have arrived at a different sum! (One could <em>try</em> to argue that the Alternating Harmonic Series does not actually converge to <m>\ln(2)</m>, because rearranging the terms of the series <em>shouldn't</em> change the sum. However, the Alternating Series Test proves this series converges to <m>L</m>, for some number <m>L</m>, and if the rearrangement does not change the sum, then <m>L = L/2</m>, implying <m>L=0</m>. But the Alternating Series Approximation Theorem quickly shows that <m>L>0</m>. The only conclusion is that the rearrangement <em>did</em> change the sum.) This is an incredible result.</p>
 
     <p>We end here our study of tests to determine convergence. The back cover of this text contains a table summarizing the tests that one may find useful.</p>
 
@@ -331,7 +331,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p>Why is <m>\ds\sum_{n=1}^\infty \sin(n) </m> not an alternating series?</p>
+            <p>Why is <m>\ds\sum_{n=1}^\infty \sin(n)</m> not an alternating series?</p>
           </statement>
           <solution>
             <p>The signs of the terms do not alternate; in the given series, some terms are negative and the others positive, but they do not necessarily alternate.</p>
@@ -917,7 +917,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\ds \sum_{n=0}^\infty \frac{(-1)^{n}}{(2n)!}=\cos(1) </m>, <m>\varepsilon = 10^{-8}</m></p>
+            <p><m>\ds \sum_{n=0}^\infty \frac{(-1)^{n}}{(2n)!}=\cos(1)</m>, <m>\varepsilon = 10^{-8}</m></p>
           </statement>
           <solution>
             <p><m>n=5</m> (<m>(2n)!>10^8</m> when <m>n\geq 6</m>)</p>
