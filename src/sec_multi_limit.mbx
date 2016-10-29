@@ -556,19 +556,19 @@
       <title>Continuity of a function of two variables</title>
       <statement>
         <p>Let <m>\ds f(x,y) = \left\{ \begin{array}{rl} \frac{\cos(y) \sin(x) }{x} \amp  x\neq 0 \\
-																						\cos(y)  \amp  x=0
+																						\cos(y) \amp  x=0
           \end{array}  \right.</m>. Is <m>f</m> continuous at <m>(0,0)</m>? Is <m>f</m> continuous everywhere?</p>
       </statement>
       <solution>
         <p>To determine if <m>f</m> is continuous at <m>(0,0)</m>, we need to compare <m>\lim\limits_{(x,y)\to (0,0)} f(x,y)</m> to <m>f(0,0)</m>.</p>
 
-        <p>Applying the definition of <m>f</m>, we see that <m>f(0,0) = \cos(0)  = 1</m>.</p>
+        <p>Applying the definition of <m>f</m>, we see that <m>f(0,0) = \cos(0) = 1</m>.</p>
 
         <p>We now consider the limit <m>\lim\limits_{(x,y)\to (0,0)} f(x,y)</m>. Substituting <m>0</m> for <m>x</m> and <m>y</m> in <m>(\cos(y) \sin(x) )/x</m> returns the indeterminate form <q>0/0</q>, so we need to do more work to evaluate this limit.</p>
 
         <p>Consider two related limits: <m>\lim\limits_{(x,y)\to (0,0)} \cos(y) </m> and <m>\lim\limits_{(x,y)\to(0,0)} \frac{\sin(x) }x</m>. The first limit does not contain <m>x</m>, and since <m>\cos(y) </m> is continuous,
           <me>
-            \lim\limits_{(x,y)\to (0,0)} \cos(y)  =\lim_{y\to 0} \cos(y)  = \cos(0)  = 1.
+            \lim\limits_{(x,y)\to (0,0)} \cos(y) =\lim_{y\to 0} \cos(y) = \cos(0) = 1.
           </me>
         </p>
 

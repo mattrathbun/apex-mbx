@@ -11,7 +11,7 @@
       </md>
     </p>
 
-    <p>Make a careful note about the constant of integration, <m>C</m>. This <q>constant</q> is something with a derivative of <m>0</m> with respect to <m>x</m>, so it could be any expression that contains only constants and functions of <m>y</m>. For instance, if <m>f(x,y) = x^2y+ \sin(y)  + y^3 + 17</m>, then <m>f_x(x,y) = 2xy</m>. To signify that <m>C</m> is actually a function of <m>y</m>, we write:
+    <p>Make a careful note about the constant of integration, <m>C</m>. This <q>constant</q> is something with a derivative of <m>0</m> with respect to <m>x</m>, so it could be any expression that contains only constants and functions of <m>y</m>. For instance, if <m>f(x,y) = x^2y+ \sin(y) + y^3 + 17</m>, then <m>f_x(x,y) = 2xy</m>. To signify that <m>C</m> is actually a function of <m>y</m>, we write:
       <index><main>integration</main><sub>of multivariable functions</sub></index>
       <me>
         f(x,y) = \int f_x(x,y)\ dx  = x^2y+C(y).

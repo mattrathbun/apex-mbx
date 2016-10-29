@@ -180,7 +180,7 @@
           <!-- figures/fig_inverse3.tex END -->
         </figure>
 
-        <p>Therefore <m>\cos(\sin^{-1}(x) ) = \cos(y)  = \sqrt{1-x^2}/1 = \sqrt{1-x^2}</m>, resulting in
+        <p>Therefore <m>\cos(\sin^{-1}(x) ) = \cos(y) = \sqrt{1-x^2}/1 = \sqrt{1-x^2}</m>, resulting in
           <me>
             \frac{d}{dx}\big(\arcsin x\big) = g'(x) = \frac{1}{\sqrt{1-x^2}}.
           </me>
@@ -915,7 +915,7 @@
             <ol>
               <li><p><m>f(x) = x</m>, so <m>\fp(x) = 1</m></p></li>
 
-              <li><p><m>\fp(x) = \frac{1}{1+\tan^2(x) }\sec^2(x)  = 1</m></p></li>
+              <li><p><m>\fp(x) = \frac{1}{1+\tan^2(x) }\sec^2(x) = 1</m></p></li>
             </ol>
           </solution>
         </webwork>

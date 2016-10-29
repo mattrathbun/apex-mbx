@@ -195,7 +195,7 @@
         <p>The graph verifies that the upper boundary of the region is given by <m>f</m> and the lower bound is given by <m>g</m>. Therefore the area of the region is the value of the integral
           <md>
             <mrow>\int_0^{4\pi} \big(f(x)- g(x)\big)\ dx \amp  = \int_0^{4\pi} \Big(\sin(x) +2 - \big(\frac12\cos(2x)-1\big)\Big)\ dx</mrow>
-            <mrow>\amp = -\cos(x)  -\frac14\sin(2x)+3x\Big|_0^{4\pi}</mrow>
+            <mrow>\amp = -\cos(x) -\frac14\sin(2x)+3x\Big|_0^{4\pi}</mrow>
             <mrow>\amp =	12\pi \approx 37.7\ \text{ units } ^2.</mrow>
           </md>
         </p>

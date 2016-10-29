@@ -554,7 +554,7 @@
             <mrow>\amp \ \left.\left[-\frac14(16\cos^4(\theta) )+\frac43(8\cos^4(\theta) )\right]\right)\ d\theta</mrow>
             <mrow>\amp =\int_0^\pi\frac{44}3\cos^4(\theta) \ d\theta.</mrow>
             <intertext>To integrate <m>\cos^4(\theta) </m>, rewrite it as <m>\cos^2(\theta) \cos^2(\theta) </m> and employ the power-reducing formula twice:</intertext>
-            <mrow>\cos^4(\theta)  \amp =\cos^2(\theta) \cos^2(\theta) </mrow>
+            <mrow>\cos^4(\theta) \amp =\cos^2(\theta) \cos^2(\theta) </mrow>
             <mrow>\amp = \frac12\big(1+\cos(2\theta)\big)\frac12\big(1+\cos(2\theta)\big)</mrow>
             <mrow>\amp = \frac14\big(1+2\cos(2\theta)+\cos^2(2\theta)\big)</mrow>
             <mrow>\amp =\frac14\Big(1+2\cos(2\theta)+\frac12\big(1+\cos(4\theta)\big)\Big)</mrow>
@@ -902,7 +902,7 @@
 
         <p>We rewrite <m>\frac12\cos^2(3\theta)</m> as <m>\frac14(1+\cos(6\theta))</m>. We can also rewrite <m>\frac13\cos^3(3\theta)\cos(\theta) </m> as:
           <me>
-            \frac13\cos^3(3\theta)\cos(\theta)  = \frac13\cos^2(3\theta)\cos(3\theta)\cos(\theta)  = \frac13\frac{1+\cos(6\theta)}2\big(\cos(4\theta)+\cos(2\theta)\big).
+            \frac13\cos^3(3\theta)\cos(\theta) = \frac13\cos^2(3\theta)\cos(3\theta)\cos(\theta) = \frac13\frac{1+\cos(6\theta)}2\big(\cos(4\theta)+\cos(2\theta)\big).
           </me>
         </p>
 

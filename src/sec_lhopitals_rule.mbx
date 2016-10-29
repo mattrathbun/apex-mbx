@@ -154,7 +154,7 @@
 
           <li><p>This limit initially evaluates to the indeterminate form <m>\infty-\infty</m>. By applying a logarithmic rule, we can rewrite the limit as
               <me>
-                \lim_{x\to\infty} \ln(x+1)-\ln(x)  = \lim_{x\to \infty} \ln\left(\frac{x+1}x\right).
+                \lim_{x\to\infty} \ln(x+1)-\ln(x) = \lim_{x\to \infty} \ln\left(\frac{x+1}x\right).
               </me>
               As <m>x\rightarrow \infty</m>, the argument of the <m>\ln(<) /m> term approaches <m>\infty/\infty</m>, to which we can apply l'H&#xf4;pital's Rule.
               <me>
@@ -166,7 +166,7 @@
               </me>
               Thus
               <me>
-                \lim_{x\to\infty} \ln(x+1)-\ln(x)  = \lim_{x\to \infty} \ln\left(\frac{x+1}x\right)=0.
+                \lim_{x\to\infty} \ln(x+1)-\ln(x) = \lim_{x\to \infty} \ln\left(\frac{x+1}x\right)=0.
               </me>
               Interpretation: since this limit evaluates to 0, it means that for large <m>x</m>, there is essentially no difference between <m>\ln(x+1)</m> and <m>\ln(x) </m>; their difference is essentially 0.</p></li>
 

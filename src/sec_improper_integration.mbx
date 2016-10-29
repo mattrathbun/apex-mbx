@@ -15,11 +15,11 @@
 
     <p>Notice how the integrand is <m>1/(1+x^2)</m> in each integral (which is sketched in <xref ref="fig_improper1">Figure</xref>). As the upper bound gets larger, one would expect the <q>area under the curve</q> would also grow. While the definite integrals do increase in value as the upper bound grows, they are not increasing by much. In fact, consider:
       <me>
-        \int_0^b \frac{1}{1+x^2}\ dx = \tan^{-1}(x) \Big|_0^b = \tan^{-1}(b) -\tan^{-1}(0)  = \tan^{-1}(b) .
+        \int_0^b \frac{1}{1+x^2}\ dx = \tan^{-1}(x) \Big|_0^b = \tan^{-1}(b) -\tan^{-1}(0) = \tan^{-1}(b) .
       </me>
     </p>
 
-    <p>As <m>b\rightarrow \infty</m>, <m>\tan^{-1}(b)  \rightarrow \pi/2.</m> Therefore it seems that as the upper bound <m>b</m> grows, the value of the definite integral <m>\ds \int_0^b\frac{1}{1+x^2}\ dx</m> approaches <m>\pi/2\approx 1.5708</m>. This should strike the reader as being a bit amazing: even though the curve extends <q>to infinity,</q> it has a finite amount of area underneath it.</p>
+    <p>As <m>b\rightarrow \infty</m>, <m>\tan^{-1}(b) \rightarrow \pi/2.</m> Therefore it seems that as the upper bound <m>b</m> grows, the value of the definite integral <m>\ds \int_0^b\frac{1}{1+x^2}\ dx</m> approaches <m>\pi/2\approx 1.5708</m>. This should strike the reader as being a bit amazing: even though the curve extends <q>to infinity,</q> it has a finite amount of area underneath it.</p>
 
     <figure xml:id="fig_improper1" >
       <caption>Graphing <m>\ds f(x)=\frac{1}{1+x^2}</m>.</caption>
@@ -1281,7 +1281,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\ds \int_{0}^1 x\ln(x)  \ dx</m></p>
+            <p><m>\ds \int_{0}^1 x\ln(x) \ dx</m></p>
           </statement>
           <solution>
             <p><m>-1/4</m></p>
@@ -1315,7 +1315,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\ds \int_{0}^1 \ln(x)  \ dx</m></p>
+            <p><m>\ds \int_{0}^1 \ln(x) \ dx</m></p>
           </statement>
           <solution>
             <p><m>-1</m></p>
@@ -1366,7 +1366,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\ds \int_{0}^\infty e^{-x}\sin(x)  \ dx</m></p>
+            <p><m>\ds \int_{0}^\infty e^{-x}\sin(x) \ dx</m></p>
           </statement>
           <solution>
             <p><m>1/2</m></p>
@@ -1383,7 +1383,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\ds \int_{0}^\infty e^{-x}\cos(x)  \ dx</m></p>
+            <p><m>\ds \int_{0}^\infty e^{-x}\cos(x) \ dx</m></p>
           </statement>
           <solution>
             <p><m>1/2</m></p>
@@ -1452,7 +1452,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\ds \int_{1}^\infty e^{-x}\ln(x)  \ dx</m></p>
+            <p><m>\ds \int_{1}^\infty e^{-x}\ln(x) \ dx</m></p>
           </statement>
           <solution>
             <p>converges; Direct Comparison Test with <m>xe^{-x}</m>.</p>

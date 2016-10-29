@@ -580,7 +580,7 @@
             <p><m>\sin(3) </m></p>
           </statement>
           <solution>
-            <p>Use <m>y = \sin(x) </m>; <m>dy = \cos(x) \cdot dx</m> with <m>x=\pi</m> and <m>dx \approx -0.14</m>. Thus <m>dy = 0.14</m>; knowing <m>\sin\pi = 0</m>, we have <m>\sin(3)  \approx 0.14</m>.</p>
+            <p>Use <m>y = \sin(x) </m>; <m>dy = \cos(x) \cdot dx</m> with <m>x=\pi</m> and <m>dx \approx -0.14</m>. Thus <m>dy = 0.14</m>; knowing <m>\sin\pi = 0</m>, we have <m>\sin(3) \approx 0.14</m>.</p>
           </solution>
         </webwork>
       </exercise>
@@ -597,7 +597,7 @@
             <p><m>\cos(1.5) </m></p>
           </statement>
           <solution>
-            <p>Use <m>y = \cos(x) </m>; <m>dy = -\sin(x) \cdot dx</m> with <m>x=\pi/2\approx 1.57</m> and <m>dx \approx -0.07</m>. Thus <m>dy = 0.07</m>; knowing <m>\cos\pi/2 = 0</m>, we have <m>\cos(1.5)  \approx 0.07</m>.</p>
+            <p>Use <m>y = \cos(x) </m>; <m>dy = -\sin(x) \cdot dx</m> with <m>x=\pi/2\approx 1.57</m> and <m>dx \approx -0.07</m>. Thus <m>dy = 0.07</m>; knowing <m>\cos\pi/2 = 0</m>, we have <m>\cos(1.5) \approx 0.07</m>.</p>
           </solution>
         </webwork>
       </exercise>
@@ -731,7 +731,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\ds y=\frac{2x}{\tan(x)  + 1}</m></p>
+            <p><m>\ds y=\frac{2x}{\tan(x) + 1}</m></p>
           </statement>
           <solution>
             <p><m>dy = \frac{2(\tan(x) + 1)-2x\sec^2(x) }{(\tan(x) +1)^2}dx</m></p>
@@ -819,7 +819,7 @@
             <p><m>\ds y=3^x\ln(x) </m></p>
           </statement>
           <solution>
-            <p><m>dy = ((\ln(3) )3^x\ln(x)  + \frac{3^x}{x})dx</m></p>
+            <p><m>dy = ((\ln(3) )3^x\ln(x) + \frac{3^x}{x})dx</m></p>
           </solution>
         </webwork>
       </exercise>

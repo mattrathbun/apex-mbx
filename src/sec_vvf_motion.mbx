@@ -623,7 +623,7 @@
 
         <p>This is not trivial (though not <q>hard</q>). We start by solving each equation for <m>\cos(\theta) </m> and <m>\sin(\theta) </m>, respectively.
           <me>
-            \cos(\theta)  = \frac{25}{350t}  \text{ and }   \sin(\theta)  = \frac{3+16t^2}{350t}.
+            \cos(\theta) = \frac{25}{350t}  \text{ and }   \sin(\theta) = \frac{3+16t^2}{350t}.
           </me>
         </p>
 
@@ -640,7 +640,7 @@
           </md>
         </p>
 
-        <p>Clearly the negative <m>t</m> values do not fit our context, so we have <m>t=0.072</m> and <m>t=21.866</m>. Using <m>\cos(\theta)  = 25/(350 t)</m>, we can solve for <m>\theta</m>:
+        <p>Clearly the negative <m>t</m> values do not fit our context, so we have <m>t=0.072</m> and <m>t=21.866</m>. Using <m>\cos(\theta) = 25/(350 t)</m>, we can solve for <m>\theta</m>:
           <md>
             <mrow>\theta \amp = \cos^{-1}\left(\frac{25}{350\cdot 0.072}\right) \text{ and }  \cos^{-1}\left(\frac{25}{350\cdot 21.866}\right)</mrow>
             <mrow>\theta \amp = 7.03^\circ  \text{ and }   89.8^\circ.</mrow>
@@ -1006,7 +1006,7 @@
             <p><m>\vrt = \la \cos(t) ,\sin(t) \ra</m></p>
           </statement>
           <solution>
-            <p><m>\vvt = \la -\sin(t) , \cos(t) \ra</m>, <m>\vat = \la -\cos(t) , -\sin(t)  \ra</m></p>
+            <p><m>\vvt = \la -\sin(t) , \cos(t) \ra</m>, <m>\vat = \la -\cos(t) , -\sin(t) \ra</m></p>
           </solution>
         </webwork>
       </exercise>
@@ -1023,7 +1023,7 @@
             <p><m>\vrt = \la t/10,-\cos(t) ,\sin(t) \ra</m></p>
           </statement>
           <solution>
-            <p><m>\vvt = \la 1/10, \sin(t) , \cos(t) \ra</m>, <m>\vat = \la 0,\cos(t) , -\sin(t)  \ra</m></p>
+            <p><m>\vvt = \la 1/10, \sin(t) , \cos(t) \ra</m>, <m>\vat = \la 0,\cos(t) , -\sin(t) \ra</m></p>
           </solution>
         </webwork>
       </exercise>
@@ -1038,7 +1038,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\ds \vrt = \la t,\sin(t)  \ra</m> on <m>[0,\pi/2]</m>; <m>t_0= \pi/4</m></p>
+            <p><m>\ds \vrt = \la t,\sin(t) \ra</m> on <m>[0,\pi/2]</m>; <m>t_0= \pi/4</m></p>
           </statement>
           <solution>
             <p><m>\vvt = \la 1,\cos(t) \ra</m>, <m>\vat = \la 0,-\sin(t) \ra</m></p>
@@ -1154,7 +1154,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\ds \vrt = \la 5\cos(t) ,5\sin(t)  \ra</m> on <m>[0,2\pi]</m></p>
+            <p><m>\ds \vrt = \la 5\cos(t) ,5\sin(t) \ra</m> on <m>[0,2\pi]</m></p>
           </statement>
           <solution>
             <p><m>\norm{\vvt} = 5</m>.</p>
@@ -1173,7 +1173,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\ds \vrt = \la 2\cos(t) ,5\sin(t)  \ra</m> on <m>[0,2\pi]</m></p>
+            <p><m>\ds \vrt = \la 2\cos(t) ,5\sin(t) \ra</m> on <m>[0,2\pi]</m></p>
           </statement>
           <solution>
             <p><m>\norm{\vvt} = \sqrt{4\sin^2(t) +25\cos^2(t) }</m>.</p>
@@ -1192,7 +1192,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\ds \vrt = \la \sec(t) ,\tan(t)  \ra</m> on <m>[0,\pi/4]</m></p>
+            <p><m>\ds \vrt = \la \sec(t) ,\tan(t) \ra</m> on <m>[0,\pi/4]</m></p>
           </statement>
           <solution>
             <p><m>\norm{\vvt} = \abs{\sec(t) }\sqrt{\tan^2(t) +\sec^2(t) }</m>.</p>
@@ -1211,7 +1211,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\ds \vrt = \la t+\cos(t) ,1-\sin(t)  \ra</m> on <m>[0,2\pi]</m></p>
+            <p><m>\ds \vrt = \la t+\cos(t) ,1-\sin(t) \ra</m> on <m>[0,2\pi]</m></p>
           </statement>
           <solution>
             <p><m>\norm{\vvt} = \sqrt{2-2\sin(t) }</m>.</p>
@@ -1230,7 +1230,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\ds \vrt = \la 12t,5\cos(t) ,5\sin(t)  \ra</m> on <m>[0,4\pi]</m></p>
+            <p><m>\ds \vrt = \la 12t,5\cos(t) ,5\sin(t) \ra</m> on <m>[0,4\pi]</m></p>
           </statement>
           <solution>
             <p><m>\norm{\vvt} = 13</m>.</p>

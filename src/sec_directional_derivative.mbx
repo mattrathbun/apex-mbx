@@ -257,16 +257,16 @@
 
     <p>Using the key property of the dot product, we have
       <men xml:id="eq_gradient" >
-        \nabla f\cdot \vec u = \norm{\nabla f}\,\vnorm u \cos(\theta)  = \norm{\nabla f}\cos(\theta) ,
+        \nabla f\cdot \vec u = \norm{\nabla f}\,\vnorm u \cos(\theta) = \norm{\nabla f}\cos(\theta) ,
       </men>
       where <m>\theta</m> is the angle between the gradient and <m>\vec u</m>. (Since <m>\vec u</m> is a unit vector, <m>\vnorm{u} = 1</m>.) This equation allows us to answer the three questions stated previously.</p>
 
     <ol>
-      <li><p><xref ref="eq_gradient">Equation</xref> is maximized when <m>\cos(\theta)  =1</m>, i.e., when the gradient and <m>\vec u</m> have the same direction. We conclude the gradient points in the direction of greatest <m>z</m> change.</p></li>
+      <li><p><xref ref="eq_gradient">Equation</xref> is maximized when <m>\cos(\theta) =1</m>, i.e., when the gradient and <m>\vec u</m> have the same direction. We conclude the gradient points in the direction of greatest <m>z</m> change.</p></li>
 
-      <li><p><xref ref="eq_gradient">Equation</xref> is minimized when <m>\cos(\theta)  = -1</m>, i.e., when the gradient and <m>\vec u</m> have opposite directions. We conclude the gradient points in the opposite direction of the least <m>z</m> change.</p></li>
+      <li><p><xref ref="eq_gradient">Equation</xref> is minimized when <m>\cos(\theta) = -1</m>, i.e., when the gradient and <m>\vec u</m> have opposite directions. We conclude the gradient points in the opposite direction of the least <m>z</m> change.</p></li>
 
-      <li><p><xref ref="eq_gradient">Equation</xref> is 0 when <m>\cos(\theta)  = 0</m>, i.e., when the gradient and <m>\vec u</m> are orthogonal to each other. We conclude the gradient is orthogonal to directions of no <m>z</m> change.</p></li>
+      <li><p><xref ref="eq_gradient">Equation</xref> is 0 when <m>\cos(\theta) = 0</m>, i.e., when the gradient and <m>\vec u</m> are orthogonal to each other. We conclude the gradient is orthogonal to directions of no <m>z</m> change.</p></li>
     </ol>
 
     <p>This result is rather amazing. Once again imagine standing in a rolling meadow and face the direction that leads you steepest uphill. Then the direction that leads steepest downhill is directly behind you, and side<ndash />stepping either left or right (i.e., moving perpendicularly to the direction you face) does not change your elevation at all.</p>

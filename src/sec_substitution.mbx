@@ -110,7 +110,7 @@
             <mrow>\amp = \int \frac12\sin(u) \ du</mrow>
           </md>
           <md>
-            <mrow>\amp = -\frac12\cos(u)  + C  \text{ \scriptsize (now replace \(u\) with \(x^2+5\)) }</mrow>
+            <mrow>\amp = -\frac12\cos(u) + C  \text{ \scriptsize (now replace \(u\) with \(x^2+5\)) }</mrow>
             <mrow>\amp =-\frac12\cos(x^2+5) + C.</mrow>
           </md>
         </p>
@@ -128,8 +128,8 @@
         <p>Again let <m>u</m> replace the <q>inside</q> function. Letting <m>u = 5x</m>, we have <m>du = 5dx</m>. Since our integrand does not have a <m>5dx</m> term, we can divide the previous equation by <m>5</m> to obtain <m>\frac15du = dx</m>. We can now substitute.
           <md>
             <mrow>\int \cos(5x)\ dx \amp = \int \cos(\underbrace{5x}_u) \underbrace{dx}_{\frac15du}</mrow>
-            <mrow>\amp =	\int \frac15\cos(u)  \ du</mrow>
-            <mrow>\amp = \frac15\sin(u)  + C</mrow>
+            <mrow>\amp =	\int \frac15\cos(u) \ du</mrow>
+            <mrow>\amp = \frac15\sin(u) + C</mrow>
             <mrow>\amp = \frac15\sin(5x)+C.</mrow>
           </md>
         </p>
@@ -184,7 +184,7 @@
           <md>
             <mrow>\int \sin(x) \cos(x) \ dx \amp =	\int u\ du</mrow>
             <mrow>\amp = \frac12u^2+ C</mrow>
-            <mrow>\amp = \frac12\sin^2(x)  + C.</mrow>
+            <mrow>\amp = \frac12\sin^2(x) + C.</mrow>
           </md>
         </p>
 
@@ -259,7 +259,7 @@
 
         <p>Rewrite <m>\tan(x) </m> as <m>\sin(x) /\cos(x) </m>. While the presence of a composition of functions may not be immediately obvious, recognize that <m>\cos(x) </m> is <q>inside</q> the <m>1/x</m> function. Therefore, we see if setting <m>u = \cos(x) </m> returns usable results. We have that <m>du = -\sin(x) \ dx</m>, hence <m>-du = \sin(x) \ dx</m>. We can integrate:
           <md>
-            <mrow>\int \tan(x)  \ dx \amp = \int \frac{\sin(x) }{\cos(x) }\ dx</mrow>
+            <mrow>\int \tan(x) \ dx \amp = \int \frac{\sin(x) }{\cos(x) }\ dx</mrow>
             <mrow>\amp = \int \frac1{\underbrace{\cos(x) }_u}\underbrace{\sin(x) \ dx}_{-du}</mrow>
             <mrow>\amp = \int \frac {-1}u \ du</mrow>
             <mrow>\amp = -\ln\abs{u} + C</mrow>
@@ -275,7 +275,7 @@
           </md>
         </p>
 
-        <p>Thus the result they give is <m>\int \tan(x)  \ dx = \ln\abs{\sec(x) } + C</m>. These two answers are equivalent.</p>
+        <p>Thus the result they give is <m>\int \tan(x) \ dx = \ln\abs{\sec(x) } + C</m>. These two answers are equivalent.</p>
       </solution>
     </example>
 
@@ -287,14 +287,14 @@
       <solution>
         <p>This example employs a wonderful trick: multiply the integrand by <q>1</q> so that we see how to integrate more clearly. In this case, we write <q>1</q> as
           <me>
-            1 = \frac{\sec(x)  + \tan(x) }{\sec(x)  + \tan(x) }.
+            1 = \frac{\sec(x) + \tan(x) }{\sec(x) + \tan(x) }.
           </me>
         </p>
 
         <p>This may seem like it came out of left field, but it works beautifully. Consider:
           <md>
-            <mrow>\int \sec(x) \ dx	\amp =	\int \sec(x) \cdot \frac{\sec(x)  + \tan(x) }{\sec(x)  + \tan(x) }\ dx</mrow>
-            <mrow>\amp = \int \frac{\sec^2(x)  + \sec(x) \tan(x) }{\sec(x)  + \tan(x) }\ dx.</mrow>
+            <mrow>\int \sec(x) \ dx	\amp =	\int \sec(x) \cdot \frac{\sec(x) + \tan(x) }{\sec(x) + \tan(x) }\ dx</mrow>
+            <mrow>\amp = \int \frac{\sec^2(x) + \sec(x) \tan(x) }{\sec(x) + \tan(x) }\ dx.</mrow>
             <intertext>Now let <m>u = \sec(x) +\tan(x) </m>; this means <m>du = (\sec(x) \tan(x) + \sec^2(x) )\ dx</m>, which is our numerator. Thus:</intertext>
             <mrow>\amp = \int \frac{du}{u}</mrow>
             <mrow>\amp = \ln\abs{u} + C</mrow>
@@ -313,13 +313,13 @@
           <index><main>integration</main><sub>of trig. functions</sub></index>
 
           <ol cols="2" >
-            <li><p><m>\ds \int \sin(x)  \ dx = -\cos(x)  +C</m></p></li>
+            <li><p><m>\ds \int \sin(x) \ dx = -\cos(x) +C</m></p></li>
 
-            <li><p><m>\ds\int \cos(x) \ dx = \sin(x)  + C</m></p></li>
+            <li><p><m>\ds\int \cos(x) \ dx = \sin(x) + C</m></p></li>
 
             <li><p><m>\ds \int \tan(x) \ dx = -\ln\abs{\cos(x) }+C</m></p></li>
 
-            <li><p><m>\ds \int \csc(x)  \ dx = -\ln\abs{\csc(x) +\cot(x) } +C</m></p></li>
+            <li><p><m>\ds \int \csc(x) \ dx = -\ln\abs{\csc(x) +\cot(x) } +C</m></p></li>
 
             <li><p><m>\ds\int \sec(x) \ dx = \ln\abs{\sec(x) +\tan(x) } + C</m></p></li>
 
@@ -337,12 +337,12 @@
         <p>Evaluate <m>\ds \int \cos^2(x) \ dx</m>.</p>
       </statement>
       <solution>
-        <p>We have a composition of functions as <m>\cos^2(x)  = \big(\cos(x) \big)^2</m>.
+        <p>We have a composition of functions as <m>\cos^2(x) = \big(\cos(x) \big)^2</m>.
           However, setting <m>u = \cos(x) </m> means <m>du = -\sin(x) \ dx</m>, which we do not have in the integral. Another technique is needed.</p>
 
         <p>The process we'll employ is to use a Power Reducing formula for <m>\cos^2(x) </m> (perhaps consult the back of this text for this formula), which states
           <me>
-            \cos^2(x)  = \frac{1+\cos(2x)}{2}.
+            \cos^2(x) = \frac{1+\cos(2x)}{2}.
           </me>
         </p>
 
@@ -474,7 +474,7 @@
           <md>
             <mrow>\int\frac{1}{25+x^2}\ dx \amp = \frac{1}{25}\int \frac{1}{1+\left(\frac{x}{5}\right)^2}\ dx</mrow>
             <mrow>\amp = \frac15\int \frac{1}{1+u^2}\ du</mrow>
-            <mrow>\amp = \frac15\tan^{-1}(u)  + C</mrow>
+            <mrow>\amp = \frac15\tan^{-1}(u) + C</mrow>
             <mrow>\amp = \frac15\tan^{-1}\left(\frac x5\right)+C</mrow>
           </md>
         </p>
@@ -622,7 +622,7 @@
 
         <p>By setting <m>u = 3x-1</m>, we are implicitly stating that <m>g(x) = 3x-1</m>. <xref ref="thm_subst_def_int">Theorem</xref> states that the new lower bound is <m>g(0) = -1</m>; the new upper bound is <m>g(2) = 5</m>. We now evaluate the definite integral:
           <md>
-            <mrow>\int_1^2 \cos(3x-1) \ dx \amp =	\int_{-1}^5 \cos(u)  \frac{du}{3}</mrow>
+            <mrow>\int_1^2 \cos(3x-1) \ dx \amp =	\int_{-1}^5 \cos(u) \frac{du}{3}</mrow>
             <mrow>\amp = \frac{1}{3} \sin(u) \Big|_{-1}^5</mrow>
             <mrow>\amp = \frac{1}{3}\big(\sin(5) - \sin(-1)\big)\approx -0.039.</mrow>
           </md>
@@ -710,7 +710,7 @@
     <example xml:id="ex_subst13">
       <title>Definite integrals and substitution: changing the bounds</title>
       <statement>
-        <p>Evaluate <m>\ds \int_0^{\pi/2} \sin(x)  \cos(x) \ dx</m> using <xref ref="thm_subst_def_int">Theorem</xref>.</p>
+        <p>Evaluate <m>\ds \int_0^{\pi/2} \sin(x) \cos(x) \ dx</m> using <xref ref="thm_subst_def_int">Theorem</xref>.</p>
       </statement>
       <solution>
         <p>We saw the corresponding indefinite integral in <xref ref="ex_sub10">Example</xref>. In that example we set <m>u = \sin(x) </m> but stated that we could have let <m>u = \cos(x) </m>. For variety, we do the latter here.</p>
@@ -2136,7 +2136,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\ds \int_{-\pi/2}^{\pi/2} \sin^2(x)  \cos(x) \ dx</m></p>
+            <p><m>\ds \int_{-\pi/2}^{\pi/2} \sin^2(x) \cos(x) \ dx</m></p>
           </statement>
           <solution>
             <p><m>2/3</m></p>

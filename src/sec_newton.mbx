@@ -3,7 +3,7 @@
 <section xml:id="sec_newton">
   <title>Newton's Method</title>
   <introduction>
-    <p>Solving equations is one of the most important things we do in mathematics, yet we are surprisingly limited in what we can solve analytically. For instance, equations as simple as <m>x^5+x+1=0</m> or <m>\cos(x)  =x</m> cannot be solved by algebraic methods in terms of familiar functions. Fortunately, there are methods that can give us <em>approximate</em> solutions to equations like these. These methods can usually give an approximation correct to as many decimal places as we like. In <xref ref="sec_continuity">Section</xref> we learned about the Bisection Method. This section focuses on another technique (which generally works faster), called Newton's Method.</p>
+    <p>Solving equations is one of the most important things we do in mathematics, yet we are surprisingly limited in what we can solve analytically. For instance, equations as simple as <m>x^5+x+1=0</m> or <m>\cos(x) =x</m> cannot be solved by algebraic methods in terms of familiar functions. Fortunately, there are methods that can give us <em>approximate</em> solutions to equations like these. These methods can usually give an approximation correct to as many decimal places as we like. In <xref ref="sec_continuity">Section</xref> we learned about the Bisection Method. This section focuses on another technique (which generally works faster), called Newton's Method.</p>
 
     <p>Newton's Method is built around tangent lines. The main idea is that if <m>x</m> is sufficiently close to a root of <m>f(x)</m>, then the tangent line to the graph at <m>(x,f(x))</m> will cross the <m>x</m>-axis at a point closer to the root than <m>x</m>.</p>
 
@@ -258,12 +258,12 @@
     <example xml:id="ex_newt3">
       <title>Using Newton's Method to find where functions intersect</title>
       <statement>
-        <p>Use Newton's Method to approximate a solution to <m>\cos({) x} = x</m>, accurate to 5 places after the decimal.</p>
+        <p>Use Newton's Method to approximate a solution to <m>\cos(x) = x</m>, accurate to 5 places after the decimal.</p>
       </statement>
       <solution>
         <p>Newton's Method provides a method of solving <m>f(x) = 0</m>; it is not (directly) a method for solving equations like <m>f(x) = g(x)</m>. However, this is not a problem; we can rewrite the latter equation as <m>f(x) - g(x)=0</m> and then use Newton's Method.</p>
 
-        <p>So we rewrite <m>\cos(x) =x</m> as <m>\cos({) x}-x=0</m>. Written this way, we are finding a root of <m>f(x)=\cos({) x}-x</m>. We compute <m>\fp(x)=-\sin({) x} - 1</m>. Next we need a starting value, <m>x_0</m>. Consider <xref ref="fig_newt3">Figure</xref>, where <m>f(x) = \cos(x) -x</m> is graphed. It seems that <m>x_0=0.75</m> is pretty close to the root, so we will use that as our <m>x_0</m>. (The figure also shows the graphs of <m>y=\cos(x) </m> and <m>y=x</m>, drawn with dashed lines. Note how they intersect at the same <m>x</m> value as when <m>f(x) = 0</m>.)</p>
+        <p>So we rewrite <m>\cos(x) =x</m> as <m>\cos(x) -x=0</m>. Written this way, we are finding a root of <m>f(x)=\cos(x) -x</m>. We compute <m>\fp(x)=-\sin(x) - 1</m>. Next we need a starting value, <m>x_0</m>. Consider <xref ref="fig_newt3">Figure</xref>, where <m>f(x) = \cos(x) -x</m> is graphed. It seems that <m>x_0=0.75</m> is pretty close to the root, so we will use that as our <m>x_0</m>. (The figure also shows the graphs of <m>y=\cos(x) </m> and <m>y=x</m>, drawn with dashed lines. Note how they intersect at the same <m>x</m> value as when <m>f(x) = 0</m>.)</p>
 
         <figure xml:id="fig_newt3" >
           <caption>A graph of <m>f(x)=\cos(x) -x</m> used to find an initial approximation of its root.</caption>
@@ -706,7 +706,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>f(x) = x^2\cos(x)  + (x-1)\sin(x) </m> on <m>(-3,3)</m></p>
+            <p><m>f(x) = x^2\cos(x) + (x-1)\sin(x) </m> on <m>(-3,3)</m></p>
           </statement>
           <solution>
             <p>roots are: <m>x=-2.165</m>, <m>x=0</m>, <m>x=0.525</m> and <m>x=1.813</m></p>

@@ -30,7 +30,7 @@
       <solution>
         <p>To make our use of the Product Rule explicit, let's set <m>f(x) = 5x^2</m> and <m>g(x) = \sin(x) </m>. We easily compute/recall that <m>\fp(x) = 10x</m> and <m>g'(x) = \cos(x) </m>. Employing the rule, we have
           <me>
-            \frac{d}{dx}\Big(5x^2\sin(x) \Big) = 5x^2\cos(x)  + 10x\sin(x) .
+            \frac{d}{dx}\Big(5x^2\sin(x) \Big) = 5x^2\cos(x) + 10x\sin(x) .
           </me>
         </p>
 
@@ -151,14 +151,14 @@
         <ol>
           <li><p><m>f(x) = x\ln(x) </m></p></li>
 
-          <li><p><m>g(x) = x\ln(x)  - x</m>.</p></li>
+          <li><p><m>g(x) = x\ln(x) - x</m>.</p></li>
         </ol>
       </statement>
       <solution>
         <p>Recalling that the derivative of <m>\ln(x) </m> is <m>1/x</m>, we use the Product Rule to find our answers.</p>
 
         <ol>
-          <li><p><m>\ds \frac{d}{dx}\Big(x\ln(x) \Big) = x\cdot 1/x + 1\cdot \ln(x)  = 1+\ln(x) </m>.</p></li>
+          <li><p><m>\ds \frac{d}{dx}\Big(x\ln(x) \Big) = x\cdot 1/x + 1\cdot \ln(x) = 1+\ln(x) </m>.</p></li>
 
           <li><p>Using the result from above, we compute
               <me>
@@ -201,7 +201,7 @@
         <p>Directly applying the Quotient Rule gives:
           <md>
             <mrow>\frac{d}{dx}\left(\frac{5x^2}{\sin(x) }\right) \amp = \frac{\sin(x) \cdot 10x - 5x^2\cdot \cos(x) }{\sin^2(x) }</mrow>
-            <mrow>\amp =	\frac{10x\sin(x)  - 5x^2\cos(x) }{\sin^2(x) }.</mrow>
+            <mrow>\amp =	\frac{10x\sin(x) - 5x^2\cos(x) }{\sin^2(x) }.</mrow>
           </md>
         </p>
       </solution>
@@ -215,10 +215,10 @@
         <p>Find the derivative of <m>y=\tan(x) </m>.</p>
       </statement>
       <solution>
-        <p>At first, one might feel unequipped to answer this question. But recall that <m>\tan(x)  = \sin(x) /\cos(x) </m>, so we can apply the Quotient Rule.
+        <p>At first, one might feel unequipped to answer this question. But recall that <m>\tan(x) = \sin(x) /\cos(x) </m>, so we can apply the Quotient Rule.
           <md>
             <mrow>\frac{d}{dx}\Big(\tan(x) \Big) \amp = \frac{d}{dx}\left(\frac{\sin(x) }{\cos(x) }\right)</mrow>
-            <mrow>\amp =	\frac{\cos(x)  \cos(x)  - \sin(x)  (-\sin(x) )}{\cos^2(x) }</mrow>
+            <mrow>\amp =	\frac{\cos(x) \cos(x) - \sin(x) (-\sin(x) )}{\cos^2(x) }</mrow>
             <mrow>\amp = \frac{\cos^2(x) +\sin^2(x) }{\cos^2(x) }</mrow>
             <mrow>\amp = \frac{1}{\cos^2(x) }</mrow>
             <mrow>\amp = \sec^2(x) .</mrow>
@@ -283,13 +283,13 @@
         <p>In <xref ref="ex_quot1">Example</xref> the derivative of <m>\ds f(x) = \frac{5x^2}{\sin(x) }</m> was found using the Quotient Rule. Rewriting <m>f</m> as <m>f(x) = 5x^2\csc(x) </m>, find <m>\fp</m> using <xref ref="thm_deriv_trig">Theorem</xref> and verify the two answers are the same.</p>
       </statement>
       <solution>
-        <p>We found in <xref ref="ex_quot1">Example</xref> that the <m>\ds \fp(x) = \frac{10x\sin(x)  - 5x^2\cos(x) }{\sin^2(x) }</m>. We now find <m>\fp</m> using the Product Rule, considering <m>f</m> as <m>f(x) = 5x^2\csc(x) </m>.
+        <p>We found in <xref ref="ex_quot1">Example</xref> that the <m>\ds \fp(x) = \frac{10x\sin(x) - 5x^2\cos(x) }{\sin^2(x) }</m>. We now find <m>\fp</m> using the Product Rule, considering <m>f</m> as <m>f(x) = 5x^2\csc(x) </m>.
           <md>
             <mrow>\fp(x) \amp = \frac{d}{dx}\Big(5x^2\csc(x) \Big)</mrow>
             <mrow>\amp =	$5x^2(-\csc(x) \cot(x) ) + 10x\csc(x) $ \text{ (now rewrite trig functions) }</mrow>
             <mrow>\amp = 5x^2\cdot \frac{-1}{\sin(x) }\cdot \frac{\cos(x) }{\sin(x) } + \frac{10x}{\sin(x) }</mrow>
             <mrow>\amp =	$\ds\frac{-5x^2\cos(x) }{\sin^2(x) }+\frac{10x}{\sin(x) }$ \text{ (get common denominator) }</mrow>
-            <mrow>\amp = \frac{10x\sin(x)  - 5x^2\cos(x) }{\sin^2(x) }</mrow>
+            <mrow>\amp = \frac{10x\sin(x) - 5x^2\cos(x) }{\sin^2(x) }</mrow>
           </md>
         </p>
 
@@ -734,7 +734,7 @@
             <p><m>f(x) = x\sin(x) </m></p>
           </statement>
           <solution>
-            <p><m>\fp(x) = \sin(x)  + x\cos(x) </m></p>
+            <p><m>\fp(x) = \sin(x) + x\cos(x) </m></p>
           </solution>
         </webwork>
       </exercise>
@@ -799,7 +799,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>h(x) =\cot(x)  - e^x</m></p>
+            <p><m>h(x) =\cot(x) - e^x</m></p>
           </statement>
           <solution>
             <p><m>h'(x) = -\csc^2(x) -e^x</m></p>
@@ -873,10 +873,10 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>f(t) = t^5(\sec(t)  + e^t)</m></p>
+            <p><m>f(t) = t^5(\sec(t) + e^t)</m></p>
           </statement>
           <solution>
-            <p><m>\fp(t) = 5t^4(\sec(t) + e^t) + t^5(\sec(t) \tan(t)  + e^t)</m></p>
+            <p><m>\fp(t) = 5t^4(\sec(t) + e^t) + t^5(\sec(t) \tan(t) + e^t)</m></p>
           </solution>
         </webwork>
       </exercise>
@@ -927,7 +927,7 @@
             <p><m>g(t) = 4t^3e^t - \sin(t) \cos(t) </m></p>
           </statement>
           <solution>
-            <p><m>g'(t) = 12t^2e^t + 4t^3e^t - \cos^2(t)  + \sin^2(t) </m></p>
+            <p><m>g'(t) = 12t^2e^t + 4t^3e^t - \cos^2(t) + \sin^2(t) </m></p>
           </solution>
         </webwork>
       </exercise>
@@ -961,7 +961,7 @@
             <p><m>f(x) = x^2e^x\tan(x) </m></p>
           </statement>
           <solution>
-            <p><m>\fp(x) = 2xe^x\tan(x)  = x^2e^x\tan(x)  + x^2e^x\sec^2(x) </m></p>
+            <p><m>\fp(x) = 2xe^x\tan(x) = x^2e^x\tan(x) + x^2e^x\sec^2(x) </m></p>
           </solution>
         </webwork>
       </exercise>
@@ -975,10 +975,10 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>g(x) = 2x\sin(x)  \sec(x) </m></p>
+            <p><m>g(x) = 2x\sin(x) \sec(x) </m></p>
           </statement>
           <solution>
-            <p><m>g'(x) = 2\sin(x) \sec(x) +2x\cos(x)  \sec(x)  + 2x\sin(x) \sec(x) \tan(x)  = 2\tan(x) +2x+2x\tan^2(x)  = 2\tan(x) +2x\sec^2(x) </m></p>
+            <p><m>g'(x) = 2\sin(x) \sec(x) +2x\cos(x) \sec(x) + 2x\sin(x) \sec(x) \tan(x) = 2\tan(x) +2x+2x\tan^2(x) = 2\tan(x) +2x\sec^2(x) </m></p>
           </solution>
         </webwork>
       </exercise>
@@ -1050,7 +1050,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\ds g(\theta) = \frac{\cos(\theta)  - 8\theta}{\theta+1}</m> at <m>(0,-5)</m></p>
+            <p><m>\ds g(\theta) = \frac{\cos(\theta) - 8\theta}{\theta+1}</m> at <m>(0,-5)</m></p>
           </statement>
           <solution>
             <p>Tangent line: <m>y = -9x-5</m></p>
@@ -1142,7 +1142,7 @@
             <p><m>f(x) = x\sin(x) </m>; find <m>\fpp(x)</m>.</p>
           </statement>
           <solution>
-            <p><m>\fpp(x) = 2\cos(x)  - x\sin(x) </m></p>
+            <p><m>\fpp(x) = 2\cos(x) - x\sin(x) </m></p>
           </solution>
         </webwork>
       </exercise>
@@ -1176,7 +1176,7 @@
             <p><m>f(x) = \csc(x) </m>; find <m>\fpp(x)</m>.</p>
           </statement>
           <solution>
-            <p><m>\fpp(x) = \cot^2(x) \csc(x)  + \csc^3(x) </m></p>
+            <p><m>\fpp(x) = \cot^2(x) \csc(x) + \csc^3(x) </m></p>
           </solution>
         </webwork>
       </exercise>

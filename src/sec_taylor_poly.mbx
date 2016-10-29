@@ -387,14 +387,14 @@
               <me>
                 p_6(x) = (x-1)-\frac12(x-1)^2+\frac13(x-1)^3-\frac14(x-1)^4+\frac15(x-1)^5-\frac16(x-1)^6.
               </me>
-              Since <m>p_6(x)</m> approximates <m>\ln(x) </m> well near <m>x=1</m>, we approximate <m>\ln(1.5)  \approx p_6(1.5)</m>:
+              Since <m>p_6(x)</m> approximates <m>\ln(x) </m> well near <m>x=1</m>, we approximate <m>\ln(1.5) \approx p_6(1.5)</m>:
               <md>
                 <mrow>p_6(1.5) \amp = (1.5-1)-\frac12(1.5-1)^2+\frac13(1.5-1)^3-\frac14(1.5-1)^4+\cdots</mrow>
                 <mrow>\amp \cdots +\frac15(1.5-1)^5-\frac16(1.5-1)^6</mrow>
                 <mrow>\amp =\frac{259}{640}</mrow>
                 <mrow>\amp \approx 0.404688.</mrow>
               </md>
-              This is a good approximation as a calculator shows that <m>\ln(1.5)  \approx 0.4055.</m> <xref ref="fig_taypoly2b">Figure</xref> plots <m>y=\ln(x) </m> with <m>y=p_6(x)</m>. We can see that <m>\ln(1.5) \approx p_6(1.5)</m>.
+              This is a good approximation as a calculator shows that <m>\ln(1.5) \approx 0.4055.</m> <xref ref="fig_taypoly2b">Figure</xref> plots <m>y=\ln(x) </m> with <m>y=p_6(x)</m>. We can see that <m>\ln(1.5) \approx p_6(1.5)</m>.
 
               <figure xml:id="fig_taypoly2b" >
                 <caption>A plot of <m>y=\ln(x) </m> and its 6<m>^th</m> degree Taylor polynomial at <m>x=1</m>.</caption>
@@ -454,7 +454,7 @@
                 <mrow>\amp = \frac{37}{60}</mrow>
                 <mrow>\amp \approx 0.616667.</mrow>
               </md>
-              This approximation is not terribly impressive: a hand held calculator shows that <m>\ln(2)  \approx 0.693147.</m> The graph in <xref ref="fig_taypoly2b">Figure</xref> shows that <m>p_6(x)</m> provides less accurate approximations of <m>\ln(x) </m> as <m>x</m> gets close to 0 or 2. 
+              This approximation is not terribly impressive: a hand held calculator shows that <m>\ln(2) \approx 0.693147.</m> The graph in <xref ref="fig_taypoly2b">Figure</xref> shows that <m>p_6(x)</m> provides less accurate approximations of <m>\ln(x) </m> as <m>x</m> gets close to 0 or 2. 
 
               Surprisingly enough, even the 20<m>^\text{ th }</m> degree Taylor polynomial fails to approximate <m>\ln(x) </m> for <m>x>2</m>, as shown in <xref ref="fig_taypoly2c">Figure</xref>. We'll soon discuss why this is.
 
@@ -561,7 +561,7 @@
                 <mrow>\amp \leq \frac{1506}{5040}\cdot\frac1{2^7}</mrow>
                 <mrow>\amp \approx 0.0023.</mrow>
               </md>
-              We computed <m>p_6(1.5) = 0.404688</m>; using a calculator, we find <m>\ln(1.5)  \approx 0.405465</m>, so the actual error is about <m>0.000778</m>, which is less than our bound of <m>0.0023</m>. This affirms Taylor's Theorem; the theorem states that our approximation would be within about 2 thousandths of the actual value, whereas the approximation was actually closer.</p></li>
+              We computed <m>p_6(1.5) = 0.404688</m>; using a calculator, we find <m>\ln(1.5) \approx 0.405465</m>, so the actual error is about <m>0.000778</m>, which is less than our bound of <m>0.0023</m>. This affirms Taylor's Theorem; the theorem states that our approximation would be within about 2 thousandths of the actual value, whereas the approximation was actually closer.</p></li>
 
           <li><p>We again find an interval <m>I</m> that contains both <m>c=1</m> and <m>x=2</m>; we choose <m>I = (0.9,2.1)</m>. The maximum value of the seventh derivative of <m>f</m> on this interval is again about 1506 (as the largest values come near <m>x=0.9</m>). Thus
               <md>
@@ -662,7 +662,7 @@
 
         <p>We finally approximate <m>\cos(2) </m>:
           <me>
-            \cos(2)  \approx p_8(2) = -\frac{131}{315} \approx -0.41587.
+            \cos(2) \approx p_8(2) = -\frac{131}{315} \approx -0.41587.
           </me>
         </p>
 

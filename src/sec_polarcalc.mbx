@@ -45,7 +45,7 @@
         <ol>
           <li><p>We start by computing <m>\frac{dy}{dx}</m>. With <m>\fp(\theta) = 2\cos(\theta) </m>, we have
               <md>
-                <mrow>\frac{dy}{dx} \amp = \frac{2\cos(\theta) \sin(\theta)  + \cos(\theta) (1+2\sin(\theta) )}{2\cos^2(\theta) -\sin(\theta) (1+2\sin(\theta) )}</mrow>
+                <mrow>\frac{dy}{dx} \amp = \frac{2\cos(\theta) \sin(\theta) + \cos(\theta) (1+2\sin(\theta) )}{2\cos^2(\theta) -\sin(\theta) (1+2\sin(\theta) )}</mrow>
                 <mrow>\amp = \frac{\cos(\theta) (4\sin(\theta) +1)}{2(\cos^2(\theta) -\sin^2(\theta) )-\sin(\theta) }.</mrow>
               </md>
               When <m>\theta=\pi/4</m>, <m>\frac{dy}{dx}=-2\sqrt{2}-1</m> (this requires a bit of simplification). In rectangular coordinates, the point on the graph at <m>\theta=\pi/4</m> is <m>(1+\sqrt{2}/2,1+\sqrt{2}/2)</m>. Thus the rectangular equation of the line tangent to the lima&#xe7;on at <m>\theta=\pi/4</m> is
@@ -119,26 +119,26 @@
 
               To find the vertical lines of tangency, we set the denominator of <m>\frac{dy}{dx}=0</m>.
               <md>
-                <mrow>2(\cos^2(\theta)  -\sin^2(\theta) )-\sin(\theta)  \amp = 0 .</mrow>
+                <mrow>2(\cos^2(\theta) -\sin^2(\theta) )-\sin(\theta) \amp = 0 .</mrow>
                 <intertext>Convert the <m>\cos^2(\theta) </m> term to <m>1-\sin^2(\theta) </m>:</intertext>
-                <mrow>2(1-\sin^2(\theta) -\sin^2(\theta) )-\sin(\theta)  \amp = 0</mrow>
-                <mrow>4\sin^2(\theta)  + \sin(\theta)  -1 \amp = 0.</mrow>
+                <mrow>2(1-\sin^2(\theta) -\sin^2(\theta) )-\sin(\theta) \amp = 0</mrow>
+                <mrow>4\sin^2(\theta) + \sin(\theta) -1 \amp = 0.</mrow>
                 <intertext>Recognize this as a quadratic in the variable <m>\sin(\theta) </m>. Using the quadratic formula, we have</intertext>
-                <mrow>\sin(\theta)  \amp = \frac{-1\pm\sqrt{33}}{8}.</mrow>
+                <mrow>\sin(\theta) \amp = \frac{-1\pm\sqrt{33}}{8}.</mrow>
               </md>
-              We solve <m>\sin(\theta)  = \frac{-1+\sqrt{33}}8</m> and <m>\sin(\theta)  = \frac{-1-\sqrt{33}}8</m>:
+              We solve <m>\sin(\theta) = \frac{-1+\sqrt{33}}8</m> and <m>\sin(\theta) = \frac{-1-\sqrt{33}}8</m>:
               <md>
-                <mrow>\sin(\theta)  \amp =\frac{-1+\sqrt{33}}8 \amp  \sin(\theta)  \amp = \frac{-1-\sqrt{33}}{8}</mrow>
+                <mrow>\sin(\theta) \amp =\frac{-1+\sqrt{33}}8 \amp  \sin(\theta) \amp = \frac{-1-\sqrt{33}}{8}</mrow>
                 <mrow>\theta \amp = \sin^{-1}\left(\frac{-1+\sqrt{33}}8\right) \amp  \theta \amp = \sin^{-1}\left(\frac{-1-\sqrt{33}}8\right)</mrow>
                 <mrow>\theta \amp = 0.6399 \amp  \theta \amp = -1.0030</mrow>
               </md>
               In each of the solutions above, we only get one of the possible two solutions as <m>\sin^{-1}(x) </m> only returns solutions in <m>[-\pi/2,\pi/2]</m>, the 4<m>^\text{ th }</m> and <m>1^\text{ st }</m> quadrants. Again using reference angles, we have:
               <me>
-                \sin(\theta)  = \frac{-1+\sqrt{33}}8  \Rightarrow  \theta = 0.6399,\ 3.7815 \text{ radians }
+                \sin(\theta) = \frac{-1+\sqrt{33}}8  \Rightarrow  \theta = 0.6399,\ 3.7815 \text{ radians }
               </me>
               and
               <me>
-                \sin(\theta)  = \frac{-1-\sqrt{33}}8  \Rightarrow  \theta = 4.1446,\ 5.2802 \text{ radians. }
+                \sin(\theta) = \frac{-1-\sqrt{33}}8  \Rightarrow  \theta = 4.1446,\ 5.2802 \text{ radians. }
               </me>
               These points are also shown in <xref ref="fig_polcalc1">Figure</xref> with white<ndash />filled dots.</p></li>
         </ol>
@@ -200,8 +200,8 @@
       <solution>
         <p>We need to know when <m>r=0</m>.
           <md>
-            <mrow>1+2\sin(\theta)  \amp = 0</mrow>
-            <mrow>\sin(\theta)  \amp = -1/2</mrow>
+            <mrow>1+2\sin(\theta) \amp = 0</mrow>
+            <mrow>\sin(\theta) \amp = -1/2</mrow>
             <mrow>\theta \amp = \frac{7\pi}{6},\ \frac{11\pi}6.</mrow>
           </md>
         </p>
@@ -627,8 +627,8 @@
       <solution>
         <p>We need to find the points of intersection between these two functions. Setting them equal to each other, we find:
           <md>
-            <mrow>1+\cos(\theta)  \amp = 3\cos(\theta) </mrow>
-            <mrow>\cos(\theta)  \amp =1/2</mrow>
+            <mrow>1+\cos(\theta) \amp = 3\cos(\theta) </mrow>
+            <mrow>\cos(\theta) \amp =1/2</mrow>
             <mrow>\theta \amp = \pm \pi/3</mrow>
           </md>
         </p>
@@ -837,7 +837,7 @@
         <p>With <m>r=1+2\sin(t) </m>, we have <m>r\,' = 2\cos(t) </m>. The lima&#xe7;on is traced out once on <m>[0,2\pi]</m>, giving us our bounds of integration. Applying <xref ref="idea_polar_arclength">Key Idea</xref>, we have
           <md>
             <mrow>L 	\amp = \int_0^{2\pi} \sqrt{(2\cos(\theta) )^2+(1+2\sin(\theta) )^2}\ d\theta</mrow>
-            <mrow>\amp =	\int_0^{2\pi} \sqrt{4\cos^2(\theta) +4\sin^2(\theta)  +4\sin(\theta) +1}\ d\theta</mrow>
+            <mrow>\amp =	\int_0^{2\pi} \sqrt{4\cos^2(\theta) +4\sin^2(\theta) +4\sin(\theta) +1}\ d\theta</mrow>
             <mrow>\amp =	\int_0^{2\pi} \sqrt{4\sin(\theta) +5}\ d\theta</mrow>
             <mrow>\amp \approx 13.3649.</mrow>
           </md>
@@ -1656,7 +1656,7 @@
             </p>
           </statement>
           <solution>
-            <p><m>x\,'(\theta) = \fp(\theta)\cos(\theta)  -f(\theta)\sin(\theta) </m>, <m>y\,'(\theta) = \fp(\theta)\sin(\theta)  + f(\theta)\cos(\theta) </m>. Square each and add; applying the Pythagoran Theorem twice achieves the result.</p>
+            <p><m>x\,'(\theta) = \fp(\theta)\cos(\theta) -f(\theta)\sin(\theta) </m>, <m>y\,'(\theta) = \fp(\theta)\sin(\theta) + f(\theta)\cos(\theta) </m>. Square each and add; applying the Pythagoran Theorem twice achieves the result.</p>
           </solution>
         </webwork>
       </exercise>

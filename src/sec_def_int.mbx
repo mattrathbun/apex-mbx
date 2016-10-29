@@ -1817,10 +1817,10 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\ds \int \big(\sin(x)  - \cos(x)  + \sec^2(x) \big)\ dx</m></p>
+            <p><m>\ds \int \big(\sin(x) - \cos(x) + \sec^2(x) \big)\ dx</m></p>
           </statement>
           <solution>
-            <p><m>-\cos(x)  - \sin(x)  + \tan(x) +C</m></p>
+            <p><m>-\cos(x) - \sin(x) + \tan(x) +C</m></p>
           </solution>
         </webwork>
       </exercise>

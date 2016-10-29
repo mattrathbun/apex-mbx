@@ -1114,7 +1114,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\ds f(x) = \sin(x)  + \cos(x) </m> on <m>(-\pi,\pi)</m></p>
+            <p><m>\ds f(x) = \sin(x) + \cos(x) </m> on <m>(-\pi,\pi)</m></p>
           </statement>
           <solution>
             <p>Possible points of inflection: <m>x=-\pi/4,3\pi/4</m>;
@@ -1574,7 +1574,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\ds f(x) = \sin(x)  + \cos(x) </m> on <m>(-\pi,\pi)</m></p>
+            <p><m>\ds f(x) = \sin(x) + \cos(x) </m> on <m>(-\pi,\pi)</m></p>
           </statement>
           <solution>
             <p><m>\fp</m> has a relative min at <m>x=3\pi/4</m>;

@@ -21,7 +21,7 @@
         <ol>
           <li><p>If <m>m</m> is odd, then <m>m=2k+1</m> for some integer <m>k</m>. Rewrite
               <me>
-                \sin^m(x)  = \sin^{2k+1}(x)  = \sin^{2k}(x) \sin(x)  = (\sin^2(x) )^k\sin(x)  = (1-\cos^2(x) )^k\sin(x) .
+                \sin^m(x) = \sin^{2k+1}(x) = \sin^{2k}(x) \sin(x) = (\sin^2(x) )^k\sin(x) = (1-\cos^2(x) )^k\sin(x) .
               </me>
               Then
               <me>
@@ -38,7 +38,7 @@
           <li><p>If both <m>m</m> and <m>n</m> are even, use the power<ndash />reducing identities
 		\small
               <me>
-                \cos^2(x)  = \frac{1+\cos(2x)}{2}  \text{ and }  \sin^2(x)  = \frac{1-\cos(2x)}2
+                \cos^2(x) = \frac{1+\cos(2x)}{2}  \text{ and }  \sin^2(x) = \frac{1-\cos(2x)}2
               </me>
               to reduce the degree of the integrand. Expand the result and apply the principles of this Key Idea again.</p></li>
         </ol>
@@ -55,7 +55,7 @@
       <solution>
         <p>The power of the sine term is odd, so we rewrite <m>\sin^5(x) </m> as
           <me>
-            \sin^5(x)  = \sin^4(x) \sin(x)  = (\sin^2(x) )^2\sin(x)  = (1-\cos^2(x) )^2\sin(x) .
+            \sin^5(x) = \sin^4(x) \sin(x) = (\sin^2(x) )^2\sin(x) = (1-\cos^2(x) )^2\sin(x) .
           </me>
         </p>
 
@@ -68,7 +68,7 @@
         <p>This final integral is not difficult to evaluate, giving
           <md>
             <mrow>-\int \big(u^8-2u^{10}+u^{12}\big)\ du \amp = -\frac19u^9 + \frac2{11}u^{11} - \frac1{13}u^{13} + C</mrow>
-            <mrow>\amp =-\frac19\cos^9(x)  + \frac2{11}\cos^{11}(x)  - \frac1{13}\cos^{13}(x)  + C.</mrow>
+            <mrow>\amp =-\frac19\cos^9(x) + \frac2{11}\cos^{11}(x) - \frac1{13}\cos^{13}(x) + C.</mrow>
           </md>
         </p>
       </solution>
@@ -84,7 +84,7 @@
 
         <p>We rewrite <m>\cos^9(x) </m> as
           <md>
-            <mrow>\cos^9(x)  \amp = \cos^8(x) \cos(x) </mrow>
+            <mrow>\cos^9(x) \amp = \cos^8(x) \cos(x) </mrow>
             <mrow>\amp = (\cos^2(x) )^4\cos(x) </mrow>
             <mrow>\amp = (1-\sin^2(x) )^4\cos(x) </mrow>
             <mrow>\amp = (1-4\sin^2(x) +6\sin^4(x) -4\sin^6(x) +\sin^8(x) )\cos(x) .</mrow>
@@ -261,7 +261,7 @@
 
       <li><p><m>\frac{d}{dx}(\sec(x) ) = \sec(x) \tan(x) </m> , and</p></li>
 
-      <li><p><m>1+\tan^2(x)  = \sec^2(x) </m> (the Pythagorean Theorem).</p></li>
+      <li><p><m>1+\tan^2(x) = \sec^2(x) </m> (the Pythagorean Theorem).</p></li>
     </ul>
 
     <p>If the integrand can be manipulated to separate a <m>\sec^2(x) </m> term with the remaining secant power even, or if a <m>\sec(x) \tan(x) </m> term can be separated with the remaining <m>\tan(x) </m> power even, the Pythagorean Theorem can be employed, leading to a simple substitution. This strategy is outlined in the following Key Idea.</p>
@@ -273,7 +273,7 @@
       <ol>
         <li><p>If <m>n</m> is even, then <m>n=2k</m> for some integer <m>k</m>. Rewrite <m>\sec^n(x) </m> as
             <me>
-              \sec^n(x)  = \sec^{2k}(x)  = \sec^{2k-2}(x) \sec^2(x)  = (1+\tan^2(x) )^{k-1}\sec^2(x) .
+              \sec^n(x) = \sec^{2k}(x) = \sec^{2k-2}(x) \sec^2(x) = (1+\tan^2(x) )^{k-1}\sec^2(x) .
             </me>
             Then
             <me>
@@ -283,7 +283,7 @@
 
         <li><p>If <m>m</m> is odd, then <m>m=2k+1</m> for some integer <m>k</m>. Rewrite <m>\tan^m(x) \sec^n(x) </m> as
             <me>
-              \tan^m(x) \sec^n(x)  = \tan^{2k+1}(x) \sec^n(x)  = \tan^{2k}(x) \sec^{n-1}(x) \sec(x) \tan(x)  = (\sec^2(x) -1)^k\sec^{n-1}(x) \sec(x) \tan(x) .
+              \tan^m(x) \sec^n(x) = \tan^{2k+1}(x) \sec^n(x) = \tan^{2k}(x) \sec^{n-1}(x) \sec(x) \tan(x) = (\sec^2(x) -1)^k\sec^{n-1}(x) \sec(x) \tan(x) .
             </me>
             Then
             <me>
@@ -295,7 +295,7 @@
 
         <li><p>If <m>m</m> is even and <m>n=0</m>, rewrite <m>\tan^m(x) </m> as
             <me>
-              \tan^m(x)  = \tan^{m-2}(x) \tan^2(x)  = \tan^{m-2}(x) (\sec^2(x) -1) = \tan^{m-2}\sec^2(x) -\tan^{m-2}(x) .
+              \tan^m(x) = \tan^{m-2}(x) \tan^2(x) = \tan^{m-2}(x) (\sec^2(x) -1) = \tan^{m-2}\sec^2(x) -\tan^{m-2}(x) .
             </me>
             So
             <me>
@@ -340,12 +340,12 @@
 
         <sidebyside>
           <md>
-            <mrow>u\amp = \sec(x)  \amp  v\amp =\text{?}</mrow>
+            <mrow>u\amp = \sec(x) \amp  v\amp =\text{?}</mrow>
             <mrow>du\amp = \text{?}  \amp  dv\amp =\sec^2(x) \ dx</mrow>
           </md>
           <m>\Rightarrow</m>
           <md>
-            <mrow>u\amp = \sec(x)  \amp  v\amp =\tan(x) </mrow>
+            <mrow>u\amp = \sec(x) \amp  v\amp =\tan(x) </mrow>
             <mrow>du\amp = \sec(x) \tan(x) \ dx \amp  dv\amp =\sec^2(x) \ dx</mrow>
           </md>
         </sidebyside>
@@ -353,14 +353,14 @@
         <p>Employing Integration by Parts, we have
           <md>
             <mrow>\int \sec^3(x) \ dx  	\amp =	\int \underbrace{\sec(x) }_u\cdot\underbrace{\sec^2(x) \ dx}_{dv}</mrow>
-            <mrow>\amp =	\sec(x) \tan(x)  - \int \sec(x) \tan^2(x) \ dx.</mrow>
+            <mrow>\amp =	\sec(x) \tan(x) - \int \sec(x) \tan^2(x) \ dx.</mrow>
             <intertext>This new integral also requires applying rule <hash />3 of <xref ref="idea_trig_int_2">Key Idea</xref>:</intertext>
-            <mrow>\amp = \sec(x) \tan(x)  - \int \sec(x)  \big(\sec^2(x) -1\big)\ dx</mrow>
-            <mrow>\amp =	\sec(x) \tan(x)  - \int \sec^3(x) \ dx + \int \sec(x) \ dx</mrow>
-            <mrow>\amp = \sec(x) \tan(x)  -\int \sec^3(x) \ dx + \ln\abs{\sec(x) +\tan(x) }</mrow>
+            <mrow>\amp = \sec(x) \tan(x) - \int \sec(x) \big(\sec^2(x) -1\big)\ dx</mrow>
+            <mrow>\amp =	\sec(x) \tan(x) - \int \sec^3(x) \ dx + \int \sec(x) \ dx</mrow>
+            <mrow>\amp = \sec(x) \tan(x) -\int \sec^3(x) \ dx + \ln\abs{\sec(x) +\tan(x) }</mrow>
             <intertext>In previous applications of Integration by Parts, we have seen where the original integral has reappeared in our work. We resolve this by adding <m>\int \sec^3(x) \ dx</m> to both sides, giving:</intertext>
-            <mrow>2\int \sec^3(x) \ dx \amp = \sec(x) \tan(x)  + \ln\abs{\sec(x) +\tan(x) }</mrow>
-            <mrow>\int \sec^3(x) \ dx \amp = \frac12\Big(\sec(x) \tan(x)  + \ln\abs{\sec(x) +\tan(x) }\Big)+C</mrow>
+            <mrow>2\int \sec^3(x) \ dx \amp = \sec(x) \tan(x) + \ln\abs{\sec(x) +\tan(x) }</mrow>
+            <mrow>\int \sec^3(x) \ dx \amp = \frac12\Big(\sec(x) \tan(x) + \ln\abs{\sec(x) +\tan(x) }\Big)+C</mrow>
           </md>
         </p>
       </solution>
@@ -382,10 +382,10 @@
             <intertext>Integrate the first integral with substitution, <m>u=\tan(x) </m>; integrate the second by employing rule <hash />4 again.</intertext>
             <mrow>\amp =	\frac15\tan^5(x) -\int\tan^2(x) \tan^2(x) \ dx</mrow>
             <mrow>\amp =	\frac15\tan^5(x) -\int\tan^2(x) \big(\sec^2(x) -1\big)\ dx</mrow>
-            <mrow>\amp = \frac15\tan^5(x)  -\int\tan^2(x) \sec^2(x) \ dx + \int\tan^2(x) \ dx</mrow>
+            <mrow>\amp = \frac15\tan^5(x) -\int\tan^2(x) \sec^2(x) \ dx + \int\tan^2(x) \ dx</mrow>
             <intertext>Again, use substitution for the first integral and rule <hash />4 for the second.</intertext>
             <mrow>\amp = \frac15\tan^5(x) -\frac13\tan^3(x) +\int\big(\sec^2(x) -1\big)\ dx</mrow>
-            <mrow>\amp =	 \frac15\tan^5(x) -\frac13\tan^3(x) +\tan(x)  - x+C.</mrow>
+            <mrow>\amp =	 \frac15\tan^5(x) -\frac13\tan^3(x) +\tan(x) - x+C.</mrow>
           </md>
         </p>
       </solution>
@@ -409,7 +409,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p>T/F: <m>\ds \int \sin^2(x) \cos^2(x)  \ dx</m> cannot be evaluated using the techniques described in this section since both powers of <m>\sin(x) </m> and <m>\cos(x) </m> are even.</p>
+            <p>T/F: <m>\ds \int \sin^2(x) \cos^2(x) \ dx</m> cannot be evaluated using the techniques described in this section since both powers of <m>\sin(x) </m> and <m>\cos(x) </m> are even.</p>
           </statement>
           <solution>
             <p>F</p>
@@ -426,7 +426,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p>T/F: <m>\ds \int \sin^3(x) \cos^3(x)  \ dx</m> cannot be evaluated using the techniques described in this section since both powers of <m>\sin(x) </m> and <m>\cos(x) </m> are odd.</p>
+            <p>T/F: <m>\ds \int \sin^3(x) \cos^3(x) \ dx</m> cannot be evaluated using the techniques described in this section since both powers of <m>\sin(x) </m> and <m>\cos(x) </m> are odd.</p>
           </statement>
           <solution>
             <p>F</p>
@@ -535,7 +535,7 @@
             <p><m>\ds \int \sin^6(x) \cos^5(x) \ dx</m></p>
           </statement>
           <solution>
-            <p><m>\frac{1}{11}\sin^{11}(x) -\frac29\sin^9(x) +\frac17\sin^7(x)  +C</m></p>
+            <p><m>\frac{1}{11}\sin^{11}(x) -\frac29\sin^9(x) +\frac17\sin^7(x) +C</m></p>
           </solution>
         </webwork>
       </exercise>
@@ -705,7 +705,7 @@
             <p><m>\ds \int \tan^2(x) \sec^4(x) \ dx</m></p>
           </statement>
           <solution>
-            <p><m>\frac15\tan^5(x)  + \frac13\tan^3(x) + C</m></p>
+            <p><m>\frac15\tan^5(x) + \frac13\tan^3(x) + C</m></p>
           </solution>
         </webwork>
       </exercise>
@@ -790,7 +790,7 @@
             <p><m>\ds \int \tan^4(x) \ dx</m></p>
           </statement>
           <solution>
-            <p><m>\frac13\tan^3(x)  - \tan(x) +x+ C</m></p>
+            <p><m>\frac13\tan^3(x) - \tan(x) +x+ C</m></p>
           </solution>
         </webwork>
       </exercise>
@@ -807,7 +807,7 @@
             <p><m>\ds \int \sec^5(x) \ dx</m></p>
           </statement>
           <solution>
-            <p><m>\frac14\tan(x) \sec^3(x)  + \frac38\left(\sec(x)  \tan(x) +\ln\abs{\sec(x) +\tan(x) }\right)  +C</m></p>
+            <p><m>\frac14\tan(x) \sec^3(x) + \frac38\left(\sec(x) \tan(x) +\ln\abs{\sec(x) +\tan(x) }\right)  +C</m></p>
           </solution>
         </webwork>
       </exercise>
@@ -841,7 +841,7 @@
             <p><m>\ds \int \tan^2(x) \sec^3(x) \ dx</m></p>
           </statement>
           <solution>
-            <p><m>\frac14\tan(x) \sec^3(x)  -\frac18\left(\sec(x) \tan(x) +\ln\abs{\sec(x) +\tan(x) }\right)  +C</m></p>
+            <p><m>\frac14\tan(x) \sec^3(x) -\frac18\left(\sec(x) \tan(x) +\ln\abs{\sec(x) +\tan(x) }\right)  +C</m></p>
           </solution>
         </webwork>
       </exercise>

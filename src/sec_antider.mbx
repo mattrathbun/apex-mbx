@@ -101,7 +101,7 @@
 
         <p>The indefinite integral of <m>\sin(x) </m> is thus <m>-\cos(x) </m>, plus a constant of integration. So:
           <me>
-            \int \sin(x)  \ dx = -\cos(x)  + C.
+            \int \sin(x) \ dx = -\cos(x) + C.
           </me>
         </p>
       </solution>
@@ -117,7 +117,7 @@
 
     <p>Letting <m>dy = \sin(x) \ dx</m>, rewrite
       <me>
-        \int \sin(x)  \ dx  \text{ as }  \int  dy.
+        \int \sin(x) \ dx  \text{ as }  \int  dy.
       </me>
     </p>
 
@@ -192,23 +192,23 @@
 
             <li><p><m>\frac{d}{dx}\big(x^n \big) = n\cdot x^{n-1}</m></p></li>
 
-            <li><p><m>\frac{d}{dx}\big(\sin(x)  \big) = \cos(x) </m></p></li>
+            <li><p><m>\frac{d}{dx}\big(\sin(x) \big) = \cos(x) </m></p></li>
 
-            <li><p><m>\frac{d}{dx}\big(\cos(x)  \big) = -\sin(x) </m></p></li>
+            <li><p><m>\frac{d}{dx}\big(\cos(x) \big) = -\sin(x) </m></p></li>
 
-            <li><p><m>\frac{d}{dx}\big(\tan(x)  \big) = \sec^2(x) </m></p></li>
+            <li><p><m>\frac{d}{dx}\big(\tan(x) \big) = \sec^2(x) </m></p></li>
 
-            <li><p><m>\frac{d}{dx}\big(\csc(x)  \big) = -\csc(x) \cot(x) </m></p></li>
+            <li><p><m>\frac{d}{dx}\big(\csc(x) \big) = -\csc(x) \cot(x) </m></p></li>
 
-            <li><p><m>\frac{d}{dx}\big(\sec(x)  \big) = \sec(x) \tan(x) </m></p></li>
+            <li><p><m>\frac{d}{dx}\big(\sec(x) \big) = \sec(x) \tan(x) </m></p></li>
 
-            <li><p><m>\frac{d}{dx}\big(\cot(x)  \big) = -\csc^2(x) </m></p></li>
+            <li><p><m>\frac{d}{dx}\big(\cot(x) \big) = -\csc^2(x) </m></p></li>
 
             <li><p><m>\frac{d}{dx}\big(e^ x \big) = e^x</m></p></li>
 
             <li><p><m>\frac{d}{dx}\big(a^x \big) = \ln(a) \cdot a^x</m></p></li>
 
-            <li><p><m>\frac{d}{dx}\big(\ln(x)  \big) = \frac1 x</m></p></li>
+            <li><p><m>\frac{d}{dx}\big(\ln(x) \big) = \frac1 x</m></p></li>
           </ol>
 
           Common Indefinite Integral Rules
@@ -252,7 +252,7 @@
     <ul>
       <li><p>Rule <hash />1 states <m>\int c\cdot f(x)\ dx = c\cdot \int f(x)\ dx</m>. This is the Constant Multiple Rule: <index><main>Constant Multiple Rule</main><sub>of integration</sub></index> we can temporarily ignore constants when finding antiderivatives, just as we did when computing derivatives (i.e., <m>\frac{d}{dx}\big(3x^2\big)</m> is just as easy to compute as <m>\frac{d}{dx}\big(x^2\big)</m>). An example:
           <me>
-            \int 5\cos(x) \ dx = 5\cdot\int \cos(x) \ dx = 5\cdot (\sin(x) +C) = 5\sin(x)  + C.
+            \int 5\cos(x) \ dx = 5\cdot\int \cos(x) \ dx = 5\cdot (\sin(x) +C) = 5\sin(x) + C.
           </me>
           In the last step we can consider the constant as also being multiplied by 5, but <q>5 times a constant</q> is still a constant, so we just write <q><m>C</m> </q>.</p></li>
 
@@ -338,7 +338,7 @@
       <solution>
         <p>We start by finding <m>\fp(t)</m>, which is an antiderivative of <m>\fpp(t)</m>:
           <me>
-            \int \fpp(t)\ dt = \int \cos(t) \ dt = \sin(t)  + C = \fp(t).
+            \int \fpp(t)\ dt = \int \cos(t) \ dt = \sin(t) + C = \fp(t).
           </me>
         </p>
 
@@ -352,19 +352,19 @@
 		
           We now find <m>f(t)</m> by integrating again.
           <me>
-            f(t)=\int \fp(t) \ dt = \int (\sin(t) +3)\ dt = -\cos(t)  + 3t + C.
+            f(t)=\int \fp(t) \ dt = \int (\sin(t) +3)\ dt = -\cos(t) + 3t + C.
           </me>
         </p>
 
         <p>We are given that <m>f(0) = 5</m>, so
           <md>
-            <mrow>-\cos(0)  + 3(0) + C \amp = 5</mrow>
+            <mrow>-\cos(0) + 3(0) + C \amp = 5</mrow>
             <mrow>-1 + C \amp = 5</mrow>
             <mrow>C \amp = 6</mrow>
           </md>
         </p>
 
-        <p>Thus <m>f(t) = -\cos(t)  + 3t + 6</m>.</p>
+        <p>Thus <m>f(t) = -\cos(t) + 3t + 6</m>.</p>
       </solution>
     </example>
 
@@ -679,10 +679,10 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\ds \int (\sec(x) \tan(x)  + \csc(x) \cot(x) )\  dx</m></p>
+            <p><m>\ds \int (\sec(x) \tan(x) + \csc(x) \cot(x) )\  dx</m></p>
           </statement>
           <solution>
-            <p><m>\sec(x)  - \csc(x) +C</m></p>
+            <p><m>\sec(x) - \csc(x) +C</m></p>
           </solution>
         </webwork>
       </exercise>
@@ -926,7 +926,7 @@
             <p><m>\fp(x) = \sec^2(x) </m> and <m>f(\pi/4)= 5</m></p>
           </statement>
           <solution>
-            <p><m>\tan(x)  + 4</m></p>
+            <p><m>\tan(x) + 4</m></p>
           </solution>
         </webwork>
       </exercise>
@@ -943,7 +943,7 @@
             <p><m>\fp(x) = 7^x</m> and <m>f(2)= 1</m></p>
           </statement>
           <solution>
-            <p><m>7^x/\ln(7)  + 1-49/\ln(7) </m></p>
+            <p><m>7^x/\ln(7) + 1-49/\ln(7) </m></p>
           </solution>
         </webwork>
       </exercise>

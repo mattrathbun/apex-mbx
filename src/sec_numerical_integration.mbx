@@ -1912,7 +1912,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\ds \int_{0}^{\pi} x\sin(x)  \ dx</m></p>
+            <p><m>\ds \int_{0}^{\pi} x\sin(x) \ dx</m></p>
           </statement>
           <solution>
             <p>Trapezoidal Rule: 	<m>3.0695</m></p>
@@ -1950,7 +1950,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\ds \int_{1}^{4} \ln(x)  \ dx</m></p>
+            <p><m>\ds \int_{1}^{4} \ln(x) \ dx</m></p>
           </statement>
           <solution>
             <p>Trapezoidal Rule: 	<m>2.52971</m></p>
@@ -2019,7 +2019,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\ds \int_{0}^{\pi} \sin(x)  \ dx</m></p>
+            <p><m>\ds \int_{0}^{\pi} \sin(x) \ dx</m></p>
           </statement>
           <solution>
             <ol>

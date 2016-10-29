@@ -129,7 +129,7 @@
         <p>Find the derivatives of the following functions:</p>
 
         <ol cols="3" >
-          <li><p><m>y = \sin({) 2x}</m></p></li>
+          <li><p><m>y = \sin(2x) </m></p></li>
 
           <li><p><m>y= \ln(4x^3-2x^2)</m></p></li>
 
@@ -253,7 +253,7 @@
       <statement>
         <p>Find the derivatives of the following functions.</p>
 
-        <p>1. <m>f(x) = x^5 \sin({) 2x^3}</m> 2. <m>\ds f(x) = \frac{5x^3}{e^{-x^2}}.</m></p>
+        <p>1. <m>f(x) = x^5 \sin(2x^3) </m> 2. <m>\ds f(x) = \frac{5x^3}{e^{-x^2}}.</m></p>
       </statement>
       <solution>
         <ol>
@@ -360,7 +360,7 @@
 
         <p>Recall that the <m>e^{x(\ln(a) )}</m> term on the right hand side is just <m>a^x</m>, our original function. Thus, the derivative contains the original function itself. We have
           <me>
-            y' = y \cdot \ln(a)  = a^x\cdot \ln(a) .
+            y' = y \cdot \ln(a) = a^x\cdot \ln(a) .
           </me>
         </p>
 
@@ -1084,7 +1084,7 @@
             <ol>
               <li><p>Using the Chain Rule, and</p></li>
 
-              <li><p>by first using the logarithm rule <m>\ln(ab) = \ln(a)  + \ln(b) </m>, then taking the derivative.</p></li>
+              <li><p>by first using the logarithm rule <m>\ln(ab) = \ln(a) + \ln(b) </m>, then taking the derivative.</p></li>
             </ol>
           </statement>
           <solution>
@@ -1165,7 +1165,7 @@
           </statement>
           <solution>
             <ol>
-              <li><p><m>2xe^x\cot(x)  + x^2e^x\cot(x)  - x^2e^x\csc^2(x) </m></p></li>
+              <li><p><m>2xe^x\cot(x) + x^2e^x\cot(x) - x^2e^x\csc^2(x) </m></p></li>
 
               <li><p><m>\ln(48)48^x</m></p></li>
             </ol>

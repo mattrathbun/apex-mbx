@@ -690,7 +690,7 @@
                 <mrow>S_3 \amp = \ln\left(2\right)+\ln\left(\frac32\right)+\ln\left(\frac43\right)</mrow>
                 <mrow>S_4 \amp = \ln\left(2\right)+\ln\left(\frac32\right)+\ln\left(\frac43\right)+\ln\left(\frac54\right)</mrow>
               </md>
-              At first, this does not seem helpful, but recall the logarithmic identity: <m>\ln(x) +\ln(y)  = \ln(xy).</m> Applying this to <m>S_4</m> gives:
+              At first, this does not seem helpful, but recall the logarithmic identity: <m>\ln(x) +\ln(y) = \ln(xy).</m> Applying this to <m>S_4</m> gives:
               <me>
                 S_4 = \ln\left(2\right)+\ln\left(\frac32\right)+\ln\left(\frac43\right)+\ln\left(\frac54\right) = \ln\left(\frac21\cdot\frac32\cdot\frac43\cdot\frac54\right) = \ln\left(5\right).
               </me>

@@ -1028,13 +1028,13 @@
         <p>Thus the sum of the <m>\vec i</m> and <m>\vec j</m> components are 0, leading us to the following system of equations:
           <men xml:id="eq_vect8" >
             \begin{split}
-            5+m\cos(\varphi)  \amp = 0\\
-            -25+m\sin(\varphi)  \amp = 0
+            5+m\cos(\varphi) \amp = 0\\
+            -25+m\sin(\varphi) \amp = 0
             \end{split}
           </men>
         </p>
 
-        <p>This is enough to determine <m>\vec F_c</m> already, as we know <m>m\cos(\varphi)  = -5</m> and <m>m\sin(\varphi)  =25</m>. Thus <m>F_c = \la -5,25\ra.</m> We can use this to find the magnitude <m>m</m>:
+        <p>This is enough to determine <m>\vec F_c</m> already, as we know <m>m\cos(\varphi) = -5</m> and <m>m\sin(\varphi) =25</m>. Thus <m>F_c = \la -5,25\ra.</m> We can use this to find the magnitude <m>m</m>:
           <me>
             m = \sqrt{(-5)^2+25^2} = 5\sqrt{26}\approx 25.5\text{ lb } .
           </me>
@@ -1042,7 +1042,7 @@
 
         <p>We can then use either equality from Equation <xref ref="eq_vect8" /> to solve for <m>\varphi</m>. We choose the first equality as using arccosine will return an angle in the <m>2^\text{ nd }</m> quadrant:
           <me>
-            5 + 5\sqrt{26}\cos(\varphi)  = 0  \Rightarrow  \varphi = \cos^{-1}\left(\frac{-5}{5\sqrt{26}}\right) \approx 1.7682\approx 101.31^\circ.
+            5 + 5\sqrt{26}\cos(\varphi) = 0  \Rightarrow  \varphi = \cos^{-1}\left(\frac{-5}{5\sqrt{26}}\right) \approx 1.7682\approx 101.31^\circ.
           </me>
         </p>
 

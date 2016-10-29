@@ -586,7 +586,7 @@
         <p>We can find <m>a_\text{T}</m> and <m>a_\text{N}</m> directly with dot products:
           <md>
             <mrow>a_\text{T}  \amp = \vat\cdot \vec T(t) = \frac95\cos(t) \sin(t) -\frac95\cos(t) \sin(t) +0 = 0.</mrow>
-            <mrow>a_\text{N}  \amp = \vat\cdot \vec N(t) = 3\cos^2(t) +3\sin^2(t)  + 0 = 3.</mrow>
+            <mrow>a_\text{N}  \amp = \vat\cdot \vec N(t) = 3\cos^2(t) +3\sin^2(t) + 0 = 3.</mrow>
           </md>
         </p>
 
@@ -945,7 +945,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\vrt = \la \cos(t) , \sin(t)  \ra</m>,<m>t=\pi</m></p>
+            <p><m>\vrt = \la \cos(t) , \sin(t) \ra</m>,<m>t=\pi</m></p>
           </statement>
           <solution>
             <p><m>\vec T(t) = \la -\sin(t) ,\cos(t) \ra</m>;
@@ -984,7 +984,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\vrt = \la t,\cos(t)  \ra</m>,<m>t=\pi/4</m></p>
+            <p><m>\vrt = \la t,\cos(t) \ra</m>,<m>t=\pi/4</m></p>
           </statement>
           <solution>
             <p><m>\ell(t) = \la \pi/4,\sqrt{2}/{2}\ra + t\la \sqrt{2/3},-1/\sqrt{3}\ra</m>; in parametric form,</p>
@@ -1004,7 +1004,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\vrt = \la \cos^3(t) ,\sin^3(t)  \ra</m>,<m>t=\pi/4</m></p>
+            <p><m>\vrt = \la \cos^3(t) ,\sin^3(t) \ra</m>,<m>t=\pi/4</m></p>
           </statement>
           <solution>
             <p><m>\ell(t) = \la \sqrt{2}/4,\sqrt{2}/4\ra + t\la -\sqrt{2}/2,\sqrt{2}/2\ra</m>; in parametric form,</p>
@@ -1024,7 +1024,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\vrt = \la \cos(t) ,\sin(t)  \ra</m>,<m>t=\pi</m></p>
+            <p><m>\vrt = \la \cos(t) ,\sin(t) \ra</m>,<m>t=\pi</m></p>
           </statement>
           <solution>
             <p><m>\ell(t) = \la -1,0\ra + t\la 0,-1\ra</m>; in parametric form,</p>
@@ -1045,7 +1045,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\vrt = \la 3\cos(t) , 3\sin(t)  \ra</m></p>
+            <p><m>\vrt = \la 3\cos(t) , 3\sin(t) \ra</m></p>
           </statement>
           <solution>
             <p><m>\vec T(t) = \la -\sin(t) ,\cos(t) \ra</m>; <m>\vec N(t) = \la -\cos(t) ,-\sin(t) \ra</m></p>
@@ -1079,7 +1079,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\vrt = \la \cos(t) ,2\sin(t)  \ra</m></p>
+            <p><m>\vrt = \la \cos(t) ,2\sin(t) \ra</m></p>
           </statement>
           <solution>
             <p><m>\vec T(t) = \la -\frac{\sin(t) }{\sqrt{4\cos^2(t) +\sin^2(t) }},\frac{2\cos(t) }{\sqrt{4\cos^2(t) +\sin^2(t) }}\ra</m>; <m>\vec N(t) = \la -\frac{2\cos(t) }{\sqrt{4\cos^2(t) +\sin^2(t) }},-\frac{\sin(t) }{\sqrt{4\cos^2(t) +\sin^2(t) }}\ra</m></p>
@@ -1210,7 +1210,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\vrt = \la 4t,2\sin(t) ,2\cos(t)  \ra</m></p>
+            <p><m>\vrt = \la 4t,2\sin(t) ,2\cos(t) \ra</m></p>
           </statement>
           <solution>
             <p><m>\vec T(t) = \frac{1}{\sqrt{5}}\la 2,\cos(t) ,-\sin(t) \ra</m>; <m>\vec N(t) = \la 0,-\sin(t) ,-\cos(t) \ra</m></p>
@@ -1227,7 +1227,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\vrt = \la 5\cos(t) ,3\sin(t) ,4\sin(t)  \ra</m></p>
+            <p><m>\vrt = \la 5\cos(t) ,3\sin(t) ,4\sin(t) \ra</m></p>
           </statement>
           <solution>
             <p><m>\vec T(t) = \la -\sin(t) , 3/5\cos(t) , 4/5\cos(t) \ra</m>; <m>\vec N(t) = \la -\cos(t) ,-3/5\sin(t) ,-4/5\sin(t) \ra</m></p>
@@ -1325,7 +1325,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\vrt = \la 2\cos(t) ,2\sin(t)  \ra</m> on <m>[0,2\pi]</m>; consider <m>t=0</m> and <m>t=\pi/2</m>.</p>
+            <p><m>\vrt = \la 2\cos(t) ,2\sin(t) \ra</m> on <m>[0,2\pi]</m>; consider <m>t=0</m> and <m>t=\pi/2</m>.</p>
           </statement>
           <solution>
             <p><m>a_{\text{T} } = 0</m> and <m>a_{\text{N} } = 2</m></p>
@@ -1394,7 +1394,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\vrt = \la 5\cos(t) ,4\sin(t) , 3\sin(t)  \ra</m> on <m>[0,2\pi]</m>; consider <m>t=0</m> and <m>t=\pi/2</m>.</p>
+            <p><m>\vrt = \la 5\cos(t) ,4\sin(t) , 3\sin(t) \ra</m> on <m>[0,2\pi]</m>; consider <m>t=0</m> and <m>t=\pi/2</m>.</p>
           </statement>
           <solution>
             <p><m>a_{\text{T} } = 0</m> and <m>a_{\text{N} } = 5</m></p>

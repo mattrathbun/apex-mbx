@@ -917,7 +917,7 @@
         <p>We follow <xref ref="thm_vvf_integration">Theorem</xref>.
           <md>
             <mrow>\int_0^1 \vec r(t) \ dt \amp = \int_0^1 \la e^{2t},\sin(t) \ra \ dt</mrow>
-            <mrow>\amp = \la \int_0^1 e^{2t}\ dt\ , \int_0^1 \sin(t)  \ dt \ra</mrow>
+            <mrow>\amp = \la \int_0^1 e^{2t}\ dt\ , \int_0^1 \sin(t) \ dt \ra</mrow>
             <mrow>\amp = \la \frac12e^{2t}\Big|_0^1\ , -\cos(t) \Big|_0^1\ra</mrow>
             <mrow>\amp = \la \frac12(e^2-1)\ , -\cos(1)+1\ra</mrow>
             <mrow>\amp \approx \la 3.19,0.460\ra.</mrow>
@@ -955,23 +955,23 @@
           </md>
         </p>
 
-        <p>So <m>\vrp(t) = \la 2t,\sin(t) ,6t^2\ra + \la 5,3,0\ra = \la 2t+5, \sin(t)  + 3, 6t^2\ra</m>. To find <m>\vec r(t)</m>, we integrate once more.
+        <p>So <m>\vrp(t) = \la 2t,\sin(t) ,6t^2\ra + \la 5,3,0\ra = \la 2t+5, \sin(t) + 3, 6t^2\ra</m>. To find <m>\vec r(t)</m>, we integrate once more.
           <md>
-            <mrow>\int \vrp(t)\ dt \amp = \la \int 2t+5\ dt, \int \sin(t)  + 3\ dt, \int 6t^2\ dt \ra</mrow>
-            <mrow>\amp = \la t^2+5t, -\cos(t)  + 3t, 2t^3\ra + \vec C.</mrow>
+            <mrow>\int \vrp(t)\ dt \amp = \la \int 2t+5\ dt, \int \sin(t) + 3\ dt, \int 6t^2\ dt \ra</mrow>
+            <mrow>\amp = \la t^2+5t, -\cos(t) + 3t, 2t^3\ra + \vec C.</mrow>
           </md>
         </p>
 
         <p>With <m>\vec r(0) = \la -7,-1,2\ra</m>, we solve for <m>\vec C</m>:
           <md>
-            <mrow>\vec r(t) \amp = \la t^2+5t, -\cos(t)  + 3t, 2t^3\ra + \vec C</mrow>
+            <mrow>\vec r(t) \amp = \la t^2+5t, -\cos(t) + 3t, 2t^3\ra + \vec C</mrow>
             <mrow>\vec r(0) \amp = \la 0,-1,0\ra + \vec C</mrow>
             <mrow>\la -7,-1,2\ra \amp = \la 0,-1,0\ra + \vec C</mrow>
             <mrow>\la -7,0,2\ra \amp = \vec C.</mrow>
           </md>
         </p>
 
-        <p>So <m>\vec r(t) = \la t^2+5t, -\cos(t)  + 3t, 2t^3\ra + \la -7,0,2\ra = \la t^2+5t-7,-\cos(t) +3t,2t^3+2\ra.</m></p>
+        <p>So <m>\vec r(t) = \la t^2+5t, -\cos(t) + 3t, 2t^3\ra + \la -7,0,2\ra = \la t^2+5t-7,-\cos(t) +3t,2t^3+2\ra.</m></p>
       </solution>
     </example>
 
@@ -1218,7 +1218,7 @@
             <p><m>\ds \vec r(t) = (t^2)\la \sin(t) , 2t+5\ra</m></p>
           </statement>
           <solution>
-            <p><m>\vrp(t) = (2t)\la \sin(t) ,2t+5\ra + (t^2) \la \cos(t) , 2\ra = \la2t\sin(t)  + t^2\cos(t) , 6t^2+10t\ra</m></p>
+            <p><m>\vrp(t) = (2t)\la \sin(t) ,2t+5\ra + (t^2) \la \cos(t) , 2\ra = \la2t\sin(t) + t^2\cos(t) , 6t^2+10t\ra</m></p>
           </solution>
         </webwork>
       </exercise>
@@ -1237,7 +1237,7 @@
           <solution>
             <p><m>\vrp(t) = \la 2t,1\ra \cdot \la \sin(t) ,2t+5\ra + \la t^2+1,t-1\ra\cdot\la \cos(t) , 2\ra =</m></p>
 
-            <p><m>(t^2+1)\cos(t) +2t\sin(t)  + 4t+3</m></p>
+            <p><m>(t^2+1)\cos(t) +2t\sin(t) + 4t+3</m></p>
           </solution>
         </webwork>
       </exercise>
@@ -1256,7 +1256,7 @@
           <solution>
             <p><m>\vrp(t) = \la 2t,1,0\ra \times \la \sin(t) ,2t+5,1\ra + \la t^2+1,t-1,1\ra\times\la \cos(t) , 2,0\ra =</m></p>
 
-            <p><m>\la -1, \cos(t)  - 2t, 6t^2+10t+2+\cos(t)  - \sin(t)  - t\cos(t)  \ra</m></p>
+            <p><m>\la -1, \cos(t) - 2t, 6t^2+10t+2+\cos(t) - \sin(t) - t\cos(t) \ra</m></p>
           </solution>
         </webwork>
       </exercise>
@@ -1565,7 +1565,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\ds \vec r(t) = \la \cos(t) ,\sin(t)  - t\ra</m></p>
+            <p><m>\ds \vec r(t) = \la \cos(t) ,\sin(t) - t\ra</m></p>
           </statement>
           <solution>
             <p><m>t=2n\pi</m>, where <m>n</m> is an integer; so <m>t = \ldots-4\pi,-2\pi,0,2\pi,4\pi,\ldots</m></p>
@@ -1599,7 +1599,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\ds \vec r(t) = \la \cos(t) -\sin(t) , \sin(t)  - \cos(t) ,\cos(4t)\ra</m></p>
+            <p><m>\ds \vec r(t) = \la \cos(t) -\sin(t) , \sin(t) - \cos(t) ,\cos(4t)\ra</m></p>
           </statement>
           <solution>
             <p><m>\vec r(t)</m> is not smooth at <m>t=3\pi/4+n\pi</m>, where <m>n</m> is an integer</p>
@@ -1654,7 +1654,7 @@
             <p>Simplify <m>\vec r(t)\cdot\vec s(t)</m>, then find its derivative; show this is the same as <m>\vrp(t)\cdot\vec s(t) + \vec r(t)\cdot\vec s\,'(t)</m>.</p>
           </statement>
           <solution>
-            <p>Both derivatives return <m>2\sin(t) +t^2\cos(t)  + te^t+1</m>.</p>
+            <p>Both derivatives return <m>2\sin(t) +t^2\cos(t) + te^t+1</m>.</p>
           </solution>
         </webwork>
       </exercise>
@@ -1847,7 +1847,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\vec r(t) = \la 5\cos(t) , 3\sin(t) , 4\sin(t)  \ra</m> on <m>[0,2\pi]</m>.</p>
+            <p><m>\vec r(t) = \la 5\cos(t) , 3\sin(t) , 4\sin(t) \ra</m> on <m>[0,2\pi]</m>.</p>
           </statement>
           <solution>
             <p><m>10\pi</m></p>
@@ -1881,7 +1881,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\vec r(t) = \la e^{-t}\cos(t) ,e^{-t}\sin(t)  \ra</m> on <m>[0,1]</m>.</p>
+            <p><m>\vec r(t) = \la e^{-t}\cos(t) ,e^{-t}\sin(t) \ra</m> on <m>[0,1]</m>.</p>
           </statement>
           <solution>
             <p><m>\sqrt{2}(1-e^{-1})</m></p>

@@ -264,14 +264,12 @@
 
     <p>We established in <xref ref="ex_ps3">Example</xref> that the series on the left converges at <m>x=-1</m>; substituting <m>x=-1</m> on both sides of the above equality gives
       <me>
-        -1+\frac12-\frac13+\frac14-\frac15+\cdots = -\ln(2.) 
-      </me>
+        -1+\frac12-\frac13+\frac14-\frac15+\cdots = -\ln(2.) </me>
     </p>
 
     <p>On the left we have the opposite of the Alternating Harmonic Series; on the right, we have <m>-\ln(2) </m>. We conclude that
       <me>
-        1-\frac12+\frac13-\frac14+\cdots = \ln(2.) 
-      </me>
+        1-\frac12+\frac13-\frac14+\cdots = \ln(2.) </me>
     </p>
 
     <p><em>Important:</em> We stated in <xref ref="idea_famous_series">Key Idea</xref> (in <xref ref="sec_series">Section</xref>) that the Alternating Harmonic Series converges to <m>\ln(2) </m>, and referred to this fact again in <xref ref="ex_alt1">Example</xref> of <xref ref="sec_alt_series">Section</xref>. However, we never gave an argument for why this was the case. The work above finally shows how we conclude that the Alternating Harmonic Series converges to <m>\ln(2) </m>. <index><main>Alternating Harmonic Series</main></index></p>

@@ -1627,7 +1627,7 @@
             <p><m>\ds g(t) = 5\cdot 8^t</m></p>
           </statement>
           <solution>
-            <p><m>G(t) = 5\cdot 8^t/\ln(8)  + 900</m></p>
+            <p><m>G(t) = 5\cdot 8^t/\ln(8) + 900</m></p>
           </solution>
         </webwork>
       </exercise>
@@ -1641,10 +1641,10 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\ds g(t) = \cos(t)  + \sin(t) </m></p>
+            <p><m>\ds g(t) = \cos(t) + \sin(t) </m></p>
           </statement>
           <solution>
-            <p><m>G(t) = \sin(t) -\cos(t)  -78</m></p>
+            <p><m>G(t) = \sin(t) -\cos(t) -78</m></p>
           </solution>
         </webwork>
       </exercise>

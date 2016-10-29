@@ -509,7 +509,7 @@
 
         <p>Applying the Chain Rule, we find <m>\fp(x) = -2x\sin(x^2)</m>. Set <m>\fp(x) = 0</m> and solve for <m>x</m> to find the critical values of <m>f</m>.</p>
 
-        <p>We have <m>\fp(x) = 0</m> when <m>x = 0</m> and when <m>\sin(x^2) = 0</m>. In general, <m>\sin(t)  = 0</m> when <m>t = \ldots -2\pi, -\pi, 0, \pi, \ldots</m> Thus <m>\sin(x^2) = 0</m> when <m>x^2 = 0, \pi, 2\pi, \ldots</m> (<m>x^2</m> is always positive so we ignore <m>-\pi</m>, etc.) So <m>\sin(x^2)=0</m> when <m>x= 0, \pm \sqrt{\pi}, \pm\sqrt{2\pi}, \ldots</m>. The only values to fall in the given interval of <m>[-2,2]</m> are <m>-\sqrt{\pi}</m> and <m>\sqrt{\pi}</m>, approximately <m>\pm 1.77</m>.</p>
+        <p>We have <m>\fp(x) = 0</m> when <m>x = 0</m> and when <m>\sin(x^2) = 0</m>. In general, <m>\sin(t) = 0</m> when <m>t = \ldots -2\pi, -\pi, 0, \pi, \ldots</m> Thus <m>\sin(x^2) = 0</m> when <m>x^2 = 0, \pi, 2\pi, \ldots</m> (<m>x^2</m> is always positive so we ignore <m>-\pi</m>, etc.) So <m>\sin(x^2)=0</m> when <m>x= 0, \pm \sqrt{\pi}, \pm\sqrt{2\pi}, \ldots</m>. The only values to fall in the given interval of <m>[-2,2]</m> are <m>-\sqrt{\pi}</m> and <m>\sqrt{\pi}</m>, approximately <m>\pm 1.77</m>.</p>
 
         <p>We again construct a table of important values in <xref ref="table_ext6">Figure</xref>. In this example we have 5 values to consider: <m>x= 0, \pm 2, \pm\sqrt{\pi}</m>.</p>
 

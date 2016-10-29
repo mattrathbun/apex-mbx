@@ -964,7 +964,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\ds f(x) = \sin(x)  \cos(x) </m> on <m>[-\pi,\pi]</m></p>
+            <p><m>\ds f(x) = \sin(x) \cos(x) </m> on <m>[-\pi,\pi]</m></p>
           </statement>
           <solution>
             <p>Use technology to verify sketch.</p>

@@ -218,7 +218,7 @@
 
         <p>Our work in <xref ref="ex_crossp2">Example</xref> showed that <m>\crossp uv = \la -9,-7,5\ra</m>, hence <m>\norm{\crossp uv} = \sqrt{155}.</m> Is <m>\norm{\crossp uv} = \vnorm u\, \vnorm v\sin(\theta) </m>? Using numerical approximations, we find:
           <md>
-            <mrow>\norm{\crossp uv} \amp =\sqrt{155}  \amp  \vnorm u\,\vnorm v \sin(\theta)  \amp  = \sqrt{46}\sqrt{6}\sin(0.8471) </mrow>
+            <mrow>\norm{\crossp uv} \amp =\sqrt{155}  \amp  \vnorm u\,\vnorm v \sin(\theta) \amp  = \sqrt{46}\sqrt{6}\sin(0.8471) </mrow>
             <mrow>\amp \approx 12.45. \amp  \amp \approx 12.45.</mrow>
           </md>
         </p>
@@ -348,7 +348,7 @@
 
     <p>It is a standard geometry fact that the area of a parallelogram is <m>A = bh</m>, where <m>b</m> is the length of the base and <m>h</m> is the height of the parallelogram, as illustrated in <xref ref="fig_crossp_parallelogram">Figure</xref>(a). As shown when defining the Parallelogram Law of vector addition, two vectors <m>\vecu</m> and <m>\vecv</m> define a parallelogram when drawn from the same initial point, as illustrated in <xref ref="fig_crossp_parallelogram">Figure</xref>(b). Trigonometry tells us that <m>h = \vnorm u \sin(\theta) </m>, hence the area of the parallelogram is
       <men xml:id="eq_crossp1" >
-        A = \vnorm u\,\vnorm v\sin(\theta)  = \norm{\crossp uv},
+        A = \vnorm u\,\vnorm v\sin(\theta) = \norm{\crossp uv},
       </men>
       where the second equality comes from <xref ref="thm_cross_product">Theorem</xref>.</p>
 

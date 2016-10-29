@@ -221,7 +221,7 @@
 
         <p>Combining these according to the Chain Rule gives:
           <me>
-            \frac{dz}{dt} = -(2x-y)\sin(t)  + (2y-x)\cos(t) .
+            \frac{dz}{dt} = -(2x-y)\sin(t) + (2y-x)\cos(t) .
           </me>
         </p>
 
@@ -344,10 +344,10 @@
 
         <p>To find where <m>z</m>-value is maximized/minimized on the particle's path, we set <m>\frac{dz}{dt}=0</m> and solve for <m>t</m>:
           <md>
-            <mrow>\frac{dz}{dt} =0 \amp = -(2x-y)\sin(t)  + (2y-x)\cos(t) </mrow>
+            <mrow>\frac{dz}{dt} =0 \amp = -(2x-y)\sin(t) + (2y-x)\cos(t) </mrow>
             <mrow>0\amp = -(2\cos(t) -\sin(t) )\sin(t) +(2\sin(t) -\cos(t) )\cos(t) </mrow>
             <mrow>0\amp = \sin^2(t) -\cos^2(t) </mrow>
-            <mrow>\cos^2(t)  \amp =\sin^2(t) </mrow>
+            <mrow>\cos^2(t) \amp =\sin^2(t) </mrow>
             <mrow>t\amp = n\frac{\pi}4 \text{ (for odd \(n\)) }</mrow>
           </md>
         </p>
@@ -1044,7 +1044,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>x^2\tan(y)  = 50</m></p>
+            <p><m>x^2\tan(y) = 50</m></p>
           </statement>
           <solution>
             <p><m>f_x = 2x\tan(y) </m>, <m>f_y = x^2\sec^2(y) </m>;</p>

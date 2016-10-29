@@ -172,7 +172,7 @@
           </tabular>
         </table>
 
-        <p>Since <m>f(1) = \ln(1)  = 0</m>, we skip the first term and start the summation with <m>n=1</m>, giving the Taylor series for <m>\ln(x) </m>, centered at <m>x=1</m>, as
+        <p>Since <m>f(1) = \ln(1) = 0</m>, we skip the first term and start the summation with <m>n=1</m>, giving the Taylor series for <m>\ln(x) </m>, centered at <m>x=1</m>, as
           <me>
             \sum_{n=1}^\infty (-1)^{n+1}(n-1)!\frac{1}{n!}(x-1)^n = \sum_{n=1}^\infty (-1)^{n+1}\frac{(x-1)^n}{n}.
           </me>
@@ -229,7 +229,7 @@
 
         <p>For any <m>x</m>, <m>\lim\limits_{n\to\infty} \frac{x^{n+1}}{(n+1)!} = 0</m>. Applying the Squeeze Theorem to Equation <xref ref="eq_coseqtaylor" />, we conclude that <m>\lim\limits_{n\to\infty} R_n(x) = 0</m> for all <m>x</m>, and hence
           <me>
-            \cos(x)  = \sum_{n=0}^\infty (-1)^{n}\frac{x^{2n}}{(2n)!} \text{ for all \(x\) } .
+            \cos(x) = \sum_{n=0}^\infty (-1)^{n}\frac{x^{2n}}{(2n)!} \text{ for all \(x\) } .
           </me>
         </p>
       </solution>
@@ -323,17 +323,17 @@
             <cell><m>(-\infty,\infty)</m></cell>
           </row>
           <row>
-            <cell><m>\ds \sin(x)  = \sum_{n=0}^\infty (-1)^n\frac{x^{2n+1}}{(2n+1)!}</m></cell>
+            <cell><m>\ds \sin(x) = \sum_{n=0}^\infty (-1)^n\frac{x^{2n+1}}{(2n+1)!}</m></cell>
             <cell><m>\ds x-\frac{x^3}{3!}+\frac{x^5}{5!} - \frac{x^7}{7!}+\cdots</m></cell>
             <cell><m>(-\infty,\infty)</m></cell>
           </row>
           <row>
-            <cell><m>\ds \cos(x)  = \sum_{n=0}^\infty (-1)^n\frac{x^{2n}}{(2n)!}</m></cell>
+            <cell><m>\ds \cos(x) = \sum_{n=0}^\infty (-1)^n\frac{x^{2n}}{(2n)!}</m></cell>
             <cell><m>\ds 1-\frac{x^2}{2!}+\frac{x^4}{4!} - \frac{x^6}{6!} +\cdots</m></cell>
             <cell><m>(-\infty,\infty)</m></cell>
           </row>
           <row>
-            <cell><m>\ds \ln(x)  = \sum_{n=1}^\infty(-1)^{n+1}\frac{(x-1)^n}{n}</m></cell>
+            <cell><m>\ds \ln(x) = \sum_{n=1}^\infty(-1)^{n+1}\frac{(x-1)^n}{n}</m></cell>
             <cell><m>\ds (x-1)- \frac{(x-1)^2}{2} +\frac{(x-1)^3}{3}-\cdots</m></cell>
             <cell><m>(0,2]</m></cell>
           </row>
@@ -348,7 +348,7 @@
             <cell><m>(-1,1)</m><fn>Convergence at <m>x=\pm1</m> depends on the value of <m>k</m>.</fn></cell>
           </row>
           <row>
-            <cell><m>\ds \tan^{-1}(x)  = \sum_{n=0}^\infty (-1)^n\frac{x^{2n+1}}{2n+1}</m></cell>
+            <cell><m>\ds \tan^{-1}(x) = \sum_{n=0}^\infty (-1)^n\frac{x^{2n+1}}{2n+1}</m></cell>
             <cell><m>\ds x-\frac{x^3}{3}+\frac{x^5}{5}-\frac{x^7}{7}+\cdots</m></cell>
             <cell><m>[-1,1]</m></cell>
           </row>
@@ -380,13 +380,13 @@
       <solution>
         <p><xref ref="idea_common_taylor">Key Idea</xref> informs us that
           <me>
-            e^x = 1+x+\frac{x^2}{2!}+\frac{x^3}{3!}+\cdots \text{ and }  \cos(x)  = 1-\frac{x^2}{2!}+\frac{x^4}{4!}+\cdots.
+            e^x = 1+x+\frac{x^2}{2!}+\frac{x^3}{3!}+\cdots \text{ and }  \cos(x) = 1-\frac{x^2}{2!}+\frac{x^4}{4!}+\cdots.
           </me>
         </p>
 
         <p>Applying <xref ref="thm_series_alg">Theorem</xref>, we find that
           <md>
-            <mrow>e^x\cos(x)  \amp = \left(1+x+\frac{x^2}{2!}+\frac{x^3}{3!}+\cdots\right)\left(1-\frac{x^2}{2!}+\frac{x^4}{4!}+\cdots\right).</mrow>
+            <mrow>e^x\cos(x) \amp = \left(1+x+\frac{x^2}{2!}+\frac{x^3}{3!}+\cdots\right)\left(1-\frac{x^2}{2!}+\frac{x^4}{4!}+\cdots\right).</mrow>
             <intertext>Distribute the right hand expression across the left:</intertext>
             <mrow>\amp = 1\left(1-\frac{x^2}{2!}+\frac{x^4}{4!}+\cdots\right)+x\left(1-\frac{x^2}{2!}+\frac{x^4}{4!}+\cdots\right)+\frac{x^2}{2!}\left(1-\frac{x^2}{2!}+\frac{x^4}{4!}+\cdots\right)</mrow>
             <mrow>\amp +\frac{x^3}{3!}\left(1-\frac{x^2}{2!}+\frac{x^4}{4!}+\cdots\right) + \frac{x^4}{4!}\left(1-\frac{x^2}{2!}+\frac{x^4}{4!}+\cdots\right)+\cdots</mrow>
@@ -409,7 +409,7 @@
       <solution>
         <p>Given that
           <me>
-            \sin(x)  = \sum_{n=0}^\infty (-1)^n\frac{x^{2n+1}}{(2n+1)!} = x-\frac{x^3}{3!}+\frac{x^5}{5!} -\frac{x^7}{7!}+\cdots,
+            \sin(x) = \sum_{n=0}^\infty (-1)^n\frac{x^{2n+1}}{(2n+1)!} = x-\frac{x^3}{3!}+\frac{x^5}{5!} -\frac{x^7}{7!}+\cdots,
           </me>
           we simply substitute <m>x^2</m> for <m>x</m> in the series, giving
           <me>
@@ -422,7 +422,7 @@
         <p>The Taylor expansion for <m>\ln(x) </m> given in <xref ref="idea_common_taylor">Key Idea</xref> is centered at <m>x=1</m>, so we will center the series for <m>\ln(\sqrt{x})</m> at <m>x=1</m> as well.
           With
           <me>
-            \ln(x)  = \sum_{n=1}^\infty(-1)^{n+1}\frac{(x-1)^n}{n} = (x-1)- \frac{(x-1)^2}{2} +\frac{(x-1)^3}{3}-\cdots,
+            \ln(x) = \sum_{n=1}^\infty(-1)^{n+1}\frac{(x-1)^n}{n} = (x-1)- \frac{(x-1)^2}{2} +\frac{(x-1)^3}{3}-\cdots,
           </me>
           we substitute <m>\sqrt{x}</m> for <m>x</m> to obtain
           <me>
@@ -842,7 +842,7 @@
 
             <p>For any <m>x</m>, <m>\lim\limits_{n\to\infty} \frac{x^{n+1}}{(n+1)!} = 0</m>. Thus by the Squeeze Theorem, we conclude that <m>\lim\limits_{n\to\infty} R_n(x) = 0</m> for all <m>x</m>, and hence
               <me>
-                \sin(x)  = \sum_{n=0}^\infty (-1)^{n}\frac{x^{2n+1}}{(2n+1)!} \text{ for all \(x\) } .
+                \sin(x) = \sum_{n=0}^\infty (-1)^{n}\frac{x^{2n+1}}{(2n+1)!} \text{ for all \(x\) } .
               </me>
             </p>
           </solution>
@@ -897,7 +897,7 @@
 
             <p>As <m>n\to\infty</m>, <m>1/(n+1)\to0</m>. Thus by the Squeeze Theorem, we conclude that <m>\lim\limits_{n\to\infty} R_n(x) = 0</m> for all <m>x</m>, and hence
               <me>
-                \ln(x)  = \sum_{n=1}^\infty (-1)^{n+1}\frac{(x-1)^{n}}{n} \text{ for all \(0\lt x\leq 2\) } .
+                \ln(x) = \sum_{n=1}^\infty (-1)^{n+1}\frac{(x-1)^{n}}{n} \text{ for all \(0\lt x\leq 2\) } .
               </me>
             </p>
           </solution>
@@ -957,7 +957,7 @@
             <p><m>\cos(-x) = \cos(x) </m></p>
           </statement>
           <solution>
-            <p>Given <m>\ds \cos(x)  = \sum_{n=0}^\infty (-1)^n\frac{x^{2n}}{(2n)!}</m>,</p>
+            <p>Given <m>\ds \cos(x) = \sum_{n=0}^\infty (-1)^n\frac{x^{2n}}{(2n)!}</m>,</p>
 
             <p><m>\ds\cos(-x) = \sum_{n=0}^\infty (-1)^n\frac{(-x)^{2n}}{(2n)!}=\sum_{n=0}^\infty (-1)^n\frac{x^{2n}}{(2n)!}=\cos(x) </m>, as all powers in the series are even.</p>
           </solution>
@@ -976,7 +976,7 @@
             <p><m>\sin(-x) = -\sin(x) </m></p>
           </statement>
           <solution>
-            <p>Given <m>\ds \sin(x)  = \sum_{n=0}^\infty (-1)^n\frac{x^{2n+1}}{(2n+1)!}</m>,</p>
+            <p>Given <m>\ds \sin(x) = \sum_{n=0}^\infty (-1)^n\frac{x^{2n+1}}{(2n+1)!}</m>,</p>
 
             <p><m>\ds\sin(-x) = \sum_{n=0}^\infty (-1)^n\frac{(-x)^{2n+1}}{(2n+1)!}=\sum_{n=0}^\infty (-1)^n\frac{-x^{2n+1}}{(2n+1)!}=-\sin(x) </m>, as all powers in the series are odd.</p>
           </solution>
@@ -995,7 +995,7 @@
             <p><m>\frac{d}{dx}\big(\sin(x) \big) = \cos(x) </m></p>
           </statement>
           <solution>
-            <p>Given <m>\ds \sin(x)  = \sum_{n=0}^\infty (-1)^n\frac{x^{2n+1}}{(2n+1)!}</m>,</p>
+            <p>Given <m>\ds \sin(x) = \sum_{n=0}^\infty (-1)^n\frac{x^{2n+1}}{(2n+1)!}</m>,</p>
 
             <p><m>\ds\frac{d}{dx}\big(\sin(x) \big)  = \frac{d}{dx}\left(\sum_{n=0}^\infty (-1)^n\frac{x^{2n+1}}{(2n+1)!}\right)=\sum_{n=0}^\infty (-1)^n\frac{(2n+1)x^{2n}}{(2n+1)!}=\sum_{n=0}^\infty (-1)^n\frac{x^{2n}}{(2n)!}=\cos(x) </m>. (The summation still starts at <m>n=0</m> as there was no constant term in the expansion of <m>\sin(x) </m>).</p>
           </solution>
@@ -1014,7 +1014,7 @@
             <p><m>\frac{d}{dx}\big(\cos(x) \big) = -\sin(x) </m></p>
           </statement>
           <solution>
-            <p>Given <m>\ds \cos(x)  = \sum_{n=0}^\infty (-1)^n\frac{x^{2n}}{(2n)!}</m>,</p>
+            <p>Given <m>\ds \cos(x) = \sum_{n=0}^\infty (-1)^n\frac{x^{2n}}{(2n)!}</m>,</p>
 
             <p><m>\ds\frac{d}{dx}\big(\cos(x) \big)  = \frac{d}{dx}\left(\sum_{n=0}^\infty (-1)^n\frac{x^{2n}}{(2n)!}\right)=\sum_{n=1}^\infty (-1)^n\frac{(2n)x^{2n-1}}{(2n)!}=\sum_{n=1}^\infty (-1)^n\frac{x^{2n-1}}{(2n-1)!}</m>. We can re-index this summation to start at <m>n=0</m> by replacing <m>n</m> with <m>n+1</m> in the summation:
               <me>

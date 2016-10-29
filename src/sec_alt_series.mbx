@@ -556,7 +556,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\ds \sum_{n=2}^\infty (-1)^n\frac{n}{\ln(n)  }</m></p>
+            <p><m>\ds \sum_{n=2}^\infty (-1)^n\frac{n}{\ln(n) }</m></p>
           </statement>
           <solution>
             <ol>

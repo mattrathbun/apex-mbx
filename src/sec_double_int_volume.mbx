@@ -1022,7 +1022,7 @@
           </md>
         </p>
 
-        <p>Recall that the cosine function is an even function; that is, <m>\cos(x)  = \cos(-x)</m>. Therefore, from the last integral above, we have <m>\cos(y-1) = \cos(1-y)</m>. Thus the integrand simplifies to 0, and we have
+        <p>Recall that the cosine function is an even function; that is, <m>\cos(x) = \cos(-x)</m>. Therefore, from the last integral above, we have <m>\cos(y-1) = \cos(1-y)</m>. Thus the integrand simplifies to 0, and we have
           <md>
             <mrow>\iint_R f(x,y)\ dA \amp = \int_0^1 0\ dy</mrow>
             <mrow>\amp = 0.</mrow>

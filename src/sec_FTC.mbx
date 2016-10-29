@@ -235,7 +235,7 @@
       <solution>
         <p>Note that <m>\ds F(x) = -\int_5^{\cos(x) } t^3\ dt</m>. Viewed this way, the derivative of <m>F</m> is straightforward:
           <me>
-            F'(x) = \sin(x)  \cos^3(x) .
+            F'(x) = \sin(x) \cos^3(x) .
           </me>
         </p>
       </solution>
@@ -598,13 +598,13 @@
       <solution>
         <p>We first need to evaluate <m>\int_0^\pi \sin(x) \ dx</m>. (This was previously done in <xref ref="ex_ftc4">Example</xref>.)
           <me>
-            \int_0^\pi\sin(x) \ dx =	-\cos(x)  \Big|_0^\pi = 2.
+            \int_0^\pi\sin(x) \ dx =	-\cos(x) \Big|_0^\pi = 2.
           </me>
         </p>
 
-        <p>Thus we seek a value <m>c</m> in <m>[0,\pi]</m> such that <m>\pi\sin(c)  =2</m>.
+        <p>Thus we seek a value <m>c</m> in <m>[0,\pi]</m> such that <m>\pi\sin(c) =2</m>.
           <me>
-            \pi\sin(c)  = 2\ \ \Rightarrow\ \ \sin(c)  = 2/\pi\ \ \Rightarrow\ \ c = \arcsin(2/\pi) \approx 0.69.
+            \pi\sin(c) = 2\ \ \Rightarrow\ \ \sin(c) = 2/\pi\ \ \Rightarrow\ \ c = \arcsin(2/\pi) \approx 0.69.
           </me>
         </p>
 
@@ -1021,7 +1021,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\ds\int_{0}^{\pi} (2\cos(x)  - 2\sin(x) ) \ dx</m></p>
+            <p><m>\ds\int_{0}^{\pi} (2\cos(x) - 2\sin(x) ) \ dx</m></p>
           </statement>
           <solution>
             <p><m>-4</m></p>

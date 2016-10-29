@@ -319,7 +319,7 @@
 
 	Begin with <m>f_x(x,y)</m>. We need to apply the Chain Rule with the cosine term; <m>y^2</m> is the coefficient of the <m>x</m>-term inside the cosine function.
               <me>
-                f_x(x,y) = -\sin(xy^2)(y^2)+\cos(x)  = -y^2\sin(xy^2)+\cos(x) .
+                f_x(x,y) = -\sin(xy^2)(y^2)+\cos(x) = -y^2\sin(xy^2)+\cos(x) .
               </me>
               To find <m>f_y(x,y)</m>, note that <m>x</m> is the coefficient of the <m>y^2</m> term inside of the cosine term; also note that since <m>x</m> is fixed, <m>\sin(x) </m> is also fixed, and we treat it as a constant.
               <me>

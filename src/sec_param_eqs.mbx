@@ -641,13 +641,13 @@
       <solution>
         <p>We should not try to solve for <m>t</m> in this situation as the resulting algebra/trig would be messy. Rather, we solve for <m>\cos(t) </m> and <m>\sin(t) </m> in each equation, respectively. This gives
           <me>
-            \cos(t)  = \frac{x-3}{4}  \text{ and }  \sin(t) =\frac{y-1}{2}.
+            \cos(t) = \frac{x-3}{4}  \text{ and }  \sin(t) =\frac{y-1}{2}.
           </me>
         </p>
 
         <p>The Pythagorean Theorem gives <m>\cos^2(t) +\sin^2(t) =1</m>, so:
           <md>
-            <mrow>\cos^2(t) +\sin^2(t)  \amp =1</mrow>
+            <mrow>\cos^2(t) +\sin^2(t) \amp =1</mrow>
             <mrow>\left(\frac{x-3}{4}\right)^2 +\left(\frac{y-1}{2}\right)^2 \amp =1</mrow>
             <mrow>\frac{(x-3)^2}{16}+\frac{(y-1)^2}{4} \amp =1</mrow>
           </md>
@@ -724,7 +724,7 @@
             </me>
             define a hyperbola with vertical transverse axis centered at <m>(h,k)</m>, and
             <me>
-              x=\pm a\sec(t) +h,  y=b\tan(t)  + k
+              x=\pm a\sec(t) +h,  y=b\tan(t) + k
             </me>
             defines a hyperbola with horizontal transverse axis. Each has asymptotes at <m>y=\pm b/a(x-h)+k</m>.
             <index><main>hyperbola</main><sub>parametric equations</sub></index></p></li>
@@ -955,7 +955,7 @@
 
     <p>Consider the astroid, given by <m>x=\cos^3(t) </m>, <m>y=\sin^3(t) </m>. Taking derivatives, we have:
       <me>
-        x' = -3\cos^2(t) \sin(t)  \text{ and }  y' = 3\sin^2(t) \cos(t) .
+        x' = -3\cos^2(t) \sin(t) \text{ and }  y' = 3\sin^2(t) \cos(t) .
       </me>
     </p>
 
@@ -2291,7 +2291,7 @@
             <p>An ellipse centered at <m>(1,3)</m> with vertical major axis of length 6 and minor axis of length 2.</p>
           </statement>
           <solution>
-            <p><m>x=\cos(t) +1</m>, <m>y=3\sin(t)  +3</m>; other answers possible</p>
+            <p><m>x=\cos(t) +1</m>, <m>y=3\sin(t) +3</m>; other answers possible</p>
           </solution>
         </webwork>
       </exercise>
