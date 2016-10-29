@@ -138,9 +138,9 @@
       </statement>
       <solution>
         <ol>
-          <li><p>Consider <m>y = \sin(2) x</m>. Recognize that this is a composition of functions, where <m>f(x) = \sin(x) </m> and <m>g(x) = 2x</m>. Thus
+          <li><p>Consider <m>y = \sin(2x) </m>. Recognize that this is a composition of functions, where <m>f(x) = \sin(x) </m> and <m>g(x) = 2x</m>. Thus
               <me>
-                y' = \fp(g(x))\cdot g'(x) = \cos(2x)\cdot 2 = 2\cos(2) x.
+                y' = \fp(g(x))\cdot g'(x) = \cos(2x)\cdot 2 = 2\cos(2x) .
               </me>
             </p></li>
 
@@ -259,7 +259,7 @@
         <ol>
           <li><p>We must use the Product and Chain Rules. Do not think that you must be able to <q>see</q> the whole answer immediately; rather, just proceed step<ndash />by<ndash />step.
               <me>
-                \fp(x) = x^5\big(6x^2\cos(2) x^3\big) + 5x^4\big(\sin(2) x^3\big)= 6x^7\cos2x^3+5x^4\sin(2) x^3.
+                \fp(x) = x^5\big(6x^2\cos(2x) ^3\big) + 5x^4\big(\sin(2x) ^3\big)= 6x^7\cos2x^3+5x^4\sin(2x) ^3.
               </me>
             </p></li>
 

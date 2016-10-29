@@ -616,7 +616,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>f(x) = \sin(2) x</m>, <m>-\pi/4\leq x\leq \pi/4</m></p>
+            <p><m>f(x) = \sin(2x) </m>, <m>-\pi/4\leq x\leq \pi/4</m></p>
 
             <p>Point<m>=(\pi/6,\sqrt{3}/2)</m></p>
 

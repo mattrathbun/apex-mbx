@@ -444,7 +444,7 @@
 
     <p>Applying the Chain Rule to this is not difficult; for instance,
       <me>
-        \frac{d}{dx}\big(\tan^{-1}(5) x\big) = \frac{5}{1+25x^2}.
+        \frac{d}{dx}\big(\tan^{-1}(5x) \big) = \frac{5}{1+25x^2}.
       </me>
     </p>
 
@@ -512,7 +512,7 @@
       <solution>
         <p>Each can be answered using a straightforward application of <xref ref="thm_int_inverse_trig">Theorem</xref>.</p>
 
-        <p><m>\ds \int \frac{1}{9+x^2}\ dx = \frac13\tan^{-1}\frac x3 + C</m>, as <m>a = 3</m>.<m>\ds \int  \frac{1}{x\sqrt{x^2-\frac{1}{100}}}\ dx = 10\sec^{-1}(10) x + C</m>, as <m>a = \frac1{10}</m>.<m>\ds \int \frac{1}{\sqrt{5-x^2}} = \sin^{-1}\frac{x}{\sqrt{5}}+C</m>, as <m>a = \sqrt{5}</m>.</p>
+        <p><m>\ds \int \frac{1}{9+x^2}\ dx = \frac13\tan^{-1}\frac x3 + C</m>, as <m>a = 3</m>.<m>\ds \int  \frac{1}{x\sqrt{x^2-\frac{1}{100}}}\ dx = 10\sec^{-1}(10x) + C</m>, as <m>a = \frac1{10}</m>.<m>\ds \int \frac{1}{\sqrt{5-x^2}} = \sin^{-1}\frac{x}{\sqrt{5}}+C</m>, as <m>a = \sqrt{5}</m>.</p>
       </solution>
     </example>
 
