@@ -758,7 +758,7 @@
       <!-- figures/fig_lines_dist1.tex END -->
     </figure>
 
-    <p>From trigonometry, we know <m>h = \norm{\vv{PQ}}\sin(\theta) </m>. We have a similar identity involving the cross product: <m>\norm{\vv{PQ}\times \vec d} = \norm{\vv{PQ}}\, \vnorm{d}\sin(\theta) .</m> Divide both sides of this latter equation by <m>\vnorm{d}</m> to obtain <m>h</m>:
+    <p>From trigonometry, we know <m>h = \norm{\vv{PQ}}\sin\theta</m>. We have a similar identity involving the cross product: <m>\norm{\vv{PQ}\times \vec d} = \norm{\vv{PQ}}\, \vnorm{d}\sin\theta.</m> Divide both sides of this latter equation by <m>\vnorm{d}</m> to obtain <m>h</m>:
       <men xml:id="eq_lines2" >
         h = \frac{\norm{\vv{PQ}\times \vec d}}{\vnorm{d}}.
       </men>

@@ -712,7 +712,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p>What is <m>\ds \int_3^3 \sin(x) \ dx</m>?</p>
+            <p>What is <m>\ds \int_3^3 \sin x\ dx</m>?</p>
           </statement>
           <solution>
           </solution>
@@ -1235,7 +1235,7 @@
                   \addplot [{\coloronefill},fill={\coloronefill},domain=0:4,area style,smooth] {sin(deg(3.14159*x/2))} |- (axis cs:0,0) --cycle;
                   \addplot [thick, {\colorone},smooth,samples=40,domain=0:4] {sin(deg(3.14159*x/2))};
 
-                  \draw (axis cs:3,0.75) node {\scriptsize $f(x)=\sin(\pi x/2)$};
+                  \draw (axis cs:3,0.75) node {\scriptsize $f(x)=\sin (\pi x/2)$};
                   \draw (axis cs:1,.6) node {\scriptsize $4/\pi$};
                   \draw (axis cs:3,-.6) node {\scriptsize $4/\pi$};
                   %\draw (axis cs:2.6,10) node {\scriptsize $21$};
@@ -1817,10 +1817,10 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\ds \int \big(\sin(x)  - \cos(x)  + \sec^2(x) \big)\ dx</m></p>
+            <p><m>\ds \int \big(\sin x - \cos x + \sec^2 x\big)\ dx</m></p>
           </statement>
           <solution>
-            <p><m>-\cos(x)  - \sin(x)  + \tan(x) +C</m></p>
+            <p><m>-\cos x - \sin x + \tan x+C</m></p>
           </solution>
         </webwork>
       </exercise>
@@ -1837,7 +1837,7 @@
             <p><m>\ds \int \big(\sqrt[3]{t} + \frac{1}{t^2}+ 2^t\big)\ dt</m></p>
           </statement>
           <solution>
-            <p><m>3/4t^{4/3}-1/t+2^t/\ln(2) +C</m></p>
+            <p><m>3/4t^{4/3}-1/t+2^t/\ln 2+C</m></p>
           </solution>
         </webwork>
       </exercise>
@@ -1851,10 +1851,10 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\ds \int \left(\frac{1}{x} -\csc(x) \cot(x) \right)\ dx</m></p>
+            <p><m>\ds \int \left(\frac{1}{x} -\csc x\cot x\right)\ dx</m></p>
           </statement>
           <solution>
-            <p><m>\ln\abs{x} + \csc(x) +C</m></p>
+            <p><m>\ln\abs{x} + \csc x+C</m></p>
           </solution>
         </webwork>
       </exercise>

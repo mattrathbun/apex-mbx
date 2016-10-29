@@ -417,7 +417,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>f(x) = \sin(x) </m> on <m>[\pi/6,5\pi/6]</m>.</p>
+            <p><m>f(x) = \sin x</m> on <m>[\pi/6,5\pi/6]</m>.</p>
           </statement>
           <solution>
             <p><m>c=\pi/2</m></p>
@@ -434,7 +434,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>f(x) = \cos(x) </m> on <m>[0,\pi]</m>.</p>
+            <p><m>f(x) = \cos x</m> on <m>[0,\pi]</m>.</p>
           </statement>
           <solution>
             <p>Rolle's Thm. does not apply.</p>
@@ -554,10 +554,10 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\ds f(x) = \ln(x) </m> on <m>[1,5]</m>.</p>
+            <p><m>\ds f(x) = \ln x</m> on <m>[1,5]</m>.</p>
           </statement>
           <solution>
-            <p><m>c=4/\ln(5) </m></p>
+            <p><m>c=4/\ln 5</m></p>
           </solution>
         </webwork>
       </exercise>
@@ -571,10 +571,10 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\ds f(x) = \tan(x) </m> on <m>[-\pi/4,\pi/4]</m>.</p>
+            <p><m>\ds f(x) = \tan x</m> on <m>[-\pi/4,\pi/4]</m>.</p>
           </statement>
           <solution>
-            <p><m>c=\pm \sec^{-1}(2/\sqrt{\pi})</m></p>
+            <p><m>c=\pm \sec^{-1} (2/\sqrt{\pi})</m></p>
           </solution>
         </webwork>
       </exercise>
@@ -622,7 +622,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\ds f(x) = \sin^{-1}(x) </m> on <m>[-1,1]</m>.</p>
+            <p><m>\ds f(x) = \sin^{-1} x</m> on <m>[-1,1]</m>.</p>
           </statement>
           <solution>
             <p><m>c=\frac{\pm\sqrt{\pi^2-4}}{\pi}</m></p>
@@ -659,7 +659,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p>Describe the critical points of <m>f(x) = \cos(x) </m>.</p>
+            <p>Describe the critical points of <m>f(x) = \cos x</m>.</p>
           </statement>
           <solution>
             <p>They are the odd, integer valued multiples of <m>\pi/2</m> (such as <m>0,\pm\pi/2, \pm 3\pi/2, \pm5\pi/2</m>, etc.)</p>
@@ -676,7 +676,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p>Describe the critical points of <m>f(x) = \tan(x) </m>.</p>
+            <p>Describe the critical points of <m>f(x) = \tan x</m>.</p>
           </statement>
           <solution>
             <p>They are the odd, integer valued multiples of <m>\pi/2</m> (such as <m>0, \pm\pi/2, \pm 3\pi/2, \pm5\pi/2</m>, etc.)</p>
