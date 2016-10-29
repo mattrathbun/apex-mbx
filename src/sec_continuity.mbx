@@ -212,7 +212,7 @@
           </li>
 
           <li>
-            <p><m>f(x) =  \tan x</m></p>
+            <p><m>f(x) =  \tan(x) </m></p>
           </li>
 
           <li>
@@ -236,7 +236,7 @@
           </li>
 
           <li>
-            <p><m>f(x) =  \csc x</m></p>
+            <p><m>f(x) =  \csc(x) </m></p>
           </li>
 
           <li>

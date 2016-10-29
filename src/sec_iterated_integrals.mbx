@@ -11,7 +11,7 @@
       </md>
     </p>
 
-    <p>Make a careful note about the constant of integration, <m>C</m>. This <q>constant</q> is something with a derivative of <m>0</m> with respect to <m>x</m>, so it could be any expression that contains only constants and functions of <m>y</m>. For instance, if <m>f(x,y) = x^2y+ \sin y + y^3 + 17</m>, then <m>f_x(x,y) = 2xy</m>. To signify that <m>C</m> is actually a function of <m>y</m>, we write:
+    <p>Make a careful note about the constant of integration, <m>C</m>. This <q>constant</q> is something with a derivative of <m>0</m> with respect to <m>x</m>, so it could be any expression that contains only constants and functions of <m>y</m>. For instance, if <m>f(x,y) = x^2y+ \sin(y)  + y^3 + 17</m>, then <m>f_x(x,y) = 2xy</m>. To signify that <m>C</m> is actually a function of <m>y</m>, we write:
       <index><main>integration</main><sub>of multivariable functions</sub></index>
       <me>
         f(x,y) = \int f_x(x,y)\ dx  = x^2y+C(y).
@@ -756,14 +756,14 @@
           </setup>
           <statement>
             <ol>
-              <li><p><m>\ds \int_0^{\pi} \big(2x\cos y+ \sin x\big)\ dx</m></p></li>
+              <li><p><m>\ds \int_0^{\pi} \big(2x\cos(y) + \sin(x) \big)\ dx</m></p></li>
 
-              <li><p><m>\ds \int_{0}^{\pi/2} \int_0^{\pi} \big(2x\cos y+ \sin x\big)\ dx\ dy</m></p></li>
+              <li><p><m>\ds \int_{0}^{\pi/2} \int_0^{\pi} \big(2x\cos(y) + \sin(x) \big)\ dx\ dy</m></p></li>
             </ol>
           </statement>
           <solution>
             <ol>
-              <li><p><m>2+\pi^2\cos y</m></p></li>
+              <li><p><m>2+\pi^2\cos(y) </m></p></li>
 
               <li><p><m>\pi^2+\pi</m></p></li>
             </ol>
@@ -831,14 +831,14 @@
           </setup>
           <statement>
             <ol>
-              <li><p><m>\ds \int_0^{y} \big(\cos x\sin y\big)\ dx</m></p></li>
+              <li><p><m>\ds \int_0^{y} \big(\cos(x) \sin(y) \big)\ dx</m></p></li>
 
-              <li><p><m>\ds \int_0^\pi \int_0^{y} \big(\cos x\sin y\big)\ dx\ dy</m></p></li>
+              <li><p><m>\ds \int_0^\pi \int_0^{y} \big(\cos(x) \sin(y) \big)\ dx\ dy</m></p></li>
             </ol>
           </statement>
           <solution>
             <ol>
-              <li><p><m>\sin^2y</m></p></li>
+              <li><p><m>\sin^2(y) </m></p></li>
 
               <li><p><m>\pi/2</m></p></li>
             </ol>
