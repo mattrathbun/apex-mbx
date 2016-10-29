@@ -1385,7 +1385,7 @@
             </pg-code>
           </setup>
           <statement>
-            <p>Approximate <m>\ln1.5</m> with the Taylor polynomial of degree 3 centered at <m>x=1</m>.</p>
+            <p>Approximate <m>\ln(1.5)</m> with the Taylor polynomial of degree 3 centered at <m>x=1</m>.</p>
           </statement>
           <solution>
             <p><m>p_3(x) =-1+x-\frac{1}{2} (-1+x)^2+\frac{1}{3} (-1+x)^3</m>; <m>p_3(1.5) =  0.41667</m>. The fourth derivative of <m>f(x) =\ln(x)</m> is bounded on <m>(.9,2)</m> by <m>10</m>. Error is bounded by <m>\pm \frac{10}{4!}\cdot.5^4 = \pm 0.026</m>.</p>

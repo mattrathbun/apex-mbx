@@ -976,14 +976,14 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\ds\cosh^2(x) = \frac{\cosh2x+1}{2}</m></p>
+            <p><m>\ds\cosh^2(x) = \frac{\cosh(2x) +1}{2}</m></p>
           </statement>
           <solution>
             <p><m>\begin{aligned}\cosh^2(x) \amp = \left(\frac{e^x+e^{-x}}{2}\right)^2  \\
 											\amp = \frac{e^{2x} + 2 + e^{-2x}}{4} \\
 											\amp = \frac12\frac{(e^{2x}  + e^{-2x})+2}{2}\\
 											\amp = \frac12\left(\frac{e^{2x}  + e^{-2x}}{2}+1\right)\\
-											\amp = \frac{\cosh2x+1}{2}.
+											\amp = \frac{\cosh(2x) +1}{2}.
               \end{aligned}</m></p>
           </solution>
         </webwork>
@@ -998,14 +998,14 @@
             </pg-code>
           </setup>
           <statement>
-            <p><m>\ds\sinh^2(x) = \frac{\cosh2x-1}{2}</m></p>
+            <p><m>\ds\sinh^2(x) = \frac{\cosh(2x) -1}{2}</m></p>
           </statement>
           <solution>
             <p><m>\begin{aligned}\sinh^2(x) \amp = \left(\frac{e^x-e^{-x}}{2}\right)^2  \\
 											\amp = \frac{e^{2x} - 2 + e^{-2x}}{4} \\
 											\amp = \frac12\frac{(e^{2x}  + e^{-2x})-2}{2}\\
 											\amp = \frac12\left(\frac{e^{2x}  + e^{-2x}}{2}-1\right)\\
-											\amp = \frac{\cosh2x-1}{2}.
+											\amp = \frac{\cosh(2x) -1}{2}.
               \end{aligned}</m></p>
           </solution>
         </webwork>
